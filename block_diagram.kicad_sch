@@ -1,0 +1,2927 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cef1f234-c735-43b7-ba45-429c79c78f85")
+	(paper "A4")
+	(lib_symbols
+		(symbol "EASYEDA2KICAD:+5V_IN"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V_IN"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V_IN\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_IN_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_IN_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 106.68 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bb8d01a-608d-433d-8eb5-6756e9d153ac")
+	)
+	(junction
+		(at 81.28 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4765bc5e-1336-4ca3-9121-beaebfbc2396")
+	)
+	(junction
+		(at 43.18 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "707fff04-8295-43cb-a2c1-54083333be5b")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 111.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cae082b-89ac-45a3-a405-94348acd685c")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 243.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fda63ca-1526-43cd-a141-afa99ee4ade3")
+	)
+	(wire
+		(pts
+			(xy 167.64 43.18) (xy 243.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118a740b-b9b2-477a-90c7-bb9a1241fd76")
+	)
+	(wire
+		(pts
+			(xy 35.56 53.34) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128ec9b8-8b21-40d4-8bae-76453f621d1d")
+	)
+	(wire
+		(pts
+			(xy 35.56 22.86) (xy 43.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164373cb-e395-4a96-b29c-8a72f575efaa")
+	)
+	(wire
+		(pts
+			(xy 35.56 149.86) (xy 111.76 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4a2c9e-a564-4e3c-a2f6-085a6768d3c1")
+	)
+	(wire
+		(pts
+			(xy 167.64 157.48) (xy 193.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2030363e-10dc-4216-9549-71400c4eecd3")
+	)
+	(polyline
+		(pts
+			(xy 134.62 167.64) (xy 137.16 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb90f44-9be5-402a-8ae5-72a49ed37f21")
+	)
+	(polyline
+		(pts
+			(xy 132.08 127) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce6f087-ed9c-46d4-8154-e093d417ff9a")
+	)
+	(wire
+		(pts
+			(xy 218.44 152.4) (xy 243.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d617a09-8d89-4d23-8dbb-51f07863609e")
+	)
+	(polyline
+		(pts
+			(xy 137.16 142.24) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dd7b111-2a95-4bbb-9e8a-c5ec09fac87e")
+	)
+	(wire
+		(pts
+			(xy 167.64 152.4) (xy 193.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3174d72a-15fb-4268-bcaf-7e4075d90d9c")
+	)
+	(polyline
+		(pts
+			(xy 121.92 111.76) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326719be-e955-45b6-acdf-4aa7e4a9cdb0")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35711b79-c40e-4a19-867d-333bf7111418")
+	)
+	(polyline
+		(pts
+			(xy 124.46 101.6) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c810b7-da0d-4ba4-b335-f2c248da40c5")
+	)
+	(polyline
+		(pts
+			(xy 129.54 60.96) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382c83f9-4726-4248-95aa-91effee8af03")
+	)
+	(wire
+		(pts
+			(xy 35.56 27.94) (xy 50.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac1ff7a-50e5-4e51-a7b7-c45a59f4e266")
+	)
+	(polyline
+		(pts
+			(xy 147.32 60.96) (xy 149.86 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b02ef6e-6173-45cf-90da-cdf0f6825f54")
+	)
+	(polyline
+		(pts
+			(xy 129.54 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b749d8f-dede-4739-a33f-f81348e62838")
+	)
+	(wire
+		(pts
+			(xy 35.56 48.26) (xy 111.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd82e0a-39c6-4ade-b526-e70b3a4ca27b")
+	)
+	(polyline
+		(pts
+			(xy 121.92 45.72) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fd6e09-81ac-486f-a8e9-e8a7380c4c77")
+	)
+	(wire
+		(pts
+			(xy 167.64 58.42) (xy 243.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e4a229-026e-4f67-908c-681d8a24123e")
+	)
+	(polyline
+		(pts
+			(xy 147.32 40.64) (xy 149.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47df665e-9521-4422-bb72-893905a49128")
+	)
+	(polyline
+		(pts
+			(xy 144.78 124.46) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4884d7f3-8d73-4f0e-a863-572c12e814a1")
+	)
+	(wire
+		(pts
+			(xy 35.56 165.1) (xy 111.76 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbe51fd-0d3c-4d62-8df6-4573305035c8")
+	)
+	(polyline
+		(pts
+			(xy 132.08 60.96) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5026e392-635a-40f8-91d5-c56e72cd516f")
+	)
+	(wire
+		(pts
+			(xy 167.64 53.34) (xy 243.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5190a2e3-f702-4a1b-9ebc-9b8329802e08")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 243.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fc5d48-cd5e-41ba-9658-e2d464650f20")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 243.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52097554-cd1d-45e4-9d4c-f1662f924ff4")
+	)
+	(polyline
+		(pts
+			(xy 137.16 157.48) (xy 137.16 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ad469a-c555-4ede-9c03-e248bbdcc66d")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5f60c7-c285-4f1d-8454-7e9169d3126a")
+	)
+	(polyline
+		(pts
+			(xy 121.92 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf0f853-f50c-4469-a6bd-8ae24f5e4ddd")
+	)
+	(polyline
+		(pts
+			(xy 144.78 114.3) (xy 144.78 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3dfeb9-5002-40e1-b33a-c77a349b44a5")
+	)
+	(polyline
+		(pts
+			(xy 157.48 73.66) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634bf19b-d232-4766-a670-74fd81ffe0f1")
+	)
+	(wire
+		(pts
+			(xy 43.18 20.32) (xy 43.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c6dd15-5e2a-4f36-9d0f-790fec4c9455")
+	)
+	(wire
+		(pts
+			(xy 30.48 109.22) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5d6aba-9a2c-4afe-9eac-95a8456ce8e3")
+	)
+	(wire
+		(pts
+			(xy 35.56 129.54) (xy 111.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e52010c-39f4-4aa5-8c39-faf8e732be9a")
+	)
+	(polyline
+		(pts
+			(xy 139.7 142.24) (xy 139.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9eee15-0fe7-4440-99be-745d0cfab110")
+	)
+	(polyline
+		(pts
+			(xy 149.86 134.62) (xy 149.86 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a51564-2638-4815-862a-e64c8d921a55")
+	)
+	(wire
+		(pts
+			(xy 218.44 142.24) (xy 243.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb97c30-8d47-433d-83ab-4f76107fd756")
+	)
+	(polyline
+		(pts
+			(xy 134.62 157.48) (xy 137.16 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811aecd4-dc77-4e41-97a3-049d00daf7be")
+	)
+	(polyline
+		(pts
+			(xy 157.48 83.82) (xy 160.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a753622-cd77-47e2-b498-2cedf91dbd8d")
+	)
+	(wire
+		(pts
+			(xy 81.28 22.86) (xy 81.28 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adbf333-9113-41fc-a8de-f2a070fbe189")
+	)
+	(wire
+		(pts
+			(xy 35.56 160.02) (xy 111.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90318047-1c58-4b1b-85dd-e357b0f30d83")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 106.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ead411-54c4-439a-8f57-b1c7168f65ba")
+	)
+	(polyline
+		(pts
+			(xy 119.38 45.72) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d323458-6207-4562-972c-2106045480f5")
+	)
+	(polyline
+		(pts
+			(xy 144.78 114.3) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f87265f-9b06-4971-9ab6-ac03c6caa307")
+	)
+	(wire
+		(pts
+			(xy 218.44 157.48) (xy 243.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33ddddd-db6d-4297-a72e-9e8c73a95f91")
+	)
+	(wire
+		(pts
+			(xy 30.48 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46c76c7-6cd3-4e6d-bea4-c0fd333bfd11")
+	)
+	(wire
+		(pts
+			(xy 43.18 22.86) (xy 50.8 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d427ae-def1-47cb-9913-478ebec4f211")
+	)
+	(wire
+		(pts
+			(xy 167.64 137.16) (xy 193.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99ef56e-8f3b-4c40-9027-e1f809775f74")
+	)
+	(polyline
+		(pts
+			(xy 119.38 55.88) (xy 121.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa782e0b-3107-451d-b06d-a272ffe2ab13")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 243.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae74ea7c-4bb7-475e-9a56-8fbd6c31c697")
+	)
+	(wire
+		(pts
+			(xy 81.28 25.4) (xy 86.36 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2417c01-0624-4bd9-97a0-e7c462b1b292")
+	)
+	(wire
+		(pts
+			(xy 35.56 144.78) (xy 111.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e15ee5-c0a5-4a63-98a5-c02b1179ff85")
+	)
+	(wire
+		(pts
+			(xy 35.56 68.58) (xy 66.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c2da52-5ba3-472b-b65e-4397e951c4c3")
+	)
+	(polyline
+		(pts
+			(xy 147.32 40.64) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee00a3a-00a8-41ac-a67c-1556ef89b29a")
+	)
+	(wire
+		(pts
+			(xy 35.56 73.66) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9aa2b39-9168-4f9e-bd74-4560b7f12618")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb85646e-51f0-425a-90de-65e480f23c8e")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 243.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1b661c-3bf4-40a5-b94e-5f2b3c1a7583")
+	)
+	(wire
+		(pts
+			(xy 35.56 134.62) (xy 111.76 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb3438c-ad35-44b0-b467-4f081b621855")
+	)
+	(polyline
+		(pts
+			(xy 137.16 152.4) (xy 139.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7fe873-fef3-48df-b52f-22fb1d493d4b")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 243.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10b1a5d-5105-48c2-8cf3-dc701ccfe8ed")
+	)
+	(wire
+		(pts
+			(xy 167.64 116.84) (xy 243.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e296d4-aaf4-4751-9a3e-052e9f59b381")
+	)
+	(polyline
+		(pts
+			(xy 129.54 137.16) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f5ddff-d357-4911-b1a5-7280daebd7a8")
+	)
+	(wire
+		(pts
+			(xy 218.44 147.32) (xy 243.84 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82c384e-7274-4201-9895-effaa2179ad5")
+	)
+	(polyline
+		(pts
+			(xy 129.54 127) (xy 132.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d956f526-3325-4266-82f9-b16fdae088d7")
+	)
+	(polyline
+		(pts
+			(xy 147.32 109.22) (xy 149.86 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc83d318-2afa-4ac2-b99a-b611a5c4da2e")
+	)
+	(polyline
+		(pts
+			(xy 147.32 88.9) (xy 147.32 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04d5e42-0163-4913-93ee-638db830b5ac")
+	)
+	(wire
+		(pts
+			(xy 78.74 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f4be13-6e32-4fdc-a068-c904c1a0b4ab")
+	)
+	(wire
+		(pts
+			(xy 106.68 25.4) (xy 111.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b34ffb-5a16-4f51-9289-aa995dc770aa")
+	)
+	(wire
+		(pts
+			(xy 106.68 22.86) (xy 106.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ff72b3-0e56-4d79-86e7-ecabe21c694f")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 243.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1451af-5749-47f2-a0d5-ae55a26f56d8")
+	)
+	(polyline
+		(pts
+			(xy 149.86 134.62) (xy 152.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1bc199-52f2-48f4-8d62-51e6c1e64bb9")
+	)
+	(polyline
+		(pts
+			(xy 147.32 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec43c118-9cf0-4ee9-9d65-4c15fe57dba7")
+	)
+	(polyline
+		(pts
+			(xy 157.48 73.66) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b5a87c-f457-40cf-87a4-a0b0334c5322")
+	)
+	(polyline
+		(pts
+			(xy 149.86 160.02) (xy 152.4 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30a2b79-5621-4a50-ae81-baca7beab21f")
+	)
+	(wire
+		(pts
+			(xy 167.64 142.24) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50d37cd-6e01-4345-a564-e5e6e94861bf")
+	)
+	(wire
+		(pts
+			(xy 167.64 147.32) (xy 193.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d048d8-fe8a-46d6-8faa-1f209445e050")
+	)
+	(polyline
+		(pts
+			(xy 157.48 73.66) (xy 160.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2ece90-2837-4bf9-8b5a-5c681bee0900")
+	)
+	(wire
+		(pts
+			(xy 76.2 25.4) (xy 81.28 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbbddee9-fa6c-4d97-91b7-eecf0574606f")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 124.46 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "084d0205-c150-44d7-bcd4-85933ab4ff8e")
+	)
+	(text "FAN"
+		(exclude_from_sim no)
+		(at 134.62 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13fb9783-b86c-4085-b166-35424e83f8a5")
+	)
+	(text "LED PWM"
+		(exclude_from_sim no)
+		(at 144.78 50.8 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "144c089e-ca1b-4cf5-a751-6aecaaccfbbc")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 127 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "224ba8b2-fb11-4cf3-a7c0-70f5be59f4f2")
+	)
+	(text "I2S Microphone"
+		(exclude_from_sim no)
+		(at 144.78 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e755a4d-fcf0-45ad-bb3d-a7e7bc1ba748")
+	)
+	(text "5V GPIO"
+		(exclude_from_sim no)
+		(at 147.32 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51293566-7fce-4f95-b483-927129963578")
+	)
+	(text "RS-485"
+		(exclude_from_sim no)
+		(at 134.62 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac0f8769-d099-45ed-a470-f26ae56748f8")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 154.94 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b78029e3-0bbc-46ab-b07c-4fafc47869e7")
+	)
+	(text "SCREEN"
+		(exclude_from_sim no)
+		(at 142.24 147.32 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7900b00-ce5d-4c3a-8f2b-3ec1c8b2ff30")
+	)
+	(text "HMI"
+		(exclude_from_sim no)
+		(at 142.24 119.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2f45501-2d71-4404-8bcd-c00bd4a9ce0c")
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:+5V_IN")
+		(at 43.18 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4af541ba-9f3c-45d1-9490-c3d0369b5bd2")
+		(property "Reference" "#PWR01"
+			(at 43.18 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_IN"
+			(at 43.18 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V_IN\""
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b79251a1-0a7a-461b-855e-93f3e7cdc565")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 81.28 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54b5b97e-1f7c-491b-8e2e-addfd9947a0b")
+		(property "Reference" "#PWR02"
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 81.28 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 81.28 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa7488e9-74f2-4363-821b-29a9fcb3c384")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 106.68 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e84a3274-c52b-4f4f-8758-59d4722f3313")
+		(property "Reference" "#PWR03"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 106.68 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 106.68 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b1d7843-afc1-4b90-933c-426e04d2864d")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 132.08)
+		(size 25.4 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "12d48f68-9e8c-4210-a297-afac62bc105d")
+		(property "Sheetname" "3V3 to 5V Logic Shifter"
+			(at 193.04 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3_to_5v_logic_shifter.kicad_sch"
+			(at 193.04 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OE" input
+			(at 193.04 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "6acceddc-8ccc-44c5-ad58-59a84a63bad1")
+		)
+		(pin "3V3_IO_1" bidirectional
+			(at 193.04 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "a862d8cd-cc77-4c13-95d2-e94efa3d3a44")
+		)
+		(pin "3V3_IO_2" bidirectional
+			(at 193.04 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "bfd8ccec-0a60-427c-9118-ec9dfe3e4ca3")
+		)
+		(pin "3V3_IO_3" bidirectional
+			(at 193.04 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "550e9e46-ccdf-4985-bc5c-8bfe076cc107")
+		)
+		(pin "3V3_IO_4" bidirectional
+			(at 193.04 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "6d4d3c12-aa77-4a04-affd-928d2fca86a7")
+		)
+		(pin "5V_IO_1" bidirectional
+			(at 218.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "0aaf6478-d366-49e1-81dd-c9fc86347651")
+		)
+		(pin "5V_IO_3" bidirectional
+			(at 218.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "d512ba47-f485-49f4-afdc-6d392dfaa85e")
+		)
+		(pin "5V_IO_2" bidirectional
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "fa015ab0-9338-4a64-99fd-e429a619bde1")
+		)
+		(pin "5V_IO_4" bidirectional
+			(at 218.44 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "327333a3-8d20-47c5-ac32-da96ca7bbc9e")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 20.32)
+		(size 15.24 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f1fbce1-3ac7-4103-a887-0795f5671ada")
+		(property "Sheetname" "5V to 3.3V"
+			(at 86.36 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_to_3v3.kicad_sch"
+			(at 86.36 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 101.6 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "d50a7bfc-a627-4886-9ff5-df615aa6b969")
+		)
+		(pin "5V" input
+			(at 86.36 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "f9b56627-e34a-4c79-9f5f-7ebb92872165")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 20.32)
+		(size 55.88 149.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2")
+		(property "Sheetname" "MCU"
+			(at 111.76 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 111.76 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 111.76 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "939ac5e3-89c3-4a65-98e5-5da331f015d9")
+		)
+		(pin "MCU_EN" input
+			(at 111.76 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "31339f7d-bd31-44f2-8e42-b79866f9b2f6")
+		)
+		(pin "MCU_BOOT" input
+			(at 111.76 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "97cb2ef0-ccbe-49a0-abc5-5218283a7eff")
+		)
+		(pin "GPIO_6_TEMP_I2C_SCL" bidirectional
+			(at 111.76 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "7e9028f7-0309-4fb4-ac26-1dd6d206af00")
+		)
+		(pin "GPIO_5_FAN_PWM" bidirectional
+			(at 111.76 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "ac8689fb-a2f6-40a2-bda5-8fad2af28604")
+		)
+		(pin "GPIO_4_FAN_TACHO" bidirectional
+			(at 111.76 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "c77baea5-1746-42e9-9c3c-93de3fd359b3")
+		)
+		(pin "GPIO_15_RS485_RE" output
+			(at 111.76 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "8bc55790-f9cf-4044-af00-d8124aa6d6f6")
+		)
+		(pin "GPIO_15_RS485_DE" output
+			(at 111.76 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "339f9936-f014-4c0a-bb23-486498749fb2")
+		)
+		(pin "GPIO_TEMP_I2C_SDA" bidirectional
+			(at 111.76 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "5727c6b3-5ac7-4d86-ba57-9d572c70560f")
+		)
+		(pin "GPIO_9_SCREEN_I2C_SCL" bidirectional
+			(at 111.76 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "18c447e4-7b48-41c7-88ab-fb720b68ca05")
+		)
+		(pin "GPIO_10_SCREEN_I2C_SDA" bidirectional
+			(at 111.76 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "ec3b0c62-a571-475d-a575-7afb9aa0b2a2")
+		)
+		(pin "USB_D-" bidirectional
+			(at 111.76 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "aa3dae91-9fe3-4b66-af06-a15d6a6539df")
+		)
+		(pin "USB_D+" bidirectional
+			(at 111.76 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "cb9951cc-e157-45d4-9d90-0cc7ca3264f1")
+		)
+		(pin "GPIO_17_RS485_TX" output
+			(at 111.76 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "26fe3062-db7a-4a46-9995-ad4a706628f1")
+		)
+		(pin "GPIO_18_RS485_RX" input
+			(at 111.76 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "6789c6cb-2854-4a0d-b8c1-9f6d9657f5f9")
+		)
+		(pin "GPIO_48_I2S_LR" bidirectional
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "d3778919-3064-4dee-8863-6f1efe54e379")
+		)
+		(pin "GPIO_12_BUTTON" bidirectional
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "5d38a909-0087-4365-9c46-f01309291b42")
+		)
+		(pin "GPIO_13_STATUS_LED" bidirectional
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "19c11c03-3614-444b-9360-dcc19bf04828")
+		)
+		(pin "GPIO_47_I2S_SD" bidirectional
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "5154aa2f-bf24-4e1b-9c74-5e4e19d04bce")
+		)
+		(pin "GPIO_21_I2S_SCK" bidirectional
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "0f55ec01-988a-4350-9e88-2cbf0183744d")
+		)
+		(pin "GPIO_14_I2S_WS" bidirectional
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "421dbb89-93d6-4486-a9bb-93e48bfeded6")
+		)
+		(pin "GPIO_38_5V" bidirectional
+			(at 167.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "ab90375e-1ad4-4c3f-8cc7-99179910ae1b")
+		)
+		(pin "GPIO_37_5V" bidirectional
+			(at 167.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "36ad56bb-a62e-4073-ad66-ad8465293af6")
+		)
+		(pin "GPIO_36_5V" bidirectional
+			(at 167.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "59f893d4-388d-4b88-8dbf-7d34681c001c")
+		)
+		(pin "GPIO_35_5V" bidirectional
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "b410f722-77d5-4be1-8d5c-1e480d79d23b")
+		)
+		(pin "GPIO_2_5V_OE" output
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "60eedb1c-509f-46d8-a3bc-c977c4510a2d")
+		)
+		(pin "UART_TX" output
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "d89ae25d-2c24-427c-80e6-33ab71bb953b")
+		)
+		(pin "UART_RX" input
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "99a30f54-cbd9-4b87-a137-39b611f4a631")
+		)
+		(pin "GPIO_39_PWM_CH1" bidirectional
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "ccacdd28-81a7-42ef-9df2-3b571c508f70")
+		)
+		(pin "GPIO_40_PWM_CH2" output
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "a6cac297-b3a9-46c7-9bf9-b9d4a997c77c")
+		)
+		(pin "GPIO_41_PWM_CH3" output
+			(at 167.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "8c87ddc6-5514-4a13-ad46-a9a49ae2094e")
+		)
+		(pin "GPIO_42_PWM_CH4" output
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "61b5ca0f-7052-4156-bfc4-545d71fdf701")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 71.12)
+		(size 25.4 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "457d2566-de00-4e8c-b469-a22ed41e6193")
+		(property "Sheetname" "Button, Status LED, UART and I2S"
+			(at 243.84 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button_status_uart_i2s.kicad_sch"
+			(at 243.84 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_14_I2S_WS" input
+			(at 243.84 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "830cd8a8-9b93-40c8-950b-a4ecfa855456")
+		)
+		(pin "GPIO_48_I2S_LR" input
+			(at 243.84 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "f6eab1ae-2160-4c82-ae61-3d1ab1e61b95")
+		)
+		(pin "GPIO_21_I2S_SCK" input
+			(at 243.84 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "7c8b2826-eb0a-4339-88ca-8e8982ff0269")
+		)
+		(pin "GPIO_47_I2S_SD" output
+			(at 243.84 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "4c7e9b20-da95-451e-aaa6-23f00fe7a156")
+		)
+		(pin "GPIO_13_STATUS_LED" input
+			(at 243.84 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "b5910d97-3158-4c39-bbd3-ad6970151d0a")
+		)
+		(pin "GPIO_12_BUTTON" input
+			(at 243.84 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "5fc32eb0-b446-461f-a81a-f61b5fa5840e")
+		)
+		(pin "UART_TX" input
+			(at 243.84 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "fe5208d4-68d0-4c29-93af-6d630593118b")
+		)
+		(pin "UART_RX" output
+			(at 243.84 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "aaa6b8ea-4ab8-42bc-abb0-202314cdd72c")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 58.42)
+		(size 12.7 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "670298c9-1a92-4257-b888-4f98b6d49dab")
+		(property "Sheetname" "UART to RS-485"
+			(at 66.04 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uart_to_rs_485.kicad_sch"
+			(at 66.04 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DE" input
+			(at 78.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "3ac5c0a0-0d90-4f10-9c4d-bd35d7ca886a")
+		)
+		(pin "TX" input
+			(at 78.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "a5a872da-7809-48ae-920b-dc6da863c56c")
+		)
+		(pin "RX" output
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "ff7fb61c-91ba-4a88-9ead-299cef33aa79")
+		)
+		(pin "~{RE}" input
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "36a00afe-42a7-4a37-a89d-4dd0429bfe91")
+		)
+		(pin "D-" bidirectional
+			(at 66.04 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ecda92d1-6dc7-44eb-961f-fe93f88e9f13")
+		)
+		(pin "D+" bidirectional
+			(at 66.04 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2655f771-6fc1-4e97-b5e8-d290ff02fdc3")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 137.16)
+		(size 22.86 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a08072bc-5c98-487a-a9a6-bb737e215888")
+		(property "Sheetname" "5V GPIO Connectors"
+			(at 243.84 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_gpio_connectors.kicad_sch"
+			(at 243.84 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_35_5V" bidirectional
+			(at 243.84 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "cc869420-0f25-45d2-9e29-41352ec2f918")
+		)
+		(pin "GPIO_36_5V" bidirectional
+			(at 243.84 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "fbd56e2b-e1bb-4bc0-8a5e-a8a06bfc24f4")
+		)
+		(pin "GPIO_37_5V" bidirectional
+			(at 243.84 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "b4189194-af3e-4769-876f-1ac0a66637c7")
+		)
+		(pin "GPIO_38_5V" bidirectional
+			(at 243.84 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "bfabdfdb-3ffe-4444-af9c-ad29823b7ea3")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 124.46)
+		(size 20.32 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a49e4569-9986-4871-8da4-7c394f2ae605")
+		(property "Sheetname" "Fan, Temperature and Screen"
+			(at 15.24 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan_temp_screen.kicad_sch"
+			(at 15.24 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCREEN_I2C_SDA" bidirectional
+			(at 35.56 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "43c5c5f4-e2d0-4f45-994a-7d8eb00a37e4")
+		)
+		(pin "FAN_TACHO" output
+			(at 35.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "25aa6d49-46fb-4751-a48f-fceab4ab003d")
+		)
+		(pin "TEMP_I2C_SDA" bidirectional
+			(at 35.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "19bccd74-ea26-4ff9-add5-0c7714180890")
+		)
+		(pin "SCREEN_I2C_SCL" input
+			(at 35.56 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "7d9f0faf-1ca1-4e1b-b617-02b2dd99abf1")
+		)
+		(pin "TEMP_I2C_SCL" input
+			(at 35.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "c5bf6099-3de2-4183-90a9-9a55678c1a91")
+		)
+		(pin "FAN_PWM" input
+			(at 35.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "f26a4af7-ab16-4988-8c7c-6896caf79388")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 99.06)
+		(size 15.24 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7820a84-5a43-4050-a708-637b006ce625")
+		(property "Sheetname" "MCU Enable and Boot"
+			(at 15.24 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_enable_and_boot.kicad_sch"
+			(at 15.24 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MCU_EN" output
+			(at 30.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "30915dea-d15a-4ea5-86aa-2a6268e1b397")
+		)
+		(pin "MCU_BOOT" output
+			(at 30.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "283bbe86-dea8-4b04-a73d-94698daa4f31")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 17.78)
+		(size 20.32 66.04)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0a60313-5e73-4a17-9374-b4b4ea2344cd")
+		(property "Sheetname" "Power Connectors"
+			(at 15.24 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_connectors.kicad_sch"
+			(at 15.24 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_IN" output
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "df09677b-c700-483d-bccf-c06fb70a4cd8")
+		)
+		(pin "VBUS" output
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "9824c428-0333-4b71-a089-745fda3de419")
+		)
+		(pin "USB_D-" bidirectional
+			(at 35.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "36bb9b99-3299-4804-b5a5-61700ea658b6")
+		)
+		(pin "USB_D+" bidirectional
+			(at 35.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "67360d3c-6a7a-451a-b494-0dc86344b491")
+		)
+		(pin "RS485_D+" bidirectional
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0571e3f6-69d3-44ef-9818-c05207ef5bf6")
+		)
+		(pin "RS485_D-" bidirectional
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17e6caee-4893-4751-a58d-0ea7f7c46069")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 17.78)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e21714b4-6921-40f8-8882-480f43314016")
+		(property "Sheetname" "5V Protection"
+			(at 50.8 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V_Protection.kicad_sch"
+			(at 50.8 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V_IN" input
+			(at 50.8 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "fa83fa11-03af-482a-8bdd-92069aeb171e")
+		)
+		(pin "5V_OUT" output
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "c7cbe50c-e03f-4296-91c0-30520cd00e21")
+		)
+		(pin "VBUS" input
+			(at 50.8 27.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "aa32bad7-90de-4c87-a522-0b9124929d00")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 38.1)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7f4ae23-1ac9-4fa3-959c-a78f85f3f546")
+		(property "Sheetname" "LED PWM Connector"
+			(at 243.84 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_pwm_connector.kicad_sch"
+			(at 243.84 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_42_PWM_CH4" input
+			(at 243.84 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "2054459d-cb09-46a5-8a70-2388e67392ff")
+		)
+		(pin "GPIO_41_PWM_CH3" input
+			(at 243.84 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "eae61e77-2e1e-424c-8042-bfb820796a7e")
+		)
+		(pin "GPIO_40_PWM_CH2" input
+			(at 243.84 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "a0cb470d-2de7-4111-b98f-9690f8f984d3")
+		)
+		(pin "GPIO_39_PWM_CH1" input
+			(at 243.84 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "15d98aa5-846b-4d62-bb2a-5e2c30ecbb7a")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 17.78)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4845962-3a2f-4778-bb13-eae0f2a437f4")
+		(property "Sheetname" "Misc"
+			(at 243.84 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 243.84 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "20")
+				)
+			)
+		)
+	)
+)

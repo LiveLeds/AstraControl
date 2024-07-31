@@ -1,0 +1,4450 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "990733ec-7a9a-4e2c-ba98-b4add1388c8c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "EASYEDA2KICAD:C_100nF_X7R_0402"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100n"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+				(at 1.27 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitor"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C1525"
+				(at 1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "16V X7R ±10% 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "C_100nF_X7R_0402_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100nF_X7R_0402_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EASYEDA2KICAD:C_47u_X5R_0805"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "47u"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitor"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C16780"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" " 6.3V X5R ±20% 0805"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "C_47u_X5R_0805_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_47u_X5R_0805_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EASYEDA2KICAD:R_0Ohm_0805_125mW"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C17477"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "150V ±1% 0805"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "R_0Ohm_0805_125mW_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_0Ohm_0805_125mW_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EASYEDA2KICAD:R_10Ohm_0402_62mW"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10R-10R0-1_C25077.html"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistor"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25077"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "50V ±1% 0402 62mW"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "R_10Ohm_0402_62mW_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_10Ohm_0402_62mW_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EASYEDA2KICAD:R_10kOhm_0402_62mW"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10k"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25744"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "50V ±1% 0402 62mW"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "R_10kOhm_0402_62mW_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_10kOhm_0402_62mW_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EASYEDA2KICAD:TestPoint_Thimble"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 9.5043 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Thimble"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 5.08 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5277086"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "Test Plug"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "TestPoint_Thimble_1_1"
+				(rectangle
+					(start -0.762 5.08)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.508 4.9323)
+					(mid 0 6.4175)
+					(end -0.508 4.9323)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EASYEDA2KICAD:U_SN65HVD1782DR_RS485_Transiver_Fault_Protected_SOIC8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN65HVD1782DR"
+				(at 0 35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "EASYEDA2KICAD:SOIC-8-R-PDSO-G8"
+				(at 0 -46.99 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/RS-485-RS-422_TI_SN65HVD1782DR_SN65HVD1782DR_C183092.html"
+				(at 0 -50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SN65HVD178x Fault-Protected RS-485 Transceivers With 3.3-V to 5-V Operation"
+				(at 0 -43.18 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C183092"
+				(at 0 -54.61 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "Fault-Protected RS-485 Transceiver 3.3V / 5V"
+				(at 0 33.02 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "U_SN65HVD1782DR_RS485_Transiver_Fault_Protected_SOIC8_0_1"
+				(rectangle
+					(start -7.62 30.48)
+					(end 7.62 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "U_SN65HVD1782DR_RS485_Transiver_Fault_Protected_SOIC8_1_1"
+				(pin output line
+					(at -7.62 10.16 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -10.16 0)
+					(length 2.54)
+					(name "~{RE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -20.32 0)
+					(length 2.54)
+					(name "DE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 10.16 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 20.32 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 127 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4388d19c-63c1-4535-a4e0-151f934fae9f")
+	)
+	(junction
+		(at 113.03 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "526cabda-0b84-4043-9e8a-8c9654dfb38e")
+	)
+	(junction
+		(at 106.68 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "795d3c7e-fa85-49b5-bd90-160e8292402c")
+	)
+	(junction
+		(at 127 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d26c86b-f9a1-451e-b182-1701331926df")
+	)
+	(junction
+		(at 127 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "835db5d2-6931-43ad-af0a-453c82358e10")
+	)
+	(junction
+		(at 92.71 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a0607cf-96e4-4f26-82f3-1efe1db8de50")
+	)
+	(junction
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b95ca45-7815-4e1b-adbd-82504af0de00")
+	)
+	(junction
+		(at 106.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a22377ce-2e3f-4372-be38-f56992acc243")
+	)
+	(junction
+		(at 195.58 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a51cb938-2624-4aa1-a5a2-8d197f878b91")
+	)
+	(junction
+		(at 106.68 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b36a551c-8303-4d34-a57f-254cedc68269")
+	)
+	(junction
+		(at 71.12 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f9e8c7-deb9-4393-b5cc-2b89de26d1a7")
+	)
+	(junction
+		(at 127 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "debb50c8-dab7-498b-8808-17a9ffd0059c")
+	)
+	(junction
+		(at 195.58 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8d605e2-7cfd-4bb1-ad8c-f24d03f1b1b8")
+	)
+	(junction
+		(at 170.18 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fceebe71-7f13-420c-97c2-186b47acc82c")
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cf1925-3580-48ba-840f-39e1f43e53ed")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04bab484-ca47-4a77-ba93-5cd93c4df3a6")
+	)
+	(polyline
+		(pts
+			(xy 148.8967 27.4) (xy 148.8967 27.4)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(uuid "09bca6da-9f2e-4b18-a81e-4c79aae46137")
+	)
+	(wire
+		(pts
+			(xy 195.58 111.76) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8675cd-f922-423f-b8dd-911771c5299d")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7d057b-b0b6-43f5-baa1-d8246623b129")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131cd330-a86d-4405-b13e-578aa3a45b79")
+	)
+	(wire
+		(pts
+			(xy 106.68 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198da963-3c4b-4d11-82f7-24854e3cc26b")
+	)
+	(wire
+		(pts
+			(xy 92.71 60.96) (xy 92.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdb01c5-4929-4a27-b225-18244a4e5370")
+	)
+	(polyline
+		(pts
+			(xy 148.8967 27.4) (xy 148.8967 27.4)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(uuid "265c2913-48e7-406d-8524-555a18fccd93")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2751581b-6fb6-4cd8-9b03-216eb2f25730")
+	)
+	(wire
+		(pts
+			(xy 66.04 48.26) (xy 71.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6ff90d-716e-4290-affd-94a9f1c21832")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309db506-d823-49c8-b64f-f1e6c9454710")
+	)
+	(polyline
+		(pts
+			(xy 148.6467 27.4) (xy 148.6467 27.4)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(uuid "3492abfa-4fb0-4ed2-893b-2c0cbe0fcd27")
+	)
+	(wire
+		(pts
+			(xy 127 45.72) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361a50ee-e052-4b55-ac42-5e8c8efaa265")
+	)
+	(wire
+		(pts
+			(xy 113.03 48.26) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd1ee8f-66c1-4657-b982-7d6d3844d756")
+	)
+	(wire
+		(pts
+			(xy 92.71 48.26) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d19935c-0c6c-4fd6-ab4a-41669f15ce28")
+	)
+	(wire
+		(pts
+			(xy 195.58 88.9) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ce20bf-2ea9-4779-910c-c1131d7c0b79")
+	)
+	(wire
+		(pts
+			(xy 76.2 137.16) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455852c9-ad64-4aff-a5e3-140598e62c7e")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ad971a-cd94-4288-a791-728fffd5408a")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2a8888-b11e-4577-b31d-4dcbc4b80d2b")
+	)
+	(wire
+		(pts
+			(xy 92.71 49.53) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c9e16b-97dc-40ba-a7b2-2ee2d3d84562")
+	)
+	(wire
+		(pts
+			(xy 71.12 48.26) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59964a84-f118-4fdb-803a-ad6ea24950a3")
+	)
+	(wire
+		(pts
+			(xy 66.04 48.26) (xy 66.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653d0d3d-f936-45b9-8102-eee8de5fdf3f")
+	)
+	(wire
+		(pts
+			(xy 106.68 137.16) (xy 106.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ef18cd-0d9d-4335-885f-64003e3a5161")
+	)
+	(wire
+		(pts
+			(xy 106.68 137.16) (xy 127 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674731c4-235c-45ec-8add-7ca97a8779bc")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70360c21-c275-4952-837c-e077059a2747")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c438df-2117-45b1-916b-9d662ac84880")
+	)
+	(wire
+		(pts
+			(xy 170.18 137.16) (xy 170.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0a6b3a-7720-4775-8a3d-a5bc5bd7b21e")
+	)
+	(wire
+		(pts
+			(xy 182.88 91.44) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9035eccb-b1f0-4329-b78c-9c9d0282b689")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ce87ab-3082-4eeb-9307-cee13753630a")
+	)
+	(wire
+		(pts
+			(xy 71.12 62.23) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934bfeb0-8f57-42ba-8e10-2d7bcfaf5770")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94626846-354c-405a-adb8-a89937fdbf6a")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 113.03 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cd1f0e-9ea4-4b40-bc19-2e3c7882cb43")
+	)
+	(wire
+		(pts
+			(xy 106.68 152.4) (xy 106.68 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac96d8e-60fa-4696-8a80-7240a333986e")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1cde54a-cd8b-4209-8078-2fcdd11e47b2")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5954116-e1c2-41eb-b3f5-e0def69eee45")
+	)
+	(wire
+		(pts
+			(xy 170.18 134.62) (xy 170.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab56da2f-097b-4bd0-853d-6faf2b99b226")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab9563a6-1844-45ff-bb8a-2d11b3e053b4")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c346ba4a-a55f-47a5-9ff4-92152c6dbef4")
+	)
+	(wire
+		(pts
+			(xy 127 48.26) (xy 132.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c583e740-8d57-4ffd-aeae-519b705fb0a1")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f75e45-07ee-4aad-822a-567ffbecd966")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 152.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdd4a4d-0047-4008-9d15-29d3412a10eb")
+	)
+	(wire
+		(pts
+			(xy 106.68 124.46) (xy 106.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d587212e-e8e1-496f-88b8-ed726e0fa85e")
+	)
+	(wire
+		(pts
+			(xy 127 134.62) (xy 127 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99ad770-75c3-49a9-95c1-c9d2e7f4087f")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db63253c-c246-459b-a879-18f95bdb54a9")
+	)
+	(wire
+		(pts
+			(xy 68.58 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9ef587-e180-4847-b6ae-bc3326dc95ac")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 144.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51ef115-55ca-4f37-916a-d3e5d69fb794")
+	)
+	(wire
+		(pts
+			(xy 195.58 91.44) (xy 213.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ed4ceb-4427-4407-aa0f-60c632e60f74")
+	)
+	(wire
+		(pts
+			(xy 113.03 49.53) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7691185-0283-4977-a4db-a03585ed0fca")
+	)
+	(polyline
+		(pts
+			(xy 148.8967 30.1781) (xy 148.8967 30.1781)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(uuid "e7f0d80c-3a97-423e-b7f6-1fabc69958da")
+	)
+	(wire
+		(pts
+			(xy 71.12 50.8) (xy 71.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ca86da-8cc3-40bc-90b5-d8461e1c4371")
+	)
+	(wire
+		(pts
+			(xy 152.4 134.62) (xy 170.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f415c1f1-b049-4127-942e-fd5700ebcc41")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71e8f05-3dc9-4648-8454-764e66795f42")
+	)
+	(wire
+		(pts
+			(xy 106.68 114.3) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f28905-aa38-429b-a63e-48e8491d2a48")
+	)
+	(wire
+		(pts
+			(xy 76.2 111.76) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f995e5c3-8259-4d70-9709-7454b9243e00")
+	)
+	(wire
+		(pts
+			(xy 132.08 48.26) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa44fc9-7faa-4818-a73c-e7a22b3f83f9")
+	)
+	(polyline
+		(pts
+			(xy 148.9163 28.0619) (xy 148.9359 28.0634) (xy 148.9553 28.0658) (xy 148.9745 28.0692) (xy 148.9934 28.0734)
+			(xy 149.0121 28.0786) (xy 149.0305 28.0847) (xy 149.0485 28.0917) (xy 149.0662 28.0995) (xy 149.0836 28.1082)
+			(xy 149.1004 28.1178) (xy 149.1169 28.1281) (xy 149.1328 28.1393) (xy 149.1482 28.1513) (xy 149.163 28.1641)
+			(xy 149.1773 28.1777) (xy 149.1909 28.192) (xy 149.2037 28.2068) (xy 149.2157 28.2222) (xy 149.2269 28.2381)
+			(xy 149.2372 28.2546) (xy 149.2468 28.2714) (xy 149.2555 28.2888) (xy 149.2633 28.3065) (xy 149.2703 28.3245)
+			(xy 149.2764 28.3429) (xy 149.2816 28.3616) (xy 149.2858 28.3805) (xy 149.2892 28.3997) (xy 149.2916 28.4191)
+			(xy 149.2931 28.4387) (xy 149.2935 28.4583) (xy 149.2935 29.5167) (xy 149.2933 29.5299) (xy 149.2927 29.5431)
+			(xy 149.2916 29.5562) (xy 149.2901 29.5692) (xy 149.2881 29.5822) (xy 149.2858 29.595) (xy 149.283 29.6077)
+			(xy 149.2798 29.6202) (xy 149.2762 29.6326) (xy 149.2722 29.6449) (xy 149.2679 29.6571) (xy 149.2631 29.669)
+			(xy 149.258 29.6808) (xy 149.2525 29.6924) (xy 149.2466 29.7039) (xy 149.2404 29.7151) (xy 149.2338 29.7261)
+			(xy 149.2268 29.7369) (xy 149.2195 29.7475) (xy 149.2119 29.7579) (xy 149.2039 29.768) (xy 149.1955 29.7778)
+			(xy 149.1869 29.7874) (xy 149.1779 29.7967) (xy 149.1686 29.8057) (xy 149.159 29.8145) (xy 149.1491 29.8229)
+			(xy 149.1389 29.8311) (xy 149.1284 29.8389) (xy 149.1176 29.8464) (xy 149.1065 29.8535) (xy 149.0951 29.8604)
+			(xy 149.0718 29.8728) (xy 149.0478 29.8836) (xy 149.0234 29.8928) (xy 148.9986 29.9002) (xy 148.9734 29.9061)
+			(xy 148.9479 29.9102) (xy 148.9223 29.9127) (xy 148.8967 29.9135) (xy 148.871 29.9127) (xy 148.8454 29.9102)
+			(xy 148.82 29.9061) (xy 148.7948 29.9002) (xy 148.7699 29.8928) (xy 148.7455 29.8836) (xy 148.7216 29.8728)
+			(xy 148.6982 29.8604) (xy 148.6758 29.8464) (xy 148.6544 29.8311) (xy 148.6343 29.8145) (xy 148.6154 29.7967)
+			(xy 148.5978 29.7778) (xy 148.5815 29.7579) (xy 148.5665 29.7369) (xy 148.553 29.7151) (xy 148.5408 29.6924)
+			(xy 148.5302 29.669) (xy 148.5211 29.6449) (xy 148.5135 29.6202) (xy 148.5076 29.595) (xy 148.5033 29.5692)
+			(xy 148.5007 29.5431) (xy 148.4998 29.5167) (xy 148.7644 29.5167) (xy 148.7644 29.5211) (xy 148.7647 29.5255)
+			(xy 148.765 29.5299) (xy 148.7655 29.5342) (xy 148.7662 29.5385) (xy 148.767 29.5428) (xy 148.7679 29.547)
+			(xy 148.769 29.5512) (xy 148.7701 29.5553) (xy 148.7715 29.5594) (xy 148.7729 29.5635) (xy 148.7745 29.5675)
+			(xy 148.7762 29.5714) (xy 148.7781 29.5753) (xy 148.78 29.5791) (xy 148.7821 29.5828) (xy 148.7843 29.5865)
+			(xy 148.7866 29.5901) (xy 148.7891 29.5936) (xy 148.7916 29.5971) (xy 148.7943 29.6004) (xy 148.797 29.6037)
+			(xy 148.7999 29.6069) (xy 148.8029 29.61) (xy 148.806 29.613) (xy 148.8092 29.6159) (xy 148.8125 29.6188)
+			(xy 148.8159 29.6215) (xy 148.8194 29.6241) (xy 148.823 29.6266) (xy 148.8267 29.629) (xy 148.8305 29.6312)
+			(xy 148.8383 29.6354) (xy 148.8463 29.639) (xy 148.8544 29.642) (xy 148.8627 29.6445) (xy 148.8711 29.6465)
+			(xy 148.8796 29.6479) (xy 148.8881 29.6487) (xy 148.8967 29.649) (xy 148.9052 29.6487) (xy 148.9138 29.6479)
+			(xy 148.9222 29.6465) (xy 148.9306 29.6445) (xy 148.9389 29.642) (xy 148.9471 29.639) (xy 148.955 29.6354)
+			(xy 148.9628 29.6312) (xy 148.9703 29.6266) (xy 148.9774 29.6215) (xy 148.9841 29.6159) (xy 148.9904 29.61)
+			(xy 148.9963 29.6037) (xy 149.0017 29.5971) (xy 149.0067 29.5901) (xy 149.0112 29.5828) (xy 149.0153 29.5753)
+			(xy 149.0188 29.5675) (xy 149.0219 29.5594) (xy 149.0244 29.5512) (xy 149.0264 29.5428) (xy 149.0278 29.5342)
+			(xy 149.0287 29.5255) (xy 149.029 29.5167) (xy 149.029 28.4583) (xy 149.0289 28.4539) (xy 149.0287 28.4495)
+			(xy 149.0283 28.4451) (xy 149.0278 28.4408) (xy 149.0271 28.4365) (xy 149.0264 28.4322) (xy 149.0254 28.428)
+			(xy 149.0244 28.4238) (xy 149.0232 28.4197) (xy 149.0219 28.4156) (xy 149.0204 28.4115) (xy 149.0188 28.4075)
+			(xy 149.0171 28.4036) (xy 149.0153 28.3997) (xy 149.0133 28.3959) (xy 149.0112 28.3922) (xy 149.009 28.3885)
+			(xy 149.0067 28.3849) (xy 149.0043 28.3814) (xy 149.0017 28.3779) (xy 148.9991 28.3746) (xy 148.9963 28.3713)
+			(xy 148.9934 28.3681) (xy 148.9904 28.365) (xy 148.9873 28.362) (xy 148.9841 28.3591) (xy 148.9808 28.3562)
+			(xy 148.9774 28.3535) (xy 148.9739 28.3509) (xy 148.9703 28.3484) (xy 148.9666 28.346) (xy 148.9628 28.3438)
+			(xy 148.955 28.3396) (xy 148.9471 28.336) (xy 148.9389 28.333) (xy 148.9306 28.3305) (xy 148.9222 28.3285)
+			(xy 148.9138 28.3271) (xy 148.9052 28.3263) (xy 148.8967 28.326) (xy 148.8881 28.3263) (xy 148.8796 28.3271)
+			(xy 148.8711 28.3285) (xy 148.8627 28.3305) (xy 148.8544 28.333) (xy 148.8463 28.336) (xy 148.8383 28.3396)
+			(xy 148.8305 28.3438) (xy 148.823 28.3484) (xy 148.8159 28.3535) (xy 148.8092 28.3591) (xy 148.8029 28.365)
+			(xy 148.797 28.3713) (xy 148.7916 28.3779) (xy 148.7866 28.3849) (xy 148.7821 28.3922) (xy 148.7781 28.3997)
+			(xy 148.7745 28.4075) (xy 148.7715 28.4156) (xy 148.769 28.4238) (xy 148.767 28.4322) (xy 148.7655 28.4408)
+			(xy 148.7647 28.4495) (xy 148.7644 28.4583) (xy 148.7644 29.5167) (xy 148.4998 29.5167) (xy 148.4998 28.4583)
+			(xy 148.5003 28.4387) (xy 148.5017 28.4191) (xy 148.5041 28.3997) (xy 148.5075 28.3805) (xy 148.5118 28.3616)
+			(xy 148.5169 28.3429) (xy 148.523 28.3245) (xy 148.53 28.3065) (xy 148.5378 28.2888) (xy 148.5465 28.2714)
+			(xy 148.5561 28.2546) (xy 148.5665 28.2381) (xy 148.5777 28.2222) (xy 148.5897 28.2068) (xy 148.6025 28.192)
+			(xy 148.616 28.1777) (xy 148.6303 28.1641) (xy 148.6451 28.1513) (xy 148.6606 28.1393) (xy 148.6765 28.1281)
+			(xy 148.6929 28.1178) (xy 148.7098 28.1082) (xy 148.7271 28.0995) (xy 148.7448 28.0917) (xy 148.7629 28.0847)
+			(xy 148.7812 28.0786) (xy 148.7999 28.0734) (xy 148.8189 28.0692) (xy 148.8381 28.0658) (xy 148.8574 28.0634)
+			(xy 148.877 28.0619) (xy 148.8967 28.0615) (xy 148.9163 28.0619)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 187 33 36 1)
+		)
+		(uuid 1a194a3f-0270-4253-bbbe-543759356cee)
+	)
+	(rectangle
+		(start 144.78 25.4)
+		(end 193.04 48.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3194daa4-3311-4d7f-ace8-fc354bd6f845)
+	)
+	(polyline
+		(pts
+			(xy 148.9117 30.1784) (xy 148.9266 30.1792) (xy 148.9413 30.1806) (xy 148.956 30.1826) (xy 148.9705 30.185)
+			(xy 148.9848 30.188) (xy 148.999 30.1915) (xy 149.013 30.1956) (xy 149.0269 30.2001) (xy 149.0405 30.2051)
+			(xy 149.0539 30.2106) (xy 149.067 30.2165) (xy 149.08 30.223) (xy 149.0926 30.2299) (xy 149.105 30.2372)
+			(xy 149.1172 30.245) (xy 149.129 30.2532) (xy 149.1405 30.2619) (xy 149.1518 30.271) (xy 149.1626 30.2804)
+			(xy 149.1732 30.2903) (xy 149.1834 30.3006) (xy 149.1932 30.3112) (xy 149.2027 30.3223) (xy 149.2118 30.3337)
+			(xy 149.2204 30.3454) (xy 149.2287 30.3576) (xy 149.2365 30.37) (xy 149.2439 30.3828) (xy 149.2509 30.3959)
+			(xy 149.2573 30.4094) (xy 149.2633 30.4231) (xy 149.2737 30.4512) (xy 149.2819 30.4796) (xy 149.2879 30.5084)
+			(xy 149.2918 30.5373) (xy 149.2935 30.5663) (xy 149.293 30.5952) (xy 149.2905 30.624) (xy 149.2859 30.6524)
+			(xy 149.2793 30.6805) (xy 149.2706 30.708) (xy 149.2599 30.7349) (xy 149.2473 30.761) (xy 149.2327 30.7863)
+			(xy 149.2161 30.8105) (xy 149.1976 30.8337) (xy 149.1773 30.8556) (xy 149.1554 30.876) (xy 149.1322 30.8944)
+			(xy 149.1079 30.911) (xy 149.0827 30.9256) (xy 149.0566 30.9383) (xy 149.0297 30.9489) (xy 149.0021 30.9576)
+			(xy 148.9741 30.9642) (xy 148.9456 30.9688) (xy 148.9169 30.9714) (xy 148.888 30.9718) (xy 148.859 30.9701)
+			(xy 148.83 30.9663) (xy 148.8013 30.9603) (xy 148.7728 30.9521) (xy 148.7448 30.9417) (xy 148.7176 30.9292)
+			(xy 148.6917 30.9149) (xy 148.6671 30.8988) (xy 148.6439 30.881) (xy 148.6223 30.8617) (xy 148.6021 30.841)
+			(xy 148.5836 30.8189) (xy 148.5667 30.7955) (xy 148.5515 30.771) (xy 148.5382 30.7454) (xy 148.5267 30.7188)
+			(xy 148.5172 30.6914) (xy 148.5097 30.6632) (xy 148.5042 30.6343) (xy 148.5009 30.6049) (xy 148.4999 30.5779)
+			(xy 148.7644 30.5779) (xy 148.765 30.5876) (xy 148.7662 30.5972) (xy 148.7682 30.6068) (xy 148.771 30.6163)
+			(xy 148.7744 30.6256) (xy 148.7786 30.6347) (xy 148.7834 30.6433) (xy 148.7887 30.6515) (xy 148.7947 30.6592)
+			(xy 148.8011 30.6665) (xy 148.808 30.6732) (xy 148.8154 30.6794) (xy 148.8232 30.685) (xy 148.8313 30.69)
+			(xy 148.8399 30.6945) (xy 148.8487 30.6983) (xy 148.8579 30.7015) (xy 148.8673 30.704) (xy 148.8769 30.7058)
+			(xy 148.8867 30.7069) (xy 148.8967 30.7073) (xy 148.9032 30.7071) (xy 148.9097 30.7066) (xy 148.9162 30.7058)
+			(xy 148.9226 30.7047) (xy 148.9289 30.7033) (xy 148.9351 30.7016) (xy 148.9413 30.6995) (xy 148.9473 30.6972)
+			(xy 148.9532 30.6946) (xy 148.959 30.6917) (xy 148.9646 30.6885) (xy 148.9701 30.6851) (xy 148.9754 30.6813)
+			(xy 148.9805 30.6773) (xy 148.9855 30.6731) (xy 148.9902 30.6685) (xy 148.9947 30.6638) (xy 148.999 30.6588)
+			(xy 149.003 30.6537) (xy 149.0067 30.6484) (xy 149.0102 30.6429) (xy 149.0134 30.6373) (xy 149.0163 30.6315)
+			(xy 149.0189 30.6256) (xy 149.0212 30.6196) (xy 149.0232 30.6135) (xy 149.025 30.6072) (xy 149.0264 30.6009)
+			(xy 149.0275 30.5945) (xy 149.0283 30.5881) (xy 149.0288 30.5816) (xy 149.029 30.575) (xy 149.0289 30.57)
+			(xy 149.0286 30.565) (xy 149.0281 30.5601) (xy 149.0275 30.5552) (xy 149.0267 30.5504) (xy 149.0257 30.5456)
+			(xy 149.0245 30.5409) (xy 149.0231 30.5362) (xy 149.0216 30.5316) (xy 149.02 30.5271) (xy 149.0181 30.5226)
+			(xy 149.0162 30.5182) (xy 149.014 30.5139) (xy 149.0117 30.5097) (xy 149.0093 30.5055) (xy 149.0067 30.5015)
+			(xy 149.0039 30.4976) (xy 149.001 30.4937) (xy 148.998 30.49) (xy 148.9949 30.4863) (xy 148.9916 30.4828)
+			(xy 148.9881 30.4794) (xy 148.9846 30.4761) (xy 148.9809 30.473) (xy 148.9771 30.47) (xy 148.9732 30.4671)
+			(xy 148.9691 30.4643) (xy 148.965 30.4617) (xy 148.9607 30.4593) (xy 148.9564 30.4569) (xy 148.9519 30.4548)
+			(xy 148.9473 30.4528) (xy 148.9379 30.4493) (xy 148.9285 30.4466) (xy 148.9189 30.4446) (xy 148.9092 30.4433)
+			(xy 148.8996 30.4427) (xy 148.8899 30.4429) (xy 148.8803 30.4437) (xy 148.8709 30.4453) (xy 148.8615 30.4475)
+			(xy 148.8523 30.4504) (xy 148.8434 30.4539) (xy 148.8347 30.4581) (xy 148.8262 30.463) (xy 148.8182 30.4685)
+			(xy 148.8104 30.4747) (xy 148.8031 30.4815) (xy 148.7963 30.4888) (xy 148.7902 30.4965) (xy 148.7847 30.5046)
+			(xy 148.7798 30.513) (xy 148.7756 30.5217) (xy 148.772 30.5307) (xy 148.7691 30.5398) (xy 148.7669 30.5492)
+			(xy 148.7654 30.5587) (xy 148.7645 30.5683) (xy 148.7644 30.5779) (xy 148.4999 30.5779) (xy 148.4998 30.575)
+			(xy 148.4998 30.5089) (xy 148.4999 30.5034) (xy 148.5003 30.4979) (xy 148.5009 30.4925) (xy 148.5017 30.4872)
+			(xy 148.5027 30.4818) (xy 148.5039 30.4766) (xy 148.5053 30.4714) (xy 148.507 30.4662) (xy 148.5089 30.4611)
+			(xy 148.5109 30.4561) (xy 148.5132 30.4512) (xy 148.5157 30.4464) (xy 148.5184 30.4417) (xy 148.5212 30.4371)
+			(xy 148.5243 30.4325) (xy 148.5276 30.4282) (xy 148.5398 30.4004) (xy 148.554 30.374) (xy 148.57 30.349)
+			(xy 148.5878 30.3253) (xy 148.6071 30.3032) (xy 148.6279 30.2826) (xy 148.6502 30.2637) (xy 148.6737 30.2464)
+			(xy 148.6984 30.231) (xy 148.7243 30.2173) (xy 148.7511 30.2056) (xy 148.7788 30.1959) (xy 148.8074 30.1882)
+			(xy 148.8366 30.1826) (xy 148.8664 30.1792) (xy 148.8967 30.1781) (xy 148.9117 30.1784)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 187 33 36 1)
+		)
+		(uuid 45b4132f-d997-4df4-892e-d46ded16e5fb)
+	)
+	(polyline
+		(pts
+			(xy 149.0016 27.4026) (xy 149.1059 27.4104) (xy 149.2092 27.4232) (xy 149.3115 27.441) (xy 149.4126 27.4638)
+			(xy 149.5123 27.4915) (xy 149.6104 27.5239) (xy 149.7067 27.5611) (xy 149.8011 27.6029) (xy 149.8934 27.6494)
+			(xy 149.9834 27.7003) (xy 150.071 27.7556) (xy 150.156 27.8153) (xy 150.2381 27.8793) (xy 150.3173 27.9476)
+			(xy 150.3934 28.02) (xy 150.4658 28.096) (xy 150.534 28.1752) (xy 150.598 28.2574) (xy 150.6577 28.3423)
+			(xy 150.7131 28.4299) (xy 150.764 28.5199) (xy 150.8104 28.6123) (xy 150.8522 28.7067) (xy 150.8894 28.803)
+			(xy 150.9218 28.9011) (xy 150.9495 29.0007) (xy 150.9723 29.1018) (xy 150.9901 29.2041) (xy 151.003 29.3075)
+			(xy 151.0107 29.4117) (xy 151.0133 29.5167) (xy 151.0118 29.5967) (xy 151.0073 29.6761) (xy 150.9999 29.7549)
+			(xy 150.9896 29.8331) (xy 150.9765 29.9104) (xy 150.9605 29.987) (xy 150.9418 30.0626) (xy 150.9204 30.1373)
+			(xy 150.8963 30.211) (xy 150.8696 30.2836) (xy 150.8403 30.355) (xy 150.8084 30.4252) (xy 150.7741 30.4942)
+			(xy 150.7373 30.5618) (xy 150.6982 30.6279) (xy 150.6566 30.6926) (xy 150.6127 30.7558) (xy 150.5666 30.8173)
+			(xy 150.5182 30.8771) (xy 150.4677 30.9352) (xy 150.415 30.9915) (xy 150.3602 31.0459) (xy 150.3034 31.0984)
+			(xy 150.2445 31.1488) (xy 150.1837 31.1972) (xy 150.121 31.2434) (xy 150.0564 31.2875) (xy 149.9899 31.3292)
+			(xy 149.9217 31.3687) (xy 149.8517 31.4057) (xy 149.78 31.4402) (xy 149.7067 31.4722) (xy 149.5571 31.5277)
+			(xy 149.4053 31.5714) (xy 149.252 31.6034) (xy 149.0977 31.6239) (xy 148.9431 31.6329) (xy 148.7889 31.6306)
+			(xy 148.6355 31.6172) (xy 148.4837 31.5927) (xy 148.3341 31.5572) (xy 148.1873 31.511) (xy 148.0439 31.454)
+			(xy 147.9045 31.3865) (xy 147.7698 31.3086) (xy 147.6404 31.2203) (xy 147.5169 31.1219) (xy 147.4 31.0134)
+			(xy 147.2914 30.8964) (xy 147.193 30.7729) (xy 147.1047 30.6435) (xy 147.0268 30.5088) (xy 146.9593 30.3694)
+			(xy 146.9024 30.226) (xy 146.8561 30.0792) (xy 146.8207 29.9296) (xy 146.7962 29.7778) (xy 146.7827 29.6245)
+			(xy 146.7817 29.5573) (xy 147.045 29.5573) (xy 147.0529 29.6926) (xy 147.0708 29.8276) (xy 147.0988 29.9617)
+			(xy 147.137 30.0945) (xy 147.1856 30.2254) (xy 147.2438 30.3523) (xy 147.3107 30.4733) (xy 147.3857 30.5879)
+			(xy 147.4685 30.696) (xy 147.5586 30.7973) (xy 147.6554 30.8913) (xy 147.7586 30.9779) (xy 147.8677 31.0566)
+			(xy 147.9822 31.1273) (xy 148.1017 31.1895) (xy 148.2256 31.243) (xy 148.3536 31.2874) (xy 148.4852 31.3225)
+			(xy 148.6198 31.348) (xy 148.7572 31.3635) (xy 148.8967 31.3687) (xy 148.9885 31.3665) (xy 149.0797 31.3597)
+			(xy 149.1702 31.3485) (xy 149.2597 31.3328) (xy 149.3481 31.3129) (xy 149.4353 31.2887) (xy 149.5211 31.2603)
+			(xy 149.6054 31.2278) (xy 149.688 31.1912) (xy 149.7688 31.1506) (xy 149.8476 31.106) (xy 149.9242 31.0576)
+			(xy 149.9985 31.0053) (xy 150.0704 30.9493) (xy 150.1397 30.8896) (xy 150.2063 30.8263) (xy 150.2696 30.7597)
+			(xy 150.3293 30.6904) (xy 150.3853 30.6185) (xy 150.4376 30.5442) (xy 150.486 30.4676) (xy 150.5306 30.3888)
+			(xy 150.5712 30.308) (xy 150.6078 30.2254) (xy 150.6403 30.1411) (xy 150.6687 30.0553) (xy 150.6929 29.9681)
+			(xy 150.7128 29.8797) (xy 150.7285 29.7902) (xy 150.7397 29.6997) (xy 150.7465 29.6085) (xy 150.7487 29.5167)
+			(xy 150.7474 29.4467) (xy 150.7435 29.3772) (xy 150.737 29.3082) (xy 150.728 29.2398) (xy 150.7165 29.1721)
+			(xy 150.7025 29.1052) (xy 150.6862 29.039) (xy 150.6674 28.9736) (xy 150.6463 28.9091) (xy 150.623 28.8456)
+			(xy 150.5973 28.7831) (xy 150.5695 28.7217) (xy 150.5394 28.6613) (xy 150.5073 28.6022) (xy 150.473 28.5443)
+			(xy 150.4366 28.4877) (xy 150.3982 28.4325) (xy 150.3579 28.3786) (xy 150.3155 28.3263) (xy 150.2713 28.2754)
+			(xy 150.2252 28.2262) (xy 150.1773 28.1786) (xy 150.1275 28.1327) (xy 150.076 28.0885) (xy 150.0228 28.0462)
+			(xy 149.9679 28.0057) (xy 149.9114 27.9672) (xy 149.8533 27.9307) (xy 149.7936 27.8962) (xy 149.7323 27.8638)
+			(xy 149.6696 27.8336) (xy 149.6054 27.8056) (xy 149.4745 27.757) (xy 149.3417 27.7188) (xy 149.2076 27.6908)
+			(xy 149.0726 27.6729) (xy 148.9373 27.665) (xy 148.8023 27.667) (xy 148.6682 27.6787) (xy 148.5353 27.7002)
+			(xy 148.4044 27.7312) (xy 148.276 27.7717) (xy 148.1505 27.8215) (xy 148.0286 27.8805) (xy 147.9107 27.9487)
+			(xy 147.7975 28.026) (xy 147.6894 28.1121) (xy 147.587 28.207) (xy 147.4921 28.3094) (xy 147.406 28.4175)
+			(xy 147.3287 28.5307) (xy 147.2605 28.6486) (xy 147.2015 28.7705) (xy 147.1517 28.896) (xy 147.1112 29.0244)
+			(xy 147.0802 29.1553) (xy 147.0587 29.2882) (xy 147.047 29.4223) (xy 147.045 29.5573) (xy 146.7817 29.5573)
+			(xy 146.7804 29.4702) (xy 146.7895 29.3156) (xy 146.8099 29.1614) (xy 146.8419 29.008) (xy 146.8856 28.8563)
+			(xy 146.9411 28.7067) (xy 147.0077 28.5616) (xy 147.0841 28.4234) (xy 147.1699 28.2924) (xy 147.2645 28.1688)
+			(xy 147.3674 28.0531) (xy 147.4781 27.9456) (xy 147.596 27.8467) (xy 147.7207 27.7567) (xy 147.8516 27.676)
+			(xy 147.9881 27.6049) (xy 148.1297 27.5437) (xy 148.276 27.4929) (xy 148.4264 27.4528) (xy 148.5803 27.4237)
+			(xy 148.7372 27.406) (xy 148.8967 27.4) (xy 149.0016 27.4026)
+		)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 187 33 36 1)
+		)
+		(uuid 75886f65-4b64-463d-8918-f686cfadfac4)
+	)
+	(text "Because ESD and EFT transients have a \nwide-frequency bandwidth from approximately \n3 MHz to 3 GHz, high frequency layout \ntechniques must be applied during PCB design.\nFollow layout example carefully."
+		(exclude_from_sim no)
+		(at 147.53 34.65 0)
+		(effects
+			(font
+				(face "Sarabun")
+				(size 1.5 1.5)
+				(color 255 255 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "1969254c-cf86-4f94-9a24-b975f9e1eea5")
+	)
+	(text "Critical"
+		(exclude_from_sim no)
+		(at 153.03 30.9 0)
+		(effects
+			(font
+				(face "Sarabun")
+				(size 3 3)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "e596939e-f143-459e-9406-8dfc0568a71c")
+	)
+	(label "TX"
+		(at 53.34 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26bf1ec8-dbf5-4e48-a457-282ec741189b")
+	)
+	(label "IC_D-"
+		(at 162.56 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d8379ff-c894-43db-9908-b7577fef23db")
+	)
+	(label "D_IC"
+		(at 71.12 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58f429f1-ad3c-400a-87a9-d5bcb99c0bd1")
+	)
+	(label "IC_D+"
+		(at 162.56 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66cfcefb-4fda-4dc9-ab48-3fd7efcce867")
+	)
+	(label "R_IC"
+		(at 109.22 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e553ede-ba01-465c-b5d8-d61f8daf8e43")
+	)
+	(label "RX"
+		(at 78.74 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd377abc-708f-4a0a-9802-b794cb2b3e40")
+	)
+	(hierarchical_label "~{RE}"
+		(shape input)
+		(at 76.2 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "074950b7-4322-403c-bda3-88538e2006c3")
+	)
+	(hierarchical_label "D+"
+		(shape bidirectional)
+		(at 213.36 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fcf7cf7-4d05-41cf-a499-e93b4404f650")
+	)
+	(hierarchical_label "DE"
+		(shape input)
+		(at 76.2 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40c66a7b-0dc1-4af7-a702-ad1d24513f70")
+	)
+	(hierarchical_label "RX"
+		(shape output)
+		(at 76.2 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e5d4198-f815-4828-8f52-1dbf205e8b58")
+	)
+	(hierarchical_label "TX"
+		(shape input)
+		(at 50.8 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be22fbcc-477c-4ada-9d46-73cb94a639db")
+	)
+	(hierarchical_label "D-"
+		(shape bidirectional)
+		(at 213.36 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc05b6a3-5252-42ee-8652-35660da5a8ac")
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(at 127 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07aafd18-d890-4bce-85f0-31ddb2f9daee")
+		(property "Reference" "TP27"
+			(at 129.54 128.8076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 127 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 127 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 129.54 131.3476 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c0bde59e-7c49-44b7-84bb-f37b44f4b575")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "118d9063-1422-4318-9841-54f52ef354a5")
+		(property "Reference" "#PWR048"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "356be313-93e7-4283-bf66-e4961020ac6f")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(at 127 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dcbbd55-cf9b-4570-b9a9-626decbc949b")
+		(property "Reference" "TP24"
+			(at 129.54 83.0876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 129.54 85.6276 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a1abe3a5-7ccb-4a72-ab73-56c79ae2371e")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:C_47u_X5R_0805")
+		(at 71.12 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1e9a561b-9d49-457b-bdcf-600027bce82a")
+		(property "Reference" "C16"
+			(at 74.93 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47u"
+			(at 74.93 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitor"
+			(at 76.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C16780"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" " 6.3V X5R ±20% 0805"
+			(at 74.93 58.4199 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "907ff0c5-de0d-440d-add3-f86efbec8a66")
+		)
+		(pin "2"
+			(uuid "95a5ea9c-3db0-4e87-a8d2-9fffffcdeed1")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(at 195.58 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f31362c-639c-4228-86f7-d044d79bad7e")
+		(property "Reference" "TP29"
+			(at 198.12 83.0876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 198.12 85.6276 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "40be4433-0a51-4254-8d88-a0fee1cac677")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(at 127 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d75f716-9d6d-4694-8397-d5738d55de9c")
+		(property "Reference" "TP25"
+			(at 129.54 93.2476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 127 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 129.54 95.7876 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "25c2aa95-839b-4e8f-bb13-53f912444cc1")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:R_10Ohm_0402_62mW")
+		(at 177.8 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55b8d996-08d5-457a-805e-d44929ab4d8a")
+		(property "Reference" "R19"
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10R-10R0-1_C25077.html"
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistor"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25077"
+			(at 177.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "50V ±1% 0402 62mW"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f28a08b-8d58-4a17-b513-93d3e9de26c0")
+		)
+		(pin "2"
+			(uuid "2c21507b-6596-4df2-93ba-602decabb28c")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a74ec18-b522-4013-abb2-2b595f43519f")
+		(property "Reference" "#PWR044"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a65d341-0189-4791-bd8d-24ce4cb31dbc")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e2ebc38-44a1-4bb1-a3fb-9a79d3675b4c")
+		(property "Reference" "#PWR043"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62d77b4e-47b7-4f98-80f9-5efe76036f64")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(at 195.58 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6161a843-fa15-4ca0-b870-d149d33749ac")
+		(property "Reference" "TP30"
+			(at 198.12 103.4076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 195.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 195.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 195.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 198.12 105.9476 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9703476f-7724-400f-bc23-68e5274fca03")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(at 91.44 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a4ab88a-5996-4cf6-a477-58557bd2907d")
+		(property "Reference" "R15"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17477"
+			(at 91.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "150V ±1% 0805"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "769e7e71-a3d9-4468-8d35-3c0d4fe1268f")
+		)
+		(pin "2"
+			(uuid "e93f5cd5-7689-429b-9f3f-aaab83cc0717")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:C_100nF_X7R_0402")
+		(at 92.71 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7496e618-a0af-4b1d-adab-b09b04e2ba84")
+		(property "Reference" "C17"
+			(at 96.52 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 96.52 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitor"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 109.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "16V X7R ±10% 0402"
+			(at 96.52 57.1499 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "ad200f20-0e7b-4fd6-9a7e-9af9e99fb3da")
+		)
+		(pin "2"
+			(uuid "f4ba0785-a313-40cd-9a5c-ba229560a258")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 66.04 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b62bc36-65a5-42dc-9cf7-cf456b461aaa")
+		(property "Reference" "#PWR042"
+			(at 66.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99667ea8-0b0b-476d-a441-a7db3c65fc79")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:R_10kOhm_0402_62mW")
+		(at 106.68 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "831bc5cb-8517-4d7f-925f-2c372b743a8d")
+		(property "Reference" "R18"
+			(at 109.22 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.22 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 115.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors"
+			(at 111.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 123.19 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "50V ±1% 0402 62mW"
+			(at 109.22 147.3199 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "edfc3e66-afcd-4e30-be5d-00c352a6b718")
+		)
+		(pin "2"
+			(uuid "7cb03139-8fc3-4f5b-8c65-f78688d49561")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(at 127 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861ec590-d71a-4ea6-bb8f-2ef10cb26664")
+		(property "Reference" "TP23"
+			(at 129.54 39.9076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 129.54 42.4476 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f9f2d818-68bf-4853-9e30-ec7b19be4f54")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:U_SN65HVD1782DR_RS485_Transiver_Fault_Protected_SOIC8")
+		(at 152.4 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b68dd7d-8cc1-47c5-9e8a-fdd45e41a478")
+		(property "Reference" "U5"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65HVD1782DR"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:SOIC-8-R-PDSO-G8"
+			(at 152.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/RS-485-RS-422_TI_SN65HVD1782DR_SN65HVD1782DR_C183092.html"
+			(at 152.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SN65HVD178x Fault-Protected RS-485 Transceivers With 3.3-V to 5-V Operation"
+			(at 152.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C183092"
+			(at 152.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Fault-Protected RS-485 Transceiver 3.3V / 5V"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c5890d13-f59a-447d-98a7-078aa8cd5865")
+		)
+		(pin "8"
+			(uuid "2968d3e2-d7d5-4fbf-b840-a4d99dd4ce6a")
+		)
+		(pin "5"
+			(uuid "a539e039-2477-4ea3-b775-433b949d936a")
+		)
+		(pin "2"
+			(uuid "fee807a8-9e71-42da-99e0-8717ab7da17b")
+		)
+		(pin "6"
+			(uuid "01dce29f-4848-4eac-8bef-64b79ff643e9")
+		)
+		(pin "7"
+			(uuid "9bb4cda0-fc95-4f37-828b-2c3b8c1ba740")
+		)
+		(pin "1"
+			(uuid "4cd53488-0d16-4ef3-ab69-53112554b0a5")
+		)
+		(pin "4"
+			(uuid "d7b2b246-5e17-4395-b4c3-1af937e3c8ba")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 106.68 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bdd88a8-e539-4447-a665-1b5c4df6289c")
+		(property "Reference" "#PWR045"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d2e4e73-d4de-4483-8265-829cc89a264d")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d9b9a33-ae41-4277-91e0-9f30ff480115")
+		(property "Reference" "#PWR049"
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d34c6ad3-fa2b-4ab1-b779-50a8c285b49d")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:R_10Ohm_0402_62mW")
+		(at 177.8 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef1c711-0b66-4479-8bf3-e9f95cee5ecd")
+		(property "Reference" "R20"
+			(at 177.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10R-10R0-1_C25077.html"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistor"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25077"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "50V ±1% 0402 62mW"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09460488-9ffb-4aed-a5e0-f04a1fa2688a")
+		)
+		(pin "2"
+			(uuid "bf384314-bf97-4a55-b11a-eba7417d20ce")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:C_100nF_X7R_0402")
+		(at 113.03 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1d1caaf-0f39-4ce6-9008-cf6eb66d8f85")
+		(property "Reference" "C18"
+			(at 116.84 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 116.84 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitor"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "16V X7R ±10% 0402"
+			(at 116.84 57.1499 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "d5cd1470-5d0e-46c3-8803-14818e85f01e")
+		)
+		(pin "2"
+			(uuid "2b009110-93e7-466e-8102-2b7efb9605d4")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a598dec4-1d9e-411a-9262-8356526a704c")
+		(property "Reference" "#PWR047"
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b0a9ef-c394-4e8d-8984-1dda4360acfd")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:R_10kOhm_0402_62mW")
+		(at 106.68 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6ae4732-d08d-4964-b986-c94cb57cea21")
+		(property "Reference" "R16"
+			(at 109.22 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.22 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "50V ±1% 0402 62mW"
+			(at 109.22 86.3599 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "057c5ff4-1a29-494e-a0a8-fef2a5c42044")
+		)
+		(pin "2"
+			(uuid "32decd25-162a-46cc-8e12-854c9d44eaf4")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcafafb2-4288-45e2-b716-f47a70cc38bd")
+		(property "Reference" "#PWR046"
+			(at 106.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8afc8fa6-e885-4afb-b2be-33951df0e191")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(at 63.5 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f78ec9-5d34-4d5e-af06-92aac1bbfa15")
+		(property "Reference" "R14"
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17477"
+			(at 63.5 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "150V ±1% 0805"
+			(at 63.5 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a533246-ac6d-4681-8999-0cb646c45fbe")
+		)
+		(pin "2"
+			(uuid "5c931092-8f0c-413e-8ff2-8c96f29bee98")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(at 170.18 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c592d674-ea8c-4f7b-867a-2bcc43eac635")
+		(property "Reference" "TP28"
+			(at 172.72 126.2676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 170.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 172.72 128.8076 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ed0a88a6-2e9f-4172-aec8-950f518c3263")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:R_10kOhm_0402_62mW")
+		(at 106.68 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca08101e-8717-422a-9090-120d48dae797")
+		(property "Reference" "R17"
+			(at 109.22 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.22 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors"
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 123.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "50V ±1% 0402 62mW"
+			(at 109.22 121.9199 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "828eba29-7ec2-42e2-a164-511f76cae699")
+		)
+		(pin "2"
+			(uuid "1268c367-fe9b-4738-a836-981b7211c05e")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(at 127 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff892542-9415-4234-a4a6-1b3ee2b90b91")
+		(property "Reference" "TP26"
+			(at 129.54 103.4076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 127 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 127 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 129.54 105.9476 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "58f24049-7cac-4b05-8694-a5556b0179ba")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

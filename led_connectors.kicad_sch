@@ -1,0 +1,368 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "603d7ad8-407d-42b5-ace0-c58353143a3c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4P JST ZH"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C163034"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "4PIN 1A 1.5mm "
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "JST_ZH_4PIN_1A_50V_0_1"
+				(rectangle
+					(start -5.08 12.7)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "JST_ZH_4PIN_1A_50V_1_1"
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(hierarchical_label "GPIO_1"
+		(shape input)
+		(at 162.56 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81399dce-2835-48b6-b875-fcc98f0bc844")
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(at 193.1505 86.4569 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11055097-669d-423b-b10a-35d1e5915c22")
+		(property "Reference" "CN14"
+			(at 199.39 83.9168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4P JST ZH"
+			(at 199.39 86.4569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+			(at 193.1505 102.9669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
+			(at 193.1505 106.7769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.1505 86.4569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C163034"
+			(at 193.1505 110.5869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "4PIN 1A 1.5mm "
+			(at 199.39 88.9968 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "cafc1030-1994-48e1-a359-8e276842e445")
+		)
+		(pin "2"
+			(uuid "b50f728b-baf9-48f0-a3ec-01cf2f074c5c")
+		)
+		(pin "3"
+			(uuid "5c20a3b6-3c06-4269-bacc-3ff0b767e81a")
+		)
+		(pin "4"
+			(uuid "59516ffa-92ab-4d9b-9aa5-e037811a68ef")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/956fa8b8-bd74-4ebc-a39d-c419a4c04750"
+					(reference "CN14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(at 199.39 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2828c397-495d-4ead-af0a-b6358f7c9d53")
+		(property "Reference" "CN20"
+			(at 205.74 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4P JST ZH"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C163034"
+			(at 199.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "4PIN 1A 1.5mm "
+			(at 205.74 132.0799 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c213964a-4e4b-4d01-9b20-cdaa4deb3c18")
+		)
+		(pin "2"
+			(uuid "7ebfc39e-a2e2-4a1c-8bbc-c549e0477230")
+		)
+		(pin "3"
+			(uuid "7bc9eb18-3c34-4421-b79c-7c0b1d87bcfc")
+		)
+		(pin "4"
+			(uuid "ed05c546-5f1e-4133-adad-a3773e4c2b2d")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/956fa8b8-bd74-4ebc-a39d-c419a4c04750"
+					(reference "CN20")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
