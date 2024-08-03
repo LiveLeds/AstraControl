@@ -1247,7 +1247,7 @@
 					)
 				)
 			)
-			(property "Value" "19-213/Y2C-CQ2R2L/3T(CY)"
+			(property "Value" "LED_Yellow_25mA_0603"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -2510,6 +2510,17 @@
 		)
 		(uuid "f83c58ce-2b7d-4900-a2f3-1adc7cdcd479")
 	)
+	(label "IO_3_IC"
+		(at 109.22 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03a8c1a9-e9cc-4db9-ad31-af87214a6e30")
+	)
 	(label "IO2_DEBUG_LED"
 		(at 182.88 50.8 0)
 		(fields_autoplaced yes)
@@ -3090,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Value" "19-213/Y2C-CQ2R2L/3T(CY)"
+		(property "Value" "LED_Yellow_25mA_0603"
 			(at 238.76 55.88 0)
 			(effects
 				(font

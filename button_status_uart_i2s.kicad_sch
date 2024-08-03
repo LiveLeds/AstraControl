@@ -1079,22 +1079,28 @@
 		)
 	)
 	(junction
+		(at 127 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a27fd45-ee88-43ea-9afa-62861be111d6")
+	)
+	(junction
 		(at 88.9 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87a7e6ec-276c-4539-bcbd-534c8751be29")
 	)
 	(junction
+		(at 101.6 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cf4502c-ab8d-41df-bddf-2d48b98b2dc4")
+	)
+	(junction
 		(at 88.9 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a602a6ae-5dc3-4c4b-90af-0797eff70f68")
-	)
-	(junction
-		(at 127 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bceb03f9-f710-4ce6-a0cf-6641734db85f")
 	)
 	(junction
 		(at 127 40.64)
@@ -1107,12 +1113,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfcbadfd-2694-447f-8ffb-50abe3a0caf2")
-	)
-	(junction
-		(at 101.6 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c75a2c00-452c-4984-a1bb-ae15d31e28da")
 	)
 	(junction
 		(at 88.9 154.94)
@@ -1170,13 +1170,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 66.04) (xy 167.64 66.04)
+			(xy 127 66.04) (xy 132.08 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "113f470e-7014-42d4-b374-8dd742eda3d5")
+		(uuid "0eadfeb0-136a-46f9-ac65-4da083816fe6")
 	)
 	(wire
 		(pts
@@ -1270,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 96.52) (xy 114.3 96.52)
+			(xy 88.9 96.52) (xy 109.22 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1390,6 +1390,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 66.04) (xy 167.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7622f57d-3c00-4548-9fb4-0ceb466f6765")
+	)
+	(wire
+		(pts
 			(xy 88.9 121.92) (xy 167.64 121.92)
 		)
 		(stroke
@@ -1447,6 +1457,16 @@
 			(type default)
 		)
 		(uuid "7d70ff29-6825-423a-9564-d7949b0e033e")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 127 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db2fc0e-d27a-471f-863c-c82273a15d53")
 	)
 	(wire
 		(pts
@@ -1670,16 +1690,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 66.04) (xy 127 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e498109b-d162-4f5a-b9cd-250d4c5494f6")
-	)
-	(wire
-		(pts
 			(xy 88.9 93.98) (xy 88.9 96.52)
 		)
 		(stroke
@@ -1710,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 96.52) (xy 162.56 96.52)
+			(xy 119.38 96.52) (xy 162.56 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1727,6 +1737,17 @@
 			(type default)
 		)
 		(uuid "ff4bf72b-f695-460f-9504-9f91d3a5f64e")
+	)
+	(label "STATUS_LED_CONN"
+		(at 127 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "581ab08c-5e1b-4ed2-8e93-3916ee9c59e0")
 	)
 	(hierarchical_label "UART_RX"
 		(shape output)
@@ -2627,7 +2648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "580bbea8-5f3d-4d3b-a816-72f12dce7bbb")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR79"
 			(at 142.24 113.03 0)
 			(effects
 				(font
@@ -2677,7 +2698,94 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
-					(reference "#PWR079")
+					(reference "#PWR79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA2KICAD:R_10kOhm_0402_62mW")
+		(at 137.16 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e69e86-bd8f-4f38-bc3c-ac753754c631")
+		(property "Reference" "R9"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.16 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "50V ±1% 0402 62mW"
+			(at 137.16 62.23 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "05fce3ec-1156-40df-ace9-cf8c4888e6b7")
+		)
+		(pin "1"
+			(uuid "33b93ac3-60fe-4eb2-9643-68e5bd59079f")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2867,7 +2975,7 @@
 	)
 	(symbol
 		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
-		(at 119.38 96.52 0)
+		(at 114.3 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2875,7 +2983,7 @@
 		(dnp no)
 		(uuid "9f50218c-01fc-420b-be88-27c5156f089d")
 		(property "Reference" "R33"
-			(at 119.38 88.9 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2991,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 119.38 91.44 0)
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +3000,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 119.38 109.22 0)
+			(at 114.3 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +3009,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
-			(at 119.38 105.41 0)
+			(at 114.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +3018,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors"
-			(at 119.38 101.6 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +3027,7 @@
 			)
 		)
 		(property "LCSC Part" "C17477"
-			(at 119.38 113.03 0)
+			(at 114.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +3036,7 @@
 			)
 		)
 		(property "Extra Values" "150V ±1% 0805"
-			(at 119.38 93.98 0)
+			(at 114.3 93.98 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3223,7 +3331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cabff6d2-0328-4dfb-8973-96b05bcdf290")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR83"
 			(at 152.4 118.11 0)
 			(effects
 				(font
@@ -3273,7 +3381,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
-					(reference "#PWR083")
+					(reference "#PWR83")
 					(unit 1)
 				)
 			)
@@ -3289,7 +3397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d44b816b-469a-41c8-bb05-964c8c681c30")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR76"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -3339,7 +3447,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
-					(reference "#PWR076")
+					(reference "#PWR76")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de35a2bc-7f3e-4d90-8a0e-6df7146c0d7d")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR77"
 			(at 127 87.63 0)
 			(effects
 				(font
@@ -3405,7 +3513,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
-					(reference "#PWR077")
+					(reference "#PWR77")
 					(unit 1)
 				)
 			)

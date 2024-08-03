@@ -661,7 +661,7 @@
 					)
 				)
 			)
-			(property "Value" "22u"
+			(property "Value" "22uH"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -818,7 +818,7 @@
 					)
 				)
 			)
-			(property "Value" "4u7"
+			(property "Value" "4u7H"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2455,7 +2455,7 @@
 		(at 187.96 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2923,7 +2923,7 @@
 		(at 248.92 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -3178,7 +3178,7 @@
 				)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uH"
 			(at 213.36 96.52 0)
 			(effects
 				(font
@@ -3666,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "4u7H"
 			(at 106.68 96.52 0)
 			(effects
 				(font

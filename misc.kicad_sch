@@ -5,6 +5,144 @@
 	(uuid "014a8b10-b0fb-4924-b2aa-3cf38f61996b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "EASYEDA2KICAD:AstraControl_Ground_Guard"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "G"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EASYEDA2KICAD:AstraControl_Ground_Band"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AstraControl_Ground_Guard_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -9.652 4.572)
+					(end 9.652 -4.572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AstraControl_Ground_Guard_1_1"
+				(circle
+					(center -9.398 -4.318)
+					(radius 0.508)
+					(stroke
+						(width 0.0508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -9.398 4.318)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 9.398 -4.318)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 9.398 4.318)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "EASYEDA2KICAD:CHASSIS"
 			(power)
 			(pin_numbers hide)
@@ -330,118 +468,6 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "Mouting Hole"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EASYEDA2KICAD:R_1MOhm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -672,6 +698,12 @@
 		(uuid "1abac971-8df0-4ba6-bf50-185336855d58")
 	)
 	(junction
+		(at 139.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb7c7c8-b439-4cbb-a604-18a1cf5815a3")
+	)
+	(junction
 		(at 68.58 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -684,22 +716,16 @@
 		(uuid "2e3dedbf-0173-4b38-9514-906c3c0cdaa3")
 	)
 	(junction
-		(at 154.94 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b501e43-8a29-4574-9c44-9d82dcaf3785")
-	)
-	(junction
 		(at 139.7 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "932df8cd-8b49-4e62-8e92-9e7ff045d6d8")
 	)
 	(junction
-		(at 106.68 76.2)
+		(at 88.9 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a347330c-9d2d-4a67-8513-230baf05b7e8")
+		(uuid "9f4e99c6-0e71-4483-b2f8-5c21afe2c4bd")
 	)
 	(junction
 		(at 119.38 76.2)
@@ -714,22 +740,22 @@
 		(uuid "b054a605-32f2-4d63-9f75-e94e480de34f")
 	)
 	(junction
-		(at 203.2 76.2)
+		(at 187.96 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7947d21-a19c-4010-b207-9063637ac667")
-	)
-	(junction
-		(at 55.88 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d46da67d-e2ef-4e40-9588-5286b039d79e")
+		(uuid "be5494d8-42eb-4590-ad41-88f9ecf4ca33")
 	)
 	(junction
 		(at 187.96 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da3e8469-0931-4c2a-8d1d-9f928f9e2534")
+	)
+	(junction
+		(at 55.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4f27a91-7168-49b9-834b-73f6f174eae3")
 	)
 	(wire
 		(pts
@@ -740,6 +766,26 @@
 			(type default)
 		)
 		(uuid "000a2437-856e-49f7-ba07-0152efb3fc14")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003dce58-3033-4f72-84d5-48ace2634682")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04860226-3c66-492a-b26b-ed36ca10c3a5")
 	)
 	(wire
 		(pts
@@ -803,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 215.9 76.2)
+			(xy 187.96 76.2) (xy 215.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -853,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 119.38 76.2)
+			(xy 119.38 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 76.2) (xy 167.64 76.2)
+			(xy 167.64 76.2) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -933,16 +979,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 106.68 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "681edcde-2d0c-4e0a-8e4a-7d93aab74958")
-	)
-	(wire
-		(pts
 			(xy 68.58 91.44) (xy 88.9 91.44)
 		)
 		(stroke
@@ -950,26 +986,6 @@
 			(type default)
 		)
 		(uuid "7912f64a-6620-44c9-b145-77401d2fc98d")
-	)
-	(wire
-		(pts
-			(xy 55.88 76.2) (xy 68.58 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79720b9e-8d46-4bcd-bb9f-0c606ac69347")
-	)
-	(wire
-		(pts
-			(xy 154.94 76.2) (xy 167.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e100880-b698-4454-8c1c-6f16c8e7b38e")
 	)
 	(wire
 		(pts
@@ -993,16 +1009,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "994720f5-7765-476d-9d18-d257b3acec73")
-	)
-	(wire
-		(pts
 			(xy 187.96 78.74) (xy 187.96 76.2)
 		)
 		(stroke
@@ -1013,13 +1019,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 73.66) (xy 203.2 76.2)
+			(xy 55.88 73.66) (xy 55.88 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1b664be-2464-44ea-9560-9de96132db7e")
+		(uuid "9dd5319a-b2dc-4a64-81a0-caf96d5199d3")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af04c81d-fbd2-4914-b54c-dacc813804ac")
 	)
 	(wire
 		(pts
@@ -1053,26 +1069,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 119.38 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c94685fc-24f8-4a90-8043-79b0fb924e64")
-	)
-	(wire
-		(pts
-			(xy 203.2 76.2) (xy 203.2 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ea4a12-3c56-43a1-8ef8-7e2e49d3e2db")
-	)
-	(wire
-		(pts
 			(xy 88.9 91.44) (xy 88.9 96.52)
 		)
 		(stroke
@@ -1083,16 +1079,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 154.94 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e36fdfda-1b5f-494c-bbcd-de598f2bf69d")
-	)
-	(wire
-		(pts
 			(xy 236.22 88.9) (xy 236.22 91.44)
 		)
 		(stroke
@@ -1100,26 +1086,6 @@
 			(type default)
 		)
 		(uuid "eafe070b-fa1f-4a6c-ae7f-e5e82b30625e")
-	)
-	(wire
-		(pts
-			(xy 106.68 73.66) (xy 106.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb6bbf2f-e427-4aaa-88cf-6fdf34e92974")
-	)
-	(wire
-		(pts
-			(xy 55.88 73.66) (xy 55.88 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed564715-383d-4223-bdbc-a98e9271aacf")
 	)
 	(wire
 		(pts
@@ -1282,83 +1248,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:MountingHole_Pad")
-		(at 154.94 71.12 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24a63cb7-bff3-4626-9036-19c761f5e650")
-		(property "Reference" "H3"
-			(at 157.48 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 154.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 154.94 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 154.94 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "Mouting Hole"
-			(at 157.48 71.1199 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "e69b0948-2bb8-4bb6-9f1d-f3690101de5e")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1635,83 +1524,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:MountingHole_Pad")
-		(at 203.2 71.12 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65d31ce6-e486-4cb1-a7df-94f2092c0b51")
-		(property "Reference" "H4"
-			(at 205.74 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 203.2 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 203.2 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "Mouting Hole"
-			(at 205.74 71.1199 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "195b1bbe-d656-475c-8086-2d261c08d3f5")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EASYEDA2KICAD:CHASSIS")
 		(at 55.88 96.52 0)
 		(unit 1)
@@ -1928,72 +1740,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
-		(at 203.2 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80625564-887d-48d1-9fe8-92088dc2b2da")
-		(property "Reference" "#PWR090"
-			(at 203.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 203.073 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9dfcc0b-18fc-4f77-a553-4dd9440b97ae")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -2246,111 +1992,32 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:MountingHole_Pad")
-		(at 55.88 71.12 0)
+		(lib_id "EASYEDA2KICAD:AstraControl_Ground_Guard")
+		(at 55.88 66.04 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca40184d-ca81-4cd9-8571-085f26d57970")
-		(property "Reference" "H1"
-			(at 58.42 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 55.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 55.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 55.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "Mouting Hole"
-			(at 58.42 71.1199 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "979abaed-5cd4-474a-a404-8faeb2d1d1e2")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
-		(at 154.94 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd89b83a-ef23-4078-a17b-9a562eb0159e")
-		(property "Reference" "#PWR088"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 154.813 100.33 0)
+		(uuid "dc48194e-1370-4ae2-b3e0-b7e887ec61da")
+		(property "Reference" "G1"
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 97.79 0)
+		(property "Value" "~"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EASYEDA2KICAD:AstraControl_Ground_Band"
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 97.79 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,8 +2034,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 154.94 96.52 0)
+		(property "Description" ""
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,89 +2044,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c306747a-bbb0-4f67-b710-5b7b3c28d49c")
+			(uuid "265130ca-5ae6-4d3c-88b7-749bdb953059")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:MountingHole_Pad")
-		(at 106.68 71.12 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9feb694-727a-4e2c-a4a5-abc06d0b2176")
-		(property "Reference" "H2"
-			(at 109.22 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 106.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 106.68 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 106.68 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "Mouting Hole"
-			(at 109.22 71.1199 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "22a976b4-3096-4387-947c-74f3dd648767")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "H2")
+					(reference "G1")
 					(unit 1)
 				)
 			)
@@ -2526,72 +2116,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
-		(at 106.68 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f027dbc3-7373-45b1-a5f1-264c684ef99d")
-		(property "Reference" "#PWR086"
-			(at 106.68 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 106.553 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8d07682-bc03-44c8-b713-e1efdee8db06")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR086")
 					(unit 1)
 				)
 			)

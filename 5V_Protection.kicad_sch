@@ -302,7 +302,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "LED"
-				(at 0 8.89 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -355,7 +355,7 @@
 				)
 			)
 			(property "Extra Values" "20mA Red 0603"
-				(at 0 6.35 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 0.762 0.762)
