@@ -5,7 +5,7 @@
 	(uuid "cef1f234-c735-43b7-ba45-429c79c78f85")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:+5V_IN"
+		(symbol "LiveAstra:+5V_IN"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1295,7 +1295,7 @@
 		(uuid "f2f45501-2d71-4404-8bcd-c00bd4a9ce0c")
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:+5V_IN")
+		(lib_id "LiveAstra:+5V_IN")
 		(at 43.18 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)

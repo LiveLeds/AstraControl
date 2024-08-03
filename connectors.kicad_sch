@@ -5,7 +5,7 @@
 	(uuid "88605251-f890-4746-8b7a-400ce3afeec6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:D_TVS_BIDI_600W"
+		(symbol "LiveAstra:D_TVS_BIDI_600W"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:SMB_L4.6-W3.6-LS5.3-BI"
+			(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -173,7 +173,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:JST_VH_2PIN_10A_250V"
+		(symbol "LiveAstra:JST_VH_2PIN_10A_250V"
 			(pin_numbers hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -195,7 +195,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:CONN-TH_B2P-VH-R"
+			(property "Footprint" "LiveAstra:CONN-TH_B2P-VH-R"
 				(at 0 -19.05 0)
 				(effects
 					(font
@@ -290,7 +290,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:JST_VH_4PIN_10A_250V"
+		(symbol "LiveAstra:JST_VH_4PIN_10A_250V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -312,7 +312,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4P-VH-LF-SN"
+			(property "Footprint" "LiveAstra:CONN-TH_B4P-VH-LF-SN"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -2173,7 +2173,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:D_TVS_BIDI_600W")
+		(lib_id "LiveAstra:D_TVS_BIDI_600W")
 		(at 149.86 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2200,7 +2200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:SMB_L4.6-W3.6-LS5.3-BI"
+		(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
 			(at 158.75 77.47 0)
 			(effects
 				(font
@@ -2591,7 +2591,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_VH_4PIN_10A_250V")
+		(lib_id "LiveAstra:JST_VH_4PIN_10A_250V")
 		(at 55.88 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2617,7 +2617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4P-VH-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4P-VH-LF-SN"
 			(at 55.88 97.79 0)
 			(effects
 				(font
@@ -2684,7 +2684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:D_TVS_BIDI_600W")
+		(lib_id "LiveAstra:D_TVS_BIDI_600W")
 		(at 101.6 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2711,7 +2711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:SMB_L4.6-W3.6-LS5.3-BI"
+		(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
 			(at 110.49 78.74 0)
 			(effects
 				(font
@@ -2773,7 +2773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_VH_4PIN_10A_250V")
+		(lib_id "LiveAstra:JST_VH_4PIN_10A_250V")
 		(at 55.88 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2799,7 +2799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4P-VH-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4P-VH-LF-SN"
 			(at 55.88 142.24 0)
 			(effects
 				(font
@@ -2866,7 +2866,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:D_TVS_BIDI_600W")
+		(lib_id "LiveAstra:D_TVS_BIDI_600W")
 		(at 101.6 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2893,7 +2893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:SMB_L4.6-W3.6-LS5.3-BI"
+		(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
 			(at 110.49 41.91 0)
 			(effects
 				(font
@@ -3086,7 +3086,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_VH_4PIN_10A_250V")
+		(lib_id "LiveAstra:JST_VH_4PIN_10A_250V")
 		(at 55.88 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3112,7 +3112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4P-VH-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4P-VH-LF-SN"
 			(at 55.88 16.51 0)
 			(effects
 				(font
@@ -3245,7 +3245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_VH_4PIN_10A_250V")
+		(lib_id "LiveAstra:JST_VH_4PIN_10A_250V")
 		(at 55.88 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3271,7 +3271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4P-VH-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4P-VH-LF-SN"
 			(at 55.88 54.61 0)
 			(effects
 				(font
@@ -3666,7 +3666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_VH_2PIN_10A_250V")
+		(lib_id "LiveAstra:JST_VH_2PIN_10A_250V")
 		(at 195.58 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3692,7 +3692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B2P-VH-R"
+		(property "Footprint" "LiveAstra:CONN-TH_B2P-VH-R"
 			(at 195.58 93.98 0)
 			(effects
 				(font
@@ -3818,7 +3818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:D_TVS_BIDI_600W")
+		(lib_id "LiveAstra:D_TVS_BIDI_600W")
 		(at 149.86 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3845,7 +3845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:SMB_L4.6-W3.6-LS5.3-BI"
+		(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
 			(at 158.75 41.91 0)
 			(effects
 				(font
@@ -4103,7 +4103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_VH_2PIN_10A_250V")
+		(lib_id "LiveAstra:JST_VH_2PIN_10A_250V")
 		(at 195.58 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4129,7 +4129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B2P-VH-R"
+		(property "Footprint" "LiveAstra:CONN-TH_B2P-VH-R"
 			(at 195.58 55.88 0)
 			(effects
 				(font

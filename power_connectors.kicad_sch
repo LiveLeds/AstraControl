@@ -5,7 +5,7 @@
 	(uuid "88605251-f890-4746-8b7a-400ce3afeec6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:CHASSIS"
+		(symbol "LiveAstra:CHASSIS"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -173,7 +173,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:D_TVS_BIDI_600W"
+		(symbol "LiveAstra:D_TVS_BIDI_600W"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -195,7 +195,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:SMB_L4.6-W3.6-LS5.3-BI"
+			(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -341,7 +341,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:JST_VH_4PIN_10A_250V"
+		(symbol "LiveAstra:JST_VH_4PIN_10A_250V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -363,7 +363,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:JST_VH_B4P-VH-B_1x04_P3.96mm_Vertical"
+			(property "Footprint" "LiveAstra:JST_VH_B4P-VH-B_1x04_P3.96mm_Vertical"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -496,7 +496,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:TestPoint_Thimble"
+		(symbol "LiveAstra:TestPoint_Thimble"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1164,7 +1164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
+		(lib_id "LiveAstra:CHASSIS")
 		(at 152.4 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1296,7 +1296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 203.2 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1382,7 +1382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:D_TVS_BIDI_600W")
+		(lib_id "LiveAstra:D_TVS_BIDI_600W")
 		(at 101.6 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1409,7 +1409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:SMB_L4.6-W3.6-LS5.3-BI"
+		(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
 			(at 110.49 93.98 0)
 			(effects
 				(font
@@ -1471,7 +1471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
+		(lib_id "LiveAstra:CHASSIS")
 		(at 101.6 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1537,7 +1537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_VH_4PIN_10A_250V")
+		(lib_id "LiveAstra:JST_VH_4PIN_10A_250V")
 		(at 71.12 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1563,7 +1563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:JST_VH_B4P-VH-B_1x04_P3.96mm_Vertical"
+		(property "Footprint" "LiveAstra:JST_VH_B4P-VH-B_1x04_P3.96mm_Vertical"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -1696,7 +1696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
+		(lib_id "LiveAstra:CHASSIS")
 		(at 203.2 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1828,7 +1828,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
+		(lib_id "LiveAstra:CHASSIS")
 		(at 228.6 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1894,7 +1894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:D_TVS_BIDI_600W")
+		(lib_id "LiveAstra:D_TVS_BIDI_600W")
 		(at 152.4 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1921,7 +1921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:SMB_L4.6-W3.6-LS5.3-BI"
+		(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -2114,7 +2114,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 228.6 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)

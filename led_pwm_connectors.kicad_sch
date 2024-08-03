@@ -5,7 +5,7 @@
 	(uuid "5368d106-5873-4c36-9400-6df93b9235a1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:+5V_IN"
+		(symbol "LiveAstra:+5V_IN"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -125,7 +125,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:JST_VH_8PIN_10A_250V"
+		(symbol "LiveAstra:JST_VH_8PIN_10A_250V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -148,7 +148,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:CONN-TH_B8P-VH-B-LF-SN"
+			(property "Footprint" "LiveAstra:CONN-TH_B8P-VH-B-LF-SN"
 				(at 0 -33.02 0)
 				(effects
 					(font
@@ -353,7 +353,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_0Ohm_0805_125mW"
+		(symbol "LiveAstra:R_0Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -909,7 +909,7 @@
 		(uuid "df6fad11-1642-4cff-ac96-83f46c149ba4")
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_VH_8PIN_10A_250V")
+		(lib_id "LiveAstra:JST_VH_8PIN_10A_250V")
 		(at 182.88 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -937,7 +937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_B8P-VH-B-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B8P-VH-B-LF-SN"
 			(at 182.88 129.54 0)
 			(effects
 				(font
@@ -1017,7 +1017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:+5V_IN")
+		(lib_id "LiveAstra:+5V_IN")
 		(at 167.64 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1149,7 +1149,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 144.78 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)

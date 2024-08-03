@@ -107,7 +107,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:C_10n_X7R_CERAMIC"
+		(symbol "LiveAstra:C_10n_X7R_CERAMIC"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -130,7 +130,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:C1206"
+			(property "Footprint" "LiveAstra:C1206"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -263,7 +263,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:C_1uF_X7R_CERAMIC"
+		(symbol "LiveAstra:C_1uF_X7R_CERAMIC"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -286,7 +286,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:C0805"
+			(property "Footprint" "LiveAstra:C0805"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -419,7 +419,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:C_22uF_X5R_CERAMIC"
+		(symbol "LiveAstra:C_22uF_X5R_CERAMIC"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -441,7 +441,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:C1206"
+			(property "Footprint" "LiveAstra:C1206"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -575,7 +575,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:LED2001PHR"
+		(symbol "LiveAstra:LED2001PHR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -815,7 +815,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:L_4u7_7.8A_SPM7054VT-4R7M-D"
+		(symbol "LiveAstra:L_4u7_7.8A_SPM7054VT-4R7M-D"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -838,7 +838,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:IND-SMD_L7.5-W7.0_SPM7054VT-330M-D"
+			(property "Footprint" "LiveAstra:IND-SMD_L7.5-W7.0_SPM7054VT-330M-D"
 				(at 0 -11.43 0)
 				(effects
 					(font
@@ -971,7 +971,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_39mOhm_1210_500mW"
+		(symbol "LiveAstra:R_39mOhm_1210_500mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -994,7 +994,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:R1210"
+			(property "Footprint" "LiveAstra:R1210"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1731,7 +1731,7 @@
 		(uuid "ed9dbc65-a124-4b75-917d-6a0f7c0dba43")
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:L_4u7_7.8A_SPM7054VT-4R7M-D")
+		(lib_id "LiveAstra:L_4u7_7.8A_SPM7054VT-4R7M-D")
 		(at 166.37 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1756,7 +1756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:IND-SMD_L7.5-W7.0_SPM7054VT-330M-D"
+		(property "Footprint" "LiveAstra:IND-SMD_L7.5-W7.0_SPM7054VT-330M-D"
 			(at 166.37 90.17 0)
 			(effects
 				(font
@@ -2283,7 +2283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_10n_X7R_CERAMIC")
+		(lib_id "LiveAstra:C_10n_X7R_CERAMIC")
 		(at 177.8 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2310,7 +2310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:C1206"
+		(property "Footprint" "LiveAstra:C1206"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -2637,7 +2637,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_39mOhm_1210_500mW")
+		(lib_id "LiveAstra:R_39mOhm_1210_500mW")
 		(at 231.14 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2665,7 +2665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:R1210"
+		(property "Footprint" "LiveAstra:R1210"
 			(at 243.84 106.68 0)
 			(effects
 				(font
@@ -2858,7 +2858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_10n_X7R_CERAMIC")
+		(lib_id "LiveAstra:C_10n_X7R_CERAMIC")
 		(at 203.2 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2885,7 +2885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:C1206"
+		(property "Footprint" "LiveAstra:C1206"
 			(at 215.9 86.36 0)
 			(effects
 				(font
@@ -2946,7 +2946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:LED2001PHR")
+		(lib_id "LiveAstra:LED2001PHR")
 		(at 132.08 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2970,7 +2970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:HSOP-8_L5.0-W4.0-P1.27-LS6.2-BL-EP"
+		(property "Footprint" "LiveAstra:HSOP-8_L5.0-W4.0-P1.27-LS6.2-BL-EP"
 			(at 132.08 124.46 0)
 			(effects
 				(font
@@ -3108,7 +3108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_22uF_X5R_CERAMIC")
+		(lib_id "LiveAstra:C_22uF_X5R_CERAMIC")
 		(at 50.8 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3135,7 +3135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:C1206"
+		(property "Footprint" "LiveAstra:C1206"
 			(at 63.5 86.36 0)
 			(effects
 				(font
@@ -3265,7 +3265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_1uF_X7R_CERAMIC")
+		(lib_id "LiveAstra:C_1uF_X7R_CERAMIC")
 		(at 76.2 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3293,7 +3293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:C0805"
+		(property "Footprint" "LiveAstra:C0805"
 			(at 88.9 106.68 0)
 			(effects
 				(font

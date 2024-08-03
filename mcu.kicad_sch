@@ -5,7 +5,7 @@
 	(uuid "2763d6d4-e6ee-438f-8563-31028d48538c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:C_100nF_X7R_0402"
+		(symbol "LiveAstra:C_100nF_X7R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -162,7 +162,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:C_22uF_X5R_0603"
+		(symbol "LiveAstra:C_22uF_X5R_0603"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -319,7 +319,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:ESP32-S3-WROOM-1U-N8"
+		(symbol "LiveAstra:ESP32-S3-WROOM-1U-N8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -339,7 +339,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:WIRELM-SMD_ESP32-S3-WROOM-1U"
+			(property "Footprint" "LiveAstra:WIRELM-SMD_ESP32-S3-WROOM-1U"
 				(at 0 -77.47 0)
 				(effects
 					(font
@@ -1233,7 +1233,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:LED_YELLOW_25mA_0603"
+		(symbol "LiveAstra:LED_YELLOW_25mA_0603"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1415,7 +1415,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_0Ohm_0805_125mW"
+		(symbol "LiveAstra:R_0Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1535,7 +1535,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_220Ohm_0402_62mW"
+		(symbol "LiveAstra:R_220Ohm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1655,7 +1655,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:TestPoint_Thimble"
+		(symbol "LiveAstra:TestPoint_Thimble"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2928,7 +2928,7 @@
 		(uuid "ff959827-b77b-4b89-81f6-9556c925aba7")
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_100nF_X7R_0402")
+		(lib_id "LiveAstra:C_100nF_X7R_0402")
 		(at 55.88 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3084,7 +3084,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:LED_YELLOW_25mA_0603")
+		(lib_id "LiveAstra:LED_YELLOW_25mA_0603")
 		(at 238.76 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3172,7 +3172,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_22uF_X5R_0603")
+		(lib_id "LiveAstra:C_22uF_X5R_0603")
 		(at 33.02 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3262,7 +3262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_220Ohm_0402_62mW")
+		(lib_id "LiveAstra:R_220Ohm_0402_62mW")
 		(at 203.2 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3349,7 +3349,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 167.64 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3501,7 +3501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_100nF_X7R_0402")
+		(lib_id "LiveAstra:C_100nF_X7R_0402")
 		(at 78.74 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3920,7 +3920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 101.6 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4007,7 +4007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 101.6 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4093,7 +4093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:ESP32-S3-WROOM-1U-N8")
+		(lib_id "LiveAstra:ESP32-S3-WROOM-1U-N8")
 		(at 152.4 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4118,7 +4118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:WIRELM-SMD_ESP32-S3-WROOM-1U"
+		(property "Footprint" "LiveAstra:WIRELM-SMD_ESP32-S3-WROOM-1U"
 			(at 152.4 171.45 0)
 			(effects
 				(font
@@ -4287,7 +4287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 76.2 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)

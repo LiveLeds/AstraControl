@@ -5,7 +5,7 @@
 	(uuid "65f9fa18-145c-4d07-a88d-39040e5c26b1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:C_100nF_X7R_0402"
+		(symbol "LiveAstra:C_100nF_X7R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -162,7 +162,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_0Ohm_0805_125mW"
+		(symbol "LiveAstra:R_0Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -282,7 +282,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_10kOhm_0402_62mW"
+		(symbol "LiveAstra:R_10kOhm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -402,7 +402,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:TestPoint_Thimble"
+		(symbol "LiveAstra:TestPoint_Thimble"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -514,7 +514,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:U_TXB0104PWR_4Bit_Logic_Level_Translator"
+		(symbol "LiveAstra:U_TXB0104PWR_4Bit_Logic_Level_Translator"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -535,7 +535,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+			(property "Footprint" "LiveAstra:LOGIC_SHIFTER_TXB0104PWR_TSOP_14"
 				(at 1.27 -59.69 0)
 				(effects
 					(font
@@ -1965,7 +1965,7 @@
 		(uuid "f51cd325-d362-45a2-95bb-a1137012ce56")
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 177.8 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2117,7 +2117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 129.54 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2203,7 +2203,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_10kOhm_0402_62mW")
+		(lib_id "LiveAstra:R_10kOhm_0402_62mW")
 		(at 106.68 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2491,7 +2491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 129.54 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2577,7 +2577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 81.28 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2663,7 +2663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:U_TXB0104PWR_4Bit_Logic_Level_Translator")
+		(lib_id "LiveAstra:U_TXB0104PWR_4Bit_Logic_Level_Translator")
 		(at 152.4 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2689,7 +2689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "LiveAstra:LOGIC_SHIFTER_TXB0104PWR_TSOP_14"
 			(at 153.67 148.59 0)
 			(effects
 				(font
@@ -2786,7 +2786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 215.9 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2872,7 +2872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 106.68 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2958,7 +2958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 88.9 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3111,7 +3111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 167.64 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3197,7 +3197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 55.88 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3349,7 +3349,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 243.84 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3435,7 +3435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 177.8 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3521,7 +3521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_100nF_X7R_0402")
+		(lib_id "LiveAstra:C_100nF_X7R_0402")
 		(at 114.3 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3611,7 +3611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_100nF_X7R_0402")
+		(lib_id "LiveAstra:C_100nF_X7R_0402")
 		(at 190.5 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3701,7 +3701,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 127 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3787,7 +3787,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 190.5 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)

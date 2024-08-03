@@ -5,7 +5,7 @@
 	(uuid "10a0b7ea-3cf5-404d-8a81-f99d78626e50")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:C_100pF_C0G_0805"
+		(symbol "LiveAstra:C_100pF_C0G_0805"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:C0805"
+			(property "Footprint" "LiveAstra:C0805"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -162,7 +162,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V"
+		(symbol "LiveAstra:JST_ZH_4PIN_1A_50V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -184,7 +184,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+			(property "Footprint" "LiveAstra:CONN-TH_B4B-ZR-3.4-LF-SN"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -317,7 +317,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_0Ohm_0805_125mW"
+		(symbol "LiveAstra:R_0Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -340,7 +340,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:R0805"
+			(property "Footprint" "LiveAstra:R0805"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -437,7 +437,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_10kOhm_0402_62mW"
+		(symbol "LiveAstra:R_10kOhm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -460,7 +460,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:R0402"
+			(property "Footprint" "LiveAstra:R0402"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -557,7 +557,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_3k3Ohm_0805_125mW"
+		(symbol "LiveAstra:R_3k3Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -580,7 +580,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:R0805"
+			(property "Footprint" "LiveAstra:R0805"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -677,7 +677,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_5k1_0402_62mW"
+		(symbol "LiveAstra:R_5k1_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -700,7 +700,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:R0402"
+			(property "Footprint" "LiveAstra:R0402"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1883,7 +1883,7 @@
 		(uuid "f50a2db2-5a0d-413a-a84f-c2beebc97da0")
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
 		(at 106.68 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1909,7 +1909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4B-ZR-3.4-LF-SN"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -2108,7 +2108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
 		(at 106.68 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2134,7 +2134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4B-ZR-3.4-LF-SN"
 			(at 106.68 135.89 0)
 			(effects
 				(font
@@ -2201,7 +2201,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1_0402_62mW")
+		(lib_id "LiveAstra:R_5k1_0402_62mW")
 		(at 124.46 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2229,7 +2229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:R0402"
+		(property "Footprint" "LiveAstra:R0402"
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -2291,7 +2291,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1_0402_62mW")
+		(lib_id "LiveAstra:R_5k1_0402_62mW")
 		(at 177.8 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2319,7 +2319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:R0402"
+		(property "Footprint" "LiveAstra:R0402"
 			(at 186.69 91.44 0)
 			(effects
 				(font
@@ -2381,7 +2381,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_100pF_C0G_0805")
+		(lib_id "LiveAstra:C_100pF_C0G_0805")
 		(at 203.2 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2409,7 +2409,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "LiveAstra:C0805"
 			(at 215.9 55.88 0)
 			(effects
 				(font
@@ -2537,7 +2537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_10kOhm_0402_62mW")
+		(lib_id "LiveAstra:R_10kOhm_0402_62mW")
 		(at 152.4 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2565,7 +2565,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:R0402"
+		(property "Footprint" "LiveAstra:R0402"
 			(at 165.1 40.64 0)
 			(effects
 				(font
@@ -2693,7 +2693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1_0402_62mW")
+		(lib_id "LiveAstra:R_5k1_0402_62mW")
 		(at 177.8 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2721,7 +2721,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:R0402"
+		(property "Footprint" "LiveAstra:R0402"
 			(at 186.69 142.24 0)
 			(effects
 				(font
@@ -2783,7 +2783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1_0402_62mW")
+		(lib_id "LiveAstra:R_5k1_0402_62mW")
 		(at 124.46 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2811,7 +2811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:R0402"
+		(property "Footprint" "LiveAstra:R0402"
 			(at 133.35 137.16 0)
 			(effects
 				(font
@@ -3071,7 +3071,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_3k3Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_3k3Ohm_0805_125mW")
 		(at 193.04 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3097,7 +3097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0805"
+		(property "Footprint" "LiveAstra:R0805"
 			(at 193.04 57.15 0)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 121.92 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3250,7 +3250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:R0805"
+		(property "Footprint" "LiveAstra:R0805"
 			(at 121.92 55.88 0)
 			(effects
 				(font
@@ -3443,7 +3443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
 		(at 106.68 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3469,7 +3469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4B-ZR-3.4-LF-SN"
 			(at 106.68 85.09 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "014a8b10-b0fb-4924-b2aa-3cf38f61996b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:AstraControl_Ground_Guard"
+		(symbol "LiveAstra:AstraControl_Ground_Guard"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:AstraControl_Ground_Band"
+			(property "Footprint" "LiveAstra:AstraControl_Ground_Band"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -143,7 +143,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:CHASSIS"
+		(symbol "LiveAstra:CHASSIS"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -311,7 +311,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:C_10nF_X7R_0805"
+		(symbol "LiveAstra:C_10nF_X7R_0805"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -468,7 +468,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_1MOhm_0805_125mW"
+		(symbol "LiveAstra:R_1MOhm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1164,7 +1164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_1MOhm_0805_125mW")
+		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
 		(at 187.96 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1254,7 +1254,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_1MOhm_0805_125mW")
+		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
 		(at 88.9 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1344,7 +1344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_1MOhm_0805_125mW")
+		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
 		(at 236.22 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1434,7 +1434,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_10nF_X7R_0805")
+		(lib_id "LiveAstra:C_10nF_X7R_0805")
 		(at 167.64 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1524,7 +1524,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
+		(lib_id "LiveAstra:CHASSIS")
 		(at 55.88 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1590,7 +1590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_1MOhm_0805_125mW")
+		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
 		(at 139.7 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1746,7 +1746,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_10nF_X7R_0805")
+		(lib_id "LiveAstra:C_10nF_X7R_0805")
 		(at 68.58 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1836,7 +1836,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_10nF_X7R_0805")
+		(lib_id "LiveAstra:C_10nF_X7R_0805")
 		(at 215.9 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1992,11 +1992,11 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:AstraControl_Ground_Guard")
+		(lib_id "LiveAstra:AstraControl_Ground_Guard")
 		(at 55.88 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dc48194e-1370-4ae2-b3e0-b7e887ec61da")
@@ -2016,7 +2016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:AstraControl_Ground_Band"
+		(property "Footprint" "LiveAstra:AstraControl_Ground_Band"
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -2122,7 +2122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_10nF_X7R_0805")
+		(lib_id "LiveAstra:C_10nF_X7R_0805")
 		(at 119.38 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)

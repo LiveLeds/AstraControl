@@ -5,7 +5,7 @@
 	(uuid "10a0b7ea-3cf5-404d-8a81-f99d78626e50")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V"
+		(symbol "LiveAstra:JST_ZH_4PIN_1A_50V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+			(property "Footprint" "LiveAstra:CONN-TH_B4B-ZR-3.4-LF-SN"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -162,7 +162,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
 		(at 137.16 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -188,7 +188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4B-ZR-3.4-LF-SN"
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -255,7 +255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
 		(at 137.16 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -281,7 +281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:CONN-TH_B4B-ZR-3.4-LF-SN"
+		(property "Footprint" "LiveAstra:CONN-TH_B4B-ZR-3.4-LF-SN"
 			(at 137.16 95.25 0)
 			(effects
 				(font

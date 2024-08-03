@@ -5,7 +5,7 @@
 	(uuid "10a0b7ea-3cf5-404d-8a81-f99d78626e50")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:+5V_IN"
+		(symbol "LiveAstra:+5V_IN"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -125,7 +125,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:C_100pF_C0G_0805"
+		(symbol "LiveAstra:C_100pF_C0G_0805"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -282,7 +282,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V"
+		(symbol "LiveAstra:JST_ZH_4PIN_1A_50V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -437,7 +437,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_0Ohm_0805_125mW"
+		(symbol "LiveAstra:R_0Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -557,7 +557,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_10kOhm_0402_62mW"
+		(symbol "LiveAstra:R_10kOhm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -677,7 +677,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_3k3Ohm_0805_125mW"
+		(symbol "LiveAstra:R_3k3Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -797,7 +797,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_5k1Ohm_0402_62mW"
+		(symbol "LiveAstra:R_5k1Ohm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -917,7 +917,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:TestPoint_Thimble"
+		(symbol "LiveAstra:TestPoint_Thimble"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2176,7 +2176,7 @@
 		(uuid "f50a2db2-5a0d-413a-a84f-c2beebc97da0")
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 187.96 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2262,7 +2262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 142.24 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2414,7 +2414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 167.64 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2567,7 +2567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
 		(at 106.68 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2660,7 +2660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1Ohm_0402_62mW")
+		(lib_id "LiveAstra:R_5k1Ohm_0402_62mW")
 		(at 124.46 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2750,7 +2750,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:+5V_IN")
+		(lib_id "LiveAstra:+5V_IN")
 		(at 132.08 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2816,7 +2816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_100pF_C0G_0805")
+		(lib_id "LiveAstra:C_100pF_C0G_0805")
 		(at 215.9 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2972,7 +2972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_10kOhm_0402_62mW")
+		(lib_id "LiveAstra:R_10kOhm_0402_62mW")
 		(at 177.8 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3128,7 +3128,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 144.78 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3412,7 +3412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 157.48 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3498,7 +3498,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1Ohm_0402_62mW")
+		(lib_id "LiveAstra:R_5k1Ohm_0402_62mW")
 		(at 203.2 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3588,7 +3588,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 228.6 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3674,7 +3674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 149.86 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3760,7 +3760,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_3k3Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_3k3Ohm_0805_125mW")
 		(at 205.74 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3847,7 +3847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
 		(at 106.68 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4006,7 +4006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 134.62 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4225,7 +4225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1Ohm_0402_62mW")
+		(lib_id "LiveAstra:R_5k1Ohm_0402_62mW")
 		(at 124.46 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4315,7 +4315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:JST_ZH_4PIN_1A_50V")
+		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
 		(at 106.68 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4408,7 +4408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1Ohm_0402_62mW")
+		(lib_id "LiveAstra:R_5k1Ohm_0402_62mW")
 		(at 213.36 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4564,7 +4564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 177.8 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)

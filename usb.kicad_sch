@@ -5,7 +5,7 @@
 	(uuid "75d465f6-c22c-492a-a120-01c708b9a69c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:CHASSIS"
+		(symbol "LiveAstra:CHASSIS"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -173,7 +173,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_5k1Ohm_0402_62mW"
+		(symbol "LiveAstra:R_5k1Ohm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -293,7 +293,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:TestPoint_Thimble"
+		(symbol "LiveAstra:TestPoint_Thimble"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -405,7 +405,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:USB_C_5A_Female_16PIN"
+		(symbol "LiveAstra:USB_C_5A_Female_16PIN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -426,7 +426,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:USB_C_Korean_Hroparts_Elec_TYPE-C-31-M-12"
+			(property "Footprint" "LiveAstra:USB_C_Korean_Hroparts_Elec_TYPE-C-31-M-12"
 				(at 0 -77.47 0)
 				(effects
 					(font
@@ -981,7 +981,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:U_USBLC6_USB_TVS_ESD_SOT23_6L"
+		(symbol "LiveAstra:U_USBLC6_USB_TVS_ESD_SOT23_6L"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1002,7 +1002,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "LiveAstra:USBLC6-4SC6_PROTECTION"
 				(at 0 -36.83 0)
 				(effects
 					(font
@@ -2133,7 +2133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:USB_C_5A_Female_16PIN")
+		(lib_id "LiveAstra:USB_C_5A_Female_16PIN")
 		(at 96.52 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2158,7 +2158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:USB_C_Korean_Hroparts_Elec_TYPE-C-31-M-12"
+		(property "Footprint" "LiveAstra:USB_C_Korean_Hroparts_Elec_TYPE-C-31-M-12"
 			(at 96.52 181.61 0)
 			(effects
 				(font
@@ -2264,7 +2264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 152.4 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2350,7 +2350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1Ohm_0402_62mW")
+		(lib_id "LiveAstra:R_5k1Ohm_0402_62mW")
 		(at 142.24 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2506,7 +2506,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:U_USBLC6_USB_TVS_ESD_SOT23_6L")
+		(lib_id "LiveAstra:U_USBLC6_USB_TVS_ESD_SOT23_6L")
 		(at 179.07 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2532,7 +2532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "LiveAstra:USBLC6-4SC6_PROTECTION"
 			(at 179.07 146.05 0)
 			(effects
 				(font
@@ -2605,7 +2605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 195.58 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2823,7 +2823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 215.9 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2975,7 +2975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_5k1Ohm_0402_62mW")
+		(lib_id "LiveAstra:R_5k1Ohm_0402_62mW")
 		(at 121.92 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3065,7 +3065,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:CHASSIS")
+		(lib_id "LiveAstra:CHASSIS")
 		(at 91.44 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)

@@ -5,7 +5,7 @@
 	(uuid "bab67cff-e0e7-4c25-8d93-8436e5f6a527")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EASYEDA2KICAD:C_100nF_X7R_0402"
+		(symbol "LiveAstra:C_100nF_X7R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -162,7 +162,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:C_1uF_X5R_0402"
+		(symbol "LiveAstra:C_1uF_X5R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -319,7 +319,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_0Ohm_0805_125mW"
+		(symbol "LiveAstra:R_0Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -439,7 +439,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:R_10kOhm_0402_62mW"
+		(symbol "LiveAstra:R_10kOhm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -559,7 +559,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:TS_Small_Basic"
+		(symbol "LiveAstra:TACTILE_SWITCH_Small_Basic"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -582,7 +582,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "EASYEDA2KICAD:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+			(property "Footprint" "LiveAstra:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
 				(at 0 -21.59 0)
 				(effects
 					(font
@@ -627,7 +627,7 @@
 					)
 				)
 			)
-			(symbol "TS_Small_Basic_0_1"
+			(symbol "TACTILE_SWITCH_Small_Basic_0_1"
 				(circle
 					(center 0 -2.79)
 					(radius 0.32)
@@ -711,7 +711,7 @@
 					)
 				)
 			)
-			(symbol "TS_Small_Basic_1_1"
+			(symbol "TACTILE_SWITCH_Small_Basic_1_1"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -786,7 +786,7 @@
 				)
 			)
 		)
-		(symbol "EASYEDA2KICAD:TestPoint_Thimble"
+		(symbol "LiveAstra:TestPoint_Thimble"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1704,7 +1704,7 @@
 		(uuid "3bd7c7a4-2efb-4e75-a425-715503e6b6dd")
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_100nF_X7R_0402")
+		(lib_id "LiveAstra:C_100nF_X7R_0402")
 		(at 152.4 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1926,7 +1926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 152.4 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2082,7 +2082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_10kOhm_0402_62mW")
+		(lib_id "LiveAstra:R_10kOhm_0402_62mW")
 		(at 121.92 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2238,7 +2238,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 180.34 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2325,7 +2325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 139.7 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2477,26 +2477,26 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TS_Small_Basic")
-		(at 180.34 93.98 270)
+		(lib_id "LiveAstra:TACTILE_SWITCH_Small_Basic")
+		(at 177.8 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ff033ce-89ee-463f-ba35-17e67fcb892b")
-		(property "Reference" "SW2"
+		(uuid "9197070c-71ed-4e0d-a4f8-fe760ae0fa4b")
+		(property "Reference" "SW3"
 			(at 184.15 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TS_Basic_Small"
-			(at 166.37 93.98 0)
+			(at 191.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,8 +2504,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EASYEDA2KICAD:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
-			(at 158.75 93.98 0)
+		(property "Footprint" "LiveAstra:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2514,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
-			(at 162.56 93.98 0)
+			(at 195.58 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2523,7 @@
 			)
 		)
 		(property "Description" "50mA 5.1mm 100,000 Times 160gf 12V 5.1mm 1.5mm Round Button Brick nogging SPST SMD Tactile Switches ROHS"
-			(at 170.18 93.98 0)
+			(at 187.96 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2532,7 @@
 			)
 		)
 		(property "LCSC Part" "C318884"
-			(at 154.94 93.98 0)
+			(at 203.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,32 +2547,32 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "4"
-			(uuid "dd0bdec2-b524-4fe0-964b-ee5a07f96488")
-		)
-		(pin "3"
-			(uuid "59cdc114-6c6d-44f7-b030-4e20306312fb")
-		)
 		(pin "2"
-			(uuid "7ec44fcd-bc8b-401b-ab42-5d38c494faca")
+			(uuid "dc6d7578-fdcb-463a-a050-ee112f603e3c")
 		)
 		(pin "1"
-			(uuid "2ab4b554-5203-40f9-9cd5-bd8bc1b31cab")
+			(uuid "8db4195a-0e17-4a4d-8e3a-4fdc51d61891")
+		)
+		(pin "4"
+			(uuid "79748062-1f42-4dbf-ad80-663acb686ef2")
+		)
+		(pin "3"
+			(uuid "53071c87-0188-4c33-b8f0-227b5149f6ef")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/d7820a84-5a43-4050-a708-637b006ce625"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 121.92 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2662,7 +2662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:R_0Ohm_0805_125mW")
+		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
 		(at 180.34 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2749,7 +2749,102 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_100nF_X7R_0402")
+		(lib_id "LiveAstra:TACTILE_SWITCH_Small_Basic")
+		(at 124.46 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b66d8076-ffbe-4cc4-aa40-c47399c0cb44")
+		(property "Reference" "SW1"
+			(at 130.81 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS_Basic_Small"
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mA 5.1mm 100,000 Times 160gf 12V 5.1mm 1.5mm Round Button Brick nogging SPST SMD Tactile Switches ROHS"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C318884"
+			(at 149.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "50mA 12V 5.1mmx1.5mm"
+			(at 130.81 146.0499 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "f56d14db-9c73-41a1-b7ab-780870b21fc0")
+		)
+		(pin "1"
+			(uuid "0d6b0e21-1187-4666-ba40-5d7c722eff3b")
+		)
+		(pin "4"
+			(uuid "71322fc9-637f-4874-be49-25a1b85a8e36")
+		)
+		(pin "3"
+			(uuid "53f865a4-fde6-4fe6-af65-946fd31a0b35")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/d7820a84-5a43-4050-a708-637b006ce625"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:C_100nF_X7R_0402")
 		(at 152.4 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2905,7 +3000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:C_1uF_X5R_0402")
+		(lib_id "LiveAstra:C_1uF_X5R_0402")
 		(at 121.92 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2995,102 +3090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA2KICAD:TS_Small_Basic")
-		(at 127 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2d9be02-5452-41e5-b2ff-acf1a52f22ff")
-		(property "Reference" "SW1"
-			(at 130.81 143.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS_Basic_Small"
-			(at 113.03 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EASYEDA2KICAD:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
-			(at 105.41 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
-			(at 109.22 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA 5.1mm 100,000 Times 160gf 12V 5.1mm 1.5mm Round Button Brick nogging SPST SMD Tactile Switches ROHS"
-			(at 116.84 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C318884"
-			(at 101.6 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "50mA 12V 5.1mmx1.5mm"
-			(at 130.81 146.0499 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "4"
-			(uuid "3d5f4839-d91a-4000-be34-8bc4a7e5f008")
-		)
-		(pin "3"
-			(uuid "d24b0db1-b733-4605-a68a-4fe7e4fc72ae")
-		)
-		(pin "2"
-			(uuid "e4fd0bec-eaf3-4a3c-8ac6-a252170c04de")
-		)
-		(pin "1"
-			(uuid "1e73bfd7-c278-40eb-be47-fa8df4e4fe2c")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/d7820a84-5a43-4050-a708-637b006ce625"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA2KICAD:TestPoint_Thimble")
+		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 139.7 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
