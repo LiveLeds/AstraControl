@@ -220,7 +220,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "4PIN 1A 1.5mm "
+			(property "Extra Values" "4PIN 1A 1.5mm"
 				(at 0 13.97 0)
 				(effects
 					(font
@@ -376,7 +376,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "6PIN 1A 1.5mm "
+			(property "Extra Values" "6PIN 1A 1.5mm"
 				(at 0 19.05 0)
 				(effects
 					(font
@@ -2028,7 +2028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "4PIN 1A 1.5mm "
+		(property "Extra Values" "4PIN 1A 1.5mm"
 			(at 179.07 40.6399 0)
 			(effects
 				(font
@@ -2888,7 +2888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "4PIN 1A 1.5mm "
+		(property "Extra Values" "4PIN 1A 1.5mm"
 			(at 179.07 71.1199 0)
 			(effects
 				(font
@@ -3616,7 +3616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "6PIN 1A 1.5mm "
+		(property "Extra Values" "6PIN 1A 1.5mm"
 			(at 179.07 138.4299 0)
 			(effects
 				(font

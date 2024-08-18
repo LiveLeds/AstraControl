@@ -1,6 +1,7 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
+Generated/
 build/
 *.lck
 *auto_saved_files*
