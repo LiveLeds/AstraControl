@@ -434,16 +434,6 @@
 		)
 		(uuid "1b4a2c9e-a564-4e3c-a2f6-085a6768d3c1")
 	)
-	(wire
-		(pts
-			(xy 167.64 157.48) (xy 193.04 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2030363e-10dc-4216-9549-71400c4eecd3")
-	)
 	(polyline
 		(pts
 			(xy 134.62 167.64) (xy 137.16 167.64)
@@ -483,16 +473,6 @@
 			(type default)
 		)
 		(uuid "2dd7b111-2a95-4bbb-9e8a-c5ec09fac87e")
-	)
-	(wire
-		(pts
-			(xy 167.64 152.4) (xy 193.04 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3174d72a-15fb-4268-bcaf-7e4075d90d9c")
 	)
 	(polyline
 		(pts
@@ -764,6 +744,16 @@
 		)
 		(uuid "6f9eee15-0fe7-4440-99be-745d0cfab110")
 	)
+	(wire
+		(pts
+			(xy 167.64 152.4) (xy 193.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cb0a1f-6673-4e43-a230-5ad55c552a72")
+	)
 	(polyline
 		(pts
 			(xy 149.86 134.62) (xy 149.86 160.02)
@@ -773,6 +763,16 @@
 			(type default)
 		)
 		(uuid "73a51564-2638-4815-862a-e64c8d921a55")
+	)
+	(wire
+		(pts
+			(xy 167.64 157.48) (xy 193.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752de904-4149-4e80-98b1-2f8a7a935e0e")
 	)
 	(wire
 		(pts
@@ -813,6 +813,26 @@
 			(type default)
 		)
 		(uuid "8adbf333-9113-41fc-a8de-f2a070fbe189")
+	)
+	(wire
+		(pts
+			(xy 35.56 144.78) (xy 111.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bcb6c01-8aac-4be3-9137-4efc61f42168")
+	)
+	(wire
+		(pts
+			(xy 167.64 147.32) (xy 193.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da1f4cc-bea7-4a30-ad37-9bfe62e09b3f")
 	)
 	(wire
 		(pts
@@ -926,16 +946,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 144.78) (xy 111.76 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e15ee5-c0a5-4a63-98a5-c02b1179ff85")
-	)
-	(wire
-		(pts
 			(xy 35.56 68.58) (xy 50.8 68.58)
 		)
 		(stroke
@@ -953,6 +963,16 @@
 			(type default)
 		)
 		(uuid "bee00a3a-00a8-41ac-a67c-1556ef89b29a")
+	)
+	(wire
+		(pts
+			(xy 167.64 142.24) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5c13ae-ab09-4b71-93ae-dd700eb058a1")
 	)
 	(wire
 		(pts
@@ -1153,26 +1173,6 @@
 			(type default)
 		)
 		(uuid "f30a2b79-5621-4a50-ae81-baca7beab21f")
-	)
-	(wire
-		(pts
-			(xy 167.64 142.24) (xy 193.04 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f50d37cd-6e01-4345-a564-e5e6e94861bf")
-	)
-	(wire
-		(pts
-			(xy 167.64 147.32) (xy 193.04 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d048d8-fe8a-46d6-8faa-1f209445e050")
 	)
 	(polyline
 		(pts
@@ -1766,102 +1766,6 @@
 			)
 			(uuid "97cb2ef0-ccbe-49a0-abc5-5218283a7eff")
 		)
-		(pin "GPIO_6_TEMP_I2C_SCL" bidirectional
-			(at 111.76 165.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "7e9028f7-0309-4fb4-ac26-1dd6d206af00")
-		)
-		(pin "GPIO_5_FAN_PWM" bidirectional
-			(at 111.76 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "ac8689fb-a2f6-40a2-bda5-8fad2af28604")
-		)
-		(pin "GPIO_4_FAN_TACHO" bidirectional
-			(at 111.76 134.62 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "c77baea5-1746-42e9-9c3c-93de3fd359b3")
-		)
-		(pin "GPIO_15_RS485_RE" output
-			(at 111.76 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "8bc55790-f9cf-4044-af00-d8124aa6d6f6")
-		)
-		(pin "GPIO_15_RS485_DE" output
-			(at 111.76 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "339f9936-f014-4c0a-bb23-486498749fb2")
-		)
-		(pin "GPIO_TEMP_I2C_SDA" bidirectional
-			(at 111.76 160.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "5727c6b3-5ac7-4d86-ba57-9d572c70560f")
-		)
-		(pin "GPIO_9_SCREEN_I2C_SCL" bidirectional
-			(at 111.76 144.78 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "18c447e4-7b48-41c7-88ab-fb720b68ca05")
-		)
-		(pin "GPIO_10_SCREEN_I2C_SDA" bidirectional
-			(at 111.76 149.86 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "ec3b0c62-a571-475d-a575-7afb9aa0b2a2")
-		)
 		(pin "USB_D-" bidirectional
 			(at 111.76 53.34 180)
 			(effects
@@ -1885,162 +1789,6 @@
 				(justify left)
 			)
 			(uuid "cb9951cc-e157-45d4-9d90-0cc7ca3264f1")
-		)
-		(pin "GPIO_17_RS485_TX" output
-			(at 111.76 68.58 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "26fe3062-db7a-4a46-9995-ad4a706628f1")
-		)
-		(pin "GPIO_18_RS485_RX" input
-			(at 111.76 63.5 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "6789c6cb-2854-4a0d-b8c1-9f6d9657f5f9")
-		)
-		(pin "GPIO_48_I2S_LR" bidirectional
-			(at 167.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "d3778919-3064-4dee-8863-6f1efe54e379")
-		)
-		(pin "GPIO_12_BUTTON" bidirectional
-			(at 167.64 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "5d38a909-0087-4365-9c46-f01309291b42")
-		)
-		(pin "GPIO_13_STATUS_LED" bidirectional
-			(at 167.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "19c11c03-3614-444b-9360-dcc19bf04828")
-		)
-		(pin "GPIO_47_I2S_SD" bidirectional
-			(at 167.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "5154aa2f-bf24-4e1b-9c74-5e4e19d04bce")
-		)
-		(pin "GPIO_21_I2S_SCK" bidirectional
-			(at 167.64 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "0f55ec01-988a-4350-9e88-2cbf0183744d")
-		)
-		(pin "GPIO_14_I2S_WS" bidirectional
-			(at 167.64 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "421dbb89-93d6-4486-a9bb-93e48bfeded6")
-		)
-		(pin "GPIO_38_5V" bidirectional
-			(at 167.64 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "ab90375e-1ad4-4c3f-8cc7-99179910ae1b")
-		)
-		(pin "GPIO_37_5V" bidirectional
-			(at 167.64 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "36ad56bb-a62e-4073-ad66-ad8465293af6")
-		)
-		(pin "GPIO_36_5V" bidirectional
-			(at 167.64 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "59f893d4-388d-4b88-8dbf-7d34681c001c")
-		)
-		(pin "GPIO_35_5V" bidirectional
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "b410f722-77d5-4be1-8d5c-1e480d79d23b")
-		)
-		(pin "GPIO_2_5V_OE" output
-			(at 167.64 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "60eedb1c-509f-46d8-a3bc-c977c4510a2d")
 		)
 		(pin "UART_TX" output
 			(at 167.64 76.2 0)
@@ -2066,53 +1814,255 @@
 			)
 			(uuid "99a30f54-cbd9-4b87-a137-39b611f4a631")
 		)
-		(pin "GPIO_39_PWM_CH1" bidirectional
-			(at 167.64 58.42 0)
+		(pin "GPIO_7_RS485_RX" input
+			(at 111.76 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "193d9844-f994-4ce8-845a-150befc6da57")
+		)
+		(pin "GPIO_4_RS485_TX" output
+			(at 111.76 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4379a1b-39ff-4e67-839b-24eb3b2e9a11")
+		)
+		(pin "GPIO_5_RS485_DE" output
+			(at 111.76 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aaea85dd-2504-4d98-b628-ca1eef648808")
+		)
+		(pin "GPIO_6_RS485_RE" output
+			(at 111.76 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d4f7235-7845-4e07-9932-57a3f119422a")
+		)
+		(pin "GPIO_13_BUTTON" bidirectional
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ccacdd28-81a7-42ef-9df2-3b571c508f70")
+			(uuid "c436f763-b86f-41fa-8966-4dc284d32e2e")
 		)
-		(pin "GPIO_40_PWM_CH2" output
+		(pin "GPIO_14_I2S_LR" bidirectional
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d735bc8d-63c1-451d-89fa-97facf0b3ce8")
+		)
+		(pin "GPIO_21_I2S_WS" bidirectional
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc3774fd-4551-4ace-9298-2d9f8af4ab41")
+		)
+		(pin "GPIO_48_I2S_SD" bidirectional
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5481eb05-d246-47ac-ac7f-08f5004044d4")
+		)
+		(pin "GPIO_47_I2S_SCK" bidirectional
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17488016-97c5-40fd-be5c-be02bf7d2920")
+		)
+		(pin "GPIO_35_FAN_PWM" bidirectional
+			(at 111.76 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "241e54e2-324f-41a3-804f-1bee22435e4f")
+		)
+		(pin "GPIO_36_FAN_TACHO" bidirectional
+			(at 111.76 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2877d7f7-ca9b-49cd-a786-d52703de4114")
+		)
+		(pin "GPIO_37_TEMP_I2C_SCL" bidirectional
+			(at 111.76 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18b819c2-34a3-4b8f-95c6-9babdbc0fb38")
+		)
+		(pin "GPIO_1_5V_OE" output
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "261dc7e5-9eda-46d5-86d0-20d164c466b8")
+		)
+		(pin "GPIO_38_TEMP_I2C_SDA" bidirectional
+			(at 111.76 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97b36e03-599a-4204-af39-6eaa7094e913")
+		)
+		(pin "GPIO_39_5V" bidirectional
+			(at 167.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b5a6eaa-dcda-44a6-9163-d8f70db9eba7")
+		)
+		(pin "GPIO_40_5V" bidirectional
+			(at 167.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "12799f8e-2bfe-4be1-a91a-556b293ad07b")
+		)
+		(pin "GPIO_41_5V" bidirectional
+			(at 167.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb0befa6-fc74-4d57-802d-d9aebdb14abe")
+		)
+		(pin "GPIO_42_5V" bidirectional
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6fb36bf-3aaa-4b8d-98c0-4d1af1db0650")
+		)
+		(pin "GPIO_9_SCREEN_I2C_SCL" bidirectional
+			(at 111.76 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba7ba9fb-d907-4eec-8283-84b54bcb1123")
+		)
+		(pin "GPIO_10_SCREEN_I2C_SDA" bidirectional
+			(at 111.76 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91eb6d9b-ec02-4bec-8ec8-ee04d94374aa")
+		)
+		(pin "GPIO_12_STATUS_LED" bidirectional
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b131c8be-b42c-4a22-81eb-6b16e9ee9fa2")
+		)
+		(pin "GPIO_16_PWM_CH3" output
 			(at 167.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
 				(justify right)
 			)
-			(uuid "a6cac297-b3a9-46c7-9bf9-b9d4a997c77c")
+			(uuid "4034314a-d12e-4265-b69f-565d573b6f73")
 		)
-		(pin "GPIO_41_PWM_CH3" output
-			(at 167.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "8c87ddc6-5514-4a13-ad46-a9a49ae2094e")
-		)
-		(pin "GPIO_42_PWM_CH4" output
+		(pin "GPIO_18_PWM_CH1" bidirectional
 			(at 167.64 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
 				(justify right)
 			)
-			(uuid "61b5ca0f-7052-4156-bfc4-545d71fdf701")
+			(uuid "feca69bc-5ec4-4ad3-8348-4d4da8e8b6a2")
+		)
+		(pin "GPIO_17_PWM_CH2" output
+			(at 167.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8729fda-cf24-4601-8966-8bb0053a55c7")
+		)
+		(pin "GPIO_15_PWM_CH4" output
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b56a891-2026-4ce9-8841-7b19d391d248")
 		)
 		(instances
 			(project "AstraControl"
@@ -2152,78 +2102,6 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_14_I2S_WS" input
-			(at 243.84 106.68 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "830cd8a8-9b93-40c8-950b-a4ecfa855456")
-		)
-		(pin "GPIO_48_I2S_LR" input
-			(at 243.84 91.44 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "f6eab1ae-2160-4c82-ae61-3d1ab1e61b95")
-		)
-		(pin "GPIO_21_I2S_SCK" input
-			(at 243.84 101.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "7c8b2826-eb0a-4339-88ca-8e8982ff0269")
-		)
-		(pin "GPIO_47_I2S_SD" output
-			(at 243.84 96.52 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "4c7e9b20-da95-451e-aaa6-23f00fe7a156")
-		)
-		(pin "GPIO_13_STATUS_LED" input
-			(at 243.84 116.84 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "b5910d97-3158-4c39-bbd3-ad6970151d0a")
-		)
-		(pin "GPIO_12_BUTTON" input
-			(at 243.84 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "5fc32eb0-b446-461f-a81a-f61b5fa5840e")
-		)
 		(pin "UART_TX" input
 			(at 243.84 76.2 180)
 			(effects
@@ -2247,6 +2125,66 @@
 				(justify left)
 			)
 			(uuid "aaa6b8ea-4ab8-42bc-abb0-202314cdd72c")
+		)
+		(pin "BUTTON" input
+			(at 243.84 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e617d534-2588-47b9-acfd-49247f24708e")
+		)
+		(pin "STATUS_LED" input
+			(at 243.84 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca5b6898-54b6-481c-a44f-53e1fcacb3ea")
+		)
+		(pin "I2S_SD" bidirectional
+			(at 243.84 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6341adc5-9d2f-4995-b0e2-521ad56ac473")
+		)
+		(pin "I2S_WS" input
+			(at 243.84 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7098145e-165c-4783-98d5-e163e7b3a9ae")
+		)
+		(pin "I2S_SCK" input
+			(at 243.84 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a12ab77e-6408-41f8-ac95-ee0d443312fa")
+		)
+		(pin "I2S_LR" input
+			(at 243.84 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b5ec45a4-6e2a-4cc4-9bd7-d7e60d7aeae6")
 		)
 		(instances
 			(project "AstraControl"
@@ -2838,53 +2776,45 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_42_PWM_CH4" input
-			(at 243.84 43.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "2054459d-cb09-46a5-8a70-2388e67392ff")
-		)
-		(pin "GPIO_41_PWM_CH3" input
+		(pin "PWM_CH2" input
 			(at 243.84 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
 				(justify left)
 			)
-			(uuid "eae61e77-2e1e-424c-8042-bfb820796a7e")
+			(uuid "f3f6a115-07ab-4de3-9d35-e2217a7f99c8")
 		)
-		(pin "GPIO_40_PWM_CH2" input
-			(at 243.84 53.34 180)
+		(pin "PWM_CH1" input
+			(at 243.84 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
 				(justify left)
 			)
-			(uuid "a0cb470d-2de7-4111-b98f-9690f8f984d3")
+			(uuid "aa026499-61fa-4d02-9fe6-e2a7cb46fa50")
 		)
-		(pin "GPIO_39_PWM_CH1" input
+		(pin "PWM_CH4" input
 			(at 243.84 58.42 180)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
 				)
 				(justify left)
 			)
-			(uuid "15d98aa5-846b-4d62-bb2a-5e2c30ecbb7a")
+			(uuid "eebe22a9-f7bb-477f-8bd3-1f7b84770784")
+		)
+		(pin "PWM_CH3" input
+			(at 243.84 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fef541dd-ffb2-497e-ba9b-3b9295366fba")
 		)
 		(instances
 			(project "AstraControl"

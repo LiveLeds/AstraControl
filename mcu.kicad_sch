@@ -2046,6 +2046,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 91.44) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3516bb83-5092-4e11-a4c8-942abe3f14c3")
+	)
+	(wire
+		(pts
 			(xy 25.4 45.72) (xy 33.02 45.72)
 		)
 		(stroke
@@ -2093,16 +2103,6 @@
 			(type default)
 		)
 		(uuid "4d97399c-bd82-4fc2-ae0a-f1b2d327fd66")
-	)
-	(wire
-		(pts
-			(xy 121.92 81.28) (xy 124.46 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab9e350-b9a6-4cab-a7af-94e4cfbef295")
 	)
 	(wire
 		(pts
@@ -2196,6 +2196,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3cd898-0a71-4e8b-b807-8a6b43669ac4")
+	)
+	(wire
+		(pts
 			(xy 144.78 149.86) (xy 144.78 147.32)
 		)
 		(stroke
@@ -2236,16 +2246,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 124.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f5a76f1-c7cb-433d-b260-43581e6706f0")
-	)
-	(wire
-		(pts
 			(xy 121.92 142.24) (xy 124.46 142.24)
 		)
 		(stroke
@@ -2273,6 +2273,16 @@
 			(type default)
 		)
 		(uuid "950f24e1-c017-4127-be1b-97b93d7d1342")
+	)
+	(wire
+		(pts
+			(xy 121.92 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9962cb53-fc16-4974-82b7-45747c473912")
 	)
 	(wire
 		(pts
@@ -2336,6 +2346,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 76.2) (xy 124.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e4f852-0bc4-4d25-9ec5-73ea7ad428a7")
+	)
+	(wire
+		(pts
 			(xy 160.02 149.86) (xy 160.02 147.32)
 		)
 		(stroke
@@ -2386,16 +2406,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 124.46 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca2a5d3c-19fd-4625-b165-3bf925873ff4")
-	)
-	(wire
-		(pts
 			(xy 121.92 50.8) (xy 124.46 50.8)
 		)
 		(stroke
@@ -2443,16 +2453,6 @@
 			(type default)
 		)
 		(uuid "e4ee39dc-61ed-4099-b005-b2c94edfd135")
-	)
-	(wire
-		(pts
-			(xy 121.92 86.36) (xy 124.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f65301-f505-44ac-aae5-2bff840cea7d")
 	)
 	(wire
 		(pts
@@ -2516,7 +2516,7 @@
 		)
 		(uuid "03ee7cc5-b5a3-4657-b4be-4c27ffce8eb4")
 	)
-	(label "IO2_DEBUG_LED"
+	(label "GPIO_2_DEBUG_LED"
 		(at 182.88 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2527,7 +2527,7 @@
 		)
 		(uuid "c6a17cda-a7d7-4a55-9ee5-3192ab410c66")
 	)
-	(label "IO2_DEBUG_LED_CL"
+	(label "GPIO_2_DEBUG_LED_CL"
 		(at 218.44 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2538,7 +2538,7 @@
 		)
 		(uuid "e145f4e3-31ef-45af-9218-4c1377c6db29")
 	)
-	(hierarchical_label "GPIO_48_I2S_LR"
+	(hierarchical_label "GPIO_14_I2S_LR"
 		(shape bidirectional)
 		(at 182.88 137.16 0)
 		(fields_autoplaced yes)
@@ -2562,7 +2562,7 @@
 		)
 		(uuid "01f3b169-c271-4832-965c-846d2b77b093")
 	)
-	(hierarchical_label "GPIO_TEMP_I2C_SDA"
+	(hierarchical_label "GPIO_38_TEMP_I2C_SDA"
 		(shape bidirectional)
 		(at 182.88 86.36 0)
 		(fields_autoplaced yes)
@@ -2574,7 +2574,7 @@
 		)
 		(uuid "1181e712-9e64-498a-ad77-8daa2d05ead6")
 	)
-	(hierarchical_label "GPIO_12_BUTTON"
+	(hierarchical_label "GPIO_13_BUTTON"
 		(shape bidirectional)
 		(at 182.88 142.24 0)
 		(fields_autoplaced yes)
@@ -2586,9 +2586,9 @@
 		)
 		(uuid "16a95a22-ce4f-4ed1-a5f0-47db26cf0049")
 	)
-	(hierarchical_label "GPIO_39_PWM_CH1"
+	(hierarchical_label "GPIO_18_PWM_CH1"
 		(shape bidirectional)
-		(at 121.92 76.2 180)
+		(at 121.92 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2610,7 +2610,7 @@
 		)
 		(uuid "1cb06c32-6e75-41a7-acba-122886aadca7")
 	)
-	(hierarchical_label "GPIO_15_RS485_DE"
+	(hierarchical_label "GPIO_5_RS485_DE"
 		(shape output)
 		(at 121.92 60.96 180)
 		(fields_autoplaced yes)
@@ -2634,7 +2634,7 @@
 		)
 		(uuid "2ea4dc2f-e29d-4d26-9ebb-986c3dcf0e40")
 	)
-	(hierarchical_label "GPIO_14_I2S_WS"
+	(hierarchical_label "GPIO_21_I2S_WS"
 		(shape bidirectional)
 		(at 182.88 132.08 0)
 		(fields_autoplaced yes)
@@ -2658,7 +2658,7 @@
 		)
 		(uuid "4e13df64-0017-4960-8bfd-a65dea705aa6")
 	)
-	(hierarchical_label "GPIO_36_5V"
+	(hierarchical_label "GPIO_41_5V"
 		(shape bidirectional)
 		(at 182.88 71.12 0)
 		(fields_autoplaced yes)
@@ -2670,9 +2670,9 @@
 		)
 		(uuid "5233aea1-3c94-4413-b77c-016d1ed89b31")
 	)
-	(hierarchical_label "GPIO_42_PWM_CH4"
+	(hierarchical_label "GPIO_17_PWM_CH2"
 		(shape output)
-		(at 121.92 81.28 180)
+		(at 121.92 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2694,7 +2694,7 @@
 		)
 		(uuid "708a3a58-78ae-4b82-a147-5a127edf1e46")
 	)
-	(hierarchical_label "GPIO_38_5V"
+	(hierarchical_label "GPIO_39_5V"
 		(shape bidirectional)
 		(at 182.88 81.28 0)
 		(fields_autoplaced yes)
@@ -2706,7 +2706,7 @@
 		)
 		(uuid "7a246872-c00c-4693-b8e3-e68077fcdcd8")
 	)
-	(hierarchical_label "GPIO_13_STATUS_LED"
+	(hierarchical_label "GPIO_12_STATUS_LED"
 		(shape bidirectional)
 		(at 121.92 142.24 180)
 		(fields_autoplaced yes)
@@ -2718,7 +2718,7 @@
 		)
 		(uuid "7a3e56c2-c95d-41ed-b508-e5607637d618")
 	)
-	(hierarchical_label "GPIO_2_5V_OE"
+	(hierarchical_label "GPIO_1_5V_OE"
 		(shape output)
 		(at 182.88 45.72 0)
 		(fields_autoplaced yes)
@@ -2730,7 +2730,7 @@
 		)
 		(uuid "7c64c00e-d489-4128-942b-cdbb3fb895c1")
 	)
-	(hierarchical_label "GPIO_6_TEMP_I2C_SCL"
+	(hierarchical_label "GPIO_37_TEMP_I2C_SCL"
 		(shape bidirectional)
 		(at 182.88 91.44 0)
 		(fields_autoplaced yes)
@@ -2742,7 +2742,7 @@
 		)
 		(uuid "89e8f0af-ef8a-41e5-acaa-79a32f2d484b")
 	)
-	(hierarchical_label "GPIO_18_RS485_RX"
+	(hierarchical_label "GPIO_7_RS485_RX"
 		(shape input)
 		(at 121.92 71.12 180)
 		(fields_autoplaced yes)
@@ -2754,7 +2754,7 @@
 		)
 		(uuid "9b33e07b-bb54-4c76-a1ae-f98db06e97f2")
 	)
-	(hierarchical_label "GPIO_5_FAN_PWM"
+	(hierarchical_label "GPIO_35_FAN_PWM"
 		(shape bidirectional)
 		(at 182.88 101.6 0)
 		(fields_autoplaced yes)
@@ -2766,7 +2766,7 @@
 		)
 		(uuid "9efee579-f20b-4f96-8cd7-b7f98a02f464")
 	)
-	(hierarchical_label "GPIO_17_RS485_TX"
+	(hierarchical_label "GPIO_4_RS485_TX"
 		(shape output)
 		(at 121.92 55.88 180)
 		(fields_autoplaced yes)
@@ -2790,9 +2790,9 @@
 		)
 		(uuid "a6e480ef-b853-45d9-887b-6042efed7010")
 	)
-	(hierarchical_label "GPIO_40_PWM_CH2"
+	(hierarchical_label "GPIO_15_PWM_CH4"
 		(shape output)
-		(at 121.92 91.44 180)
+		(at 121.92 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2802,7 +2802,7 @@
 		)
 		(uuid "b250812f-e59a-4434-b2ef-7226fbab812b")
 	)
-	(hierarchical_label "GPIO_47_I2S_SD"
+	(hierarchical_label "GPIO_48_I2S_SD"
 		(shape bidirectional)
 		(at 182.88 121.92 0)
 		(fields_autoplaced yes)
@@ -2814,7 +2814,7 @@
 		)
 		(uuid "bf9f34eb-b835-41f0-8c2c-63a6dec55929")
 	)
-	(hierarchical_label "GPIO_37_5V"
+	(hierarchical_label "GPIO_40_5V"
 		(shape bidirectional)
 		(at 182.88 76.2 0)
 		(fields_autoplaced yes)
@@ -2826,7 +2826,7 @@
 		)
 		(uuid "bfb6fa7a-8a9f-4462-8f55-e3a06281eb74")
 	)
-	(hierarchical_label "GPIO_21_I2S_SCK"
+	(hierarchical_label "GPIO_47_I2S_SCK"
 		(shape bidirectional)
 		(at 182.88 127 0)
 		(fields_autoplaced yes)
@@ -2850,7 +2850,7 @@
 		)
 		(uuid "cc6ea3d8-51a7-4c38-b38c-095724fbb35b")
 	)
-	(hierarchical_label "GPIO_15_RS485_RE"
+	(hierarchical_label "GPIO_6_RS485_RE"
 		(shape output)
 		(at 121.92 66.04 180)
 		(fields_autoplaced yes)
@@ -2874,7 +2874,7 @@
 		)
 		(uuid "f06d0b87-1520-4023-8814-d7e68d44fec4")
 	)
-	(hierarchical_label "GPIO_35_5V"
+	(hierarchical_label "GPIO_42_5V"
 		(shape bidirectional)
 		(at 182.88 66.04 0)
 		(fields_autoplaced yes)
@@ -2886,7 +2886,7 @@
 		)
 		(uuid "f1a55d71-d7bf-4599-8ca3-da3a576659f5")
 	)
-	(hierarchical_label "GPIO_4_FAN_TACHO"
+	(hierarchical_label "GPIO_36_FAN_TACHO"
 		(shape bidirectional)
 		(at 182.88 96.52 0)
 		(fields_autoplaced yes)
@@ -2898,9 +2898,9 @@
 		)
 		(uuid "f201bcc0-4f86-45dc-8599-89cae873fc50")
 	)
-	(hierarchical_label "GPIO_41_PWM_CH3"
+	(hierarchical_label "GPIO_16_PWM_CH3"
 		(shape output)
-		(at 121.92 86.36 180)
+		(at 121.92 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
