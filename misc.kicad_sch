@@ -334,7 +334,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -491,7 +491,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1107,7 +1107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "097f4b08-4502-4970-85ec-3d80ab618df9")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR088"
 			(at 236.22 102.87 0)
 			(effects
 				(font
@@ -1157,7 +1157,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR091")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -1170,10 +1170,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1075288f-b6c1-455d-8f40-8fed0a3cf1b8")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 190.5 81.2799 90)
 			(effects
 				(font
@@ -1192,7 +1192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -1247,7 +1247,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -1263,7 +1263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25872a20-78d7-4d12-9c10-55a672261d2a")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 91.44 81.2799 90)
 			(effects
 				(font
@@ -1282,7 +1282,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.79 83.82 0)
 			(effects
 				(font
@@ -1337,7 +1337,7 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1350,10 +1350,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3e434916-913d-4624-8e2d-ceb484de55da")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 238.76 81.2799 90)
 			(effects
 				(font
@@ -1372,7 +1372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 245.11 83.82 0)
 			(effects
 				(font
@@ -1427,7 +1427,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -1462,7 +1462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 83.82 0)
 			(effects
 				(font
@@ -1596,10 +1596,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "68292f2b-4252-4d53-acf9-ae8334739c7c")
-		(property "Reference" "R35"
+		(property "Reference" "R36"
 			(at 142.24 81.2799 90)
 			(effects
 				(font
@@ -1618,7 +1618,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 148.59 83.82 0)
 			(effects
 				(font
@@ -1673,7 +1673,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "R35")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1689,7 +1689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a01d332-50a6-4bf5-a25a-5c32721f6f3b")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR086"
 			(at 139.7 102.87 0)
 			(effects
 				(font
@@ -1739,7 +1739,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR087")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -1774,7 +1774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 77.47 83.82 0)
 			(effects
 				(font
@@ -1864,7 +1864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 224.79 83.82 0)
 			(effects
 				(font
@@ -1935,7 +1935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4163eef-2b95-4bff-baf2-555e7cccd9c0")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR087"
 			(at 187.96 102.87 0)
 			(effects
 				(font
@@ -1985,7 +1985,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR089")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -2150,7 +2150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 128.27 83.82 0)
 			(effects
 				(font

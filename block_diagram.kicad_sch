@@ -386,16 +386,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 111.76 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cae082b-89ac-45a3-a405-94348acd685c")
-	)
-	(wire
-		(pts
 			(xy 167.64 101.6) (xy 243.84 101.6)
 		)
 		(stroke
@@ -514,16 +504,6 @@
 		)
 		(uuid "326719be-e955-45b6-acdf-4aa7e4a9cdb0")
 	)
-	(wire
-		(pts
-			(xy 78.74 68.58) (xy 111.76 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35711b79-c40e-4a19-867d-333bf7111418")
-	)
 	(polyline
 		(pts
 			(xy 124.46 101.6) (xy 124.46 111.76)
@@ -573,6 +553,16 @@
 			(type default)
 		)
 		(uuid "3b749d8f-dede-4739-a33f-f81348e62838")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6ce91c-ac05-4b9d-989a-76182ea7e3a2")
 	)
 	(wire
 		(pts
@@ -634,6 +624,16 @@
 		)
 		(uuid "4bbe51fd-0d3c-4d62-8df6-4573305035c8")
 	)
+	(wire
+		(pts
+			(xy 76.2 68.58) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff239c2-c313-49ae-961e-633fd63ed18d")
+	)
 	(polyline
 		(pts
 			(xy 132.08 60.96) (xy 132.08 81.28)
@@ -674,6 +674,16 @@
 		)
 		(uuid "52097554-cd1d-45e4-9d4c-f1662f924ff4")
 	)
+	(wire
+		(pts
+			(xy 76.2 63.5) (xy 111.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5371e867-1cfd-4a24-b995-8d84461eb52e")
+	)
 	(polyline
 		(pts
 			(xy 137.16 157.48) (xy 137.16 167.64)
@@ -683,16 +693,6 @@
 			(type default)
 		)
 		(uuid "53ad469a-c555-4ede-9c03-e248bbdcc66d")
-	)
-	(wire
-		(pts
-			(xy 78.74 73.66) (xy 111.76 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a5f60c7-c285-4f1d-8454-7e9169d3126a")
 	)
 	(polyline
 		(pts
@@ -936,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 68.58) (xy 66.04 68.58)
+			(xy 35.56 68.58) (xy 50.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +956,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 73.66) (xy 66.04 73.66)
+			(xy 76.2 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68d6240-056f-4079-a8a7-9c3581a0ca04")
+	)
+	(wire
+		(pts
+			(xy 35.56 73.66) (xy 50.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1073,16 +1083,6 @@
 			(type default)
 		)
 		(uuid "e04d5e42-0163-4913-93ee-638db830b5ac")
-	)
-	(wire
-		(pts
-			(xy 78.74 78.74) (xy 111.76 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1f4be13-6e32-4fdc-a068-c904c1a0b4ab")
 	)
 	(wire
 		(pts
@@ -1522,18 +1522,6 @@
 				(justify left top)
 			)
 		)
-		(pin "OE" input
-			(at 193.04 137.16 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "6acceddc-8ccc-44c5-ad58-59a84a63bad1")
-		)
 		(pin "3V3_IO_1" bidirectional
 			(at 193.04 142.24 180)
 			(effects
@@ -1629,6 +1617,18 @@
 				(justify right)
 			)
 			(uuid "327333a3-8d20-47c5-ac32-da96ca7bbc9e")
+		)
+		(pin "LEVEL_SHIFTER_IO_OE" input
+			(at 193.04 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "cc1696f6-26a6-42ac-bdd2-0573adee1409")
 		)
 		(instances
 			(project "AstraControl"
@@ -1887,7 +1887,7 @@
 			(uuid "cb9951cc-e157-45d4-9d90-0cc7ca3264f1")
 		)
 		(pin "GPIO_17_RS485_TX" output
-			(at 111.76 63.5 180)
+			(at 111.76 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1899,7 @@
 			(uuid "26fe3062-db7a-4a46-9995-ad4a706628f1")
 		)
 		(pin "GPIO_18_RS485_RX" input
-			(at 111.76 68.58 180)
+			(at 111.76 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,8 +2257,8 @@
 		)
 	)
 	(sheet
-		(at 66.04 58.42)
-		(size 12.7 25.4)
+		(at 50.8 58.42)
+		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2269,7 +2269,7 @@
 		)
 		(uuid "670298c9-1a92-4257-b888-4f98b6d49dab")
 		(property "Sheetname" "UART to RS-485"
-			(at 66.04 57.7084 0)
+			(at 50.8 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2278,7 @@
 			)
 		)
 		(property "Sheetfile" "uart_to_rs_485.kicad_sch"
-			(at 66.04 84.4046 0)
+			(at 50.8 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,73 +2286,77 @@
 				(justify left top)
 			)
 		)
-		(pin "DE" input
-			(at 78.74 78.74 0)
+		(pin "RS485_D-" bidirectional
+			(at 50.8 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "3ac5c0a0-0d90-4f10-9c4d-bd35d7ca886a")
-		)
-		(pin "TX" input
-			(at 78.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "a5a872da-7809-48ae-920b-dc6da863c56c")
-		)
-		(pin "RX" output
-			(at 78.74 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "ff7fb61c-91ba-4a88-9ead-299cef33aa79")
-		)
-		(pin "~{RE}" input
-			(at 78.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "36a00afe-42a7-4a37-a89d-4dd0429bfe91")
-		)
-		(pin "D-" bidirectional
-			(at 66.04 68.58 180)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ecda92d1-6dc7-44eb-961f-fe93f88e9f13")
+			(uuid "7cdb01a9-e810-4291-9aab-0a37b94c0ff2")
 		)
-		(pin "D+" bidirectional
-			(at 66.04 73.66 180)
+		(pin "RS485_D+" bidirectional
+			(at 50.8 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
-			(uuid "2655f771-6fc1-4e97-b5e8-d290ff02fdc3")
+			(uuid "1af017e4-41d3-446f-b7c3-3b5c58971084")
+		)
+		(pin "RS485_DE" input
+			(at 76.2 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "4654ebf0-5f49-4fc1-afab-411edef6521b")
+		)
+		(pin "RS485_RX" output
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "dc58bb9b-d700-4c63-857c-6c6095185a9e")
+		)
+		(pin "RS485_~{RE}" input
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "76e0c020-064b-4eb2-a7d0-c7e9da86ff34")
+		)
+		(pin "RS485_TX" input
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "35994d2a-dc1f-416d-a127-238f36c4a838")
 		)
 		(instances
 			(project "AstraControl"
@@ -2703,6 +2707,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
@@ -2713,6 +2719,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.45,
+          "width": 1.175
         },
         "silk_line_width": 0.16,
         "silk_text_italic": false,
@@ -58,9 +58,14 @@
           "width": 0.0
         },
         {
-          "gap": 0.2032,
-          "via_gap": 0.254,
-          "width": 0.261112
+          "gap": 0.4,
+          "via_gap": 0.4,
+          "width": 0.1908
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.284
         }
       ],
       "drc_exclusions": [],
@@ -81,7 +86,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -94,15 +99,15 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "error",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -121,21 +126,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.15,
         "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.25,
-        "min_hole_clearance": 0.3,
-        "min_hole_to_hole": 0.5,
+        "min_copper_edge_clearance": 0.4,
+        "min_hole_clearance": 0.26,
+        "min_hole_to_hole": 0.26,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_silk_clearance": 0.16,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.2,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.4,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.14,
         "use_height_for_length_calcs": true
       },
@@ -184,9 +189,10 @@
       ],
       "track_widths": [
         0.0,
-        0.293,
         0.3,
-        0.5
+        0.3493,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -485,8 +491,8 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.3493,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -502,8 +508,8 @@
         "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.5,
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 24
       },
@@ -519,7 +525,7 @@
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 24
@@ -534,9 +540,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "5V_IN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 30, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 24
@@ -568,12 +574,63 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(142, 0, 199)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.4,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1908,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RS485",
+        "pcb_color": "rgb(0, 255, 208)",
+        "schematic_color": "rgb(255, 0, 255)",
+        "track_width": 0.2,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SIGNAL",
+        "pcb_color": "rgb(0, 242, 255)",
+        "schematic_color": "rgb(0, 255, 121)",
+        "track_width": 0.3493,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.284,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgb(0, 255, 125)",
+        "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 24
+        "wire_width": 6
       },
       {
         "bus_width": 12,
@@ -651,6 +708,106 @@
       {
         "netclass": "5V_IN",
         "pattern": "/Block Diagram/Power Connectors/5V_IN"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "RS485_D-"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "RS485_D+"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Block Diagram/Power Connectors/RS485_D-"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Block Diagram/Power Connectors/RS485_D+"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Block Diagram/UART to RS-485/IC_D-"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Block Diagram/UART to RS-485/IC_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Block Diagram/Power Connectors/USB/USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Block Diagram/Power Connectors/USB/USB_D+"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Block Diagram/UART to RS-485/RS485_IC_D-"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Block Diagram/UART to RS-485/RS485_IC_D+"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Block Diagram/UART to RS-485/RS485_D-"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Block Diagram/UART to RS-485/RS485_D+"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/Block Diagram/LED PWM Connector/GPIO_42_PWM_CH4"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/Block Diagram/LED PWM Connector/GPIO_41_PWM_CH3"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/Block Diagram/LED PWM Connector/GPIO_40_PWM_CH2"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/Block Diagram/LED PWM Connector/GPIO_39_PWM_CH1"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "*IO_*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "*UART_TX"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "*UART_RX"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "*I2C*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "*FAN*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Block Diagram/Power Connectors/USB/USB_CONN_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Block Diagram/Power Connectors/USB/USB_CONN_D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Block Diagram/MCU/USB_D-"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Block Diagram/MCU/USB_D+"
       }
     ]
   },
@@ -670,7 +827,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "build/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -683,7 +840,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,

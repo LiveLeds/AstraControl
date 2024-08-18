@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "LiveAstra:C_0402_1005Metric"
 				(at 1.27 -12.7 0)
 				(effects
 					(font
@@ -185,7 +185,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -305,7 +305,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "LiveAstra:R_0402_1005Metric"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -406,7 +406,7 @@
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 9.5043 0)
@@ -425,7 +425,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -1207,19 +1207,13 @@
 		(at 127 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "155bae56-e459-4f1b-b373-d78318eec123")
+		(uuid "2003cb35-8f27-4989-aff3-8d6d8069ede9")
 	)
 	(junction
 		(at 81.28 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "316e2d65-4339-4dbc-8dd8-a983a864d240")
-	)
-	(junction
-		(at 177.8 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a59fcbb-90ba-4f88-875d-85815f0fb3fe")
 	)
 	(junction
 		(at 190.5 50.8)
@@ -1407,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 152.4 139.7)
+			(xy 152.4 134.62) (xy 152.4 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1467,16 +1461,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 137.16) (xy 177.8 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a5914c-0dee-437d-895b-93bf7d9ee485")
-	)
-	(wire
-		(pts
 			(xy 177.8 50.8) (xy 190.5 50.8)
 		)
 		(stroke
@@ -1514,6 +1498,16 @@
 			(type default)
 		)
 		(uuid "3af4152a-0cbf-47ea-9a79-d0decae6d2db")
+	)
+	(wire
+		(pts
+			(xy 127 50.8) (xy 134.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442f0334-48ad-4786-88e5-bda115663fec")
 	)
 	(wire
 		(pts
@@ -1557,16 +1551,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 139.7) (xy 177.8 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60378e6d-a38f-473a-a0af-d538f812cd6b")
-	)
-	(wire
-		(pts
 			(xy 127 109.22) (xy 129.54 109.22)
 		)
 		(stroke
@@ -1577,16 +1561,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 139.7) (xy 177.8 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dc8abb6-9aad-45b2-a551-c2f7ac8c0e7d")
-	)
-	(wire
-		(pts
 			(xy 134.62 50.8) (xy 134.62 81.28)
 		)
 		(stroke
@@ -1594,16 +1568,6 @@
 			(type default)
 		)
 		(uuid "6faecb42-704e-45f8-a690-11d5a3397480")
-	)
-	(wire
-		(pts
-			(xy 127 50.8) (xy 134.62 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f6397a-82ce-42ff-9e38-25c5a8bc5733")
 	)
 	(wire
 		(pts
@@ -1687,6 +1651,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 48.26) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e8d674-5b13-4c02-abd3-3ae13fa1248c")
+	)
+	(wire
+		(pts
 			(xy 106.68 76.2) (xy 124.46 76.2)
 		)
 		(stroke
@@ -1734,16 +1708,6 @@
 			(type default)
 		)
 		(uuid "a9a99537-827e-4cee-9034-b8df6609b14c")
-	)
-	(wire
-		(pts
-			(xy 127 48.26) (xy 127 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa79963e-bfeb-47c8-a7b5-0a38f20ac290")
 	)
 	(wire
 		(pts
@@ -1892,7 +1856,7 @@
 		)
 		(uuid "3f8d04a7-86e7-4c55-97cd-3acac95fcdbc")
 	)
-	(hierarchical_label "OE"
+	(hierarchical_label "LEVEL_SHIFTER_IO_OE"
 		(shape input)
 		(at 76.2 76.2 180)
 		(fields_autoplaced yes)
@@ -1965,92 +1929,6 @@
 		(uuid "f51cd325-d362-45a2-95bb-a1137012ce56")
 	)
 	(symbol
-		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 177.8 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1134cd47-7a06-4baa-9d48-4c92ef731d1f")
-		(property "Reference" "TP44"
-			(at 180.34 131.3476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Thimble"
-			(at 177.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 177.8 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5277086"
-			(at 177.8 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "Test Plug"
-			(at 180.34 133.8876 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "d6c9b7e3-8bbc-4a2a-9399-e82b867e668c")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 66.04 0)
 		(unit 1)
@@ -2121,12 +1999,12 @@
 		(at 129.54 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "17670c36-94c3-4ef8-a794-f76fe0a555e2")
-		(property "Reference" "TP40"
+		(property "Reference" "TP28"
 			(at 132.08 85.6276 0)
 			(effects
 				(font
@@ -2144,7 +2022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 129.54 106.68 0)
 			(effects
 				(font
@@ -2196,7 +2074,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP40")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -2231,7 +2109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "LiveAstra:R_0402_1005Metric"
 			(at 119.38 83.82 0)
 			(effects
 				(font
@@ -2495,12 +2373,12 @@
 		(at 129.54 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "41cb8d4b-1719-4dbf-8585-1e5185b5bc93")
-		(property "Reference" "TP41"
+		(property "Reference" "TP29"
 			(at 132.08 100.8676 0)
 			(effects
 				(font
@@ -2518,7 +2396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 129.54 121.92 0)
 			(effects
 				(font
@@ -2570,7 +2448,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP41")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -2581,12 +2459,12 @@
 		(at 81.28 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "41cbdc05-c02c-4608-8e83-997b307b6de7")
-		(property "Reference" "TP37"
+		(property "Reference" "TP25"
 			(at 83.82 111.0276 0)
 			(effects
 				(font
@@ -2604,7 +2482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 81.28 132.08 0)
 			(effects
 				(font
@@ -2656,7 +2534,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP37")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -2790,12 +2668,12 @@
 		(at 215.9 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "48212a01-fd18-4bcb-a99d-35b50315f9fe")
-		(property "Reference" "TP46"
+		(property "Reference" "TP34"
 			(at 218.44 111.0276 0)
 			(effects
 				(font
@@ -2813,7 +2691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 215.9 132.08 0)
 			(effects
 				(font
@@ -2865,7 +2743,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP46")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -2876,12 +2754,12 @@
 		(at 106.68 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4ba9ba27-8c5e-4b92-beab-9d5bc2622b38")
-		(property "Reference" "TP38"
+		(property "Reference" "TP26"
 			(at 109.22 105.9476 0)
 			(effects
 				(font
@@ -2899,7 +2777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 106.68 127 0)
 			(effects
 				(font
@@ -2951,7 +2829,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP38")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -2984,7 +2862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -3115,12 +2993,12 @@
 		(at 167.64 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "568ce869-dc42-4317-b165-a9093d899d70")
-		(property "Reference" "TP42"
+		(property "Reference" "TP30"
 			(at 170.18 100.8676 0)
 			(effects
 				(font
@@ -3138,7 +3016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -3190,7 +3068,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP42")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -3201,12 +3079,12 @@
 		(at 55.88 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6bed7bee-13dc-4ffd-9a09-29e15a89c5d5")
-		(property "Reference" "TP36"
+		(property "Reference" "TP24"
 			(at 58.42 116.1076 0)
 			(effects
 				(font
@@ -3224,7 +3102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -3276,7 +3154,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP36")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -3284,7 +3162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 144.78 0)
+		(at 152.4 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3293,7 +3171,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f256515-908b-49e9-ac84-f3f5589f5de2")
 		(property "Reference" "#PWR057"
-			(at 177.8 151.13 0)
+			(at 152.4 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3180,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 149.86 0)
+			(at 152.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 144.78 0)
+			(at 152.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 144.78 0)
+			(at 152.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 144.78 0)
+			(at 152.4 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,12 +3231,12 @@
 		(at 243.84 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7ebe60f4-6f02-41be-a7ab-2caf1a00c131")
-		(property "Reference" "TP47"
+		(property "Reference" "TP35"
 			(at 246.38 116.1076 0)
 			(effects
 				(font
@@ -3376,7 +3254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 243.84 137.16 0)
 			(effects
 				(font
@@ -3428,7 +3306,93 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP47")
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 127 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9fac8522-a5c3-4bab-8d97-5227a23c2ce5")
+		(property "Reference" "TP8"
+			(at 129.54 42.4476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Thimble"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5277086"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "Test Plug"
+			(at 129.54 44.9876 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0de62226-439e-4aa4-b21c-9eafd0921151")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -3439,12 +3403,12 @@
 		(at 177.8 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a3cfcfe8-7ed3-48e0-8596-5c005190d69b")
-		(property "Reference" "TP43"
+		(property "Reference" "TP31"
 			(at 180.34 42.4476 0)
 			(effects
 				(font
@@ -3462,7 +3426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 177.8 63.5 0)
 			(effects
 				(font
@@ -3514,7 +3478,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP43")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -3549,7 +3513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "LiveAstra:C_0402_1005Metric"
 			(at 127 57.15 0)
 			(effects
 				(font
@@ -3639,7 +3603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "LiveAstra:C_0402_1005Metric"
 			(at 203.2 57.15 0)
 			(effects
 				(font
@@ -3702,101 +3666,15 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 127 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e162a38e-304f-407a-b484-84caed01a3be")
-		(property "Reference" "TP39"
-			(at 129.54 42.4476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Thimble"
-			(at 127 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 127 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5277086"
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "Test Plug"
-			(at 129.54 44.9876 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "2101f10c-0359-4649-b83f-bce1713d062d")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 190.5 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f8a41a8c-4ad7-49d6-887e-2e3dcccbf0af")
-		(property "Reference" "TP45"
+		(property "Reference" "TP33"
 			(at 193.04 105.9476 0)
 			(effects
 				(font
@@ -3814,7 +3692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -3866,7 +3744,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
-					(reference "TP45")
+					(reference "TP33")
 					(unit 1)
 				)
 			)

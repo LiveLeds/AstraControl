@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(property "Footprint" "LiveAstra:C_0402_1005Metric"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -162,7 +162,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:D_Schottky_1A_40V"
+		(symbol "LiveAstra:D_Schottky_SS14_1A_40V"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -185,7 +185,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
+			(property "Footprint" "LiveAstra:D_SMA_SS14_C2480"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -230,7 +230,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_1A_40V_0_1"
+			(symbol "D_Schottky_SS14_1A_40V_0_1"
 				(polyline
 					(pts
 						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
@@ -256,7 +256,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_1A_40V_1_1"
+			(symbol "D_Schottky_SS14_1A_40V_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -318,7 +318,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(property "Footprint" "LiveAstra:LED_0603_1608Metric"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -499,7 +499,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(property "Footprint" "LiveAstra:R_0402_1005Metric"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -600,7 +600,7 @@
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 9.5043 0)
@@ -619,7 +619,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -978,12 +978,6 @@
 		)
 	)
 	(junction
-		(at 185.42 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79d5d91e-968d-421f-9ee1-83cba5580ff4")
-	)
-	(junction
 		(at 99.06 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1161,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 83.82) (xy 200.66 83.82)
+			(xy 170.18 83.82) (xy 200.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1208,16 +1202,6 @@
 			(type default)
 		)
 		(uuid "8e8be3ed-9ded-4b59-9aa1-ee4e2ca89ef1")
-	)
-	(wire
-		(pts
-			(xy 170.18 83.82) (xy 185.42 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97057960-9471-4509-b634-d71423a72d61")
 	)
 	(wire
 		(pts
@@ -1308,16 +1292,6 @@
 			(type default)
 		)
 		(uuid "d9abe1db-7359-4ca8-ab06-925e29eb4b0b")
-	)
-	(wire
-		(pts
-			(xy 185.42 81.28) (xy 185.42 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e576c37e-f604-45b4-acd2-9e5d3d93a395")
 	)
 	(polyline
 		(pts
@@ -1562,7 +1536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "LiveAstra:C_0402_1005Metric"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -1624,6 +1598,93 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:D_Schottky_SS14_1A_40V")
+		(at 86.36 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "120ea949-fba7-41d9-ba06-d59432b49486")
+		(property "Reference" "D1"
+			(at 86.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14 Schottky"
+			(at 86.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:D_SMA_SS14_C2480"
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Barrier Diode"
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2480"
+			(at 86.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "40V Single 1A 550mV@1A"
+			(at 86.74 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d838097-f711-41a7-9bf8-16fe9d79a50e")
+		)
+		(pin "2"
+			(uuid "a5f09155-fbfa-4c28-9873-545ccb0aed51")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:LED_RED_20mA_0603")
 		(at 208.28 99.06 0)
 		(unit 1)
@@ -1650,7 +1711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LiveAstra:LED_0603_1608Metric"
 			(at 208.28 111.76 0)
 			(effects
 				(font
@@ -1711,103 +1772,16 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:D_Schottky_1A_40V")
-		(at 86.36 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f87a5d5-66f8-47d1-afcf-3b433c94a897")
-		(property "Reference" "D1"
-			(at 86.74 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14 Schottky"
-			(at 86.74 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 86.36 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html"
-			(at 86.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky Barrier Diode"
-			(at 86.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2480"
-			(at 86.36 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "40V Single 1A 550mV@1A"
-			(at 86.74 97.79 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cc5c1af0-008d-4cc7-b4b6-5531fd7659ec")
-		)
-		(pin "1"
-			(uuid "e9aca544-1856-4246-9ac8-354dd04251e5")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 177.8 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5d540e5c-18e9-45b7-a866-ec6f83c7262c")
-		(property "Reference" "TP8"
+		(property "Reference" "TP7"
 			(at 180.34 118.6476 0)
 			(effects
 				(font
@@ -1825,7 +1799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 177.8 139.7 0)
 			(effects
 				(font
@@ -1877,7 +1851,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
-					(reference "TP8")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -2015,92 +1989,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 185.42 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f0d2796-8a77-4144-bbbe-ee1acf7e2f6f")
-		(property "Reference" "TP9"
-			(at 187.96 75.4676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Thimble"
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5277086"
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "Test Plug"
-			(at 187.96 78.0076 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "ca9135bc-08ca-4922-9871-37112f7e42c5")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 96.52 0)
 		(unit 1)
@@ -2192,7 +2080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "LiveAstra:R_0402_1005Metric"
 			(at 241.3 90.17 0)
 			(effects
 				(font
@@ -2377,7 +2265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "LiveAstra:C_0402_1005Metric"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -2508,9 +2396,9 @@
 		(at 114.3 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d95d3ac3-814f-4425-94e3-8ed9faa3b5dc")
 		(property "Reference" "TP6"
@@ -2531,7 +2419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 114.3 96.52 0)
 			(effects
 				(font

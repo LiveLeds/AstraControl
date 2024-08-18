@@ -173,39 +173,31 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:D_TVS_BIDI_600W"
+		(symbol "LiveAstra:D_TVS_H5VL10B_BIDI_50W"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 8.89 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SMBJ43CA"
-				(at 0 6.35 0)
+			(property "Value" "H5VL10B"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(bold yes)
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/TVS_FTR-SMBJ43CA_C707485.html"
-				(at 0 -12.7 0)
+			(property "Footprint" "LiveAstra:D_DFN0603_H5VL10B_Bidirectional_TVS"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -213,8 +205,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bidirectional Transient Voltage Suppressor"
-				(at 0 -5.08 0)
+			(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-H5VL10B/C7420372"
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -222,8 +214,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C707485"
-				(at 0 -16.51 0)
+			(property "Description" "5A 50W 10V 5.6V Bidirectional 5V DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -231,8 +223,17 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "600W 8.7A 69.4V 47.8V Bi-Directional 43V"
-				(at 0 3.81 0)
+			(property "LCSC Part" "C7420372"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "5A 50W 10V 5.6V Bidirectional"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -240,10 +241,22 @@
 					)
 				)
 			)
-			(symbol "D_TVS_BIDI_600W_0_1"
+			(symbol "D_TVS_H5VL10B_BIDI_50W_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.52) (xy 0 1.52)
+						(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 1.27) (xy 0 -1.27) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -255,43 +268,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.52) (xy 0.51 -2.03) (xy 0 -1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy -0.51 2.03) (xy 0 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.52) (xy 0 0) (xy -2.54 -1.52) (xy -2.54 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.52) (xy 0 0) (xy 2.54 -1.52) (xy 2.54 1.52)
+						(xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27) (xy 2.54 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -302,11 +279,11 @@
 					)
 				)
 			)
-			(symbol "D_TVS_BIDI_600W_1_1"
+			(symbol "D_TVS_H5VL10B_BIDI_50W_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -324,7 +301,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -500,7 +477,7 @@
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 9.5043 0)
@@ -519,7 +496,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+			(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -905,16 +882,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 100.33) (xy 152.4 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2896568-38fb-4b89-a12a-75953c3485b8")
-	)
-	(wire
-		(pts
 			(xy 203.2 78.74) (xy 203.2 81.28)
 		)
 		(stroke
@@ -922,16 +889,6 @@
 			(type default)
 		)
 		(uuid "b5c95ab5-6235-4caa-a3bf-0d37a6a67856")
-	)
-	(wire
-		(pts
-			(xy 101.6 88.9) (xy 101.6 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b825922b-dac5-4d68-8cfd-41ba657a287d")
 	)
 	(wire
 		(pts
@@ -965,6 +922,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 88.9) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd94991e-e302-4eba-9f45-954b582419e4")
+	)
+	(wire
+		(pts
 			(xy 76.2 86.36) (xy 101.6 86.36)
 		)
 		(stroke
@@ -972,6 +939,16 @@
 			(type default)
 		)
 		(uuid "e32dc89d-bbd3-4b9d-aa67-058a0d7bd4e7")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36fd3df-9806-4eae-8f70-2f7d7ff59df1")
 	)
 	(wire
 		(pts
@@ -985,7 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 100.33) (xy 101.6 99.06)
+			(xy 101.6 101.6) (xy 101.6 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1164,72 +1141,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:CHASSIS")
-		(at 152.4 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37d45623-9e62-4845-a4a8-313958b2726d")
-		(property "Reference" "#PWR032"
-			(at 152.4 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 152.273 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 152.4 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c25e6160-bc4a-4ecb-b4aa-dcf5549af533")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 203.2 104.14 0)
 		(unit 1)
@@ -1296,16 +1207,196 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 203.2 101.6 0)
+		(lib_id "LiveAstra:D_TVS_H5VL10B_BIDI_50W")
+		(at 101.6 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "48fb9d3d-32ab-430b-86fb-26fa99ff9f58")
+		(property "Reference" "D2"
+			(at 105.41 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "H5VL10B"
+			(at 105.41 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:D_DFN0603_H5VL10B_Bidirectional_TVS"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-H5VL10B/C7420372"
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A 50W 10V 5.6V Bidirectional 5V DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7420372"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "5A 50W 10V 5.6V Bidirectional"
+			(at 105.41 96.5199 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "4fc093ce-0eaf-4713-96ef-a00e7694b6a0")
+		)
+		(pin "2"
+			(uuid "895768ca-8592-4217-bcd2-7a55fb350afc")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:D_TVS_H5VL10B_BIDI_50W")
+		(at 152.4 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a9689ea-a4d4-43bc-b455-03972d15cd29")
+		(property "Reference" "D3"
+			(at 156.21 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "H5VL10B"
+			(at 156.21 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:D_DFN0603_H5VL10B_Bidirectional_TVS"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-H5VL10B/C7420372"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A 50W 10V 5.6V Bidirectional 5V DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 160.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7420372"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "5A 50W 10V 5.6V Bidirectional"
+			(at 156.21 96.5199 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "10275a05-65ca-47a8-9a83-c36b7e983854")
+		)
+		(pin "2"
+			(uuid "a3676e9f-96b7-4c6e-bec1-9a16f9ed17b2")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 203.2 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "70aa7376-ce89-4e25-9c64-97eafec11410")
-		(property "Reference" "TP18"
+		(property "Reference" "TP11"
 			(at 205.74 95.7876 0)
 			(effects
 				(font
@@ -1323,7 +1414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 203.2 116.84 0)
 			(effects
 				(font
@@ -1375,162 +1466,7 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:D_TVS_BIDI_600W")
-		(at 101.6 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a14a4d0-afc8-4ce5-bf20-0aeb19c0f191")
-		(property "Reference" "D2"
-			(at 105.41 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMBJ43CA"
-			(at 105.41 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
-			(at 110.49 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/TVS_FTR-SMBJ43CA_C707485.html"
-			(at 114.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional Transient Voltage Suppressor"
-			(at 106.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C707485"
-			(at 118.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "600W 8.7A 69.4V 47.8V Bi-Directional 43V"
-			(at 105.41 96.5199 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "f500c955-1a82-4174-8a8e-df40e508dd72")
-		)
-		(pin "1"
-			(uuid "ad2ab890-9861-4077-85bd-f86df0b93f92")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:CHASSIS")
-		(at 101.6 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83c96484-789d-4b5d-ad2a-f3284794c2ef")
-		(property "Reference" "#PWR031"
-			(at 101.6 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 101.473 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 101.6 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0db13ab-7667-40d9-ab2d-ce30d9a23107")
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR031")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -1828,6 +1764,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bac9f26c-dd77-4fd7-96c2-9098f973e57e")
+		(property "Reference" "#PWR031"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63864c02-1b6a-4249-91fb-95a911dbd102")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:CHASSIS")
 		(at 228.6 104.14 0)
 		(unit 1)
@@ -1888,95 +1890,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:D_TVS_BIDI_600W")
-		(at 152.4 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb88ea94-1bc7-41b6-a51a-daccb9adcf1b")
-		(property "Reference" "D3"
-			(at 156.21 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMBJ43CA"
-			(at 156.21 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:SMB_L4.6-W3.6-LS5.3-BI"
-			(at 161.29 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/TVS_FTR-SMBJ43CA_C707485.html"
-			(at 165.1 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional Transient Voltage Suppressor"
-			(at 157.48 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C707485"
-			(at 168.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "600W 8.7A 69.4V 47.8V Bi-Directional 43V"
-			(at 156.21 96.5199 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "c481eae6-6c36-43fb-a8da-1bf197724202")
-		)
-		(pin "1"
-			(uuid "704e3bca-d88c-4f9f-8647-59de978b4f90")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -2114,16 +2027,82 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 228.6 101.6 0)
+		(lib_id "power:GND")
+		(at 152.4 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "f5213aac-d2a3-4bb9-9e96-6477998aa53c")
+		(property "Reference" "#PWR032"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e74bb356-bd0e-490f-a789-baaf01cd1ecb")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:TestPoint_Thimble")
+		(at 228.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "fdbec830-2415-4a1c-94a0-b02106e20c2e")
-		(property "Reference" "TP19"
+		(property "Reference" "TP12"
 			(at 231.14 95.7876 0)
 			(effects
 				(font
@@ -2141,7 +2120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
 			(at 228.6 116.84 0)
 			(effects
 				(font
@@ -2193,7 +2172,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "TP19")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -2238,17 +2217,7 @@
 			)
 			(uuid "8f13cea8-2559-482b-830e-fdd86f4474f5")
 		)
-		(pin "D+" bidirectional
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7f20e26a-23b2-408b-a954-45564b89e115")
-		)
-		(pin "D-" bidirectional
+		(pin "USB_D-" bidirectional
 			(at 76.2 129.54 0)
 			(effects
 				(font
@@ -2256,7 +2225,17 @@
 				)
 				(justify right)
 			)
-			(uuid "19a388e8-54e8-44d5-b425-c3b9ccabdfff")
+			(uuid "343fb149-2fa1-4506-b491-ee96e211289c")
+		)
+		(pin "USB_D+" bidirectional
+			(at 76.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f3388ee-1174-4382-93e8-04656432e376")
 		)
 		(instances
 			(project "AstraControl"
