@@ -58,7 +58,7 @@ outputs:
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
     type: gerber
-    dir: JLCPCB
+    dir: output/JLCPCB/Gerber
     options: &gerber_options
       exclude_edge_layer: true
       exclude_pads_from_silkscreen: true
@@ -93,7 +93,7 @@ outputs:
   - name: JLCPCB_drill
     comment: Drill files compatible with JLCPCB
     type: excellon
-    dir: output/JLCPCB
+    dir: output/JLCPCB/Drill
     options:
       pth_and_npth_single_file: false
       pth_id: '-PTH'
@@ -104,7 +104,7 @@ outputs:
   - name: JLCPCB
     comment: ZIP file for JLCPCB
     type: compress
-    dir: output/Fabrication/JLCPCB
+    dir: output/JLCPCB
     options:
       files:
         - from_output: JLCPCB_gerbers
@@ -115,7 +115,7 @@ outputs:
   - name: ibom
     comment: Interactive BOM
     type: ibom 
-    dir: output/Fabrication/ibom
+    dir: output/IBOM
     options:
       dark_mode: true
       name_format: 'index'
@@ -123,7 +123,7 @@ outputs:
   - name: 'JLCPCB_position'
     comment: "Pick and place file, JLCPCB style"
     type: position
-    dir: output/Fabrication/JLCPCB-BOM
+    dir: output/JLCPCB/PickAndPlace
     options:
       variant: rotated
       output: '%f_cpl_jlc.%x'
@@ -148,7 +148,7 @@ outputs:
   - name: 'JLCPCB_bom'
     comment: "BoM for JLCPCB"
     type: bom
-    dir: output/Fabrication/JLCPCB-BOM    
+    dir: output/JLCPCB/BOM    
     options:
       output: '%f_%i_jlc.%x'
       exclude_filter: 'only_jlc_parts'
