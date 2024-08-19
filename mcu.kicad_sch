@@ -375,6 +375,14 @@
 					)
 				)
 			)
+			(property "LCSC Part" "C2980297"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna"
 				(at 0 0 0)
 				(effects
@@ -4050,6 +4058,14 @@
 				(font
 					(size 0.762 0.762)
 					(bold yes)
+				)
+			)
+		)
+		(property "LCSC Part" "C2980297"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
