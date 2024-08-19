@@ -183,9 +183,7 @@
 		(at 24 142.75 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -211,9 +209,7 @@
 		(at 24 97.75 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -224,9 +220,7 @@
 		(at 24 127.5 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -250,9 +244,7 @@
 		(at 20 67.5 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -263,11 +255,9 @@
 		(at 20 22.5 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 8 8)
 				(thickness 1.6)
 				(bold yes)
-				(color 255 255 255 1)
 			)
 			(justify left top)
 		)
@@ -278,9 +268,7 @@
 		(at 24 104.25 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -291,9 +279,7 @@
 		(at 24 119.75 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -304,9 +290,7 @@
 		(at 35 52.5 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 5 5)
-				(color 255 255 255 1)
 			)
 		)
 		(uuid "8d5d59fa-424b-45d6-a5c5-ba4d06345712")
@@ -316,9 +300,7 @@
 		(at 24 90 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -329,9 +311,7 @@
 		(at 24 135 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -381,9 +361,7 @@
 		(at 20 82.5 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
 				(size 4 4)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -394,9 +372,7 @@
 		(at 24 112 0)
 		(effects
 			(font
-				(face "Sarabun")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)

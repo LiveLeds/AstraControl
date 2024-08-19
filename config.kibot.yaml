@@ -16,6 +16,13 @@ filters:
       - column: "LCSC Part"
         regex: '^C\d+'
 
+variants:
+  - name: rotated
+    comment: 'Rotate for JLCPCB'
+    type: kibom
+    variant: rotated
+    pre_transform: _rot_footprint_jlcpcb
+
 outputs:
   - name: "pdf_sch_print"
     comment: "Exports the schematic to the most common exchange format. Suitable for printing."
