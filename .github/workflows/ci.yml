@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: INTI-CMNB/KiBot@v2_k8
-      - run: |
+        run: |
           ls -l /github/home/.config/kicad/
           ls -l /github/home/.config/kicad/8.0/colors
           cp themes/Arcana.json /github/home/.config/kicad/8.0/colors
