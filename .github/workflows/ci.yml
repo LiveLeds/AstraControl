@@ -8,11 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          echo "A initial message"
-          ls -l ~
-          ls -l ~/.config/kicad
-          cp themes/Arcana.json ~.config/kicad/colors
-          ls -l ~.config/kicad/colors
+          ls -l /github/home/.config/kicad/
+          ls -l /github/home/.config/kicad/8.0/colors
+          cp themes/Arcana.json /github/home/.config/kicad/8.0/colors
+          ls -l /github/home/.config/kicad/8.0/colors
       - uses: INTI-CMNB/KiBot@v2_k8
         with:
           # Required - kibot config file
