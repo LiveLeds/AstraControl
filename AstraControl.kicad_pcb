@@ -65060,39 +65060,6 @@
 	)
 	(dimension
 		(type aligned)
-		(layer "B.Cu")
-		(uuid "a7f1c8a2-19bb-4515-9eac-8d2ee2c38dd7")
-		(pts
-			(xy 103 60) (xy 205 60)
-		)
-		(height -24.322517)
-		(gr_text "102.0000 mm"
-			(at 154 33.877483 0)
-			(layer "B.Cu")
-			(uuid "a7f1c8a2-19bb-4515-9eac-8d2ee2c38dd7")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
 		(layer "User.1")
 		(uuid "04e4fad9-5f64-4bc2-94dc-de1a7c482a59")
 		(pts
