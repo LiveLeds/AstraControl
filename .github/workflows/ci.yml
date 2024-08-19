@@ -17,7 +17,8 @@ jobs:
         run: |
           cat themes/Arcana.json
           ls -l
-          ls -l ~
+          ls -l /usr
+          find . /usr
           kibot -v -d output -c config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
 
       #- uses: INTI-CMNB/KiBot@v2_k8
