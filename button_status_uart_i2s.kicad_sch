@@ -1818,7 +1818,7 @@
 		(uuid "2aae2691-b7be-4908-85f9-460f8aa0f9ae")
 	)
 	(hierarchical_label "I2S_SD"
-		(shape bidirectional)
+		(shape output)
 		(at 76.2 134.62 180)
 		(fields_autoplaced yes)
 		(effects

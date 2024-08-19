@@ -446,7 +446,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 127) (xy 132.08 137.16)
+			(xy 134.62 127) (xy 134.62 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1056,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 137.16) (xy 132.08 137.16)
+			(xy 132.08 137.16) (xy 134.62 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1076,7 @@
 	)
 	(polyline
 		(pts
-			(xy 129.54 127) (xy 132.08 127)
+			(xy 132.08 127) (xy 134.62 127)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1206,7 @@
 	)
 	(text "FAN"
 		(exclude_from_sim no)
-		(at 134.62 132.08 90)
+		(at 137.16 132.08 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1819,6 +1819,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -1829,6 +1831,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -1839,6 +1843,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -1849,116 +1855,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 			(uuid "8d4f7235-7845-4e07-9932-57a3f119422a")
-		)
-		(pin "GPIO_13_BUTTON" bidirectional
-			(at 167.64 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c436f763-b86f-41fa-8966-4dc284d32e2e")
-		)
-		(pin "GPIO_14_I2S_LR" bidirectional
-			(at 167.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d735bc8d-63c1-451d-89fa-97facf0b3ce8")
-		)
-		(pin "GPIO_21_I2S_WS" bidirectional
-			(at 167.64 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cc3774fd-4551-4ace-9298-2d9f8af4ab41")
-		)
-		(pin "GPIO_48_I2S_SD" bidirectional
-			(at 167.64 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5481eb05-d246-47ac-ac7f-08f5004044d4")
-		)
-		(pin "GPIO_47_I2S_SCK" bidirectional
-			(at 167.64 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "17488016-97c5-40fd-be5c-be02bf7d2920")
-		)
-		(pin "GPIO_35_FAN_PWM" bidirectional
-			(at 111.76 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "241e54e2-324f-41a3-804f-1bee22435e4f")
-		)
-		(pin "GPIO_36_FAN_TACHO" bidirectional
-			(at 111.76 134.62 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2877d7f7-ca9b-49cd-a786-d52703de4114")
-		)
-		(pin "GPIO_37_TEMP_I2C_SCL" bidirectional
-			(at 111.76 165.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "18b819c2-34a3-4b8f-95c6-9babdbc0fb38")
 		)
 		(pin "GPIO_1_5V_OE" output
 			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
 			(uuid "261dc7e5-9eda-46d5-86d0-20d164c466b8")
-		)
-		(pin "GPIO_38_TEMP_I2C_SDA" bidirectional
-			(at 111.76 160.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "97b36e03-599a-4204-af39-6eaa7094e913")
 		)
 		(pin "GPIO_39_5V" bidirectional
 			(at 167.64 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
@@ -1969,6 +1891,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
@@ -1979,6 +1903,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
@@ -1989,66 +1915,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
 			(uuid "f6fb36bf-3aaa-4b8d-98c0-4d1af1db0650")
-		)
-		(pin "GPIO_9_SCREEN_I2C_SCL" bidirectional
-			(at 111.76 144.78 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ba7ba9fb-d907-4eec-8283-84b54bcb1123")
-		)
-		(pin "GPIO_10_SCREEN_I2C_SDA" bidirectional
-			(at 111.76 149.86 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "91eb6d9b-ec02-4bec-8ec8-ee04d94374aa")
-		)
-		(pin "GPIO_12_STATUS_LED" bidirectional
-			(at 167.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b131c8be-b42c-4a22-81eb-6b16e9ee9fa2")
 		)
 		(pin "GPIO_16_PWM_CH3" output
 			(at 167.64 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
 			(uuid "4034314a-d12e-4265-b69f-565d573b6f73")
-		)
-		(pin "GPIO_18_PWM_CH1" bidirectional
-			(at 167.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "feca69bc-5ec4-4ad3-8348-4d4da8e8b6a2")
 		)
 		(pin "GPIO_17_PWM_CH2" output
 			(at 167.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
@@ -2059,10 +1951,168 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right)
 			)
 			(uuid "7b56a891-2026-4ce9-8841-7b19d391d248")
+		)
+		(pin "GPIO_18_PWM_CH1" output
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "78b1989c-db8a-4aa9-ac71-41f23666dc72")
+		)
+		(pin "GPIO_14_I2S_LR" output
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "49cb9b17-01d9-4cb5-ae9c-1d6237e31dc3")
+		)
+		(pin "GPIO_21_I2S_WS" output
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "65825c10-7035-45c3-b135-83a6081415f0")
+		)
+		(pin "GPIO_47_I2S_SCK" output
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "5fd3d9ad-dafe-4beb-8d8e-fa6b43100c80")
+		)
+		(pin "GPIO_48_I2S_SD" input
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "d1dd0e08-1aaa-47b9-8f73-b9c7f4dbf6e7")
+		)
+		(pin "GPIO_13_BUTTON" input
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "2b8ad873-3cad-4baf-b324-79d5ba4d1d95")
+		)
+		(pin "GPIO_12_STATUS_LED" output
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "70b0bbaa-591f-44a5-83ff-fcce2ae2aa28")
+		)
+		(pin "GPIO_36_FAN_TACHO" input
+			(at 111.76 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "e3617193-5491-4f24-b728-afe6b886a1c3")
+		)
+		(pin "GPIO_35_FAN_PWM" bidirectional
+			(at 111.76 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "091e8e91-05ad-4a54-b7f4-9a3e2d923079")
+		)
+		(pin "GPIO_9_SCREEN_I2C_SCL" output
+			(at 111.76 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "d10ca120-7985-43a5-9b0f-57ac0f1090e5")
+		)
+		(pin "GPIO_10_SCREEN_I2C_SDA" bidirectional
+			(at 111.76 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "54f016b2-cb96-499e-94ae-fb3815679d7a")
+		)
+		(pin "GPIO_37_TEMP_I2C_SCL" output
+			(at 111.76 165.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "b1e7605e-eb53-48cb-94e2-3cb078124c8a")
+		)
+		(pin "GPIO_38_TEMP_I2C_SDA" bidirectional
+			(at 111.76 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "3d693d97-1836-4e15-b489-bbbc35ec0157")
 		)
 		(instances
 			(project "AstraControl"
@@ -2131,6 +2181,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -2141,26 +2193,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 			(uuid "ca5b6898-54b6-481c-a44f-53e1fcacb3ea")
-		)
-		(pin "I2S_SD" bidirectional
-			(at 243.84 96.52 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6341adc5-9d2f-4995-b0e2-521ad56ac473")
 		)
 		(pin "I2S_WS" input
 			(at 243.84 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -2171,6 +2217,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -2181,10 +2229,24 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 			(uuid "b5ec45a4-6e2a-4cc4-9bd7-d7e60d7aeae6")
+		)
+		(pin "I2S_SD" output
+			(at 243.84 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "a22e732f-d4b1-4ff7-8455-cb639df82ba8")
 		)
 		(instances
 			(project "AstraControl"
@@ -2781,6 +2843,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -2791,6 +2855,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -2801,6 +2867,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
@@ -2811,6 +2879,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)

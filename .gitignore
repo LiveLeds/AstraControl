@@ -3,6 +3,7 @@
 
 Generated/
 build/
+output/
 *.lck
 *auto_saved_files*
 .DS_Store

@@ -6,7 +6,7 @@ kibot:
   version: 1
 
 outputs:
-  - name: 'pdf_sch_print_example'
+  - name: 'pdf_sch_print'
     comment: 'Exports the schematic to the most common exchange format. Suitable for printing.'
     type: 'pdf_sch_print'
     dir: 'output'
@@ -16,7 +16,7 @@ outputs:
       # [boolean=false] Use the background color from the `color_theme` (KiCad 6)
       background_color: false
       # [string=''] Color theme used, this must exist in the KiCad config (KiCad 6)
-      color_theme: ''
+      color_theme: 'Arcana'
       # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
       # A short-cut to use for simple cases where a variant is an overkill
       dnf_filter: '_none'
