@@ -2,77 +2,22 @@ name: CI
 
 on: push
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   ERC:
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
     - name: Run ERC
-      run: |
-        [ -f *.kicak_sch ] && kiplot  -d Fabrication -s update_xml,run_drc -i
+      uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        dir: Generated
+        skip: run_drc
+        targets: __NONE__
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v4
       with:
         name: ERC_Output
-        path: Fabrication
-
-  DRC:
-    runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: ERC
-
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Run DRC
-      run: |
-        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s update_xml,run_erc -i
-
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: DRC_Output
-        path: Fabrication
-
-  FabSch:
-    name: Schematic fabrication files
-    runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: ERC
-
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Run schematic stuff
-      run: |
-        [ -f *.sch ] && kiplot  -d Fabrication -s run_drc,run_erc print_sch
-
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: FabSch_Output
-        path: Fabrication
-
-  FabPCB:
-    name: PCB fabrication files
-    runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: DRC
-
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Run PCB stuff
-      run: |
-        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all print_front gerbers
-
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: FabPCB_Output
-        path: Fabrication
+        path: Generated
