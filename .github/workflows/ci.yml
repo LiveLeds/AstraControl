@@ -12,10 +12,11 @@ jobs:
         with:
           # So we can run a diff between last 2 changes
           fetch-depth: "0"
-
       - name: Quick Start
         run: |
           cat themes/Arcana.json
+          ls -l
+          ls -l ~
       #    ls -l /github/home/.config/kicad/8.0
       #    ls -l /github/home/.config/kicad/8.0/colors
       #    cat /github/home/.config/kicad/8.0/colors/user.json
