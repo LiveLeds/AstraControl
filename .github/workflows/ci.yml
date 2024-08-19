@@ -13,7 +13,7 @@ jobs:
 
     - name: Run ERC
       run: |
-        [ -f *.sch ] && kiplot  -d Fabrication -s update_xml,run_drc -i
+        [ -f *.kicak_sch ] && kiplot  -d Fabrication -s update_xml,run_drc -i
 
     - name: Retrieve results
       uses: actions/upload-artifact@v1
