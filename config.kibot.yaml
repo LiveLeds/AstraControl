@@ -26,9 +26,6 @@ outputs:
       monochrome: false
       # [string='%f-%i%I%v.%x'] Filename for the output PDF (%i=schematic, %x=pdf). Affected by global options
       output: '%f-%i%I%v.%x'
-      # [string|list(string)='_none'] Name of the filter to transform fields before applying other filters.
-      # A short-cut to use for simple cases where a variant is an overkill
-      pre_transform: '_none'
       # [string=''] Worksheet file (.kicad_wks) to use. Leave empty to use the one specified in the project.
       # This option works only when you print the toplevel sheet of a project and the project
       # file is available
