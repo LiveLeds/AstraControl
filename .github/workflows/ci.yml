@@ -16,9 +16,9 @@ jobs:
       - name: Quick Start
         run: |
           cat themes/Arcana.json
-          ls -l /github/home/.config/kicad/8.0
-          ls -l /github/home/.config/kicad/8.0/colors
-          cat /github/home/.config/kicad/8.0/colors/user.json
+      #    ls -l /github/home/.config/kicad/8.0
+      #    ls -l /github/home/.config/kicad/8.0/colors
+      #    cat /github/home/.config/kicad/8.0/colors/user.json
           kibot -v -d output -c config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
 
       #- uses: INTI-CMNB/KiBot@v2_k8
