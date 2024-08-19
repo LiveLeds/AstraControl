@@ -6,26 +6,31 @@ jobs:
   ERC:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: INTI-CMNB/KiBot@v2_k8
-        run: |
-          ls -l /github/home/.config/kicad/
-          ls -l /github/home/.config/kicad/8.0/colors
-          cp themes/Arcana.json /github/home/.config/kicad/8.0/colors
-          ls -l /github/home/.config/kicad/8.0/colors
-      - uses: INTI-CMNB/KiBot@v2_k8
-        with:
-          # Required - kibot config file
-          config: config.kibot.yaml
-          verbose: 3
-          # optional - prefix to output defined in config
-          dir: output
-          # optional - schematic file
-          schema: "AstraControl.kicad_sch"
-          # optional - PCB design file
-          board: "AstraControl.kicad_pcb"
-      - name: upload results
-        uses: actions/upload-artifact@v2
-        with:
-          name: output
-          path: output
+      container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+      steps:
+        - uses: actions/checkout@v4
+          with:
+            # So we can run a diff between last 2 changes
+            fetch-depth: "0"
+
+        - name: Quick Start
+          run: |
+            echo "hello"
+            kibot -v -c config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
+
+        #- uses: INTI-CMNB/KiBot@v2_k8
+        #  with:
+        # Required - kibot config file
+        #    config: config.kibot.yaml
+        #   verbose: 3
+        # optional - prefix to output defined in config
+        #  dir: output
+        # optional - schematic file
+        # schema: "AstraControl.kicad_sch"
+        # optional - PCB design file
+        #board: "AstraControl.kicad_pcb"
+        - name: upload results
+          uses: actions/upload-artifact@v2
+          with:
+            name: output
+            path: output
