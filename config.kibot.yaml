@@ -5,6 +5,9 @@
 kibot:
   version: 1
 
+globals:
+  resources_dir: resources
+
 outputs:
   - name: 'pdf_sch_print'
     comment: 'Exports the schematic to the most common exchange format. Suitable for printing.'
