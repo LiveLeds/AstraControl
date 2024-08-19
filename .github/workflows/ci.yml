@@ -15,9 +15,7 @@ jobs:
 
       - name: Quick Start
         run: |
-          fc-list - list available fonts
           kibot -vvv -d output -c config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
-          fc-list - list available fonts
 
       #- uses: INTI-CMNB/KiBot@v2_k8
       #  with:

@@ -98,7 +98,9 @@ outputs:
       pth_and_npth_single_file: false
       pth_id: '-PTH'
       npth_id: '-NPTH'
-      metric_units: false
+      metric_units: true
+      map: gerber
+      route_mode_for_oval_holes: false
       output: "%f%i.%x"
 
   - name: JLCPCB
@@ -159,8 +161,8 @@ outputs:
         - field: References
           name: Designator
         - Footprint
-        - field: 'LCSC'
-          name: 'LCSC part number'
+        - field: 'LCSC Part'
+          name: 'LCSC Part #'
         - field: 'Quantity Per PCB'
           name: 'QTY'
       csv:
