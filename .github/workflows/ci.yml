@@ -9,7 +9,8 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           echo "A initial message"
-          ls -l ~.config/kicad
+          ls -l ~
+          ls -l ~/.config/kicad
           cp themes/Arcana.json ~.config/kicad/colors
           ls -l ~.config/kicad/colors
       - uses: INTI-CMNB/KiBot@v2_k8
