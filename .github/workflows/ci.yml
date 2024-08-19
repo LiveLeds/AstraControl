@@ -7,6 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: |
+          echo "A initial message"
+          ll ~.config/kicad
+          cp themes/Arcana.json ~.config/kicad/colors
+          ll ~.config/kicad/colors
       - uses: INTI-CMNB/KiBot@v2_k8
         with:
           # Required - kibot config file
