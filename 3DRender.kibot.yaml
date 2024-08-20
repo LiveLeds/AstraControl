@@ -13,6 +13,11 @@ outputs:
     type: blender_export
     dir: @_KIBOT_IMPORT_DIR@
     options:
+    camera:
+        name: Camera
+        pos_x: 0.3
+        pos_y: width*2
+        pos_z: size*3
       render_options:
         transparent_background: true
         samples: 50
@@ -39,6 +44,6 @@ definitions:
   _KIBOT_IMPORT_DIR: 'Render_3D'
   _KIBOT_3D_VIEW: top
   _KIBOT_3D_FILE_ID: '@_KIBOT_IMPORT_ID@'
-  _KIBOT_ROT_X: 25
-  _KIBOT_ROT_Z: -190
+  _KIBOT_ROT_X: 30
+  _KIBOT_ROT_Z: -20
   _KIBOT_ROT_Y: 0
