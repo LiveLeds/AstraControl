@@ -7,6 +7,7 @@ kibot:
 
 globals:
   resources_dir: resources
+  field_lcsc_part: "LCSC Part"
 
 filters:
   - name: only_jlc_parts
@@ -29,15 +30,12 @@ outputs:
     type: 'step'
     dir: 'output/Step'
     options:
-      # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
-      # A short-cut to use for simple cases where a variant is an overkill
-      dnf_filter: '_none'
       # [boolean=true] Downloads missing 3D models from KiCad git.
       # Only applies to models in KISYS3DMOD and KICAD6_3DMODEL_DIR.
       # They are downloaded to a temporal directory and discarded.
       # If you want to cache the downloaded files specify a directory using the
       # KIBOT_3D_MODELS environment variable
-      download: false
+      download: true
       # [boolean=true] In addition to try to download the 3D models from KiCad git also try to get
       # them from LCSC database. In order to work you'll need to provide the LCSC
       # part number. The field containing the LCSC part number is defined by the
@@ -60,9 +58,6 @@ outputs:
       origin: 'grid'
       # [string='%f-%i%I%v.%x'] Name for the generated STEP file (%i='3D' %x='step'). Affected by global options
       output: '%f-%i%I%v.%x'
-      # [string|list(string)='_none'] Name of the filter to transform fields before applying other filters.
-      # A short-cut to use for simple cases where a variant is an overkill
-      pre_transform: '_none'
       # [boolean=true] Substitute STEP or IGS models with the same name in place of VRML models
       subst_models: true
       # [string=''] Board variant to apply
