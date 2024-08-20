@@ -28,7 +28,7 @@ outputs:
   - name: 'Step'
     comment: 'Exports the PCB as a 3D model.'
     type: 'step'
-    dir: 'output/Step'
+    dir: 'Step'
     options:
       download: false
       download_lcsc: False
@@ -50,7 +50,7 @@ outputs:
   - name: 'pcbdraw'
     comment: 'Exports the PCB as a 2D model (SVG, PNG or JPG).'
     type: 'pcbdraw'
-    dir: 'output/Render'
+    dir: 'Render'
     options:
       # [number=300] [10,1200] Dots per inch (resolution) of the generated image
       dpi: 800
@@ -97,7 +97,7 @@ outputs:
   - name: 'report_example'
     comment: 'Generates a report about the design.'
     type: 'report'
-    dir: 'output/Report'
+    dir: 'Report'
     options:
       # [string='markdown'] Original format for the report conversion. Current templates are `markdown`. See `do_convert`
       convert_from: 'markdown'
@@ -128,7 +128,7 @@ outputs:
   - name: "pdf_sch_print"
     comment: "Exports the schematic to the most common exchange format. Suitable for printing."
     type: "pdf_sch_print"
-    dir: "output"
+    dir: "Schematic"
     options:
       # [boolean=true] Generate with all hierarchical sheets
       all_pages: true
@@ -159,7 +159,7 @@ outputs:
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
     type: gerber
-    dir: output/JLCPCB/Gerber
+    dir: JLCPCB/Gerber
     options: &gerber_options
       exclude_edge_layer: true
       exclude_pads_from_silkscreen: true
@@ -194,7 +194,7 @@ outputs:
   - name: JLCPCB_drill
     comment: Drill files compatible with JLCPCB
     type: excellon
-    dir: output/JLCPCB/Drill
+    dir: JLCPCB/Drill
     options:
       pth_and_npth_single_file: false
       pth_id: '-PTH'
@@ -207,7 +207,7 @@ outputs:
   - name: JLCPCB
     comment: ZIP file for JLCPCB
     type: compress
-    dir: output/JLCPCB
+    dir: JLCPCB
     options:
       files:
         - from_output: JLCPCB_gerbers
@@ -218,7 +218,7 @@ outputs:
   - name: ibom
     comment: Interactive BOM
     type: ibom 
-    dir: output/IBOM
+    dir: IBOM
     options:
       dark_mode: true
       name_format: 'index'
@@ -226,7 +226,7 @@ outputs:
   - name: 'JLCPCB_position'
     comment: "Pick and place file, JLCPCB style"
     type: position
-    dir: output/JLCPCB/PickAndPlace
+    dir: JLCPCB/PickAndPlace
     options:
       variant: rotated
       output: '%f_cpl_jlc.%x'
@@ -251,7 +251,7 @@ outputs:
   - name: 'JLCPCB_bom'
     comment: "BoM for JLCPCB"
     type: bom
-    dir: output/JLCPCB/BOM    
+    dir: JLCPCB/BOM    
     options:
       output: '%f_%i_jlc.%x'
       exclude_filter: 'only_jlc_parts'
@@ -276,7 +276,7 @@ outputs:
   - name: "Info"
     comment: "Records information about the current run."
     type: "info"
-    dir: "output"
+    dir: "CI"
     options:
       # [string='names'] [names,none,full] List environment variables.
       # IMPORTANT: Don't use `full` unless you know you are not leaking sensitive information
