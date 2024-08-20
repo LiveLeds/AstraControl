@@ -31,10 +31,10 @@ outputs:
   # You can easily create very complex PCBs using the `panelize` output.
   # In this case you can use other outputs, like `render_3d`, which are slow for small
   # PCBs but can handle big ones
-  - name: 'pcbdraw_example'
+  - name: 'pcbdraw'
     comment: 'Exports the PCB as a 2D model (SVG, PNG or JPG).'
     type: 'pcbdraw'
-    dir: 'Example/pcbdraw_dir'
+    dir: 'output/Render'
     options:
       # [boolean=true] The `show_components` list is added to the list of components indicated by the variant (fitted and not
       # excluded).
@@ -51,7 +51,7 @@ outputs:
       # [number=300] [10,1200] Dots per inch (resolution) of the generated image
       dpi: 300
       # [string='svg'] [svg,png,jpg,bmp] Output format. Only used if no `output` is specified
-      format: 'svg'
+      format: 'png'
       # [list(string)=[]] List of components to highlight. Filter expansion is also allowed here,
       # see `show_components`
       highlight: []
@@ -79,9 +79,6 @@ outputs:
       output: '%f-%i%I%v.%x'
       # [boolean=false] Show placeholder for missing components
       placeholder: false
-      # [string|list(string)='_none'] Name of the filter to transform fields before applying other filters.
-      # A short-cut to use for simple cases where a variant is an overkill
-      pre_transform: '_none'
       # [dict|None] (DEPRECATED) Replacements for PCB references using specified components (lib:component).
       # Use `remap_components` instead
       # [string|list(string)=''] List of resistors to flip its bands
@@ -123,17 +120,6 @@ outputs:
         silk: '#d5dce4'
         # [string='#bf2600'] Color for the V-CUTS
         vcut: '#bf2600'
-      # [number=4] [3,6] Scale factor used to represent 1 mm in the SVG (KiCad 6).
-      # The value is how much zeros has the multiplier (1 mm = 10 power `svg_precision` units).
-      # Note that for an A4 paper Firefox 91 and Chrome 105 can't handle more than 5
-      svg_precision: 4
-      # [string=''] Board variant to apply
-      variant: ''
-      # [boolean=false] Render V-CUTS on the `vcuts_layer` layer
-      vcuts: false
-      # [string='Cmts.User'] Layer to render the V-CUTS, only used when `vcuts` is enabled.
-      # Note that any other content from this layer will be included
-      vcuts_layer: 'Cmts.User'
       # [string='visible'] [visible,all,none] Using visible only the warnings about components in the visible side are generated
       warnings: 'visible'
   - name: 'blender_export_example'
