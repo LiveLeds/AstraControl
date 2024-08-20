@@ -23,7 +23,7 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AstraControl-Documents-${{ steps.date.outputs.date }}
+          name: AstraControl-${{ steps.date.outputs.date }}
           path: output
   Render:
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
           fetch-depth: "0"
 
       - name: Run Kibot
-      - run: |
+        run: |
           kibot -vvv -d output -c 3DRender.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
 
       - name: Upload Artifacts
