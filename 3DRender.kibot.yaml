@@ -10,7 +10,7 @@ outputs:
     options:
       render_options:
         transparent_background: true
-        samples: 30
+        samples: 50
         resolution_x: 1080
         resolution_y: 1080
       point_of_view:
@@ -29,6 +29,6 @@ definitions:
   _KIBOT_IMPORT_DIR: 'Render_3D'
   _KIBOT_3D_VIEW: top
   _KIBOT_3D_FILE_ID: '@_KIBOT_IMPORT_ID@'
-  _KIBOT_ROT_X: 80
+  _KIBOT_ROT_X: 15
   _KIBOT_ROT_Z: 15
   _KIBOT_ROT_Y: 15

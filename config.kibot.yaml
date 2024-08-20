@@ -53,20 +53,16 @@ outputs:
     dir: 'output/Render'
     options:
       # [number=300] [10,1200] Dots per inch (resolution) of the generated image
-      dpi: 600
-      # [string='svg'] [svg,png,jpg,bmp] Output format. Only used if no `output` is specified
+      dpi: 800
+      show_components: none
       format: 'png'
       # [number|dict] Margin around the generated image [mm].
       # Using a number the margin is the same in the four directions
       margin:
-        # [number=0] Bottom margin [mm]
-        bottom: 0
-        # [number=0] Left margin [mm]
-        left: 0
-        # [number=0] Right margin [mm]
-        right: 0
-        # [number=0] Top margin [mm]
-        top: 0
+        bottom: 5
+        left: 5
+        right: 5
+        top: 5
       # [number=0.15] [0,10] Width of the trace to draw the PCB border [mm].
       # Note this also affects the drill holes
       outline_width: 0.15
@@ -74,7 +70,7 @@ outputs:
       # [string='%f-%i%I%v.%x'] Name for the generated file. Affected by global options
       output: '%f-%i%I%v.%x'
       # [boolean=false] Show placeholder for missing components
-      placeholder: true
+      placeholder: false
       style:
         # [string='#208b47'] Color for the board without copper (covered by solder mask)
         board: '#333333'
@@ -97,7 +93,7 @@ outputs:
         # [string='#bf2600'] Color for the V-CUTS
         vcut: '#bf2600'
       # [string='visible'] [visible,all,none] Using visible only the warnings about components in the visible side are generated
-      warnings: 'visible'
+      warnings: 'none'
   - name: 'report_example'
     comment: 'Generates a report about the design.'
     type: 'report'

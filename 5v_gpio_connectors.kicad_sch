@@ -854,6 +854,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ef4a0835-4f3c-4afc-9181-9e81625ab34e")
 		)
@@ -944,6 +953,15 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "Extra Value" ""
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"

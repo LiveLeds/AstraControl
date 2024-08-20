@@ -2202,6 +2202,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "94a790b8-739e-42d8-892a-41f25a526d15")
 		)
@@ -2269,7 +2278,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "262b41b5-331e-4728-bcf1-30d9a82ca398")
 		(property "Reference" "TP13"
@@ -2334,6 +2343,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 152.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2421,6 +2439,15 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "Extra Value" ""
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2579,6 +2606,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 193.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afe56e34-f22b-4718-a0df-6004ab06f0c9")
 		)
@@ -2601,7 +2637,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8008ab4b-8f79-4ba1-8c73-96a66ead28a4")
 		(property "Reference" "TP14"
@@ -2666,6 +2702,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2884,6 +2929,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "21f4b04a-566c-4c73-abd0-b6b724e0cd24")
 		)
@@ -2984,7 +3038,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5637dfe-9712-4cec-94bb-0d003c4effc3")
 		(property "Reference" "TP15"
@@ -3049,6 +3103,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3202,6 +3265,15 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "Extra Value" ""
+			(at 121.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

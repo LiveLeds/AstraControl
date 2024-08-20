@@ -1538,6 +1538,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f43c71d-8976-4193-b9cf-4883b561e2b5")
 		)
@@ -1694,6 +1703,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3de6245c-47ca-4f85-a75e-8001c49f438d")
 		)
@@ -1845,6 +1863,15 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "Extra Value" ""
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2000,6 +2027,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2eb0ff83-11ea-45aa-8f9d-01a865bb88ea")
 		)
@@ -2022,7 +2058,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81b80579-2167-461f-b2ef-71a9111e69c5")
 		(property "Reference" "TP4"
@@ -2087,6 +2123,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2305,6 +2350,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8196f722-1e03-4f6b-9e1c-59c33f2547a1")
 		)
@@ -2390,6 +2444,15 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "Extra Value" ""
+			(at 180.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2482,6 +2545,15 @@
 				(justify left)
 			)
 		)
+		(property "Extra Value" ""
+			(at 152.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95b6f747-e3e8-42d8-8012-9e4c6546cc3d")
 		)
@@ -2567,6 +2639,15 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "Extra Value" ""
+			(at 187.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2722,6 +2803,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "efbda741-d63c-4288-9a8e-0139aea20014")
 		)
@@ -2812,6 +2902,15 @@
 				(justify left)
 			)
 		)
+		(property "Extra Value" ""
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "475adac5-50be-49c6-a579-988b2e33af48")
 		)
@@ -2834,7 +2933,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f462a585-2416-4235-941f-1b4866d7f3bf")
 		(property "Reference" "TP5"
@@ -2899,6 +2998,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

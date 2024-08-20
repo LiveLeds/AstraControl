@@ -2001,7 +2001,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17670c36-94c3-4ef8-a794-f76fe0a555e2")
 		(property "Reference" "TP28"
@@ -2066,6 +2066,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2153,6 +2162,15 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "Extra Value" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2375,7 +2393,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41cb8d4b-1719-4dbf-8585-1e5185b5bc93")
 		(property "Reference" "TP29"
@@ -2442,6 +2460,15 @@
 				(justify left)
 			)
 		)
+		(property "Extra Value" ""
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5cdc2933-8e04-4263-8d8b-b02afdd092c2")
 		)
@@ -2461,7 +2488,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41cbdc05-c02c-4608-8e83-997b307b6de7")
 		(property "Reference" "TP25"
@@ -2526,6 +2553,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2612,6 +2648,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "73706eb9-e1aa-4e84-b68c-ff88e7cd164f")
 		)
@@ -2670,7 +2715,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48212a01-fd18-4bcb-a99d-35b50315f9fe")
 		(property "Reference" "TP34"
@@ -2737,6 +2782,15 @@
 				(justify left)
 			)
 		)
+		(property "Extra Value" ""
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea0869ec-67aa-4d1c-8b46-76e199242f38")
 		)
@@ -2756,7 +2810,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ba9ba27-8c5e-4b92-beab-9d5bc2622b38")
 		(property "Reference" "TP26"
@@ -2821,6 +2875,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 106.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2905,6 +2968,15 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "Extra Value" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2995,7 +3067,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568ce869-dc42-4317-b165-a9093d899d70")
 		(property "Reference" "TP30"
@@ -3062,6 +3134,15 @@
 				(justify left)
 			)
 		)
+		(property "Extra Value" ""
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f48ffbf5-be42-4ba9-a807-b0b772442a4c")
 		)
@@ -3081,7 +3162,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bed7bee-13dc-4ffd-9a09-29e15a89c5d5")
 		(property "Reference" "TP24"
@@ -3146,6 +3227,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3233,7 +3323,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ebe60f4-6f02-41be-a7ab-2caf1a00c131")
 		(property "Reference" "TP35"
@@ -3300,6 +3390,15 @@
 				(justify left)
 			)
 		)
+		(property "Extra Value" ""
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9136d67-3366-4910-9b79-e03c91d5f6c3")
 		)
@@ -3319,7 +3418,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fac8522-a5c3-4bab-8d97-5227a23c2ce5")
 		(property "Reference" "TP8"
@@ -3386,6 +3485,15 @@
 				(justify left)
 			)
 		)
+		(property "Extra Value" ""
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0de62226-439e-4aa4-b21c-9eafd0921151")
 		)
@@ -3405,7 +3513,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3cfcfe8-7ed3-48e0-8596-5c005190d69b")
 		(property "Reference" "TP31"
@@ -3470,6 +3578,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3557,6 +3674,15 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "Extra Value" ""
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3649,6 +3775,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 190.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9da9c471-8e46-4b56-abe2-e13147a52679")
 		)
@@ -3671,7 +3806,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8a41a8c-4ad7-49d6-887e-2e3dcccbf0af")
 		(property "Reference" "TP33"
@@ -3736,6 +3871,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

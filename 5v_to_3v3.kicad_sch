@@ -2453,6 +2453,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 187.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36a477f0-0351-4e8b-aee6-5b38122a99ef")
 		)
@@ -2540,6 +2549,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 213.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcafaf29-811b-4ea2-8dae-463ad3c6197b")
 		)
@@ -2625,6 +2643,15 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "Extra Value" ""
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2915,6 +2942,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9733e5c0-98fa-47a9-860d-39fe94801fa6")
 		)
@@ -3003,6 +3039,15 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "Extra Value" ""
+			(at 198.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3095,6 +3140,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf886068-abd1-4217-839f-f721ff183093")
 		)
@@ -3117,7 +3171,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41fa6870-2641-45b7-85b4-7203230e7eeb")
 		(property "Reference" "TP10"
@@ -3182,6 +3236,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 254 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3403,6 +3466,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6afdfdde-3901-48c7-bd5c-f9617f4c1c5b")
 		)
@@ -3559,6 +3631,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ba6f265-b56e-4812-a139-2ed17285b8b3")
 		)
@@ -3649,6 +3730,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c40ce4c-d563-4054-a10b-f391eebfdc60")
 		)
@@ -3735,6 +3825,15 @@
 				)
 			)
 		)
+		(property "Extra Value" ""
+			(at 71.12 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "175dcd52-af7a-4f58-9036-a6c4f71081ec")
 		)
@@ -3766,7 +3865,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a20d68c2-6272-470d-9df4-1f9f56e392b9")
 		(property "Reference" "TP56"
@@ -3831,6 +3930,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4052,6 +4160,15 @@
 				(justify right)
 			)
 		)
+		(property "Extra Value" ""
+			(at 27.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01c299ac-2bda-49f5-812a-f36e51c6963b")
 		)
@@ -4074,7 +4191,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab50ab8a-d34a-4d0f-9e73-5156eaf0c77f")
 		(property "Reference" "TP9"
@@ -4139,6 +4256,15 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Extra Value" ""
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4223,6 +4349,15 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "Extra Value" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4379,6 +4514,15 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "Extra Value" ""
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
