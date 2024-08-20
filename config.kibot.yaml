@@ -54,6 +54,7 @@ outputs:
       # [number=0.15] [0,10] Width of the trace to draw the PCB border [mm].
       # Note this also affects the drill holes
       outline_width: 0.15
+      show_solderpaste: false
       # [string='%f-%i%I%v.%x'] Name for the generated file. Affected by global options
       output: '%f-%i%I%v.%x'
       # [boolean=false] Show placeholder for missing components
@@ -62,7 +63,7 @@ outputs:
         # [string='#208b47'] Color for the board without copper (covered by solder mask)
         board: '#208b47'
         # [string='#cabb3e'] Color for the PCB core (not covered by solder mask)
-        clad: '#cabb3e'
+        clad: '#d4af37'
         # [string='#285e3a'] Color for the copper zones (covered by solder mask)
         copper: '#285e3a'
         # [boolean=false] Highlight over the component (not under)
@@ -76,7 +77,7 @@ outputs:
         # [string='#8b898c'] Color for the exposed pads (metal finish)
         pads: '#8b898c'
         # [string='#d5dce4'] Color for the silk screen
-        silk: '#d5dce4'
+        silk: '#000000'
         # [string='#bf2600'] Color for the V-CUTS
         vcut: '#bf2600'
       # [string='visible'] [visible,all,none] Using visible only the warnings about components in the visible side are generated
