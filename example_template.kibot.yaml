@@ -2497,7 +2497,7 @@ outputs:
       dnf_filter: '_none'
       # [number=360] [36,1200] Resolution (Dots Per Inch) for the output file. Most objects are vectors, but thing
       # like the the solder mask are handled as images by the conversion tools
-      dpi: 360
+      dpi: 600
       # [string='full'] [none,small,full] What to use to indicate the drill places, can be none, small or full (for real scale)
       drill_marks: 'full'
       # [boolean=false] Add the `Edge.Cuts` to all the pages
@@ -2510,171 +2510,32 @@ outputs:
       # [string='PDF'] [PDF,SVG,PNG,EPS,PS] Format for the output file/s.
       # Note that for PS you need `ghostscript` which isn't part of the default docker images
       format: 'PDF'
-      # [string='internal'] [gui,internal,plot] Plotting the frame from Python is problematic.
-      # This option selects a workaround strategy.
-      # gui: uses KiCad GUI to do it. Is slow but you get the correct frame.
-      # But it can't keep track of page numbers.
-      # internal: KiBot loads the `.kicad_wks` and does the drawing work.
-      # Best option, but some details are different from what the GUI generates.
-      # plot: uses KiCad Python API. Not available for KiCad 5.
-      # You get the default frame and some substitutions doesn't work
-      frame_plot_mechanism: 'internal'
-      # [boolean=false] Hide components in the Fab layer that are marked as excluded by a variant.
-      # Affected by global options
-      hide_excluded: false
-      # [boolean=true] Tell KiCad to apply the scaling for each page as a separated entity.
-      # Disabling it the pages are coherent and can be superposed
-      individual_page_scaling: true
-      # [boolean=false] Invert the meaning of the `use_for_center` layer option.
-      # This can be used to just select the edge cuts for centering, in this case enable this option
-      # and disable the `use_for_center` option of the edge cuts layer
-      invert_use_for_center: false
-      # [boolean=false] Store the temporal page and layer files in the output dir and don't delete them
-      keep_temporal_files: false
-      # [string=''] Color used for micro `colored_vias`
-      micro_via_color: ''
-      # [string='%f-%i%I%v.%x'] Filename for the output (%i=assembly, %x=pdf/ps)/(%i=assembly_page_NN, %x=svg/png/eps).
-      # Consult the `page_number_as_extension` and `page_id` options. Affected by global options
-      output: '%f-%i%I%v.%x'
-      # `output_name` is an alias for `output`
-      # [string=''] Color used for `colored_pads`
-      pad_color: ''
-      # [boolean=false] When enabled the %i is always `assembly`, the %x will be NN.FORMAT (i.e. 01.png).
-      # Note: page numbers can be customized using the `page_id` option for each page
-      page_number_as_extension: false
-      # [list(dict)] List of pages to include in the output document.
-      # Each page contains one or more layers of the PCB
+      keep_temporal_files: true
       pages:
-        # [number=0] Horizontal margin used for the autoscaling mode [mm]
-        - autoscale_margin_x: 0
-          # [number=0] Vertical margin used for the autoscaling mode [mm]
-          autoscale_margin_y: 0
-          # [boolean=true] Change the drill holes to be colored instead of white
-          colored_holes: true
-          # [boolean=false] Do not plot the component pads in the silk screen (KiCad 5.x only)
-          exclude_pads_from_silkscreen: false
-          # [string='#000000'] Color used for the holes when `colored_holes` is enabled
-          holes_color: '#000000'
-          # [string='%ll'] Text to use for the `LAYER` in the title block.
-          # All the expansions available for `sheet` are also available here
-          layer_var: '%ll'
-          # [list(dict)|list(string)|string] List of layers printed in this page.
-          # Order is important, the last goes on top.
-          # You can reuse other layers lists, some options aren't used here, but they are valid
+        - scaling: 2.0
+          sheet: '%ln'
+          repeat_for_layer: 'F.Cu'
+          repeat_layers: outers
           layers:
-            # [string=''] Color used for this layer.
-            # KiCad 6+: don't forget the alpha channel for layers like the solder mask
-            - color: ''
-              # [string=''] A description for the layer, for documentation purposes.
-              # A default can be specified using the `layer_defaults` global option
-              description: ''
-              # [boolean=false] Include references and values even when they are marked as invisible
-              force_plot_invisible_refs_vals: false
-              # [string=''] Name of the layer. As you see it in KiCad
-              layer: ''
-              # [boolean=true] Include the footprint references
-              plot_footprint_refs: true
-              # [boolean=true] Include the footprint values
-              plot_footprint_values: true
-              # [string=''] Suffix used in file names related to this layer. Derived from the name if not specified.
-              # A default can be specified using the `layer_defaults` global option
-              suffix: ''
-              # [boolean=true] Use this layer for centering purposes.
-              # You can invert the meaning using the `invert_use_for_center` option
-              use_for_center: true
-          # [number=0.1] [0.02,2] For objects without width [mm] (KiCad 5)
-          line_width: 0.1
-          # [boolean=false] Print mirrored (X axis inverted)
-          mirror: false
-          # [boolean=true] Mirror text in the footprints when mirror option is enabled and we plot a user layer
-          mirror_footprint_text: true
-          # [boolean=true] Mirror text in the PCB when mirror option is enabled and we plot a user layer
-          mirror_pcb_text: true
-          # [boolean=false] Print in gray scale
-          monochrome: false
-          # [boolean=false] Invert black and white. Only useful for a single layer
-          negative_plot: false
-          # [string='%02d'] Text to differentiate the pages. Use %d (like in C) to get the page number
-          page_id: '%02d'
-          # [string=''] Use this page as a pattern to create more pages.
-          # The other pages will change the layer mentioned here.
-          # This can be used to generate a page for each copper layer, here you put `F.Cu`.
-          # See `repeat_layers`
-          repeat_for_layer: ''
-          # [boolean=true] If we will inherit the options of the layer we are replacing.
-          # Disable it if you specify the options in `repeat_layers`, which is unlikely
-          repeat_inherit: true
-          # [list(dict)|list(string)|string] List of layers to replace `repeat_for_layer`.
-          # This can be used to generate a page for each copper layer, here you put `copper`
-          repeat_layers:
-            # [string=''] Color used for this layer.
-            # KiCad 6+: don't forget the alpha channel for layers like the solder mask
-            - color: ''
-              # [string=''] A description for the layer, for documentation purposes.
-              # A default can be specified using the `layer_defaults` global option
-              description: ''
-              # [boolean=false] Include references and values even when they are marked as invisible
-              force_plot_invisible_refs_vals: false
-              # [string=''] Name of the layer. As you see it in KiCad
-              layer: ''
-              # [boolean=true] Include the footprint references
-              plot_footprint_refs: true
-              # [boolean=true] Include the footprint values
-              plot_footprint_values: true
-              # [string=''] Suffix used in file names related to this layer. Derived from the name if not specified.
-              # A default can be specified using the `layer_defaults` global option
-              suffix: ''
-              # [boolean=true] Use this layer for centering purposes.
-              # You can invert the meaning using the `invert_use_for_center` option
-              use_for_center: true
-          # [number=1.0] Scale factor (0 means autoscaling)
-          scaling: 1.0
-          # [string='Assembly'] Text to use for the `SHEET` in the title block.
-          # Pattern (%*) and text variables are expanded.
-          # The %ll is the list of layers included in this page.
-          # In addition when you use `repeat_for_layer` the following patterns are available:
-          # %ln layer name, %ls layer suffix and %ld layer description
-          sheet: 'Assembly'
-          # [string=''] Color to use for the frame and title block
-          sheet_reference_color: ''
-          # [number=0.1] Line width for the sketched pads [mm], see `sketch_pads_on_fab_layers` (KiCad 6+)
-          # Note that this value is currently ignored by KiCad (6.0.9)
-          sketch_pad_line_width: 0.1
-          # [boolean=false] Draw only the outline of the pads on the *.Fab layers (KiCad 6+)
-          sketch_pads_on_fab_layers: false
-          # [boolean=false] Try to sort the layers in the same order that uses KiCad for printing
-          sort_layers: false
-          # [boolean=true] Cover the vias
-          tent_vias: true
-          # [string=''] Text used to replace the sheet title. %VALUE expansions are allowed.
-          # If it starts with `+` the text is concatenated
-          title: ''
-      # [boolean=true] Include the title-block (worksheet, frame, etc.)
-      plot_sheet_reference: true
-      # [number=1280] [0,7680] Width of the PNG in pixels. Use 0 to use as many pixels as the DPI needs for the page size
-      png_width: 1280
-      # [string|list(string)='_none'] Name of the filter to transform fields before applying other filters.
-      # A short-cut to use for simple cases where a variant is an overkill
-      pre_transform: '_none'
-      # [boolean=true] Try to draw the solder mask as a real solder mask, not the negative used for fabrication.
-      # In order to get a good looking select a color with transparency, i.e. '#14332440'.
-      # PcbDraw must be installed in order to use this option
-      realistic_solder_mask: true
-      # [number=1.0] Default scale factor (0 means autoscaling)
-      scaling: 1.0
-      # [string=''] Worksheet file (.kicad_wks) to use. Leave empty to use the one specified in the project
-      sheet_reference_layout: ''
-      # [number=4] [0,6] Scale factor used to represent 1 mm in the SVG (KiCad 6).
-      # The value is how much zeros has the multiplier (1 mm = 10 power `svg_precision` units).
-      # Note that for an A4 paper Firefox 91 and Chrome 105 can't handle more than 5
-      svg_precision: 4
-      # [string=''] Text used to replace the sheet title. %VALUE expansions are allowed.
-      # If it starts with `+` the text is concatenated
-      title: ''
-      # [string=''] Board variant to apply
-      variant: ''
-      # [string=''] Color used for through-hole `colored_vias`
-      via_color: ''
+            - layer: Edge.Cuts
+            - layer: F.Cu
+            - layer: F.Mask
+              color: '#14332440'
+            - layer: F.Paste
+            - layer: F.SilkS
+            - layer: F.Fab
+              plot_footprint_refs: false
+              plot_footprint_values: false
+            - layer: Dwgs.User
+        - scaling: 2.0
+          sheet: '%ln'
+          repeat_for_layer: 'F.Cu'
+          repeat_layers: inners
+          layers:
+            - layer: Edge.Cuts
+            - layer: F.Cu
+            - layer: F.SilkS
+            - layer: Dwgs.User
   # PCB with variant generator:
   # This copy isn't intended for development.
   # Is just a tweaked version of the original where you can look at the results.

@@ -3,7 +3,7 @@ name: CI
 on: push
 
 jobs:
-  Generate:
+  Documents:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
@@ -25,5 +25,29 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AstraControl-${{ steps.date.outputs.date }}
+          name: AstraControl-Documents-${{ steps.date.outputs.date }}
+          path: output
+  3DRender:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M-%S')"
+      - uses: actions/checkout@v4
+        with:
+          # So we can run a diff between last 2 changes
+          fetch-depth: "0"
+
+      - name: Run Kibot
+        run: |
+          kibot -vvv -d output -c config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
+      - run: |
+          kibot -vvv -d output -c 3DRender.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: AstraControl-3DRender-${{ steps.date.outputs.date }}
           path: output
