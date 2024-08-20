@@ -598,7 +598,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "1d687612-a6e9-4504-9f01-d68d86481959")
 	)
-	(model "/Users/BB88KU/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/USB-C_SMD-TYPE-C-31-M-12.step"
 		(offset
 			(xyz 0 2 0)
 		)

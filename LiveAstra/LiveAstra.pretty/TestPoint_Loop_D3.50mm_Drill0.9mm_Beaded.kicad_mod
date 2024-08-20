@@ -258,7 +258,7 @@
 		(remove_unused_layers no)
 		(uuid "e98c4b0e-2c90-4fb1-8f89-3963d2e3692b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded.wrl"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -192,7 +192,7 @@
 		(roundrect_rratio 0.208333)
 		(uuid "1bdfed4a-fb38-4162-b692-6c86bd617303")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/R_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

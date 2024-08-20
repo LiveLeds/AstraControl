@@ -290,7 +290,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d35ca982-0a2c-4abf-b1aa-f30b1de225f9")
 	)
-	(model "${LIVEASTRA}/LiveAstra.3dshapes/IND-SMD_L4.5-W4.1-H2.0_YXMAA0402.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/IND-SMD_L4.5-W4.1-H2.0_YXMAA0402.step"
 		(offset
 			(xyz 0 0 0)
 		)

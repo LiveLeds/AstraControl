@@ -192,7 +192,7 @@
 		(roundrect_rratio 0.212766)
 		(uuid "26b8f07a-78fd-4334-a627-c22ac9be221b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/C_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -520,7 +520,7 @@
 		(remove_unused_layers no)
 		(uuid "d00d20ec-f2c5-4145-b200-940b0c962dcf")
 	)
-	(model "/Users/BB88KU/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/CONN-TH_B4B-ZR-3.4.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/CONN-TH_B4B-ZR-3.4.step"
 		(offset
 			(xyz 0 0 0)
 		)

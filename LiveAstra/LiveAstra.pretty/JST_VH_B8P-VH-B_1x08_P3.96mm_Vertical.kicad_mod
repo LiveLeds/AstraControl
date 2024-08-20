@@ -365,7 +365,7 @@
 		(remove_unused_layers no)
 		(uuid "6ab95d0b-f027-49d4-8839-0e0a3dfa6cf4")
 	)
-	(model "/Users/BB88KU/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/B8P-VH.stp"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/B8P-VH.stp"
 		(offset
 			(xyz 13.85 0 0)
 		)

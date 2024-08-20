@@ -227,7 +227,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "92691b39-2307-4f08-a3ac-658b61b0c444")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sunlord_SWPA4030S.wrl"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/L_Sunlord_SWPA4030S.step"
 		(offset
 			(xyz 0 0 0)
 		)

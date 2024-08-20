@@ -402,7 +402,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "aa559ed2-481e-4426-b7cb-62b0b0aefb41")
 	)
-	(model "${LIVEASTRA}/LiveAstra.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
 		(offset
 			(xyz 0 0 0)
 		)

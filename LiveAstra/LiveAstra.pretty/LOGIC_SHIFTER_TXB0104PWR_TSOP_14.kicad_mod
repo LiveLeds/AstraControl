@@ -89,7 +89,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -3.5 2.3) (xy -3 2.8) (xy -3.5 3.3)
+			(xy -2.44968 4.503923) (xy -1.94968 4.003923) (xy -1.44968 4.503923)
 		)
 		(stroke
 			(width 0.16)
@@ -440,7 +440,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "870afa64-5772-400a-af57-dbad3e6abb68")
 	)
-	(model "${LIVEASTRA}/LiveAstra.3dshapes/TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -69,6 +69,16 @@
 	(attr smd)
 	(fp_line
 		(start -1.49 -0.85)
+		(end -1.49 -0.5)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aea936bb-159f-4ca4-9c92-164a8d9ceee6")
+	)
+	(fp_line
+		(start -1.49 0.5)
 		(end -1.49 0.85)
 		(stroke
 			(width 0.16)
@@ -395,7 +405,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "e718df4e-cff0-4d8a-9e3c-d48c62eaf0f4")
 	)
-	(model "${LIVEASTRA}/LiveAstra.3dshapes/TSOT-23-5_L2.9-W1.6-H1.00-LS2.8-P0.95.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/TSOT-23-5_L2.9-W1.6-H1.00-LS2.8-P0.95.step"
 		(offset
 			(xyz 0 0 0)
 		)
