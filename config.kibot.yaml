@@ -25,182 +25,52 @@ variants:
     pre_transform: _rot_footprint_jlcpcb
 
 outputs:
-  # Blender Export:
-  # Also renders the PCB with high-quality.
-  # Needs KiCad 6 or newer.
-  # This output is complex to setup and needs very big dependencies.
-  # Please be patient when using it.
-  # You need Blender with the pcb2blender plug-in installed.
-  # Visit: [pcb2blender](https://github.com/30350n/pcb2blender).
-  # You can just generate the exported PCB if no output is specified.
-  # You can also export the PCB and render it at the same time
-  - name: 'blender_export_example'
-    comment: 'Exports the PCB in various 3D file formats.'
-    type: 'blender_export'
-    dir: 'output/Render'
+  - name: 'pcb2blender_tools_example'
+    comment: 'A bunch of tools used to generate PCB3D files used to export PCBs to Blender.'
+    type: 'pcb2blender_tools'
+    dir: 'output/pcb2blender_tools_dir'
     options:
-      # [boolean=true] Add a default light when none specified.
-      # The default light is located at (-size*3.33, size*3.33, size*5) where size is max(width, height) of the PCB
-      add_default_light: true
-      # [number=1.1] Value to multiply the Z axis coordinate after computing the automatically generated camera.
-      # Used to avoid collision of the camera and the object
-      auto_camera_z_axis_factor: 1.1
-      # [dict] Options for the camera.
-      # If none specified KiBot will create a suitable camera.
-      # If no position is specified for the camera KiBot will look for a suitable position
-      camera:
-        # [number=-1] Minimum distance for objects to the camera. Any object closer than this distance won't be visible.
-        # Only positive values have effect. A negative value has a special meaning.
-        # For a camera with defined position, a negative value means to use Blender defaults (i.e. 0.1 m).
-        # For cameras without position KiBot will ask Blender to compute its position and the use a clip
-        # distance that is 1/10th of the Z distance
-        clip_start: -1
-        # [string=''] Name for the camera
-        name: ''
-        # [number|string] X position [m]. You can use `width`, `height` and `size` for PCB dimensions
-        pos_x: 0
-        # [number|string] Y position [m]. You can use `width`, `height` and `size` for PCB dimensions
-        pos_y: 0
-        # [number|string] Z position [m]. You can use `width`, `height` and `size` for PCB dimensions
-        pos_z: 0
-        # [string='perspective'] [perspective,orthographic,panoramic] Type of camera
-        type: 'perspective'
-      # [string=''] Default value for the `file_id` in the `point_of_view` options.
-      # Use something like '_%03d' for animations
-      default_file_id: ''
-      # [boolean=false] When using the automatically generated camera and multiple points of view this option computes the camera
-      # position just once. Suitable for videos
-      fixed_auto_camera: false
-      # [dict|list(dict)] Options for the light/s
-      light:
-        # [number=0] How powerful is the light. Using 0 for POINT and SUN KiBot will try to use something useful
-        - energy: 0
-          # [string=''] Name for the light
-          name: ''
-          # [number|string] X position [m]. You can use `width`, `height` and `size` for PCB dimensions
-          pos_x: 0
-          # [number|string] Y position [m]. You can use `width`, `height` and `size` for PCB dimensions
-          pos_y: 0
-          # [number|string] Z position [m]. You can use `width`, `height` and `size` for PCB dimensions
-          pos_z: 0
-          # [string='POINT'] [POINT,SUN,SPOT,HEMI,AREA] Type of light. SUN lights will illuminate more evenly
-          type: 'POINT'
-      # [dict|list(dict)] Outputs to generate in the same run
-      outputs:
-        # [string=''] Subdirectory for this output
-        - dir: ''
-          # [string='%f-%i%I%v.%x'] Name for the generated file (%i='3D_blender_$VIEW' %x=VARIABLE).
-          # The extension is selected from the type. Affected by global options
-          output: '%f-%i%I%v.%x'
-          # [string='render'] [fbx,obj,x3d,gltf,stl,ply,blender,render] The format for the output.
-          # The `render` type will generate a PNG image of the render result.
-          # `fbx` is Kaydara's Filmbox, 'obj' is the Wavefront, 'x3d' is the new ISO/IEC standard
-          # that replaced VRML, `gltf` is the standardized GL format, `stl` is the 3D printing
-          # format, 'ply' is Polygon File Format (Stanford).
-          # Note that some formats includes the light and camera and others are just the 3D model
-          # (i.e. STL and PLY)
-          type: 'render'
-      # [string|dict] Options to export the PCB to Blender.
-      # You can also specify the name of the output that generates the PCB3D file.
-      # See the `PCB2Blender_2_1`, `PCB2Blender_2_7` and `PCB2Blender_2_1_haschtl` templates
-      pcb3d:
-        # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
-        # A short-cut to use for simple cases where a variant is an overkill
-        dnf_filter: '_none'
-        # [boolean=true] Downloads missing 3D models from KiCad git.
-        # Only applies to models in KISYS3DMOD and KICAD6_3DMODEL_DIR.
-        # They are downloaded to a temporal directory and discarded.
-        # If you want to cache the downloaded files specify a directory using the
-        # KIBOT_3D_MODELS environment variable
-        download: false
-        # [boolean=true] In addition to try to download the 3D models from KiCad git also try to get
-        # them from LCSC database. In order to work you'll need to provide the LCSC
-        # part number. The field containing the LCSC part number is defined by the
-        # `field_lcsc_part` global variable
-        download_lcsc: false
-        # [list(string)=[]] List of components to highlight. Ranges like *R5-R10* are supported
-        highlight: []
-        # [boolean=false] Highlight over the component (not under)
-        highlight_on_top: false
-        # [number=1.5] [0,1000] How much the highlight extends around the component [mm]
-        highlight_padding: 1.5
-        # [boolean=false] Used to exclude 3D models for components with 'virtual' attribute
-        no_virtual: false
-        # [string='%f-%i%I%v.%x'] Name for the generated PCB3D file (%i='blender_export' %x='pcb3d'). Affected by global options
-        output: '%f-%i%I%v.%x'
-        # [list(string)|string=all] [none,all] List of components to draw, can be also a string for `none` or `all`.
-        # Ranges like *R5-R10* are supported.
-        # Unlike the `pcbdraw` output, the default is `all`
-        show_components: all
-        # [boolean=true] Add solder paste only for the populated components.
-        # Populated components are the ones listed in `show_components`
-        solder_paste_for_populated: true
-        # [string=''] Board variant to apply
-        variant: ''
-        # [string='2.7'] [2.1,2.1_haschtl,2.7] Variant of the format used
-        version: '2.7'
-      # Options to configure how Blender imports the PCB.
-      # The default values are good for most cases
-      pcb_import:
-        # [boolean=true] Center the PCB at the coordinates origin
-        center: true
-        # [boolean=true] Import the components
-        components: true
-        # [boolean=true] Separate the sub-PCBs in separated 3D models
-        cut_boards: true
-        # [boolean=true] Create good looking materials
-        enhance_materials: true
-        # [boolean=true] Reuse materials
-        merge_materials: true
-        # [string='SMART'] [NONE,SMART,ALL] The plug-in can add nice looking solder joints.
-        # This option controls if we add it for none, all or only for THT/SMD pads with solder paste
-        solder_joints: 'SMART'
-        # [boolean=true] Move the sub-PCBs to their relative position
-        stack_boards: true
-        # [number=1016.0] [508-2032] Texture density in dots per inch
-        texture_dpi: 1016.0
-      # [dict|list(dict)] How the object is viewed by the camera
-      point_of_view:
-        # [string=''] String to differentiate the name of this point of view.
-        # When empty we use the `default_file_id` or the `view`
-        - file_id: ''
-          # [number=0] Angle to rotate the board in the X axis, positive is clockwise [degrees]
-          rotate_x: 0
-          # [number=0] Angle to rotate the board in the Y axis, positive is clockwise [degrees]
-          rotate_y: 0
-          # [number=0] Angle to rotate the board in the Z axis, positive is clockwise [degrees]
-          rotate_z: 0
-          # [number=1] [1-1000] Generate this amount of steps using the rotation angles as increments.
-          # Use a value of 1 (default) to interpret the angles as absolute.
-          # Used for animations. You should define the `default_file_id` to something like
-          # '_%03d' to get the animation frames
-          steps: 1
-          # [string='top'] [top,bottom,front,rear,right,left,z,Z,y,Y,x,X] Point of view.
-          # Compatible with `render_3d`
-          view: 'top'
-      # [dict] Controls how the render is done for the `render` output type
-      render_options:
-        # [boolean=false] When enabled the image will be post-processed to remove the empty space around the image.
-        # In this mode the `background2` is changed to be the same as `background1`
-        auto_crop: false
-        # [string='#66667F'] First color for the background gradient
-        background1: '#66667F'
-        # [string='#CCCCE5'] Second color for the background gradient
-        background2: '#CCCCE5'
-        # `height` is an alias for `resolution_y`
-        # [boolean=false] Used to disable the render denoiser on old hardware, or when the functionality isn't compiled.
-        # Note that the impact in quality is huge, you should increase the amount of samples 10 times
-        no_denoiser: false
-        # [number=1280] Width of the image
-        resolution_x: 1280
-        # [number=720] Height of the image
-        resolution_y: 720
-        # [number=10] How many samples we create. Each sample is a raytracing render.
-        # Use 1 for a raw preview, 10 for a draft and 100 or more for the final render
-        samples: 10
-        # [boolean=false] Make the background transparent
-        transparent_background: false
-        # `width` is an alias for `resolution_x`
+      # [boolean=true] Create the file that informs the size of the used PCB area.
+      # This is the bounding box reported by KiCad for the PCB edge with 1 mm of margin
+      board_bounds_create: true
+      # [string='layers'] Sub-directory where the bounds file is stored
+      board_bounds_dir: 'layers'
+      # [string='bounds'] Name of the bounds file
+      board_bounds_file: 'bounds'
+      # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
+      # A short-cut to use for simple cases where a variant is an overkill
+      dnf_filter: '_none'
+      # [string='%f-%i%I%v.%x'] Filename for the output (%i=pcb2blender, %x=pcb3d). Affected by global options
+      output: '%f-%i%I%v.%x'
+      # [boolean=true] Create the files containing the PCB pads information
+      pads_info_create: true
+      # [string='pads'] Sub-directory where the pads info files are stored
+      pads_info_dir: 'pads'
+      # [string|list(string)='_none'] Name of the filter to transform fields before applying other filters.
+      # A short-cut to use for simple cases where a variant is an overkill
+      pre_transform: '_none'
+      # [list(string)|string=all] [none,all] List of components to include in the pads list,
+      # can be also a string for `none` or `all`. The default is `all`.
+      # Ranges like *R5-R10* are supported
+      show_components: all
+      # [boolean=false] Create a file containing the board stackup
+      stackup_create: false
+      # [string='.'] Directory for the stackup file. Use 'layers' for 2.7+
+      stackup_dir: '.'
+      # [string='board.yaml'] Name for the stackup file. Use 'stackup' for 2.7+
+      stackup_file: 'board.yaml'
+      # [string='JSON'] [JSON,BIN] Format for the stackup file. Use 'BIN' for 2.7+
+      stackup_format: 'JSON'
+      # [string='bounds'] File name for the sub-PCBs bounds
+      sub_boards_bounds_file: 'bounds'
+      # [boolean=true] Extract sub-PCBs and their Z axis position
+      sub_boards_create: true
+      # [string='boards'] Directory for the boards definitions
+      sub_boards_dir: 'boards'
+      # [string='stacked_'] Prefix used for the stack files
+      sub_boards_stacked_prefix: 'stacked_'
+      # [string=''] Board variant to apply
+      variant: ''
   - name: 'Step'
     comment: 'Exports the PCB as a 3D model.'
     type: 'step'
