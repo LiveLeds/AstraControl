@@ -333,7 +333,7 @@
 		(remove_unused_layers no)
 		(uuid "00bd7a44-e8b1-4877-afa5-4f8e83d758cc")
 	)
-	(model "/Users/BB88KU/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/VH3.96-4A.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/VH3.96-4A.step"
 		(offset
 			(xyz 0 -4.1 3)
 		)
