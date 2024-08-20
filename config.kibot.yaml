@@ -84,19 +84,6 @@ outputs:
       pre_transform: '_none'
       # [dict|None] (DEPRECATED) Replacements for PCB references using specified components (lib:component).
       # Use `remap_components` instead
-      remap:
-      # [list(dict)] Replacements for PCB references using specified components.
-      # Replaces `remap` with type check
-      remap_components:
-        # [string=''] Component to use (from `lib`)
-        - comp: ''
-          # `component` is an alias for `comp`
-          # [string=''] Library to use
-          lib: ''
-          # `library` is an alias for `lib`
-          # [string=''] Reference for the component to change
-          ref: ''
-          # `reference` is an alias for `ref`
       # [string|list(string)=''] List of resistors to flip its bands
       resistor_flip: ''
       # [list(dict)] List of resistors to be remapped. You can change the value of the resistors here
