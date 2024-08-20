@@ -2,6 +2,11 @@
 kibot:
   version: 1
 
+globals:
+  resources_dir: resources
+  solder_mask_color: black
+  pcb_finish: ENIG
+
 outputs:
   - name: _blender_3d@_KIBOT_IMPORT_ID@
     comment: "HQ 3D Render of the PCB"
@@ -34,6 +39,6 @@ definitions:
   _KIBOT_IMPORT_DIR: 'Render_3D'
   _KIBOT_3D_VIEW: top
   _KIBOT_3D_FILE_ID: '@_KIBOT_IMPORT_ID@'
-  _KIBOT_ROT_X: 0
-  _KIBOT_ROT_Z: 5
-  _KIBOT_ROT_Y: 5
+  _KIBOT_ROT_X: 25
+  _KIBOT_ROT_Z: -190
+  _KIBOT_ROT_Y: 0

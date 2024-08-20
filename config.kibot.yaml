@@ -8,6 +8,8 @@ kibot:
 globals:
   resources_dir: resources
   field_lcsc_part: "LCSC Part"
+  solder_mask_color: black
+  pcb_finish: ENIG
 
 filters:
   - name: only_jlc_parts
