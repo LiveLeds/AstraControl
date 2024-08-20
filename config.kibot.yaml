@@ -39,7 +39,7 @@ outputs:
       # [number=0] Default vertical margin used for the autoscaling mode [mm]
       autoscale_margin_y: 0
       # [string='#FFFFFF'] Color for the background when `add_background` is enabled
-      background_color: '#FFFFFF'
+      background_color: '#000000'
       # [string=''] Color used for blind/buried `colored_vias`
       blind_via_color: ''
       # [string='_builtin_classic'] Selects the color theme. Only applies to KiCad 6.
@@ -70,7 +70,7 @@ outputs:
       format: 'PDF'
       keep_temporal_files: true
       pages:
-        - scaling: 2.0
+        - scaling: 1.0
           sheet: '%ln'
           repeat_for_layer: 'F.Cu'
           repeat_layers: outers
@@ -78,14 +78,14 @@ outputs:
             - layer: Edge.Cuts
             - layer: F.Cu
             - layer: F.Mask
-              color: '#14332440'
+              color: '#ff00ff40'
             - layer: F.Paste
             - layer: F.SilkS
             - layer: F.Fab
               plot_footprint_refs: false
               plot_footprint_values: false
             - layer: Dwgs.User
-        - scaling: 2.0
+        - scaling: 1.0
           sheet: '%ln'
           repeat_for_layer: 'F.Cu'
           repeat_layers: inners
