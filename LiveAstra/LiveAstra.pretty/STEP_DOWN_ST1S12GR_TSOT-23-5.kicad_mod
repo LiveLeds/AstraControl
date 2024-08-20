@@ -1,0 +1,409 @@
+(footprint "STEP_DOWN_ST1S12GR_TSOT-23-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.82 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b6da4ce1-acde-4637-8f1f-faa0166c887e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "STEP_DOWN_ST1S12GR_TSOT-23-5"
+		(at 0 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "781ad1fd-2627-49a4-b95a-7a98a69d0052")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.05 0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f51a8095-7700-486e-a76b-dc9abbcd0057")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/product-detail/Others_STMicroelectronics_ST1S12GR_STMicroelectronics-ST1S12GR_C222072.html"
+		(at 0.05 12.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74779b9e-60ad-4252-a00d-7bd9890dd3d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " Step-down type Adjustable 600mV~5.5V 700mA 2.5V~5.5V TSOT-23-5 DC-DC Converters ROHS"
+		(at 0 10.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc4d2bba-97f3-4249-b80c-39f139a364ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.49 -0.85)
+		(end -1.49 0.85)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e7c29c2c-0bb4-449b-8d52-7ff9a00830b8")
+	)
+	(fp_line
+		(start 1.49 -0.85)
+		(end 1.49 0.85)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "348be76b-a309-4121-8752-4e68e469b3fe")
+	)
+	(fp_poly
+		(pts
+			(xy 2 -0.8) (xy 1.5 -1.3) (xy 2 -1.8)
+		)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5a61b2c6-6d30-4c13-8155-4cf7e0109648")
+	)
+	(fp_line
+		(start -1.75 -2)
+		(end 1.75 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "351a4a83-8247-4c2e-979f-fdb1f062e1a2")
+	)
+	(fp_line
+		(start -1.75 2)
+		(end -1.75 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "aaceb950-5ec0-4b92-b9d0-fad7182e1868")
+	)
+	(fp_line
+		(start 1.75 -2)
+		(end 1.75 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f9133bb-dbbe-47c7-ab19-8e1f5db2cefc")
+	)
+	(fp_line
+		(start 1.75 2)
+		(end -1.75 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f1aed7c-4b7b-4eba-b6f5-e8b4d20bdce2")
+	)
+	(fp_circle
+		(center 1 -0.2)
+		(end 1.2 -0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7c6f7adc-acd3-4151-b134-71c099a321b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18240468-16a6-4af8-86c7-e1f8e72db5c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "38b63c54-b548-4d77-bcc6-4c0f7b78f07e")
+		(pts
+			(xy 0.65 -1.75) (xy 1.25 -1.75)
+		)
+		(height -0.05)
+		(gr_text "0.6000 mm"
+			(at 1 -1.9 0)
+			(layer "User.1")
+			(uuid "38b63c54-b548-4d77-bcc6-4c0f7b78f07e")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "a79a3882-1f39-4f78-8ebd-d6dfa30df825")
+		(pts
+			(xy -0.95 -1.75) (xy 0 -1.75)
+		)
+		(height -0.05)
+		(gr_text "0.9500 mm"
+			(at -0.4 -1.9 0)
+			(layer "User.1")
+			(uuid "a79a3882-1f39-4f78-8ebd-d6dfa30df825")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "b03f5797-e920-48e2-a260-f5120c74280c")
+		(pts
+			(xy 1.25 -1.75) (xy 1.25 -0.55)
+		)
+		(height 0.75)
+		(gr_text "1.2000 mm"
+			(at 0.5 -1.2 90)
+			(layer "User.1")
+			(uuid "b03f5797-e920-48e2-a260-f5120c74280c")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "cb07e67e-cbf2-4d7c-becf-4571b124b432")
+		(pts
+			(xy 1.25 -0.55) (xy 1.25 0.55)
+		)
+		(height -0.62)
+		(gr_text "1.1000 mm"
+			(at 1.878545 -0.001455 90)
+			(layer "User.1")
+			(uuid "cb07e67e-cbf2-4d7c-becf-4571b124b432")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "ce4d84b5-64ef-4ce4-b868-2306c7852fbb")
+		(pts
+			(xy -0.95 1.15) (xy -0.95 -1.15)
+		)
+		(height -0.88)
+		(gr_text "2.3000 mm"
+			(at -1.84 0 90)
+			(layer "User.1")
+			(uuid "ce4d84b5-64ef-4ce4-b868-2306c7852fbb")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "f547bde7-b9b5-4346-bc73-171e1ebad181")
+		(pts
+			(xy -0.95 1.75) (xy -0.95 -1.75)
+		)
+		(height -1.05)
+		(gr_text "3.5000 mm"
+			(at -2 0 90)
+			(layer "User.1")
+			(uuid "f547bde7-b9b5-4346-bc73-171e1ebad181")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(pad "1" smd rect
+		(at 0.95 -1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "66997de2-106b-4446-883f-2353fedd011a")
+	)
+	(pad "2" smd rect
+		(at 0 -1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a8f427be-3158-405a-b059-873c3f465f9c")
+	)
+	(pad "3" smd rect
+		(at -0.95 -1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "faf6670a-665e-4d1c-acbb-39a0d40a27fe")
+	)
+	(pad "4" smd rect
+		(at -0.95 1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a16e4708-9ed3-418b-8583-395ff1515360")
+	)
+	(pad "5" smd rect
+		(at 0.95 1.15)
+		(size 0.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e718df4e-cff0-4d8a-9e3c-d48c62eaf0f4")
+	)
+	(model "${LIVEASTRA}/LiveAstra.3dshapes/TSOT-23-5_L2.9-W1.6-H1.00-LS2.8-P0.95.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

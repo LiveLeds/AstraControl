@@ -1,0 +1,304 @@
+(footprint "L_MDA4020_4.1x4.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e26c613f-e44a-4425-bb59-ef3821ccbcda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_MDA4020_4.1x4.5mm"
+		(at 0 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06b74ed6-5ba5-4eff-8d96-657a0be743fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e3ed0a1-7357-47a0-94e0-fb059a52a283")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/partdetail/Koherelec-MDA40202R2M/C2847469"
+		(at 0 8.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9df4521a-b19d-427c-860c-971f89ca8f15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4A 2.2uH ±20% 4A 41mΩ SMD,4.1x4.5mm Inductors (SMD) ROHS "
+		(at 0 10.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9de8a9a4-d584-4448-a4bf-2c2cfd938734")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -2.05)
+		(end -2.2 -1.6)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dcf3a09a-455c-4d19-a170-279258d276a2")
+	)
+	(fp_line
+		(start -2.2 -2.05)
+		(end 2.2 -2.05)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b6e4865-8c91-4130-b193-e55c13b1f309")
+	)
+	(fp_line
+		(start -2.2 1.7)
+		(end -2.2 2.05)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "426928b2-1e00-4f5b-9934-9b036bdfcfbd")
+	)
+	(fp_line
+		(start -2.2 2.05)
+		(end 2.2 2.05)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "982e14c9-df20-4d32-bd58-c05e9086eb0d")
+	)
+	(fp_line
+		(start 2.2 -2.05)
+		(end 2.2 -1.6)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e8c5d03a-0f92-46f3-9a3c-5eeb7eec8c8e")
+	)
+	(fp_line
+		(start 2.2 1.7)
+		(end 2.2 2.05)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b9ecc64-a9a2-4ae1-bc4c-05ee2291655a")
+	)
+	(fp_line
+		(start -3 -2.5)
+		(end 3 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "00e6f95c-f861-4ef0-955f-32a8b9c1820a")
+	)
+	(fp_line
+		(start -3 2.5)
+		(end -3 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "774d33b1-9ea9-4290-a259-b4f2b5f6e9f9")
+	)
+	(fp_line
+		(start 3 -2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c85fcfe-94d5-475f-b808-7dd29df3ab53")
+	)
+	(fp_line
+		(start 3 2.5)
+		(end -3 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "517d51bf-b8db-4f4d-a580-825fae4e1494")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69fa5433-97ef-4eea-95d1-035b877cacd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "29f5a30f-b88e-4518-93a1-410c8ecab833")
+		(pts
+			(xy 2.6 -1.25) (xy 2.6 1.25)
+		)
+		(height -0.1)
+		(gr_text "2.5000 mm"
+			(at 2.75 0.05 90)
+			(layer "User.1")
+			(uuid "29f5a30f-b88e-4518-93a1-410c8ecab833")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "53898923-8d9b-4686-83d1-f6e29963dcdc")
+		(pts
+			(xy -2.6 -1.25) (xy 2.6 -1.25)
+		)
+		(height -0.1)
+		(gr_text "5.2000 mm"
+			(at -0.45 -1.6 0)
+			(layer "User.1")
+			(uuid "53898923-8d9b-4686-83d1-f6e29963dcdc")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "a7377566-12af-4185-84f1-f90ad83ba15c")
+		(pts
+			(xy 1.1 1.25) (xy -1.1 1.25)
+		)
+		(height -0.1)
+		(gr_text "2.2000 mm"
+			(at 0 1.5 0)
+			(layer "User.1")
+			(uuid "a7377566-12af-4185-84f1-f90ad83ba15c")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(pad "1" smd rect
+		(at -1.85 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "afbc2cd2-79da-46e4-a94f-b5c6bc6cce15")
+	)
+	(pad "2" smd rect
+		(at 1.85 0)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d35ca982-0a2c-4abf-b1aa-f30b1de225f9")
+	)
+	(model "${LIVEASTRA}/LiveAstra.3dshapes/IND-SMD_L4.5-W4.1-H2.0_YXMAA0402.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

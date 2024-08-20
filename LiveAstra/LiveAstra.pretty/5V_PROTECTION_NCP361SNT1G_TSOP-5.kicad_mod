@@ -1,0 +1,343 @@
+(footprint "5V_PROTECTION_NCP361SNT1G_TSOP-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79154e7f-58c4-4b54-9957-a7f48b3b4525")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "5V_PROTECTION_NCP361SNT1G_TSOP-5"
+		(at 0 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2a25a978-b44d-4fca-b6bf-5c4ce3285ce3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cf917a5-0a70-4033-a583-55056636f832")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/product-detail/PMIC-Supervisors_ON-Semicon_NCP361SNT1G_ON-Semicon-ON-NCP361SNT1G_C233714.html"
+		(at 0 6.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54a57dee-c953-4ee8-939b-a583de37d272")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB Positive Overvoltage Protection Controller with Internal PMOS FET and Overcurrent Protection"
+		(at 0 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8894198-664c-4f8a-a613-f6c7b90122b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.54 -0.75)
+		(end -1.54 0.75)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35f8a5ad-cfdb-42a3-a8ae-7b06eb5a4085")
+	)
+	(fp_line
+		(start 1.55 -0.75)
+		(end 1.55 0.75)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2a0b6999-c5cd-48be-892c-b936a2ec4f31")
+	)
+	(fp_poly
+		(pts
+			(xy 2.1 -0.7) (xy 1.6 -1.2) (xy 2.1 -1.7)
+		)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2ecc0959-0538-47e7-b417-c60ea119867a")
+	)
+	(fp_line
+		(start -1.75 -2)
+		(end 1.75 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e327026d-8b0c-41a1-8341-9a07d2b80037")
+	)
+	(fp_line
+		(start -1.75 2)
+		(end -1.75 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "30f7cf91-d83e-4b7d-bf1b-8526854d08d9")
+	)
+	(fp_line
+		(start 1.75 -2)
+		(end 1.75 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d672fa05-e16f-43d1-93e2-1f70c0ac34f7")
+	)
+	(fp_line
+		(start 1.75 2)
+		(end -1.75 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8dbc129-4d38-40b3-91ee-b6469d883d23")
+	)
+	(fp_circle
+		(center 1 -0.4)
+		(end 1.1 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6397b056-4946-4cd9-bbe6-7a03398cd227")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef5f41e2-6810-4ba8-9ec4-0304b862d3c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "0bdea9b2-ff73-4ea5-9330-c2bf5197d716")
+		(pts
+			(xy -0.95 -1.2) (xy 0.95 -1.2)
+		)
+		(height -0.55)
+		(gr_text "1.9000 mm"
+			(at 0 -1.8 0)
+			(layer "User.1")
+			(uuid "0bdea9b2-ff73-4ea5-9330-c2bf5197d716")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "1b792933-b55d-4a58-bb41-e851bc0873be")
+		(pts
+			(xy -1.3 -1.7) (xy -0.6 -1.7)
+		)
+		(height -0.1)
+		(gr_text "0.7000 mm"
+			(at -1 -1.9 0)
+			(layer "User.1")
+			(uuid "1b792933-b55d-4a58-bb41-e851bc0873be")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "7b0554fd-a7ea-4285-a2da-24dcddf3c9fe")
+		(pts
+			(xy -0.95 1.2) (xy -0.95 -1.2)
+		)
+		(height -0.75)
+		(gr_text "2.4000 mm"
+			(at -1.72 -0.2 90)
+			(layer "User.1")
+			(uuid "7b0554fd-a7ea-4285-a2da-24dcddf3c9fe")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "89123f02-7dbd-432a-971d-5e389040b47b")
+		(pts
+			(xy -1.3 -0.7) (xy -1.3 -1.7)
+		)
+		(height -0.1)
+		(gr_text "1.0000 mm"
+			(at -1.4 -1.2 90)
+			(layer "User.1")
+			(uuid "89123f02-7dbd-432a-971d-5e389040b47b")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(pad "1" smd rect
+		(at 0.95 -1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3760412b-7c7a-4a65-87ee-2a964fbc21ad")
+	)
+	(pad "2" smd rect
+		(at 0 -1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f3794b4d-5c3c-4322-b94a-6c7118fc5ff8")
+	)
+	(pad "3" smd rect
+		(at -0.95 -1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "29d5fa14-424e-4210-bc9e-efea320a5614")
+	)
+	(pad "4" smd rect
+		(at -0.95 1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "536418f7-da1c-4747-940d-7fbf744a6ef2")
+	)
+	(pad "5" smd rect
+		(at 0.95 1.2)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "278038bb-f62c-45fd-9a6c-52b90a939bc1")
+	)
+	(model "${LIVEASTRA}/LiveAstra.3dshapes/TSOP-5_L3.0-W1.5-H1.0-LS2.8-P0.95.step"
+		(offset
+			(xyz 0 0 0.17)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

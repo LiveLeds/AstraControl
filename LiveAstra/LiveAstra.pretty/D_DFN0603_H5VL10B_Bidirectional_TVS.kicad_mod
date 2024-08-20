@@ -1,0 +1,264 @@
+(footprint "D_DFN0603_H5VL10B_Bidirectional_TVS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.25 -9.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e389b86-9ee6-4b67-9504-de61ccf90ab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "D_DFN0603_H5VL10B_Bidirectional_TVS"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8ac56b2-1501-4e76-8cde-10555471391e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31a98314-a58d-432b-adb2-3e35c3d2a1d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-H5VL10B/C7420372"
+		(at 0 6.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c37ab270-c9bf-4d01-abff-7815ad15452a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5A 50W 10V 5.6V Bidirectional 5V DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS "
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4114f030-0ec9-44c4-a2ac-146ca474c5c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -0.53)
+		(end 0.5 -0.53)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de9c0b7b-2dcb-4a2f-85d4-f1773fee1103")
+	)
+	(fp_line
+		(start -0.5 0.53)
+		(end 0.5 0.53)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef7b860d-3e55-458f-9f9f-497562daaea0")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end 1 -0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5adc1a23-f850-4116-89ef-48e307868e53")
+	)
+	(fp_line
+		(start -1 0.5)
+		(end -1 -0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "055a6fc0-9256-4f42-a356-54b6d32ffce1")
+	)
+	(fp_line
+		(start 1 -0.5)
+		(end 1 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bc830ac-0eac-4545-8fcc-61c07b535349")
+	)
+	(fp_line
+		(start 1 0.5)
+		(end -1 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b9afd0d-4fe0-49ee-81ea-3300cc70f14f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a02a98cb-78e0-46f1-bdc0-eb2192616f1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "0a54dceb-2527-4256-94ed-7f464da346f4")
+		(pts
+			(xy -0.15 -0.3) (xy 0.15 -0.3)
+		)
+		(height -0.1)
+		(gr_text "0.30 mm"
+			(at 0 -0.4 0)
+			(layer "User.1")
+			(uuid "0a54dceb-2527-4256-94ed-7f464da346f4")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "2597ea8b-33cd-476a-8b06-d99cbcacaaa1")
+		(pts
+			(xy -0.7 0.3) (xy -0.7 -0.3)
+		)
+		(height -0.1)
+		(gr_text "0.60 mm"
+			(at -0.8 0 90)
+			(layer "User.1")
+			(uuid "2597ea8b-33cd-476a-8b06-d99cbcacaaa1")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "2f41631a-bd7c-4b70-8866-4317c3805c9d")
+		(pts
+			(xy -0.7 -0.3) (xy -0.15 -0.3)
+		)
+		(height -0.4)
+		(gr_text "0.55 mm"
+			(at -0.4 -0.7 0)
+			(layer "User.1")
+			(uuid "2f41631a-bd7c-4b70-8866-4317c3805c9d")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(pad "1" smd rect
+		(at -0.425 0)
+		(size 0.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "231b1e0b-494c-41b2-801a-44d53de20e88")
+	)
+	(pad "2" smd rect
+		(at 0.425 0)
+		(size 0.55 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "23134267-a89d-4567-97d7-6450920a965d")
+	)
+	(model "${LIVEASTRA}/LiveAstra.3dshapes/WBFBP-03E_L1.0-W0.6-P0.64-BL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

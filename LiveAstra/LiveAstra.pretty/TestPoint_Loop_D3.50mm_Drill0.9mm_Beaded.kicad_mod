@@ -1,0 +1,272 @@
+(footprint "TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm")
+	(tags "test point wire loop bead")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "332e9848-8b0d-4eef-8166-0ab98e4c8bab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "2d0c8edc-31a1-472a-a60a-930ef0de0d87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "453b596b-ac67-4e9e-8aef-4da83db9d456")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.aliexpress.com/item/1005001843784820.html?spm=a2g0o.productlist.main.1.4e193e6c9sLKL2&algo_pvid=060e8c62-25cb-4595-897f-b12cf889d6da&algo_exp_id=060e8c62-25cb-4595-897f-b12cf889d6da-0&pdp_npi=4%40dis%21EUR%212.76%212.76%21%21%212.91%212.91%21%4021039cc717227088178627974e95c1%2112000030077474819%21sea%21NL%214145323197%21X&curPageLogUid=sbqLJPFVV9Lp&utparam-url=scene%3Asearch%7Cquery_from%3A"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb15345f-4217-4c88-ad3d-97fc0a850181")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " PCB test point test point ceramic copper gold-plated probe cylindrical test ring bead circuit board test"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "244058da-a59e-4a65-afcc-79b51816f7b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1273cd99-a515-492c-8b92-6c83cbfe33f4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fc8d9e42-9761-4005-a380-d1d565cd2c33")
+	)
+	(fp_line
+		(start -1.6 -0.3)
+		(end -1.6 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6855e238-d883-4a76-b3d6-a0a1dab13f9f")
+	)
+	(fp_line
+		(start -1.6 0.3)
+		(end 1.6 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18e0ac28-e0ad-4e0a-8ee6-d5e9e5c7ad5a")
+	)
+	(fp_line
+		(start 1.6 -0.3)
+		(end -1.6 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a1df439-aa48-4ce5-99f9-19faf3fa1029")
+	)
+	(fp_line
+		(start 1.6 0.3)
+		(end 1.6 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69bc9461-a272-4e03-8c8d-c9b01b8860aa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "aa0a9657-80a3-4283-ae1f-209d3ee8d408")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "eeae192b-9068-48ff-8566-549306052b50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "16c9166a-04c9-4fb4-98c2-8ee5518a47c3")
+		(pts
+			(xy -0.45 0) (xy 0.45 0)
+		)
+		(height -1)
+		(gr_text "0.9000 mm"
+			(at 0 -1 0)
+			(layer "User.1")
+			(uuid "16c9166a-04c9-4fb4-98c2-8ee5518a47c3")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "49862e30-b60e-4a70-b7b9-0b3bee9e45f1")
+		(pts
+			(xy -1.8 0) (xy 1.8 0)
+		)
+		(height -2)
+		(gr_text "3.6000 mm"
+			(at 0.1 -2 0)
+			(layer "User.1")
+			(uuid "49862e30-b60e-4a70-b7b9-0b3bee9e45f1")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "User.1")
+		(uuid "6a7292f6-99f8-40e6-b499-eac532dd77eb")
+		(pts
+			(xy -0.9 0) (xy 0.9 0)
+		)
+		(height -1.5)
+		(gr_text "1.8000 mm"
+			(at 0 -1.5 0)
+			(layer "User.1")
+			(uuid "6a7292f6-99f8-40e6-b499-eac532dd77eb")
+			(effects
+				(font
+					(size 0.1 0.1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.01)
+			(arrow_length 0.01)
+			(text_position_mode 2)
+			(extension_height 0)
+			(extension_offset 0) keep_text_aligned)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e98c4b0e-2c90-4fb1-8f89-3963d2e3692b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
