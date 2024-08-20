@@ -25,52 +25,6 @@ variants:
     pre_transform: _rot_footprint_jlcpcb
 
 outputs:
-  - name: 'pcb2blender_tools_example'
-    comment: 'A bunch of tools used to generate PCB3D files used to export PCBs to Blender.'
-    type: 'pcb2blender_tools'
-    dir: 'output/pcb2blender_tools_dir'
-    options:
-      # [boolean=true] Create the file that informs the size of the used PCB area.
-      # This is the bounding box reported by KiCad for the PCB edge with 1 mm of margin
-      board_bounds_create: true
-      # [string='layers'] Sub-directory where the bounds file is stored
-      board_bounds_dir: 'layers'
-      # [string='bounds'] Name of the bounds file
-      board_bounds_file: 'bounds'
-      # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
-      # A short-cut to use for simple cases where a variant is an overkill
-      dnf_filter: '_none'
-      # [string='%f-%i%I%v.%x'] Filename for the output (%i=pcb2blender, %x=pcb3d). Affected by global options
-      output: '%f-%i%I%v.%x'
-      # [boolean=true] Create the files containing the PCB pads information
-      pads_info_create: true
-      # [string='pads'] Sub-directory where the pads info files are stored
-      pads_info_dir: 'pads'
-      # [string|list(string)='_none'] Name of the filter to transform fields before applying other filters.
-      # A short-cut to use for simple cases where a variant is an overkill
-      pre_transform: '_none'
-      # [list(string)|string=all] [none,all] List of components to include in the pads list,
-      # can be also a string for `none` or `all`. The default is `all`.
-      # Ranges like *R5-R10* are supported
-      show_components: all
-      # [boolean=false] Create a file containing the board stackup
-      stackup_create: false
-      # [string='.'] Directory for the stackup file. Use 'layers' for 2.7+
-      stackup_dir: '.'
-      # [string='board.yaml'] Name for the stackup file. Use 'stackup' for 2.7+
-      stackup_file: 'board.yaml'
-      # [string='JSON'] [JSON,BIN] Format for the stackup file. Use 'BIN' for 2.7+
-      stackup_format: 'JSON'
-      # [string='bounds'] File name for the sub-PCBs bounds
-      sub_boards_bounds_file: 'bounds'
-      # [boolean=true] Extract sub-PCBs and their Z axis position
-      sub_boards_create: true
-      # [string='boards'] Directory for the boards definitions
-      sub_boards_dir: 'boards'
-      # [string='stacked_'] Prefix used for the stack files
-      sub_boards_stacked_prefix: 'stacked_'
-      # [string=''] Board variant to apply
-      variant: ''
   - name: 'Step'
     comment: 'Exports the PCB as a 3D model.'
     type: 'step'
