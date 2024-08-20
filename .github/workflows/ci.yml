@@ -3,13 +3,14 @@ name: CI
 on: push
 
 jobs:
-  ERC:
+  Generate:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     steps:
-      - name: Set current date as env variable
-        run: echo "NOW=$(date +'%Y-%m-%dT%H-%M-%S')" >> $GITHUB_ENV
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M-%S')"
       - uses: actions/checkout@v4
         with:
           # So we can run a diff between last 2 changes
@@ -19,19 +20,8 @@ jobs:
         run: |
           kibot -vvv -d output -c config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
 
-      #- uses: INTI-CMNB/KiBot@v2_k8
-      #  with:
-      # Required - kibot config file
-      #    config: config.kibot.yaml
-      #   verbose: 3
-      # optional - prefix to output defined in config
-      #  dir: output
-      # optional - schematic file
-      # schema: "AstraControl.kicad_sch"
-      # optional - PCB design file
-      #board: "AstraControl.kicad_pcb"
-      - name: upload results
+      - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AstraControl-$NOW
+          name: AstraControl-${{ steps.date.outputs.date }}
           path: output
