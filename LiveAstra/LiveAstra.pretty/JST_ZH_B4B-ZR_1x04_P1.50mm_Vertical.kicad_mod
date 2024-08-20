@@ -520,15 +520,15 @@
 		(remove_unused_layers no)
 		(uuid "d00d20ec-f2c5-4145-b200-940b0c962dcf")
 	)
-	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/CONN-TH_B4B-ZR-3.4.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/B4B-ZR--3DModel-STEP-56544.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 2.25 -0.45 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -90 0 0)
 		)
 	)
 )

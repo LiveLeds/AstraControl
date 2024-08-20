@@ -11,6 +11,8 @@ outputs:
       render_options:
         transparent_background: true
         samples: 20
+        resolution_x: 1920
+        resolution_y: 1080
       point_of_view:
         rotate_x: @_KIBOT_ROT_X@
         rotate_y: @_KIBOT_ROT_Y@
