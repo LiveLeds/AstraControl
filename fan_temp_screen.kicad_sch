@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "10a0b7ea-3cf5-404d-8a81-f99d78626e50")
 	(paper "A4")
+	(title_block
+		(title "Fan, Temperature and Screen")
+	)
 	(lib_symbols
 		(symbol "LiveAstra:+5V_IN"
 			(power)

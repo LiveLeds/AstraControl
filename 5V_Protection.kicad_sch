@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "562aa2ae-f0e2-4f8a-88ba-63597e6fc2e5")
 	(paper "A4")
+	(title_block
+		(title "5V Protection")
+	)
 	(lib_symbols
 		(symbol "LiveAstra:C_1uF_X5R_0402"
 			(pin_numbers hide)

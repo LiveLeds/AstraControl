@@ -19,6 +19,11 @@ outputs:
         rotate_z: @_KIBOT_ROT_Z@
         view: @_KIBOT_3D_VIEW@
         file_id: @_KIBOT_3D_FILE_ID@
+      light:
+        # [number=0] How powerful is the light. Using 0 for POINT and SUN KiBot will try to use something useful
+        - energy: 30
+          # [string='POINT'] [POINT,SUN,SPOT,HEMI,AREA] Type of light. SUN lights will illuminate more evenly
+          type: 'SUN'
       outputs:
         - type: blender
         - type: render

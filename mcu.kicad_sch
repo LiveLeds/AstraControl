@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "2763d6d4-e6ee-438f-8563-31028d48538c")
 	(paper "A4")
+	(title_block
+		(title "MCU")
+	)
 	(lib_symbols
 		(symbol "LiveAstra:C_100nF_X7R_0402"
 			(pin_numbers hide)

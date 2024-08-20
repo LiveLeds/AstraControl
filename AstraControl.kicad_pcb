@@ -51,7 +51,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "#000000FF")
+				(color "#0000004D")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -100,6 +100,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "#0000004D")
 			)
 			(copper_finish "ENIG")
 			(dielectric_constraints yes)
@@ -21051,7 +21052,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 0 6 360)
+			(at 0 6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ed6768f-ba65-4fa7-84d2-f559d6a2a100")
@@ -21218,7 +21219,7 @@
 			(uuid "226b8cbe-e1ab-4c7f-99d4-903c91516059")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "6ea2fc97-f856-44ee-b940-8bc6969fa353")
 			(effects
@@ -28578,7 +28579,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 0 6 360)
+			(at 0 6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc72b6db-7009-4a9c-b47f-61bbe3f13e9e")
@@ -28745,7 +28746,7 @@
 			(uuid "1cd89c14-45a3-42f4-a939-a1474725d14b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "232fbb7e-b3a0-4f86-bf45-f82a1381283c")
 			(effects
@@ -30648,7 +30649,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 0 6 360)
+			(at 0 6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16ae8ddf-63e1-4101-adf5-a5e48c73bce3")
@@ -30815,7 +30816,7 @@
 			(uuid "970a8e0a-7517-4bae-a610-6582fbc57ba0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(uuid "2c3fb189-9de6-47f3-b2c6-3d6011609e4b")
 			(effects
@@ -37626,7 +37627,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at -0.75 -2 270)
+			(at -0.75 -2 -90)
 			(layer "F.SilkS")
 			(uuid "44ba95ed-f51e-4394-9aab-7defffe9ab33")
 			(effects

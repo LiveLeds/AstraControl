@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "75d465f6-c22c-492a-a120-01c708b9a69c")
 	(paper "A4")
+	(title_block
+		(title "USB")
+	)
 	(lib_symbols
 		(symbol "LiveAstra:CHASSIS"
 			(power)

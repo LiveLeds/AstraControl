@@ -1004,12 +1004,12 @@
       "UART to RS-485"
     ],
     [
-      "a08072bc-5c98-487a-a9a6-bb737e215888",
-      "5V GPIO Connectors"
-    ],
-    [
       "12d48f68-9e8c-4210-a297-afac62bc105d",
       "3V3 to 5V Logic Shifter"
+    ],
+    [
+      "a08072bc-5c98-487a-a9a6-bb737e215888",
+      "5V GPIO Connectors"
     ],
     [
       "a49e4569-9986-4871-8da4-7c394f2ae605",

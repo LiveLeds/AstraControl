@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "990733ec-7a9a-4e2c-ba98-b4add1388c8c")
 	(paper "A4")
+	(title_block
+		(title "UART to RS-485")
+	)
 	(lib_symbols
 		(symbol "LiveAstra:C_100nF_X7R_0402"
 			(pin_numbers hide)
@@ -1381,6 +1384,16 @@
 			(type default)
 		)
 		(uuid "1f5809d8-cc3e-4625-bb83-491a8d933ea8")
+	)
+	(polyline
+		(pts
+			(xy 12.0708 12.6956) (xy 12.0748 12.6996)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20164bb9-1d8b-4094-b659-07df329ee010")
 	)
 	(wire
 		(pts

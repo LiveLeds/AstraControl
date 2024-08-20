@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "88605251-f890-4746-8b7a-400ce3afeec6")
 	(paper "A4")
+	(title_block
+		(title "Power Connectors")
+	)
 	(lib_symbols
 		(symbol "LiveAstra:CHASSIS"
 			(power)
@@ -2285,7 +2288,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(page "10")
+					(page "9")
 				)
 			)
 		)

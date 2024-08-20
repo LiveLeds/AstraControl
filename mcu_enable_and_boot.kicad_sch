@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "bab67cff-e0e7-4c25-8d93-8436e5f6a527")
 	(paper "A4")
+	(title_block
+		(title "MCU Enable and Boot")
+	)
 	(lib_symbols
 		(symbol "LiveAstra:C_100nF_X7R_0402"
 			(pin_numbers hide)
@@ -1048,7 +1051,7 @@
 		(uuid "21d23bbd-016b-4a2b-99af-bb0246754e35")
 	)
 	(junction
-		(at 162.56 137.16)
+		(at 137.16 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fe7c84b-117f-4b95-a3c0-117b6f85cf87")
@@ -1072,7 +1075,7 @@
 		(uuid "c9a02cfa-e6aa-42f3-950b-cbf8b737f898")
 	)
 	(junction
-		(at 152.4 137.16)
+		(at 127 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0b839d7-1eec-4e79-a6d3-428f177facda")
@@ -1099,7 +1102,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 152.4 137.16)
+			(xy 137.16 137.16) (xy 127 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1129,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 157.48) (xy 152.4 154.94)
+			(xy 127 157.48) (xy 127 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1139,7 +1142,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 152.4 144.78)
+			(xy 127 137.16) (xy 127 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1179,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 137.16) (xy 195.58 137.16)
+			(xy 160.02 137.16) (xy 170.18 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1192,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 137.16) (xy 137.16 137.16)
+			(xy 109.22 137.16) (xy 111.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 134.62) (xy 162.56 137.16)
+			(xy 137.16 134.62) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 137.16) (xy 175.26 137.16)
+			(xy 137.16 137.16) (xy 149.86 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1289,7 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 137.16) (xy 152.4 137.16)
+			(xy 121.92 137.16) (xy 127 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1302,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127.9467 42.22) (xy 127.9467 42.22)
+			(xy 102.5467 42.22) (xy 102.5467 42.22)
 		)
 		(stroke
 			(width -0.0001)
@@ -1349,7 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 139.7) (xy 134.62 137.16)
+			(xy 109.22 139.7) (xy 109.22 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1358,8 +1361,8 @@
 		(uuid "fd4051e5-7fb4-45f1-8a06-bb5fc7f42929")
 	)
 	(rectangle
-		(start 123.83 40.22)
-		(end 171.1267 59.22)
+		(start 98.43 40.22)
+		(end 154.94 58.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -1371,7 +1374,7 @@
 	)
 	(text "Information"
 		(exclude_from_sim no)
-		(at 132.08 45.72 0)
+		(at 106.68 45.72 0)
 		(effects
 			(font
 				(face "Sarabun")
@@ -1384,7 +1387,7 @@
 	)
 	(text "To ensure that the power supply to the \nESP32-S3 chip is stable during power-up, it is\nadvised to add an RC delay circuit at the EN pin."
 		(exclude_from_sim no)
-		(at 125.83 49.47 0)
+		(at 100.43 49.47 0)
 		(effects
 			(font
 				(face "Sarabun")
@@ -1418,7 +1421,7 @@
 		(uuid "65c77249-3dc7-43d5-9d6b-962286305968")
 	)
 	(label "BOOT_SW"
-		(at 152.4 142.24 0)
+		(at 127 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1453,7 +1456,7 @@
 	)
 	(hierarchical_label "MCU_BOOT"
 		(shape output)
-		(at 195.58 137.16 0)
+		(at 170.18 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1891,7 +1894,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 157.48 0)
+		(at 127 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1900,7 +1903,7 @@
 		(fields_autoplaced yes)
 		(uuid "7806a71b-43e7-486b-b9da-0257194996c5")
 		(property "Reference" "#PWR015"
-			(at 152.4 163.83 0)
+			(at 127 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 162.56 0)
+			(at 127 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 157.48 0)
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +1929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 157.48 0)
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 157.48 0)
+			(at 127 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 139.7 0)
+		(at 109.22 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2223,7 +2226,7 @@
 		(fields_autoplaced yes)
 		(uuid "9976c64e-c5f4-40a5-90a8-79c4fd38c315")
 		(property "Reference" "#PWR013"
-			(at 134.62 146.05 0)
+			(at 109.22 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 144.78 0)
+			(at 109.22 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 139.7 0)
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 139.7 0)
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 139.7 0)
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2376,7 +2379,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
-		(at 180.34 137.16 180)
+		(at 154.94 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2385,7 +2388,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac4dc460-d14d-4baf-aab5-de17eeba1290")
 		(property "Reference" "R7"
-			(at 180.34 128.27 0)
+			(at 154.94 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2396,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 180.34 130.81 0)
+			(at 154.94 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2405,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 180.34 124.46 0)
+			(at 154.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2414,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
-			(at 180.34 128.27 0)
+			(at 154.94 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2423,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors"
-			(at 180.34 132.08 0)
+			(at 154.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2432,7 @@
 			)
 		)
 		(property "LCSC Part" "C17477"
-			(at 180.34 120.65 0)
+			(at 154.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2441,7 @@
 			)
 		)
 		(property "Extra Values" "150V ±1% 0805"
-			(at 180.34 133.35 0)
+			(at 154.94 133.35 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2447,7 +2450,7 @@
 			)
 		)
 		(property "Extra Value" ""
-			(at 180.34 137.16 0)
+			(at 154.94 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2475,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:C_100nF_X7R_0402")
-		(at 152.4 149.86 270)
+		(at 127 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2481,7 +2484,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc3daaee-f5fc-4854-a4bc-226fa6746f45")
 		(property "Reference" "C6"
-			(at 156.21 147.3199 90)
+			(at 130.81 147.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2493,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 156.21 149.86 90)
+			(at 130.81 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2503,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:C_0402_1005Metric"
-			(at 139.7 151.13 0)
+			(at 114.3 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2512,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 143.51 151.13 0)
+			(at 118.11 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2521,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitor"
-			(at 147.32 149.86 0)
+			(at 121.92 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2530,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 135.89 151.13 0)
+			(at 110.49 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2539,7 @@
 			)
 		)
 		(property "Extra Values" "16V X7R ±10% 0402"
-			(at 156.21 152.3999 90)
+			(at 130.81 152.3999 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2546,7 +2549,7 @@
 			)
 		)
 		(property "Extra Value" ""
-			(at 152.4 149.86 0)
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2736,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TACTILE_SWITCH_Small_Basic")
-		(at 142.24 137.16 0)
+		(at 116.84 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2742,7 +2745,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebf5a20f-3d1f-4048-bf11-803dc72257c3")
 		(property "Reference" "SW1"
-			(at 142.24 129.54 0)
+			(at 116.84 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2753,7 @@
 			)
 		)
 		(property "Value" "TS_Basic_Small"
-			(at 142.24 146.05 0)
+			(at 116.84 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TACTILE_SWITCH-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
-			(at 142.24 153.67 0)
+			(at 116.84 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
-			(at 142.24 149.86 0)
+			(at 116.84 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2780,7 @@
 			)
 		)
 		(property "Description" "50mA 5.1mm 100,000 Times 160gf 12V 5.1mm 1.5mm Round Button Brick nogging SPST SMD Tactile Switches ROHS"
-			(at 142.24 142.24 0)
+			(at 116.84 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2789,7 @@
 			)
 		)
 		(property "LCSC Part" "C318884"
-			(at 142.24 157.48 0)
+			(at 116.84 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2798,7 @@
 			)
 		)
 		(property "Extra Values" "50mA 12V 5.1mmx1.5mm"
-			(at 142.24 132.08 0)
+			(at 116.84 132.08 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2804,7 +2807,7 @@
 			)
 		)
 		(property "Extra Value" ""
-			(at 142.24 137.16 0)
+			(at 116.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +2931,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 162.56 134.62 0)
+		(at 137.16 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2937,7 +2940,7 @@
 		(fields_autoplaced yes)
 		(uuid "f462a585-2416-4235-941f-1b4866d7f3bf")
 		(property "Reference" "TP5"
-			(at 165.1 128.8076 0)
+			(at 139.7 128.8076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2949,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 162.56 144.78 0)
+			(at 137.16 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2958,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 162.56 149.86 0)
+			(at 137.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +2967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 129.54 90)
+			(at 137.16 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +2976,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 129.54 90)
+			(at 137.16 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2985,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 162.56 154.94 0)
+			(at 137.16 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2994,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 165.1 131.3476 0)
+			(at 139.7 131.3476 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3001,7 +3004,7 @@
 			)
 		)
 		(property "Extra Value" ""
-			(at 162.56 134.62 0)
+			(at 137.16 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)

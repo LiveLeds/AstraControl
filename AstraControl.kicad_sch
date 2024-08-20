@@ -5,7 +5,7 @@
 	(uuid "9a751838-dce8-4d69-8a02-736625ac74e7")
 	(paper "A4")
 	(title_block
-		(title "Astra Beam High Power RGBW LED Controller")
+		(title "AstraControl - ESP32 Based Controller")
 		(rev "A")
 		(company "LiveAstra Technologies")
 	)
@@ -285,7 +285,7 @@
 		)
 		(uuid "81fc42b1-02ee-4c42-8bfd-c09aae7f04c9")
 	)
-	(text "Draft"
+	(text "In review"
 		(exclude_from_sim no)
 		(at 35 52.5 0)
 		(effects

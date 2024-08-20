@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "cef1f234-c735-43b7-ba45-429c79c78f85")
 	(paper "A4")
+	(title_block
+		(title "Block Diagram")
+	)
 	(lib_symbols
 		(symbol "LiveAstra:+5V_IN"
 			(power)
@@ -1633,7 +1636,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "13")
+					(page "11")
 				)
 			)
 		)
@@ -1695,7 +1698,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
@@ -2117,7 +2120,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -2251,7 +2254,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "16")
+					(page "15")
 				)
 			)
 		)
@@ -2361,7 +2364,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "11")
+					(page "10")
 				)
 			)
 		)
@@ -2557,7 +2560,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "14")
+					(page "13")
 				)
 			)
 		)
@@ -2619,7 +2622,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
@@ -2729,7 +2732,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "9")
+					(page "8")
 				)
 			)
 		)
@@ -2803,7 +2806,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -2889,7 +2892,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "16")
+					(page "14")
 				)
 			)
 		)
@@ -2927,7 +2930,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "20")
+					(page "16")
 				)
 			)
 		)
