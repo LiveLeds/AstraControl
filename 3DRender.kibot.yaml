@@ -21,9 +21,9 @@ outputs:
         file_id: @_KIBOT_3D_FILE_ID@
       light:
         # [number=0] How powerful is the light. Using 0 for POINT and SUN KiBot will try to use something useful
-        - energy: 10
+        - energy: 0
           # [string='POINT'] [POINT,SUN,SPOT,HEMI,AREA] Type of light. SUN lights will illuminate more evenly
-          type: 'SPOT'
+          type: 'POINT'
       outputs:
         - type: blender
         - type: render
@@ -34,6 +34,6 @@ definitions:
   _KIBOT_IMPORT_DIR: 'Render_3D'
   _KIBOT_3D_VIEW: top
   _KIBOT_3D_FILE_ID: '@_KIBOT_IMPORT_ID@'
-  _KIBOT_ROT_X: 5
+  _KIBOT_ROT_X: 0
   _KIBOT_ROT_Z: 5
-  _KIBOT_ROT_Y: 0
+  _KIBOT_ROT_Y: 5
