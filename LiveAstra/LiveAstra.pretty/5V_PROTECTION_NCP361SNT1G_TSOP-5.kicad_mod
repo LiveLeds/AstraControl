@@ -329,7 +329,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "278038bb-f62c-45fd-9a6c-52b90a939bc1")
 	)
-	(model "${KIPRJMOD}/LiveAstra.3dshapes/TSOP-5_L3.0-W1.5-H1.0-LS2.8-P0.95.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/TSOP-5_L3.0-W1.5-H1.0-LS2.8-P0.95.step"
 		(offset
 			(xyz 0 0 0.17)
 		)
