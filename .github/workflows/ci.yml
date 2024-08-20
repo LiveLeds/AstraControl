@@ -8,6 +8,8 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     steps:
+      - name: Set current date as env variable
+        run: echo "NOW=$(date +'%Y-%m-%dT%H-%M-%S')" >> $GITHUB_ENV
       - uses: actions/checkout@v4
         with:
           # So we can run a diff between last 2 changes
@@ -31,5 +33,5 @@ jobs:
       - name: upload results
         uses: actions/upload-artifact@v4
         with:
-          name: AstraControl-${{ github.event.repository.updated_at}}
+          name: AstraControl-$NOW
           path: output
