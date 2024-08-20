@@ -24,8 +24,9 @@ jobs:
       - name: Run Kibot
         run: |
           kibot -vvv -d output -c config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
-          mkdir -p ${{ github.workspace }}/Generated/Report
-          cp ${{ github.workspace }}/output/Report/AstraControl-report.txt ${{ github.workspace }}/Generated/Report/Report.md
+          mkdir -p Generated/Report
+          find .
+          cp output/Report/AstraControl-report.txt ${{ github.workspace }}/Generated/Report/Report.md
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
