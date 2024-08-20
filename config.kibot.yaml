@@ -24,13 +24,49 @@ variants:
     pre_transform: _rot_footprint_jlcpcb
 
 outputs:
-  # PcbDraw - Beautiful 2D PCB render:
-  # Uses configurable colors.
-  # Can also render the components if the 2D models are available.
-  # Note that this output is fast for simple PCBs, but becomes useless for huge ones.
-  # You can easily create very complex PCBs using the `panelize` output.
-  # In this case you can use other outputs, like `render_3d`, which are slow for small
-  # PCBs but can handle big ones
+  - name: 'Step'
+    comment: 'Exports the PCB as a 3D model.'
+    type: 'step'
+    dir: 'output/Step'
+    options:
+      # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
+      # A short-cut to use for simple cases where a variant is an overkill
+      dnf_filter: '_none'
+      # [boolean=true] Downloads missing 3D models from KiCad git.
+      # Only applies to models in KISYS3DMOD and KICAD6_3DMODEL_DIR.
+      # They are downloaded to a temporal directory and discarded.
+      # If you want to cache the downloaded files specify a directory using the
+      # KIBOT_3D_MODELS environment variable
+      download: false
+      # [boolean=true] In addition to try to download the 3D models from KiCad git also try to get
+      # them from LCSC database. In order to work you'll need to provide the LCSC
+      # part number. The field containing the LCSC part number is defined by the
+      # `field_lcsc_part` global variable
+      download_lcsc: true
+      # [string='https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/'] Base URL for the KiCad 3D models
+      kicad_3d_url: 'https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/'
+      # [string=''] Text added to the end of the download URL.
+      # Can be used to pass variables to the GET request, i.e. ?VAR1=VAL1&VAR2=VAL2
+      kicad_3d_url_suffix: ''
+      # [boolean=true] Use metric units instead of inches
+      metric_units: true
+      # [number=-1] The minimum distance between points to treat them as separate ones (-1 is KiCad default: 0.01 mm)
+      min_distance: -1
+      # [boolean=false] Used to exclude 3D models for components with 'virtual' attribute
+      no_virtual: false
+      # [string='grid'] Determines the coordinates origin. Using grid the coordinates are the same as you have in the design sheet.
+      # The drill option uses the auxiliary reference defined by the user.
+      # You can define any other origin using the format 'X,Y', i.e. '3.2,-10'
+      origin: 'grid'
+      # [string='%f-%i%I%v.%x'] Name for the generated STEP file (%i='3D' %x='step'). Affected by global options
+      output: '%f-%i%I%v.%x'
+      # [string|list(string)='_none'] Name of the filter to transform fields before applying other filters.
+      # A short-cut to use for simple cases where a variant is an overkill
+      pre_transform: '_none'
+      # [boolean=true] Substitute STEP or IGS models with the same name in place of VRML models
+      subst_models: true
+      # [string=''] Board variant to apply
+      variant: ''
   - name: 'pcbdraw'
     comment: 'Exports the PCB as a 2D model (SVG, PNG or JPG).'
     type: 'pcbdraw'
@@ -82,6 +118,37 @@ outputs:
         vcut: '#bf2600'
       # [string='visible'] [visible,all,none] Using visible only the warnings about components in the visible side are generated
       warnings: 'visible'
+  - name: 'report_example'
+    comment: 'Generates a report about the design.'
+    type: 'report'
+    dir: 'output/Report'
+    options:
+      # [string='markdown'] Original format for the report conversion. Current templates are `markdown`. See `do_convert`
+      convert_from: 'markdown'
+      # [string='pdf'] Target format for the report conversion. See `do_convert`
+      convert_to: 'pdf'
+      # [string='%f-%i%I%v.%x'] Converted output file name (%i='report', %x=`convert_to`).
+      # Note that the extension should match the `convert_to` value. Affected by global options
+      converted_output: '%f-%i%I%v.%x'
+      # [boolean=false] Run `Pandoc` to convert the report. Note that Pandoc must be installed.
+      # The conversion is done assuming the report is in `convert_from` format.
+      # The output file will be in `convert_to` format.
+      # The available formats depends on the `Pandoc` installation.
+      # In CI/CD environments: the `kicad_auto_test` docker image contains it.
+      # In Debian/Ubuntu environments: install `pandoc`, `texlive`, `texlive-latex-base` and `texlive-latex-recommended`
+      do_convert: false
+      # [string='10F'] Which Eurocircuits class are we aiming at
+      eurocircuits_class_target: '10F'
+      # [number=0.45] When computing the Eurocircuits category: Final holes sizes smaller or equal to this given
+      # diameter can be reduced to accommodate the correct annular ring values.
+      # Use 0 to disable it
+      eurocircuits_reduce_holes: 0.45
+      # [string='%f-%i%I%v.%x'] Output file name (%i='report', %x='txt'). Affected by global options
+      output: '%f-%i%I%v.%x'
+      # [string='full'] Name for one of the internal templates (full, full_svg, simple) or a custom template file.
+      # Environment variables and ~ are allowed.
+      # Note: when converting to PDF PanDoc can fail on some Unicode values (use `simple_ASCII`)
+      template: 'full'
   - name: "pdf_sch_print"
     comment: "Exports the schematic to the most common exchange format. Suitable for printing."
     type: "pdf_sch_print"
