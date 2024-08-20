@@ -52118,7 +52118,7 @@
 		(property "Reference" "U1"
 			(at 0 11.33 90)
 			(layer "F.SilkS")
-			(uuid "62ffd70c-65c4-4271-a52a-b99aa435d02c")
+			(uuid "8f52f68d-0631-4db1-b401-cf85cb3d6693")
 			(effects
 				(font
 					(face "ING Me Headline")
@@ -52160,7 +52160,7 @@
 			(at 0 15.28 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4a35fd4-61c3-4c53-aee4-d9ba4ad71ebe")
+			(uuid "0839c8b6-bb37-4eda-8b06-154e3569c870")
 			(effects
 				(font
 					(size 1 1)
@@ -52173,7 +52173,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78be40eb-a8ca-4e7c-a385-4caf6c72a877")
+			(uuid "2765b1a2-90ed-4f4a-9ea4-dc3e54779152")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52186,7 +52186,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eac4f335-5960-4b08-b199-03ee6a65b2b5")
+			(uuid "2a3ef166-cfa5-48d1-b35f-f5a665e370ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52199,7 +52199,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b96bfdf3-9a9d-419b-920e-2d53aa0faaa5")
+			(uuid "36c9b80b-3c20-48fb-868b-f22078e4de67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52246,7 +52246,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8a8c1707-2441-437a-836b-81a224474b71")
+			(uuid "6987e8f8-b606-429f-9231-6a6f8c758c4b")
 		)
 		(fp_line
 			(start 7.67 9.15)
@@ -52256,7 +52256,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6814af39-bffe-4bf6-94a4-6f603fa733b6")
+			(uuid "ddebda24-d0f2-456c-83ee-113655e1b37c")
 		)
 		(fp_line
 			(start 9.02 9.15)
@@ -52266,7 +52266,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6a40c6b5-337f-4673-ae9a-5f2f1978d948")
+			(uuid "7274bb16-2acc-4167-8c00-5cf168d3d155")
 		)
 		(fp_line
 			(start -9 8.3)
@@ -52276,7 +52276,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c0ba60bf-f256-4f30-8024-f92e72fc5a85")
+			(uuid "1e813c96-df81-43d0-a609-e0db85124500")
 		)
 		(fp_line
 			(start 9.02 -9.57)
@@ -52286,7 +52286,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "24f1b443-3941-4bf1-8600-73c8e402e89c")
+			(uuid "3f09d7c7-fa52-4407-b608-fca70772ee8d")
 		)
 		(fp_line
 			(start -9 -10.35)
@@ -52296,7 +52296,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6e40ab71-0ecd-4204-bef7-f7a7ed080379")
+			(uuid "7cf33b50-46f3-4c7e-8232-fa853e9332d9")
 		)
 		(fp_line
 			(start -9 -10.35)
@@ -52306,7 +52306,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2b745cf0-916d-4619-9f71-fb03a8403aed")
+			(uuid "ce44a50d-c163-4c2a-a383-a3ceccc0e30b")
 		)
 		(fp_poly
 			(pts
@@ -52318,7 +52318,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "ee1f2b6a-f459-4e01-8d06-546064d090c5")
+			(uuid "d622716c-d41c-472b-bcea-ad598cbedef6")
 		)
 		(fp_line
 			(start -10 10.25)
@@ -52328,7 +52328,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "0bcdbbe8-0528-4fdf-bbc0-045b4309afc3")
+			(uuid "2ee5ec90-fce2-44f0-807c-47cf4cf64097")
 		)
 		(fp_line
 			(start 10 10.25)
@@ -52338,7 +52338,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "adecd387-d549-44e1-8945-f7e43b0b96ea")
+			(uuid "85a19f58-b679-4b2c-9d6c-f96296dcbaed")
 		)
 		(fp_line
 			(start -10 -10.75)
@@ -52348,7 +52348,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "00f61260-8119-42c2-8f76-5c4594a58981")
+			(uuid "91ba5b16-8702-4420-bc05-8a22ee07ec63")
 		)
 		(fp_line
 			(start 10 -10.75)
@@ -52358,7 +52358,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "59b0af3b-13bb-4a0c-8b9f-c889c85eab12")
+			(uuid "cb62b345-c4e9-492b-b491-46eca72f2b1f")
 		)
 		(fp_line
 			(start 4.65 -6.7)
@@ -52368,7 +52368,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b6b320af-cc8d-4e45-8df8-9e70ffbcb2ee")
+			(uuid "22b21860-e6b7-4f02-82fb-5f99e7dbb311")
 		)
 		(fp_line
 			(start 7.25 -6.7)
@@ -52378,7 +52378,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "de1eaea5-5a4c-46ea-a465-9a6d153284c2")
+			(uuid "a848fa74-39f2-4775-8da5-0146c475982e")
 		)
 		(fp_line
 			(start 4.65 -9.3)
@@ -52388,7 +52388,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dc83f4a9-f80c-4a26-8925-8aa6e29c2c6f")
+			(uuid "edcfc736-cf50-4de4-b3de-358f391a5645")
 		)
 		(fp_line
 			(start 7.25 -9.3)
@@ -52398,7 +52398,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "906208b5-36ed-4790-8a4d-349f87d0b159")
+			(uuid "020d6abb-2c07-4593-aa74-27f822225d44")
 		)
 		(fp_circle
 			(center 5.95 -8)
@@ -52409,7 +52409,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "7fac211c-3568-43b6-8bad-e82a783323b3")
+			(uuid "e12abf43-2931-4508-982f-ce81243ea155")
 		)
 		(fp_circle
 			(center 5.95 -8)
@@ -52420,7 +52420,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "a3dc4924-229a-433a-be95-a56a15db0027")
+			(uuid "63aae8e0-e211-485b-8d25-01858e3ab5fc")
 		)
 		(fp_circle
 			(center -7 -9)
@@ -52431,7 +52431,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "8241745b-8471-4a48-b1ee-e1f82b4419fc")
+			(uuid "8791e3ea-c7bd-47ad-bdde-e69ff6959296")
 		)
 		(fp_circle
 			(center -9 -10.11)
@@ -52442,13 +52442,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "9fe877ef-d63c-44c9-9e34-5844cadce6bf")
+			(uuid "c1e1572b-4abd-4796-a194-2cf01c6eb395")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 11.5 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "baa7113d-68d6-437d-8f40-01a678b9908a")
+			(uuid "0f13afba-2f15-4a03-99dc-8ff2f36097fa")
 			(effects
 				(font
 					(size 1 1)
@@ -52463,7 +52463,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "f4bb709e-6ea1-4da2-a46e-bd4ecc385780")
+			(uuid "ed249cd8-1094-4322-abd6-b416ac2ff99a")
 		)
 		(pad "2" smd rect
 			(at -8.75 -7.62 270)
@@ -52472,7 +52472,7 @@
 			(net 2 "+3V3")
 			(pinfunction "3V3")
 			(pintype "power_in")
-			(uuid "f72ac413-82e2-42fe-8b02-9061c917c265")
+			(uuid "0b5b8705-d82a-4be7-ac84-5aef46c43a67")
 		)
 		(pad "3" smd rect
 			(at -8.75 -6.35 270)
@@ -52481,7 +52481,7 @@
 			(net 22 "/Block Diagram/MCU Enable and Boot/MCU_EN")
 			(pinfunction "EN")
 			(pintype "input")
-			(uuid "668fff59-2939-492a-bf3a-8f8ca94d6cfe")
+			(uuid "a047bb92-e445-4cb0-afea-a879b57af700")
 		)
 		(pad "4" smd rect
 			(at -8.75 -5.08 270)
@@ -52490,7 +52490,7 @@
 			(net 37 "/Block Diagram/MCU/GPIO_4_RS485_TX")
 			(pinfunction "IO4")
 			(pintype "bidirectional")
-			(uuid "1be3878c-0122-400d-b361-f9d1e5b4623b")
+			(uuid "349cfedc-0097-4687-b195-0bd4e4d3bbad")
 		)
 		(pad "5" smd rect
 			(at -8.75 -3.81 270)
@@ -52499,7 +52499,7 @@
 			(net 57 "/Block Diagram/MCU/GPIO_5_RS485_DE")
 			(pinfunction "IO5")
 			(pintype "bidirectional")
-			(uuid "ace95864-1870-45d6-8cac-791d492a6e16")
+			(uuid "21477b98-6f73-47cf-bc00-337c7ab37828")
 		)
 		(pad "6" smd rect
 			(at -8.75 -2.54 270)
@@ -52508,7 +52508,7 @@
 			(net 58 "/Block Diagram/MCU/GPIO_6_RS485_RE")
 			(pinfunction "IO6")
 			(pintype "bidirectional")
-			(uuid "db1593a2-e2c0-4859-86e8-dc19b7cc1045")
+			(uuid "ef9d0332-edef-4d14-a149-548902ccc3fa")
 		)
 		(pad "7" smd rect
 			(at -8.75 -1.27 270)
@@ -52517,7 +52517,7 @@
 			(net 36 "/Block Diagram/MCU/GPIO_7_RS485_RX")
 			(pinfunction "IO7")
 			(pintype "bidirectional")
-			(uuid "ad9df922-a488-4eb4-92e2-6866f4b5be33")
+			(uuid "b17a672b-e69f-4498-8c5b-c13fccc58520")
 		)
 		(pad "8" smd rect
 			(at -8.75 0 270)
@@ -52526,7 +52526,7 @@
 			(net 84 "/Block Diagram/LED PWM Connector/PWM_CH4")
 			(pinfunction "IO15")
 			(pintype "bidirectional")
-			(uuid "cd86e7f3-4504-40de-a0d7-322da974608f")
+			(uuid "08b9b67a-51cf-420d-8525-f7bdccd85f63")
 		)
 		(pad "9" smd rect
 			(at -8.75 1.27 270)
@@ -52535,7 +52535,7 @@
 			(net 81 "/Block Diagram/LED PWM Connector/PWM_CH3")
 			(pinfunction "IO16")
 			(pintype "bidirectional")
-			(uuid "ca4ecd6c-0eaf-43be-8379-36a990e01c4d")
+			(uuid "bdf8b511-c8ee-41bf-87bf-604eb562910b")
 		)
 		(pad "10" smd rect
 			(at -8.75 2.54 270)
@@ -52544,7 +52544,7 @@
 			(net 82 "/Block Diagram/LED PWM Connector/PWM_CH2")
 			(pinfunction "IO17")
 			(pintype "bidirectional")
-			(uuid "08bfb609-2426-4356-ab4c-2b46856a0b98")
+			(uuid "63aff9e5-d3af-4a66-a0f7-8e32815b7022")
 		)
 		(pad "11" smd rect
 			(at -8.75 3.81 270)
@@ -52553,7 +52553,7 @@
 			(net 83 "/Block Diagram/LED PWM Connector/PWM_CH1")
 			(pinfunction "IO18")
 			(pintype "bidirectional")
-			(uuid "cbd63f18-d3ce-44ba-9787-b2b524374ec8")
+			(uuid "681b3ce7-e166-4788-9083-165cd1fb036a")
 		)
 		(pad "12" smd rect
 			(at -8.75 5.08 270)
@@ -52562,7 +52562,7 @@
 			(net 62 "unconnected-(U1-IO8-Pad12)")
 			(pinfunction "IO8")
 			(pintype "bidirectional+no_connect")
-			(uuid "07ea7760-a717-4515-ab32-fed398e0b307")
+			(uuid "ce47f3cb-f8db-4ff3-a1e1-4d2447cc2637")
 		)
 		(pad "13" smd rect
 			(at -8.75 6.35 270)
@@ -52571,7 +52571,7 @@
 			(net 64 "/Block Diagram/MCU/USB_D-")
 			(pinfunction "IO19/USB_D-")
 			(pintype "bidirectional")
-			(uuid "cb237e27-f42f-4836-a8d5-823e286cabd9")
+			(uuid "9df2b663-2dfa-47f2-94cf-59b52dd99323")
 		)
 		(pad "14" smd rect
 			(at -8.75 7.62 270)
@@ -52580,7 +52580,7 @@
 			(net 65 "/Block Diagram/MCU/USB_D+")
 			(pinfunction "IO20/USB_D+")
 			(pintype "bidirectional")
-			(uuid "5747b62a-a444-43ec-a3e2-04f877fe9cda")
+			(uuid "6cf46165-8a85-4b95-9a3c-bb971771d5ac")
 		)
 		(pad "15" smd rect
 			(at -6.99 8.89)
@@ -52589,7 +52589,7 @@
 			(net 49 "/Block Diagram/MCU/IO_3_IC")
 			(pinfunction "IO3")
 			(pintype "bidirectional")
-			(uuid "6efd7207-1d75-40b9-84ba-7cc4ac0b160f")
+			(uuid "7c44c3cf-0785-4f18-b93c-e47bdf358f8d")
 		)
 		(pad "16" smd rect
 			(at -5.72 8.89)
@@ -52598,7 +52598,7 @@
 			(net 24 "unconnected-(U1-IO46-Pad16)")
 			(pinfunction "IO46")
 			(pintype "bidirectional+no_connect")
-			(uuid "ab5a6659-1932-49c2-b753-05074f9bb225")
+			(uuid "aa6fe829-fc10-47c1-9053-95a369d4ee9d")
 		)
 		(pad "17" smd rect
 			(at -4.45 8.89)
@@ -52607,7 +52607,7 @@
 			(net 16 "/Block Diagram/Fan, Temperature and Screen/SCREEN_I2C_SCL")
 			(pinfunction "IO9")
 			(pintype "bidirectional")
-			(uuid "9a6e49d1-4472-4df7-9ab0-01d25624452c")
+			(uuid "f63474de-3ebf-4e6c-83c5-feaa7195c0e4")
 		)
 		(pad "18" smd rect
 			(at -3.18 8.89)
@@ -52616,7 +52616,7 @@
 			(net 17 "/Block Diagram/Fan, Temperature and Screen/SCREEN_I2C_SDA")
 			(pinfunction "IO10")
 			(pintype "bidirectional")
-			(uuid "87a602dc-5a37-4cee-9a1b-7a61cbd487f1")
+			(uuid "108f3179-208a-4517-aeda-a8991726c733")
 		)
 		(pad "19" smd rect
 			(at -1.91 8.89)
@@ -52625,7 +52625,7 @@
 			(net 26 "unconnected-(U1-IO11-Pad19)")
 			(pinfunction "IO11")
 			(pintype "bidirectional+no_connect")
-			(uuid "0a1d8bf5-4f0e-4746-b6db-7376a3f44a7c")
+			(uuid "50da31cc-6d29-4002-ada4-257d4be3ca77")
 		)
 		(pad "20" smd rect
 			(at -0.63 8.89)
@@ -52634,7 +52634,7 @@
 			(net 80 "/Block Diagram/Button, Status LED, UART and I2S/STATUS_LED")
 			(pinfunction "IO12")
 			(pintype "bidirectional")
-			(uuid "83d252a2-e9d6-42e4-9398-34720d4cc5a8")
+			(uuid "e15a2ad7-56bc-4151-a8a8-b141cd4087bf")
 		)
 		(pad "21" smd rect
 			(at 0.63 8.89)
@@ -52643,7 +52643,7 @@
 			(net 85 "/Block Diagram/Button, Status LED, UART and I2S/BUTTON")
 			(pinfunction "IO13")
 			(pintype "bidirectional")
-			(uuid "d681b2e9-7c22-4d66-88c0-277a0b03edc2")
+			(uuid "20c85c58-98da-45cc-ba7d-52237c92289b")
 		)
 		(pad "22" smd rect
 			(at 1.9 8.89)
@@ -52652,7 +52652,7 @@
 			(net 78 "/Block Diagram/Button, Status LED, UART and I2S/I2S_LR")
 			(pinfunction "IO14")
 			(pintype "bidirectional")
-			(uuid "90b1a6ea-540f-41b0-9e38-b899f38dda4a")
+			(uuid "a08d9b5c-176b-446d-a1e6-22348850ded1")
 		)
 		(pad "23" smd rect
 			(at 3.17 8.89)
@@ -52661,7 +52661,7 @@
 			(net 75 "/Block Diagram/Button, Status LED, UART and I2S/I2S_WS")
 			(pinfunction "IO21")
 			(pintype "bidirectional")
-			(uuid "fb3550b6-c116-4255-b22c-0742cccd18bf")
+			(uuid "8ea86b16-2cd8-4491-8967-e62e3e4bcee9")
 		)
 		(pad "24" smd rect
 			(at 4.45 8.89)
@@ -52670,7 +52670,7 @@
 			(net 77 "/Block Diagram/Button, Status LED, UART and I2S/I2S_SCK")
 			(pinfunction "IO47")
 			(pintype "bidirectional")
-			(uuid "33122cae-c428-4874-b9e8-02f9d199aac4")
+			(uuid "4338da14-194b-4884-9f19-73a8ccb882eb")
 		)
 		(pad "25" smd rect
 			(at 5.72 8.89)
@@ -52679,7 +52679,7 @@
 			(net 76 "/Block Diagram/Button, Status LED, UART and I2S/I2S_SD")
 			(pinfunction "IO48")
 			(pintype "bidirectional")
-			(uuid "60fd336c-6024-48d3-bb71-4d4e0d57636d")
+			(uuid "3846b993-41bc-4142-acfd-60d3362ec416")
 		)
 		(pad "26" smd rect
 			(at 6.99 8.86)
@@ -52688,7 +52688,7 @@
 			(net 25 "unconnected-(U1-IO45-Pad26)")
 			(pinfunction "IO45")
 			(pintype "bidirectional+no_connect")
-			(uuid "6511f0b4-e93f-4070-a4c5-b172cd1918c6")
+			(uuid "fd52abb6-eb9d-4f98-9824-e92c999a6bcd")
 		)
 		(pad "27" smd rect
 			(at 8.75 7.62 90)
@@ -52697,7 +52697,7 @@
 			(net 23 "/Block Diagram/MCU Enable and Boot/MCU_BOOT")
 			(pinfunction "IO0/BOOT")
 			(pintype "bidirectional")
-			(uuid "ebff9303-f436-4d12-b533-ea773cf841a3")
+			(uuid "6de2659a-2aa9-4519-b1c2-668bfb21597b")
 		)
 		(pad "28" smd rect
 			(at 8.75 6.35 90)
@@ -52706,7 +52706,7 @@
 			(net 31 "/Block Diagram/Fan, Temperature and Screen/FAN_PWM")
 			(pinfunction "IO35")
 			(pintype "bidirectional")
-			(uuid "ebda950e-acca-44bf-a8be-f85195726014")
+			(uuid "67ac2240-260d-42fc-838c-446b7f161d0c")
 		)
 		(pad "29" smd rect
 			(at 8.75 5.08 90)
@@ -52715,7 +52715,7 @@
 			(net 5 "/Block Diagram/Fan, Temperature and Screen/FAN_TACHO")
 			(pinfunction "IO36")
 			(pintype "bidirectional")
-			(uuid "7d70ab75-48fe-4b6e-bd21-ad65975c6e56")
+			(uuid "646bb32f-29d1-4507-9526-1df8d600d969")
 		)
 		(pad "30" smd rect
 			(at 8.75 3.81 90)
@@ -52724,7 +52724,7 @@
 			(net 10 "/Block Diagram/Fan, Temperature and Screen/TEMP_I2C_SCL")
 			(pinfunction "IO37")
 			(pintype "bidirectional")
-			(uuid "603aa33d-8a28-4dee-baf0-1c0f8e530c77")
+			(uuid "cc8f6b4a-04d8-472d-8a6f-e8a2bf84de96")
 		)
 		(pad "31" smd rect
 			(at 8.75 2.54 90)
@@ -52733,7 +52733,7 @@
 			(net 11 "/Block Diagram/Fan, Temperature and Screen/TEMP_I2C_SDA")
 			(pinfunction "IO38")
 			(pintype "bidirectional")
-			(uuid "9f915a5f-793c-4104-a30a-2508c00b2613")
+			(uuid "26ed4513-074b-4216-877a-632700301baf")
 		)
 		(pad "32" smd rect
 			(at 8.75 1.27 90)
@@ -52742,7 +52742,7 @@
 			(net 34 "/Block Diagram/3V3 to 5V Logic Shifter/3V3_IO_4")
 			(pinfunction "IO39")
 			(pintype "bidirectional")
-			(uuid "7ed3ef7d-cf71-4383-8ada-e12d1c2221e5")
+			(uuid "c47bc478-a618-4aca-a29a-aae87c3562ae")
 		)
 		(pad "33" smd rect
 			(at 8.75 0 90)
@@ -52751,7 +52751,7 @@
 			(net 33 "/Block Diagram/3V3 to 5V Logic Shifter/3V3_IO_3")
 			(pinfunction "IO40")
 			(pintype "bidirectional")
-			(uuid "2a5ec5e5-e778-4f20-9384-7c9b4c14f772")
+			(uuid "2f10fdae-405f-43d8-a61b-c077cd135397")
 		)
 		(pad "34" smd rect
 			(at 8.75 -1.27 90)
@@ -52760,7 +52760,7 @@
 			(net 32 "/Block Diagram/3V3 to 5V Logic Shifter/3V3_IO_2")
 			(pinfunction "IO41")
 			(pintype "bidirectional")
-			(uuid "dbc05ae2-02e3-44b3-9954-46f1eefade68")
+			(uuid "7603a8db-daff-4399-bef7-c3fa75c1fae1")
 		)
 		(pad "35" smd rect
 			(at 8.75 -2.54 90)
@@ -52769,7 +52769,7 @@
 			(net 35 "/Block Diagram/3V3 to 5V Logic Shifter/3V3_IO_1")
 			(pinfunction "IO42")
 			(pintype "bidirectional")
-			(uuid "7c7dcbe6-089f-4900-ba87-b22983deef11")
+			(uuid "5dcf647b-0516-4b91-91fe-72494997a642")
 		)
 		(pad "36" smd rect
 			(at 8.75 -3.81 90)
@@ -52778,7 +52778,7 @@
 			(net 18 "/Block Diagram/Button, Status LED, UART and I2S/UART_RX")
 			(pinfunction "U0_RX")
 			(pintype "bidirectional")
-			(uuid "e1ed9f0b-a4cb-42a3-94d3-d9bd923e51d9")
+			(uuid "f2393a3d-4251-46b5-a674-d78cbe08adef")
 		)
 		(pad "37" smd rect
 			(at 8.75 -5.08 90)
@@ -52787,7 +52787,7 @@
 			(net 19 "/Block Diagram/Button, Status LED, UART and I2S/UART_TX")
 			(pinfunction "U0_TX")
 			(pintype "bidirectional")
-			(uuid "868b8bd9-988f-4f92-938f-ce0499d608c1")
+			(uuid "0010af09-aaff-4b84-9651-0b0a79813e90")
 		)
 		(pad "38" smd rect
 			(at 8.75 -6.35 90)
@@ -52796,7 +52796,7 @@
 			(net 30 "/Block Diagram/MCU/GPIO_2_DEBUG_LED")
 			(pinfunction "IO2")
 			(pintype "bidirectional")
-			(uuid "9ef7f1f5-3f60-43d5-8b35-5c6db6b95ec3")
+			(uuid "13e9e715-c8ed-4a8a-8db7-99835fbb60f3")
 		)
 		(pad "39" smd rect
 			(at 8.75 -7.62 90)
@@ -52805,7 +52805,7 @@
 			(net 63 "/Block Diagram/3V3 to 5V Logic Shifter/LEVEL_SHIFTER_IO_OE")
 			(pinfunction "IO1")
 			(pintype "bidirectional")
-			(uuid "83cd1907-49ed-4795-b07d-d5184fb00e4f")
+			(uuid "33c476a9-e323-4462-a910-e3b6e6cc5793")
 		)
 		(pad "40" smd rect
 			(at 8.75 -8.89 90)
@@ -52814,7 +52814,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "a9729b24-e060-4037-a889-8858e75bdea4")
+			(uuid "2152b545-6481-4f55-ab1b-66074af9a471")
 		)
 		(pad "41" smd rect
 			(at -2.9 -2.57)
@@ -52823,7 +52823,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "5f324233-e292-487c-9b17-2dc6f4023cac")
+			(uuid "5f271b18-0429-428a-a724-79708b881e35")
 		)
 		(pad "41" smd rect
 			(at -2.9 -1.17)
@@ -52832,7 +52832,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "3dabf62a-be05-4ebd-854d-72dd1a013356")
+			(uuid "7161a053-5a01-4ffa-b92e-570da1256d9b")
 		)
 		(pad "41" smd rect
 			(at -2.9 0.23)
@@ -52841,7 +52841,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "3c57660e-660f-47cb-af5b-d000f14dfc38")
+			(uuid "ea2ae42b-595e-48f9-b1d6-15b9d0b636af")
 		)
 		(pad "41" smd rect
 			(at -1.5 -2.57)
@@ -52850,7 +52850,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "9982f453-9eca-4ac4-b12a-6b051eb5b3cc")
+			(uuid "e6caf710-9ee5-43bd-a331-19a4cc253fcd")
 		)
 		(pad "41" smd rect
 			(at -1.5 -1.17)
@@ -52859,7 +52859,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "7bf2a69a-0fa3-4ea9-924a-6e45aa98d62f")
+			(uuid "726d2807-717d-4bdb-b0be-79b825ef90c9")
 		)
 		(pad "41" smd rect
 			(at -1.5 0.23)
@@ -52868,7 +52868,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "23a66e0c-bae4-4739-9cbf-ccbe1aa5d7dc")
+			(uuid "8827b499-a908-4fb5-af9f-b72fb4e36c5e")
 		)
 		(pad "41" smd rect
 			(at -0.1 -2.57)
@@ -52877,7 +52877,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "0869c172-3bd7-4867-b935-7f77e491bf85")
+			(uuid "bd207f15-7c99-4182-8f98-2fb38794751b")
 		)
 		(pad "41" smd rect
 			(at -0.1 -1.17)
@@ -52886,7 +52886,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "14ddbfe7-2bc1-4f0e-84e3-804ee9c27042")
+			(uuid "a35b6c20-4769-4703-8189-e34450086a1f")
 		)
 		(pad "41" smd rect
 			(at -0.1 0.23)
@@ -52895,9 +52895,9 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "power_in")
-			(uuid "20bd4733-0655-4924-bcc5-4444eedd149a")
+			(uuid "774513eb-8204-45f4-beef-4b63632c8c61")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1U.wrl"
+		(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/WIRELM-SMD_ESP32-S3-WROOM-1U.step"
 			(offset
 				(xyz 0 0.5 -0)
 			)
@@ -77581,42 +77581,6 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "134606f1-75f0-437f-a629-261d9f9bed2d")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30139)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 141.67465 108.2) (xy 141.32535 108.2) (xy 141.130448 108.846927) (xy 141.5 109.001) (xy 141.869552 108.846927)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 141.869552 108.846927) (xy 141.5 109.001) (xy 141.130448 108.846927) (xy 141.32535 108.2) (xy 141.67465 108.2)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
 		(uuid "144f896a-58ca-4d2a-a41b-f6b0e667b8e0")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
@@ -78184,43 +78148,6 @@
 				(xy 158.644593 87.576532) (xy 157.206888 86.927758) (xy 157.200756 86.921232) (xy 157.2 86.917094)
 				(xy 157.2 86.582905) (xy 157.203427 86.574632) (xy 157.206884 86.572243) (xy 158.644595 85.923466)
 				(xy 158.653543 85.923187)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "2c8fb317-d4d2-47c4-be55-442f7cdd1a29")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30138)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 139.92535 104.8) (xy 140.27465 104.8) (xy 140.469552 104.153073) (xy 140.1 103.999) (xy 139.730448 104.153073)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 140.469552 104.153073) (xy 140.27465 104.8) (xy 139.92535 104.8) (xy 139.730448 104.153073)
-				(xy 140.1 103.999)
 			)
 		)
 	)
@@ -79837,42 +79764,6 @@
 				(xy 131.99622 79.998846) (xy 131.179698 79.660225) (xy 131.173369 79.653891) (xy 131.173373 79.644936)
 				(xy 131.173513 79.644612) (xy 131.751886 78.37667) (xy 131.754253 78.37326) (xy 131.988687 78.138826)
 				(xy 131.996959 78.1354)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "4ebfcc2b-b7b6-4598-908b-85f6e6f7a962")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30137)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 143.07465 108.2) (xy 142.72535 108.2) (xy 142.530448 108.846927) (xy 142.9 109.001) (xy 143.269552 108.846927)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 143.269552 108.846927) (xy 142.9 109.001) (xy 142.530448 108.846927) (xy 142.72535 108.2) (xy 143.07465 108.2)
 			)
 		)
 	)
@@ -81629,42 +81520,6 @@
 		)
 	)
 	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "91be2422-11a3-44e5-80f4-87bc627ed1b3")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30141)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 143.2 105.02535) (xy 143.2 105.37465) (xy 143.846927 105.569552) (xy 144.001 105.2) (xy 143.846927 104.830448)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 144.001 105.2) (xy 143.846927 105.569552) (xy 143.2 105.37465) (xy 143.2 105.02535) (xy 143.846927 104.830448)
-			)
-		)
-	)
-	(zone
 		(net 2)
 		(net_name "+3V3")
 		(layer "F.Cu")
@@ -82211,43 +82066,6 @@
 				(xy 181.855406 111.326532) (xy 181.846456 111.326812) (xy 181.83993 111.32068) (xy 181.839789 111.320356)
 				(xy 181.786889 111.193014) (xy 181.500863 110.504487) (xy 181.500855 110.495534) (xy 181.500864 110.495512)
 				(xy 181.839789 109.679643) (xy 181.846128 109.673317)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "aa64d322-edce-4c90-9db0-8e1b8841818c")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30145)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 141.32535 104.8) (xy 141.67465 104.8) (xy 141.869552 104.153073) (xy 141.5 103.999) (xy 141.130448 104.153073)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 141.869552 104.153073) (xy 141.67465 104.8) (xy 141.32535 104.8) (xy 141.130448 104.153073)
-				(xy 141.5 103.999)
 			)
 		)
 	)
@@ -82944,43 +82762,6 @@
 				(xy 185.028996 119.778996) (xy 185.001219 119.724479) (xy 185 119.708992) (xy 185 118.291008) (xy 185.018907 118.232817)
 				(xy 185.028996 118.221004) (xy 185.221004 118.028996) (xy 185.275521 118.001219) (xy 185.291008 118)
 				(xy 187.733933 118)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "bef7ffc4-549f-400e-81d1-319c8232e990")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30155)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 142.72535 104.8) (xy 143.07465 104.8) (xy 143.269552 104.153073) (xy 142.9 103.999) (xy 142.530448 104.153073)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 143.269552 104.153073) (xy 143.07465 104.8) (xy 142.72535 104.8) (xy 142.530448 104.153073)
-				(xy 142.9 103.999)
 			)
 		)
 	)
@@ -84036,78 +83817,6 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "e79cde60-2791-491f-96f2-4bb90813396c")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30153)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 143.2 107.82535) (xy 143.2 108.17465) (xy 143.846927 108.369552) (xy 144.001 108) (xy 143.846927 107.630448)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 144.001 108) (xy 143.846927 108.369552) (xy 143.2 108.17465) (xy 143.2 107.82535) (xy 143.846927 107.630448)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "e8b7091b-6e23-4e0d-aef5-b4b87b94f080")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30140)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 143.2 106.42535) (xy 143.2 106.77465) (xy 143.846927 106.969552) (xy 144.001 106.6) (xy 143.846927 106.230448)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 144.001 106.6) (xy 143.846927 106.969552) (xy 143.2 106.77465) (xy 143.2 106.42535) (xy 143.846927 106.230448)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
 		(uuid "e8bc2bad-4db0-4e10-8d37-6253c72aa74c")
 		(hatch edge 0.5)
 		(priority 110)
@@ -84303,42 +84012,6 @@
 				(xy 143.148021 141.791473) (xy 142.911775 142.027719) (xy 142.904489 142.031104) (xy 141.512677 142.148926)
 				(xy 141.504144 142.14621) (xy 141.500032 142.138255) (xy 141.49999 142.137277) (xy 141.499904 142.027719)
 				(xy 141.499296 141.254149) (xy 141.502714 141.245879) (xy 142.127535 140.622445) (xy 142.13581 140.619028)
-			)
-		)
-	)
-	(zone
-		(net 1)
-		(net_name "GND")
-		(layer "F.Cu")
-		(uuid "ee81e71f-8831-4f53-854e-07abdba8a49b")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30152)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 140.27465 108.2) (xy 139.92535 108.2) (xy 139.730448 108.846927) (xy 140.1 109.001) (xy 140.469552 108.846927)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 140.469552 108.846927) (xy 140.1 109.001) (xy 139.730448 108.846927) (xy 139.92535 108.2) (xy 140.27465 108.2)
 			)
 		)
 	)

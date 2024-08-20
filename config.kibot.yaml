@@ -30,23 +30,8 @@ outputs:
     type: 'step'
     dir: 'output/Step'
     options:
-      # [boolean=true] Downloads missing 3D models from KiCad git.
-      # Only applies to models in KISYS3DMOD and KICAD6_3DMODEL_DIR.
-      # They are downloaded to a temporal directory and discarded.
-      # If you want to cache the downloaded files specify a directory using the
-      # KIBOT_3D_MODELS environment variable
-      download: true
-      # [boolean=true] In addition to try to download the 3D models from KiCad git also try to get
-      # them from LCSC database. In order to work you'll need to provide the LCSC
-      # part number. The field containing the LCSC part number is defined by the
-      # `field_lcsc_part` global variable
-      download_lcsc: true
-      # [string='https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/'] Base URL for the KiCad 3D models
-      kicad_3d_url: 'https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/'
-      # [string=''] Text added to the end of the download URL.
-      # Can be used to pass variables to the GET request, i.e. ?VAR1=VAL1&VAR2=VAL2
-      kicad_3d_url_suffix: ''
-      # [boolean=true] Use metric units instead of inches
+      download: false
+      download_lcsc: False
       metric_units: true
       # [number=-1] The minimum distance between points to treat them as separate ones (-1 is KiCad default: 0.01 mm)
       min_distance: -1
