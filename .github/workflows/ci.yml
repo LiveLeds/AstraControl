@@ -27,7 +27,7 @@ jobs:
         with:
           name: AstraControl-Documents-${{ steps.date.outputs.date }}
           path: output
-  3DRender:
+  Render:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
