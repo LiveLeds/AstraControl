@@ -161,25 +161,14 @@ outputs:
         vcut: '#bf2600'
       # [string='visible'] [visible,all,none] Using visible only the warnings about components in the visible side are generated
       warnings: 'none'
-  - name: 'report_example'
+  - name: 'report'
     comment: 'Generates a report about the design.'
     type: 'report'
     dir: 'Report'
     options:
-      # [string='markdown'] Original format for the report conversion. Current templates are `markdown`. See `do_convert`
-      convert_from: 'markdown'
-      # [string='pdf'] Target format for the report conversion. See `do_convert`
-      convert_to: 'pdf'
       # [string='%f-%i%I%v.%x'] Converted output file name (%i='report', %x=`convert_to`).
       # Note that the extension should match the `convert_to` value. Affected by global options
       converted_output: '%f-%i%I%v.%x'
-      # [boolean=false] Run `Pandoc` to convert the report. Note that Pandoc must be installed.
-      # The conversion is done assuming the report is in `convert_from` format.
-      # The output file will be in `convert_to` format.
-      # The available formats depends on the `Pandoc` installation.
-      # In CI/CD environments: the `kicad_auto_test` docker image contains it.
-      # In Debian/Ubuntu environments: install `pandoc`, `texlive`, `texlive-latex-base` and `texlive-latex-recommended`
-      do_convert: false
       # [string='10F'] Which Eurocircuits class are we aiming at
       eurocircuits_class_target: '10F'
       # [number=0.45] When computing the Eurocircuits category: Final holes sizes smaller or equal to this given
