@@ -13,7 +13,7 @@ outputs:
     type: blender_export
     dir: @_KIBOT_IMPORT_DIR@
     options:
-    camera:
+      camera:
         name: Camera
         pos_x: 0.3
         pos_y: width*2
