@@ -1,6 +1,10 @@
 name: CI
 
-on: push
+on:
+  push:
+    branches:
+      - main
+      - test-workflow
 
 jobs:
   Documents:
@@ -20,7 +24,7 @@ jobs:
 
       - name: Run Kibot
         run: |
-          kibot -d output -c config.kibot.yaml -e AstraControPCB/AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
+          kibot -d output -c config.kibot.yaml -e AstraControlPCB/AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
           mkdir -p Report/Design
           mkdir -p Report/PCBPrint
           cp output/Report/AstraControl-report.txt Report/Design/Report.md
@@ -34,16 +38,9 @@ jobs:
       - name: Submit to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # Optional. Commit message for the created commit.
-          # Defaults to "Apply automatic changes"
           commit_message: "[skip ci] Update repository with generated items"
-
-          # Optional. Local file path to the repository.
-          # Defaults to the root of the repository.
           repository: .
-
-          # Optional commit user and author settings
-          commit_user_name: GitHub Actions Bot # defaults to "github-actions[bot]"
+          commit_user_name: GitHub Actions Bot
   Render:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
@@ -54,7 +51,6 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M-%S')"
       - uses: actions/checkout@v4
         with:
-          # So we can run a diff between last 2 changes
           fetch-depth: "0"
 
       - name: Run Kibot
