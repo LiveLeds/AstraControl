@@ -6,7 +6,7 @@ kibot:
   version: 1
 
 globals:
-  resources_dir: Resources
+  resources_dir: $GITHUB_WORKSPACE/Resources
   field_lcsc_part: "LCSC Part"
   solder_mask_color: black
   pcb_finish: ENIG
