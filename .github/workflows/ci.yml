@@ -26,6 +26,7 @@ jobs:
         run: |
           cd AstraControlPCB
           kibot -vvv -d ../output -c ../config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
+          cd ..
           mkdir -p Report/Design
           mkdir -p Report/PCBPrint
           cp output/Report/AstraControl-report.txt Report/Design/Report.md
