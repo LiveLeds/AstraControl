@@ -8,8 +8,6 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     permissions:
-      # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
       contents: write
 
     steps:
@@ -18,12 +16,11 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M-%S')"
       - uses: actions/checkout@v4
         with:
-          # So we can run a diff between last 2 changes
           fetch-depth: "0"
 
       - name: Run Kibot
         run: |
-          kibot -vvv -d output -c config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
+          kibot -d output -c config.kibot.yaml -e AstraControl/AstraControl.kicad_sch -b AstraControl/AstraControl.kicad_pcb
           mkdir -p Report/Design
           mkdir -p Report/PCBPrint
           cp output/Report/AstraControl-report.txt Report/Design/Report.md
@@ -62,7 +59,7 @@ jobs:
 
       - name: Run Kibot
         run: |
-          kibot -vvv -d output -c 3DRender.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
+          kibot -d output -c AstraControl/3DRender.kibot.yaml -e AstraControl.kicad_sch -b AstraControl/AstraControl.kicad_pcb
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
