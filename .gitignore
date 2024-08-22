@@ -3,10 +3,12 @@
 
 Generated/
 build/
+output/
 *.lck
 *auto_saved_files*
 .DS_Store
 AstraControl-backups/
+*kibot*.kicad_dru
 
 #GitHub Pages
 _site
