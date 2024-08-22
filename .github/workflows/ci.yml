@@ -24,7 +24,7 @@ jobs:
 
       - name: Run Kibot
         run: |
-          kibot -d output -c config.kibot.yaml -e AstraControlPCB/AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
+          kibot -vvv -d output -c config.kibot.yaml -e AstraControlPCB/AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
           mkdir -p Report/Design
           mkdir -p Report/PCBPrint
           cp output/Report/AstraControl-report.txt Report/Design/Report.md
@@ -55,7 +55,7 @@ jobs:
 
       - name: Run Kibot
         run: |
-          kibot -d output -c AstraControlPCB/3DRender.kibot.yaml -e AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
+          kibot -vvv -d output -c AstraControlPCB/3DRender.kibot.yaml -e AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
