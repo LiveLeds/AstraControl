@@ -3,7 +3,7 @@ kibot:
   version: 1
 
 globals:
-  resources_dir: resources
+  resources_dir: Resources
   solder_mask_color: black
   pcb_finish: ENIG
 

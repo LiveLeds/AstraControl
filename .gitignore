@@ -3,11 +3,17 @@
 
 Generated/
 build/
-output/
 *.lck
 *auto_saved_files*
 .DS_Store
 AstraControl-backups/
+
+#GitHub Pages
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
 
 # Temporary files
 *.000
@@ -24,7 +30,6 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-kibot*
 
 # Netlist files (exported from Eeschema)
 *.net
