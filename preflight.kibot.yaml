@@ -3,6 +3,18 @@ kibot:
 
 preflight:
   check_zone_fills: true
-  draw_stackup: true
+  draw_stackup:
+    gerber: gerbers
+    border: 0
+    columns:
+      - type: gerber
+        width: 10
+      - type: drawing
+        width: 15
+      - type: thickness
+        width: 5
+        # side: right
+      - type: description
+        width: 20
   drc: true
   erc: true
