@@ -17,7 +17,7 @@ jobs:
           fetch-depth: "0"
       - uses: INTI-CMNB/KiBot@v2
         with:
-          config: AstraControlPCB/preflight.kibot.yaml
+          config: preflight.kibot.yaml
           dir: output
           schema: "AstraControlPCB/AstraControl.kicad_sch"
           board: "AstraControlPCB/AstraControl.kicad_pcb"
