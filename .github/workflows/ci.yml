@@ -27,8 +27,8 @@ jobs:
       - name: Parse JSON
         run: |
           ls -l output
-          cat drc.json
-          jq
+          cat output/AstraControl-drc.json
+          cat output/AstraControl-drc.json | jq
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
