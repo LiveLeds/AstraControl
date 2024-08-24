@@ -4,7 +4,6 @@ kibot:
 preflight:
   check_zone_fills: true
   draw_stackup:
-    gerber: gerbers
     border: 0
     columns:
       - type: gerber
