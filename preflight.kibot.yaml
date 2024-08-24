@@ -6,5 +6,11 @@ globals:
 
 preflight:
   check_zone_fills: true
-  drc: true
-  erc: true
+  drc: 
+    format:
+      - json
+      - html
+  erc: 
+    format:
+      - json
+      - html
