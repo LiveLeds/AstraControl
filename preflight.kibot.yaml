@@ -1,0 +1,8 @@
+kibot:
+  version: 1
+
+preflight:
+  check_zone_fills: true
+  draw_stackup: true
+  drc: true
+  erc: true

@@ -7,60 +7,76 @@ on:
       - test-workflow
 
 jobs:
-  Documents:
-    runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
-
-    permissions:
-      contents: write
-
-    steps:
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M-%S')"
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: "0"
-
-      - name: Run Kibot
-        run: |
-          cd AstraControlPCB
-          kibot -vvv -d ../output -c ../config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
-          cd ..
-          mkdir -p Report/Design
-          mkdir -p Report/PCBPrint
-          cp output/Report/AstraControl-report.txt Report/Design/Report.md
-          cp output/PCBPrint/AstraControl-assembly.pdf Report/PCBPrint/AstraControl-assembly.pdf
-
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: AstraControl-${{ steps.date.outputs.date }}
-          path: output
-      - name: Submit to Repository
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "[skip ci] Update repository with generated items"
-          repository: .
-          commit_user_name: GitHub Actions Bot
-  Render:
+  PreFlight:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     steps:
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M-%S')"
       - uses: actions/checkout@v4
         with:
           fetch-depth: "0"
-
-      - name: Run Kibot
-        run: |
-          kibot -vvv -d output -c AstraControlPCB/3DRender.kibot.yaml -e AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
-
-      - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
+      - uses: INTI-CMNB/KiBot@v2
         with:
-          name: AstraControl-3DRender-${{ steps.date.outputs.date }}
-          path: output
+          config: AstraControlPCB/preflight.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+
+  # Documents:
+  #   runs-on: ubuntu-latest
+  #   container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+  #   permissions:
+  #     contents: write
+
+  #   steps:
+  #     - name: Get current date
+  #       id: date
+  #       run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M-%S')"
+  #     - uses: actions/checkout@v4
+  #       with:
+  #         fetch-depth: "0"
+
+  #     - name: Run Kibot
+  #       run: |
+  #         cd AstraControlPCB
+  #         kibot -vvv -d ../output -c ../config.kibot.yaml -e AstraControl.kicad_sch -b AstraControl.kicad_pcb
+  #         cd ..
+  #         mkdir -p Report/Design
+  #         mkdir -p Report/PCBPrint
+  #         cp output/Report/AstraControl-report.txt Report/Design/Report.md
+  #         cp output/PCBPrint/AstraControl-assembly.pdf Report/PCBPrint/AstraControl-assembly.pdf
+
+  #     - name: Upload Artifacts
+  #       uses: actions/upload-artifact@v4
+  #       with:
+  #         name: AstraControl-${{ steps.date.outputs.date }}
+  #         path: output
+  #     - name: Submit to Repository
+  #       uses: stefanzweifel/git-auto-commit-action@v5
+  #       with:
+  #         commit_message: "[skip ci] Update repository with generated items"
+  #         repository: .
+  #         commit_user_name: GitHub Actions Bot
+  # Render:
+  #   runs-on: ubuntu-latest
+  #   container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+  #   steps:
+  #     - name: Get current date
+  #       id: date
+  #       run: echo "::set-output name=date::$(date +'%Y-%m-%dT%H-%M-%S')"
+  #     - uses: actions/checkout@v4
+  #       with:
+  #         fetch-depth: "0"
+
+  #     - name: Run Kibot
+  #       run: |
+  #         kibot -vvv -d output -c AstraControlPCB/3DRender.kibot.yaml -e AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
+
+  #     - name: Upload Artifacts
+  #       uses: actions/upload-artifact@v4
+  #       with:
+  #         name: AstraControl-3DRender-${{ steps.date.outputs.date }}
+  #         path: output
