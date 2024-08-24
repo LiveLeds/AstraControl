@@ -24,9 +24,10 @@ jobs:
           schema: "AstraControlPCB/AstraControl.kicad_sch"
           board: "AstraControlPCB/AstraControl.kicad_pcb"
           verbose: 3
+      - name: 'Setup jq'
+        uses: dcarbone/install-jq-action@v2
       - name: Parse JSON
         run: |
-          apt update && apt install -y jq
           ls -l output
           cat output/AstraControl-drc.json
           cat output/AstraControl-drc.json | jq
