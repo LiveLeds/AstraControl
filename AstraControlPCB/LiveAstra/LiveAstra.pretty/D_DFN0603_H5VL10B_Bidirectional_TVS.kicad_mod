@@ -250,7 +250,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "23134267-a89d-4567-97d7-6450920a965d")
 	)
-	(model "${KIPRJMOD}/LiveAstra.3dshapes/WBFBP-03E_L1.0-W0.6-P0.64-BL.step"
+	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/WBFBP-03E_L1.0-W0.6-P0.64-BL.step"
 		(offset
 			(xyz 0 0 0)
 		)
