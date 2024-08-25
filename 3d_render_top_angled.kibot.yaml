@@ -32,20 +32,16 @@ outputs:
           pos_y: 0
           pos_z: size*3
           type: "POINT"
-      camera:
-        type: "orthographic"
       render_options:
         transparent_background: true
         samples: 10
         resolution_x: 2048
         resolution_y: 2048
-      auto_camera_z_axis_factor: 0.7
+      auto_camera_z_axis_factor: 0.4
       point_of_view:
         rotate_x: 45
         rotate_y: 0
         rotate_z: -90
         view: top
-      pcb_import:
-        enhance_materials: false
       outputs:
         - type: render
