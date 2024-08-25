@@ -26,7 +26,7 @@ jobs:
           verbose: 3
       - name: 'Setup jq'
         uses: dcarbone/install-jq-action@v2
-      - name: Parse JSON
+      - name: Parse ERC
         run: |
           erc_warnings=$(cat output/AstraControl-erc.json | jq '[try .violations[] | select(.severity == "warning")] | length')
           erc_errors=$(cat output/AstraControl-erc.json | jq '[try .violations[] | select(.severity == "error")] | length')
@@ -36,6 +36,18 @@ jobs:
           - **Warnings**: $erc_errors
           - **Link**: [HTML Report](output/AstraControl-erc.html)
           EOF
+          cat output/erc_validation.md
+      - name: Parse DRC
+        run: |
+          drc_warnings=$(cat output/AstraControl-drc.json | jq '[try .violations[] | select(.severity == "warning")] | length')
+          drc_errors=$(cat output/AstraControl-drc.json | jq '[try .violations[] | select(.severity == "error")] | length')
+          cat <<EOF > output/drc_validation.md
+          ### DRC Report
+          - **Errors**: $drc_warnings
+          - **Warnings**: $drc_errors
+          - **Link**: [HTML Report](output/AstraControl-drc.html)
+          EOF
+          cat output/drc_validation.md
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
