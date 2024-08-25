@@ -3,7 +3,7 @@ layout: home
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-![Image](images/render_top_angle.png)
+![Image](images/AstraControl-3D_blender_top.png)
 
 Jekyll requires blog post files to be named according to the following format:
 
