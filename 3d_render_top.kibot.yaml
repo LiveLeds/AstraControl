@@ -30,7 +30,7 @@ outputs:
           energy: 2
           pos_x: 0
           pos_y: 0
-          pos_z: size*3
+          pos_z: size*4
           type: "POINT"
       camera:
         type: "orthographic"
@@ -44,6 +44,6 @@ outputs:
         rotate_y: 0
         rotate_z: 0
         view: top
-      auto_camera_z_axis_factor: 0.2
+      auto_camera_z_axis_factor: 0.05
       outputs:
         - type: render
