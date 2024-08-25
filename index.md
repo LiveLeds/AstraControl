@@ -25,6 +25,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 
-{% include erc_validation.html %}
+{% include_relative erc_validation.md %}
 
-{% include drc_validation.html %}
+{% include_relative drc_validation.md %}
