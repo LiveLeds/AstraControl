@@ -9,6 +9,7 @@ permalink: /:slug
 remote_theme: abhinavs/moonwalk
 plugins:
   - jekyll-feed
+  - jemoji
 
 theme_config:
   appearance: "auto"

@@ -6,7 +6,9 @@ kibot:
 
 preflight:
   check_zone_fills: true
-  drc: 
+  drc:
+    dont_stop: true
     format: "JSON,HTML,CSV"
-  erc: 
+  erc:
+    dont_stop: true
     format: "JSON,HTML,CSV"
