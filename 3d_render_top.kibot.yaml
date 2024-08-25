@@ -27,7 +27,7 @@ outputs:
           type: "POINT"
 
         - name: "light3"
-          energy: 2
+          energy: 0.5
           pos_x: 0
           pos_y: 0
           pos_z: size*8
