@@ -63,6 +63,28 @@ jobs:
         with:
           name: AstraControl
           path: output
+  Render_3D_Top_Angled:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "0"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_render_top_angled.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Render_Top_Angled
+          path: output
   Render_3D_Top:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
@@ -75,7 +97,7 @@ jobs:
       - name: Run Kibot
         uses: INTI-CMNB/KiBot@v2_dk8
         with:
-          config: 3d_render_top_angle.kibot.yaml
+          config: 3d_render_top.kibot.yaml
           dir: output
           schema: "AstraControlPCB/AstraControl.kicad_sch"
           board: "AstraControlPCB/AstraControl.kicad_pcb"
@@ -83,7 +105,7 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: Render_Top_Angle
+          name: Render_Top
           path: output
   Build_Jekyll:
     runs-on: ubuntu-latest
@@ -104,10 +126,11 @@ jobs:
         run: |
           ls -l
           ls -l output
-          ls -l output/Render_Top_Angle
+          ls -l output/Render_Top_Angled
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
-          mv output/Render_Top_Angle/AstraControl-3D_blender_top.png images/
+          mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/
+          mv output/Render_Top_Angled/AstraControl-3D_blender_top_angled.png images/
           ls -l
       - name: Setup Pages
         uses: actions/configure-pages@v5

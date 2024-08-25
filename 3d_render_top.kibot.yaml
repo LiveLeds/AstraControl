@@ -16,6 +16,7 @@ outputs:
         samples: 5
         resolution_x: 500
         resolution_y: 500
+      auto_crop: true
       point_of_view:
         rotate_x: 0
         rotate_y: 0

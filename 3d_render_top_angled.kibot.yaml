@@ -7,7 +7,7 @@ globals:
   pcb_finish: ENIG
 
 outputs:
-  - name: _blender_3d_top_angle
+  - name: _blender_3d_top_angled
     comment: "HQ 3D Render of the PCB"
     type: blender_export
     options:
