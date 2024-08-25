@@ -36,10 +36,10 @@ outputs:
         type: "orthographic"
         pos_x: 0
         pos_y: 0
-        pos_z: 1
+        pos_z: 10
       render_options:
         transparent_background: true
-        samples: 2
+        samples: 1
         resolution_x: 2048
         resolution_y: 2048
       point_of_view:
@@ -47,6 +47,5 @@ outputs:
         rotate_y: 0
         rotate_z: 0
         view: top
-      auto_camera_z_axis_factor: 0.05
       outputs:
         - type: render
