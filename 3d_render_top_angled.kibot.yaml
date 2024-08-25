@@ -16,7 +16,8 @@ outputs:
         samples: 5
         resolution_x: 500
         resolution_y: 500
-      auto_crop: true
+        # auto_crop: true
+      auto_camera_z_axis_factor: 0.8
       camera:
         type: 'orthographic'
       point_of_view:
