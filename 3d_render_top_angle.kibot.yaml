@@ -14,15 +14,14 @@ outputs:
     dir: render
     options:
       camera:
-        name: Camera
         pos_x: 0.3
         pos_y: width*2
         pos_z: size*3
       render_options:
         transparent_background: true
         samples: 5
-        resolution_x: 1080
-        resolution_y: 1080
+        resolution_x: 500
+        resolution_y: 500
       point_of_view:
         rotate_x: 30
         rotate_y: 0

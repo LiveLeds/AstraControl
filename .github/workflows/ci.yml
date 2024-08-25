@@ -75,7 +75,7 @@ jobs:
       - name: Run Kibot
         uses: INTI-CMNB/KiBot@v2_dk8
         with:
-          config: 3d_render_top.kibot.yaml
+          config: 3d_render_top_angle.kibot.yaml
           dir: output
           schema: "AstraControlPCB/AstraControl.kicad_sch"
           board: "AstraControlPCB/AstraControl.kicad_pcb"
