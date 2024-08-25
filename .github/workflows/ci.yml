@@ -61,7 +61,7 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AstraControl-Artifacts
+          name: AstraControl
           path: output
 
   Build_Jekyll:
@@ -73,13 +73,14 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: AstraControl-Artifacts
+          name: AstraControl
+          path: output
       - name: Move markdown files to root
         run: |
           ls -l
-          ls -l AstraControl-Artifacts
-          mv AstraControl-Artifacts/drc_validation.md ./
-          mv AstraControl-Artifacts/erc_validation.md ./
+          ls -l output
+          mv output/drc_validation.md ./
+          mv output/erc_validation.md ./
           ls -l
       - name: Setup Pages
         uses: actions/configure-pages@v5
