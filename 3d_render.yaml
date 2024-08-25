@@ -39,9 +39,7 @@ outputs:
 
 ...
 definitions:
-  _KIBOT_IMPORT_ID: '_top'
-  _KIBOT_IMPORT_DIR: 'Render_3D'
-  _KIBOT_3D_VIEW: top
+  _KIBOT_IMPORT_DIR: 'render'
   _KIBOT_3D_FILE_ID: '@_KIBOT_IMPORT_ID@'
   _KIBOT_ROT_X: 30
   _KIBOT_ROT_Z: -20
