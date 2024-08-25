@@ -2,11 +2,11 @@ kibot:
   version: 1
 
 globals:
-  resources_dir: Resources
+  resources_dir: resources
 
 preflight:
   check_zone_fills: true
   drc: 
-    format: "JSON,HTML"
+    format: "JSON,HTML,CSV"
   erc: 
-    format: "JSON,HTML"
+    format: "JSON,HTML,CSV"
