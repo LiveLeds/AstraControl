@@ -13,14 +13,14 @@ outputs:
     options:
       light:
         - name: "sun_1"
-          energy: 41.6
+          energy: 21.6
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: size*5
-          type: "SUN"
+          type: "POINT"
 
         - name: "sun_1"
-          energy: 41.6
+          energy: 21.6
           pos_x: size*3.33
           pos_y: -size*3.33
           pos_z: size*5
@@ -38,15 +38,3 @@ outputs:
         view: top
       outputs:
         - type: render
-# "lights": [
-#     {
-#       "energy": 41.69763999999999,
-#       "name": "kibot_light",
-#       "position": [
-#         -0.339993,
-#         0.339993,
-#         0.5105
-#       ],
-#       "type": "POINT"
-#     }
-#   ],

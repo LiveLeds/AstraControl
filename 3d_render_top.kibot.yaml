@@ -12,6 +12,20 @@ outputs:
     type: blender_export
     options:
       render_options:
+        light:
+          - name: "sun_1"
+            energy: 21.6
+            pos_x: -size*3.33
+            pos_y: size*3.33
+            pos_z: size*5
+            type: "POINT"
+
+          - name: "sun_1"
+            energy: 21.6
+            pos_x: size*3.33
+            pos_y: -size*3.33
+            pos_z: size*5
+            type: "POINT"
         transparent_background: true
         samples: 5
         resolution_x: 500
