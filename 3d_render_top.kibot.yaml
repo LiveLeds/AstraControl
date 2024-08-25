@@ -12,22 +12,31 @@ outputs:
     type: blender_export
     options:
       light:
-        - name: "sun_1"
+        - name: "light1"
           energy: 21.6
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: size*5
           type: "POINT"
 
-        - name: "sun_1"
+        - name: "light2"
           energy: 21.6
           pos_x: size*3.33
           pos_y: -size*3.33
           pos_z: size*5
           type: "POINT"
+
+        - name: "light3"
+          energy: 15
+          pos_x: 0
+          pos_y: 0
+          pos_z: size*3
+          type: "POINT"
+      camera:
+        type: "orthographic"
       render_options:
         transparent_background: true
-        samples: 200
+        samples: 10
         resolution_x: 2048
         resolution_y: 2048
       point_of_view:
@@ -35,6 +44,8 @@ outputs:
         rotate_y: 0
         rotate_z: 0
         view: top
+      pcb_import:
+        enhance_materials: false
       auto_camera_z_axis_factor: 0.6
       outputs:
         - type: render
