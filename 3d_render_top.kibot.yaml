@@ -36,10 +36,10 @@ outputs:
         type: "orthographic"
         pos_x: 0
         pos_y: 0
-        pos_z: size
+        pos_z: 100
       render_options:
         transparent_background: true
-        samples: 1
+        samples: 2
         resolution_x: 2048
         resolution_y: 2048
       point_of_view:
