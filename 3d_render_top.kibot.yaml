@@ -1,4 +1,3 @@
-# Blender 3D render
 kibot:
   version: 1
 
@@ -8,28 +7,19 @@ globals:
   pcb_finish: ENIG
 
 outputs:
-  - name: _blender_3d_top_angle
+  - name: _blender_3d_top
     comment: "HQ 3D Render of the PCB"
     type: blender_export
-    dir: render
     options:
-      camera:
-        name: Camera
-        pos_x: 0.3
-        pos_y: width*2
-        pos_z: size*3
       render_options:
         transparent_background: true
         samples: 5
-        resolution_x: 1080
-        resolution_y: 1080
+        resolution_x: 500
+        resolution_y: 500
       point_of_view:
-        rotate_x: 30
+        rotate_x: 0
         rotate_y: 0
-        rotate_z: -20
+        rotate_z: 0
         view: top
-      light:
-        - energy: 0
-          type: 'POINT'
       outputs:
         - type: render
