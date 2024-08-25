@@ -32,11 +32,7 @@ outputs:
           pos_y: 0
           pos_z: size*4
           type: "POINT"
-      camera:
-        type: "orthographic"
-        pos_x: 0
-        pos_y: 0
-        pos_z: 100
+      auto_camera_z_axis_factor: 0.3
       render_options:
         transparent_background: true
         samples: 2
