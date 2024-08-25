@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  PreFlight:
+  Preflight:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
@@ -61,23 +61,25 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AstraControl
+          name: AstraControl-Artifacts
           path: output
   # Build job
-  BuildJekyll:
+  Build Jekyll:
     runs-on: ubuntu-latest
-    needs: PreFlight
+    needs: Preflight
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: site
+          name: AstraControl-Artifacts
       - name: Move markdown files to root
         run: |
-          mv output/drc_validation.md ./
-          mv output/erc_validation.md ./
+          ls -l
+          ls -l AstraControl-Artifacts
+          mv AstraControl-Artifacts/drc_validation.md ./
+          mv AstraControl-Artifacts/erc_validation.md ./
           ls -l
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -90,8 +92,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
-  DeployJekyll:
-    needs: BuildJekyll
+  Deploy Jekyll:
+    needs: Build Jekyll
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
