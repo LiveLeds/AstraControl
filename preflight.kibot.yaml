@@ -1,8 +1,8 @@
 kibot:
   version: 1
 
-#globals:
-#  resources_dir: resources
+globals:
+  resources_dir: resources
 
 preflight:
   check_zone_fills: true
