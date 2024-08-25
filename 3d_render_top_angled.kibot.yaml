@@ -27,10 +27,10 @@ outputs:
           type: "POINT"
       render_options:
         transparent_background: true
-        samples: 5
-        resolution_x: 500
-        resolution_y: 500
-      auto_camera_z_axis_factor: 0.5
+        samples: 200
+        resolution_x: 2048
+        resolution_y: 2048
+      auto_camera_z_axis_factor: 0.7
       point_of_view:
         rotate_x: 25
         rotate_y: 0

@@ -27,9 +27,9 @@ outputs:
           type: "POINT"
       render_options:
         transparent_background: true
-        samples: 5
-        resolution_x: 500
-        resolution_y: 500
+        samples: 200
+        resolution_x: 2048
+        resolution_y: 2048
       point_of_view:
         rotate_x: 0
         rotate_y: 0
