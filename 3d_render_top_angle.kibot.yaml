@@ -11,7 +11,6 @@ outputs:
   - name: _blender_3d_top_angle
     comment: "HQ 3D Render of the PCB"
     type: blender_export
-    dir: render
     options:
       camera:
         pos_x: 0.3
@@ -27,8 +26,5 @@ outputs:
         rotate_y: 0
         rotate_z: -20
         view: top
-      light:
-        - energy: 0
-          type: 'POINT'
       outputs:
         - type: render

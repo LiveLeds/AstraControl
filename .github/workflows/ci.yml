@@ -107,7 +107,7 @@ jobs:
           ls -l output/Render_Top_Angle
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
-          mv output/Render_Top_Angle/render/AstraControl-3D_blender_top.png ./images
+          mv output/Render_Top_Angle/AstraControl-3D_blender_top.png ./images
           ls -l
       - name: Setup Pages
         uses: actions/configure-pages@v5
