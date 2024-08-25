@@ -2,7 +2,7 @@ title: Your awesome title
 email: your-email@example.com
 description: >- 
   TODO.
-baseurl: "/home-example"
+baseurl: "/astra-control-pcb"
 url: "https://alexanderp4580.github.io"
 github_username:  alexanderp4580
 permalink: /:slug

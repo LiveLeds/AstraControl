@@ -89,6 +89,10 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Move HTML reports to _site
+        run: |
+          mv output/AstraControl-erc.html ./_site
+          mv output/AstraControl-drc.html ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
