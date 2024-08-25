@@ -27,7 +27,7 @@ outputs:
           type: "POINT"
 
         - name: "light3"
-          energy: 5
+          energy: 2
           pos_x: 0
           pos_y: 0
           pos_z: size*3
@@ -36,7 +36,7 @@ outputs:
         type: "orthographic"
       render_options:
         transparent_background: true
-        samples: 10
+        samples: 2
         resolution_x: 2048
         resolution_y: 2048
       point_of_view:
@@ -44,6 +44,6 @@ outputs:
         rotate_y: 0
         rotate_z: 0
         view: top
-      auto_camera_z_axis_factor: 0.4
+      auto_camera_z_axis_factor: 0.2
       outputs:
         - type: render
