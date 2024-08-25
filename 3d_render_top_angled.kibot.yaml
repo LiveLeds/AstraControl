@@ -22,15 +22,15 @@ outputs:
         - name: "light2"
           energy: 21.6
           pos_x: size*3.33
-          pos_y: -size*3.33
+          pos_y: size*3.33
           pos_z: size*5
           type: "POINT"
 
         - name: "light3"
-          energy: 5
+          energy: 25
           pos_x: 0
           pos_y: 0
-          pos_z: size*3
+          pos_z: size*6
           type: "POINT"
       render_options:
         transparent_background: true
@@ -40,8 +40,8 @@ outputs:
       auto_camera_z_axis_factor: 0.7
       point_of_view:
         rotate_x: 0
-        rotate_y: -35
-        rotate_z: 285
+        rotate_y: -25
+        rotate_z: 270
         view: top
       outputs:
         - type: render
