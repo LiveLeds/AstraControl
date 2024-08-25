@@ -11,21 +11,21 @@ outputs:
     comment: "HQ 3D Render of the PCB"
     type: blender_export
     options:
-      render_options:
-        light:
-          - name: "sun_1"
-            energy: 21.6
-            pos_x: -size*3.33
-            pos_y: size*3.33
-            pos_z: size*5
-            type: "POINT"
+      light:
+        - name: "sun_1"
+          energy: 21.6
+          pos_x: -size*3.33
+          pos_y: size*3.33
+          pos_z: size*5
+          type: "POINT"
 
-          - name: "sun_1"
-            energy: 21.6
-            pos_x: size*3.33
-            pos_y: -size*3.33
-            pos_z: size*5
-            type: "POINT"
+        - name: "sun_1"
+          energy: 21.6
+          pos_x: size*3.33
+          pos_y: -size*3.33
+          pos_z: size*5
+          type: "POINT"
+      render_options:
         transparent_background: true
         samples: 5
         resolution_x: 500
