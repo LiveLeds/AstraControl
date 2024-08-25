@@ -54,7 +54,7 @@ jobs:
           ### DRC Report
           - **Errors**: $drc_warnings
           - **Warnings**: $drc_errors
-          - **Link**: [HTML Report](Report/AstraControl-drc.html)
+          - **Link**: [HTML Report](output/AstraControl-drc.html)
           EOF
           cat output/drc_validation.md
 
@@ -89,10 +89,6 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Move HTML reports to _site
-        run: |
-          mv output/AstraControl-erc.html ./Report
-          mv output/AstraControl-drc.html ./Report
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
