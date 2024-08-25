@@ -83,11 +83,11 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: AstraControl
+          name: Render_Top_Angle
           path: output
   Build_Jekyll:
     runs-on: ubuntu-latest
-    needs: Preflight
+    needs: [Preflight, Render_3D_Top]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -96,12 +96,17 @@ jobs:
         with:
           name: AstraControl
           path: output
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          path: output
       - name: Move markdown files to root
         run: |
           ls -l
           ls -l output
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
+          mv render/AstraControl-3D_blender_top.png ./images
           ls -l
       - name: Setup Pages
         uses: actions/configure-pages@v5
