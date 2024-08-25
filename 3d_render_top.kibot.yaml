@@ -36,7 +36,7 @@ outputs:
         type: "orthographic"
         pos_x: 0
         pos_y: 0
-        pos_z: 0.2
+        pos_z: size
       render_options:
         transparent_background: true
         samples: 1
