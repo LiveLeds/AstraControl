@@ -63,8 +63,8 @@ jobs:
         with:
           name: AstraControl-Artifacts
           path: output
-  # Build job
-  Build Jekyll:
+
+  Build_Jekyll:
     runs-on: ubuntu-latest
     needs: Preflight
     steps:
@@ -91,9 +91,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
-  Deploy Jekyll:
-    needs: Build Jekyll
+  Deploy_Jekyll:
+    needs: Build_Jekyll
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
