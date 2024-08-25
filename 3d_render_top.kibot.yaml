@@ -21,6 +21,6 @@ outputs:
         rotate_y: 0
         rotate_z: 0
         view: top
-      auto_camera_z_axis_factor: 0.3
+      auto_camera_z_axis_factor: 0.6
       outputs:
         - type: render

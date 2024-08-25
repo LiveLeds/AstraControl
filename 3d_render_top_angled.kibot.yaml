@@ -16,11 +16,11 @@ outputs:
         samples: 5
         resolution_x: 500
         resolution_y: 500
-      auto_camera_z_axis_factor: 0.4
+      auto_camera_z_axis_factor: 0.6
       point_of_view:
-        rotate_x: 135
+        rotate_x: -25
         rotate_y: 0
-        rotate_z: -25
+        rotate_z: 110
         view: top
       outputs:
         - type: render
