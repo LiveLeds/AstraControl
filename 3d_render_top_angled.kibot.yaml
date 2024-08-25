@@ -30,15 +30,13 @@ outputs:
           energy: 25
           pos_x: 0
           pos_y: 0
-          pos_z: size*6
-          type: "POINT"
+          pos_z: size*7
+          type: "SUN"
       render_options:
         transparent_background: true
         samples: 2
-        resolution_x: 256
-        resolution_y: 256
-        #resolution_x: 2048
-        #resolution_y: 2048
+        resolution_x: 2048
+        resolution_y: 2048
       auto_camera_z_axis_factor: 0.7
       point_of_view:
         rotate_x: 0
