@@ -12,10 +12,6 @@ outputs:
     comment: "HQ 3D Render of the PCB"
     type: blender_export
     options:
-      camera:
-        pos_x: 0.3
-        pos_y: width*2
-        pos_z: size*3
       render_options:
         transparent_background: true
         samples: 5
