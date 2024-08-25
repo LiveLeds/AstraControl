@@ -28,8 +28,14 @@ jobs:
         uses: dcarbone/install-jq-action@v2
       - name: Parse JSON
         run: |
-          jq '[.violations[] | select(.severity == "warning")] | length'
-          jq '[.violations[] | select(.severity == "error")] | length'
+          erc_warnings=$(cat output/AstraControl-erc.json | jq '[.violations[] | select(.severity == "warning")] | length')
+          erc_errors=$(cat output/AstraControl-erc.json | jq '[.violations[] | select(.severity == "error")] | length')
+          cat <<EOF > output/erc_validation.md
+          ### ERC Report
+          - **Errors**: $erc_warnings
+          - **Warnings**: $erc_errors
+          - **Link**: [HTML Report](output/AstraControl-erc.html)
+          EOF
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
