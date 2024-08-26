@@ -5,7 +5,10 @@
 	(uuid "10a0b7ea-3cf5-404d-8a81-f99d78626e50")
 	(paper "A4")
 	(title_block
-		(title "Fan, Temperature and Screen")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:+5V_IN"
@@ -2062,6 +2065,7 @@
 		(at 203.2 33.02 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -2074,7 +2078,7 @@
 		(at 208.28 30.48 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)

@@ -5,7 +5,10 @@
 	(uuid "990733ec-7a9a-4e2c-ba98-b4add1388c8c")
 	(paper "A4")
 	(title_block
-		(title "UART to RS-485")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:C_100nF_X7R_0402"
@@ -1932,7 +1935,7 @@
 		(at 139.91 37.19 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -1945,7 +1948,7 @@
 		(at 145.41 33.44 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)

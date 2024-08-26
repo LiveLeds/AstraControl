@@ -5,7 +5,10 @@
 	(uuid "cef1f234-c735-43b7-ba45-429c79c78f85")
 	(paper "A4")
 	(title_block
-		(title "Block Diagram")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:+5V_IN"
@@ -1202,6 +1205,7 @@
 		(at 124.46 50.8 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1212,6 +1216,7 @@
 		(at 137.16 132.08 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1222,6 +1227,7 @@
 		(at 144.78 50.8 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1232,6 +1238,7 @@
 		(at 127 106.68 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1242,6 +1249,7 @@
 		(at 144.78 99.06 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1252,6 +1260,7 @@
 		(at 147.32 147.32 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1262,6 +1271,7 @@
 		(at 134.62 71.12 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1272,6 +1282,7 @@
 		(at 154.94 78.74 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1282,6 +1293,7 @@
 		(at 142.24 147.32 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -1292,6 +1304,7 @@
 		(at 142.24 119.38 90)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.27 1.27)
 			)
 		)
@@ -2758,7 +2771,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5V_Protection.kicad_sch"
+		(property "Sheetfile" "5v_protection.kicad_sch"
 			(at 50.8 33.6046 0)
 			(effects
 				(font

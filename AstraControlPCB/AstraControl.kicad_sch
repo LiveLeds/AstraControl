@@ -5,7 +5,8 @@
 	(uuid "9a751838-dce8-4d69-8a02-736625ac74e7")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - ESP32 Based Controller")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
 		(rev "A")
 		(company "LiveAstra Technologies")
 	)
@@ -183,6 +184,7 @@
 		(at 24 142.75 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -194,7 +196,7 @@
 		(at 205 115 0)
 		(effects
 			(font
-				(face "Sarabun SemiBold")
+				(face "ING Me")
 				(size 4 4)
 				(thickness 0.8)
 				(bold yes)
@@ -209,6 +211,7 @@
 		(at 24 97.75 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -220,6 +223,7 @@
 		(at 24 127.5 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -231,7 +235,7 @@
 		(at 232.5 25 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 5 5)
 				(color 255 255 255 1)
 			)
@@ -244,6 +248,7 @@
 		(at 20 67.5 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -255,6 +260,7 @@
 		(at 20 22.5 0)
 		(effects
 			(font
+				(face "ING Me Headline")
 				(size 8 8)
 				(thickness 1.6)
 				(bold yes)
@@ -268,6 +274,7 @@
 		(at 24 104.25 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -279,6 +286,7 @@
 		(at 24 119.75 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -290,6 +298,7 @@
 		(at 35 52.5 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 5 5)
 			)
 		)
@@ -300,6 +309,7 @@
 		(at 24 90 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -311,6 +321,7 @@
 		(at 24 135 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -322,7 +333,7 @@
 		(at 24 158 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -335,7 +346,7 @@
 		(at 24 164.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -348,7 +359,7 @@
 		(at 24 172.25 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -361,6 +372,7 @@
 		(at 20 82.5 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 4 4)
 			)
 			(justify left)
@@ -372,6 +384,7 @@
 		(at 24 112 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 3 3)
 			)
 			(justify left)
@@ -383,7 +396,7 @@
 		(at 24 150.25 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -392,7 +405,7 @@
 		(uuid "ffb8efa9-0448-4a10-bbd7-1f30d41cdae6")
 	)
 	(sheet
-		(at 106 157)
+		(at 114.89 151.92)
 		(size 34 27)
 		(fields_autoplaced yes)
 		(stroke
@@ -404,7 +417,7 @@
 		)
 		(uuid "0db21d8e-3390-4d67-877f-0e5d98e37848")
 		(property "Sheetname" "Block Diagram"
-			(at 106 156.2884 0)
+			(at 114.89 151.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +427,7 @@
 			)
 		)
 		(property "Sheetfile" "block_diagram.kicad_sch"
-			(at 106 184.5846 0)
+			(at 114.89 179.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +444,7 @@
 		)
 	)
 	(sheet
-		(at 52 158)
+		(at 63.43 152.92)
 		(size 34 24)
 		(fields_autoplaced yes)
 		(stroke
@@ -443,7 +456,7 @@
 		)
 		(uuid "120c81b5-e37e-42ba-9ea8-918058b1f430")
 		(property "Sheetname" "Overview"
-			(at 52 157.2884 0)
+			(at 63.43 152.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -453,7 +466,7 @@
 			)
 		)
 		(property "Sheetfile" "overview.kicad_sch"
-			(at 52 182.5846 0)
+			(at 63.43 177.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

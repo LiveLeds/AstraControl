@@ -5,7 +5,10 @@
 	(uuid "951e69e6-5846-43e2-adcb-e443a4b7a4f1")
 	(paper "A4")
 	(title_block
-		(title "Button, Status LED, UART, I2S")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:C_100nF_X7R_0402"

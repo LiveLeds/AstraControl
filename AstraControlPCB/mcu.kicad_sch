@@ -5,7 +5,10 @@
 	(uuid "2763d6d4-e6ee-438f-8563-31028d48538c")
 	(paper "A4")
 	(title_block
-		(title "MCU")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:C_100nF_X7R_0402"

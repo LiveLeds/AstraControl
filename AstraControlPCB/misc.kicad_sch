@@ -5,7 +5,10 @@
 	(uuid "014a8b10-b0fb-4924-b2aa-3cf38f61996b")
 	(paper "A4")
 	(title_block
-		(title "Miscellaneous")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:AstraControl_Ground_Guard"

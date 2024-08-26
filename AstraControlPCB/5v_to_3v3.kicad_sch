@@ -5,7 +5,10 @@
 	(uuid "d9d8489b-a7dd-42ac-b41a-1c4318080cdb")
 	(paper "A4")
 	(title_block
-		(title "5V to 3V3")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:C_22uF_X5R_0603"
@@ -2202,7 +2205,7 @@
 		(at 53.34 73.66 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -2215,6 +2218,7 @@
 		(at 47.09 77.41 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -2227,6 +2231,7 @@
 		(at 198.12 81.28 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -2239,7 +2244,7 @@
 		(at 203.2 78.74 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)

@@ -951,7 +951,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "Cover.kicad_sch",
+    "page_layout_descr_file": "template/template.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1028,5 +1028,8 @@
       "Misc"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_NAME": "AstraControl",
+    "PROJECT_NAME": "AstraBeam"
+  }
 }

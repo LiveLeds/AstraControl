@@ -51,7 +51,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "#0000004D")
+				(color "#00000026")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -126,7 +126,7 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
+			(viasonmask yes)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)

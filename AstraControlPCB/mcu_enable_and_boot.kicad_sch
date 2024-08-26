@@ -5,7 +5,10 @@
 	(uuid "bab67cff-e0e7-4c25-8d93-8436e5f6a527")
 	(paper "A4")
 	(title_block
-		(title "MCU Enable and Boot")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:C_100nF_X7R_0402"
@@ -1377,7 +1380,7 @@
 		(at 106.68 45.72 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -1390,7 +1393,7 @@
 		(at 100.43 49.47 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)

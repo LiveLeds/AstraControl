@@ -5,7 +5,10 @@
 	(uuid "562aa2ae-f0e2-4f8a-88ba-63597e6fc2e5")
 	(paper "A4")
 	(title_block
-		(title "5V Protection")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:C_1uF_X5R_0402"
@@ -1313,7 +1316,7 @@
 		(at 139.7 50.8 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -1326,6 +1329,7 @@
 		(at 133.45 54.55 0)
 		(effects
 			(font
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -2050,7 +2054,7 @@
 			(uuid "52d3b89b-6cf0-4b3a-9ee4-1badb57b6c10")
 		)
 		(instances
-			(project ""
+			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
 					(reference "R8")
 					(unit 1)

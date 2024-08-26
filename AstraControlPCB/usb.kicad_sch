@@ -5,7 +5,10 @@
 	(uuid "75d465f6-c22c-492a-a120-01c708b9a69c")
 	(paper "A4")
 	(title_block
-		(title "USB")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
 		(symbol "LiveAstra:CHASSIS"
@@ -1967,7 +1970,7 @@
 		(at 205.32 90.11 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -1980,7 +1983,7 @@
 		(at 210.82 86.36 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)

@@ -5,7 +5,10 @@
 	(uuid "8cb86fe3-9ba5-4da7-b19f-0d47429dcca5")
 	(paper "A4")
 	(title_block
-		(title "Overview")
+		(title "AstraControl - Root")
+		(date "2024-08-26")
+		(rev "A")
+		(company "LiveAstra Technologies")
 	)
 	(lib_symbols)
 	(polyline
@@ -84,7 +87,7 @@
 		(at 30.5 109 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -97,7 +100,7 @@
 		(at 30.5 116.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -110,7 +113,7 @@
 		(at 30.5 94 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -123,7 +126,7 @@
 		(at 30.5 79 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -136,7 +139,7 @@
 		(at 30.5 86.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -149,7 +152,7 @@
 		(at 20 135 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 4 4)
 				(color 255 255 255 1)
 			)
@@ -162,7 +165,7 @@
 		(at 120.5 69 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 4 4)
 				(color 255 255 255 1)
 			)
@@ -175,7 +178,7 @@
 		(at 40.5 116.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -188,7 +191,7 @@
 		(at 232.5 25 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 5 5)
 				(color 255 255 255 1)
 			)
@@ -201,7 +204,7 @@
 		(at 40.5 109 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -214,7 +217,7 @@
 		(at 20.5 69 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 4 4)
 				(color 255 255 255 1)
 			)
@@ -227,7 +230,7 @@
 		(at 22 182.75 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -240,7 +243,7 @@
 		(at 100.5 69 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 4 4)
 				(color 255 255 255 1)
 			)
@@ -253,7 +256,7 @@
 		(at 74 182.75 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -266,7 +269,7 @@
 		(at 125.5 182.75 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 1.5 1.5)
 				(color 255 255 255 1)
 			)
@@ -279,7 +282,7 @@
 		(at 20 22.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 8 8)
 				(color 255 255 255 1)
 			)
@@ -292,7 +295,7 @@
 		(at 40.5 79 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -305,7 +308,7 @@
 		(at 28.25 179 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -318,7 +321,7 @@
 		(at 40.5 86.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -331,7 +334,7 @@
 		(at 20 163.5 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 4 4)
 				(color 255 255 255 1)
 			)
@@ -344,7 +347,7 @@
 		(at 24 142.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -357,7 +360,7 @@
 		(at 205 115 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 4 4)
 				(color 255 255 255 1)
 			)
@@ -370,7 +373,7 @@
 		(at 131 179 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -383,7 +386,7 @@
 		(at 110.5 79 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -396,7 +399,7 @@
 		(at 30.5 101.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -409,7 +412,7 @@
 		(at 40.5 101.5 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -422,7 +425,7 @@
 		(at 120.5 79 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -435,7 +438,7 @@
 		(at 79.5 179 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
@@ -448,7 +451,7 @@
 		(at 40.5 69 0)
 		(effects
 			(font
-				(face "Sarabun ExtraBold")
+				(face "ING Me")
 				(size 4 4)
 				(color 255 255 255 1)
 			)
@@ -461,7 +464,7 @@
 		(at 40.5 94 0)
 		(effects
 			(font
-				(face "Sarabun")
+				(face "ING Me")
 				(size 3 3)
 				(color 255 255 255 1)
 			)
