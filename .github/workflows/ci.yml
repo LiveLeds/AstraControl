@@ -168,7 +168,7 @@ jobs:
           mv output/Report/PCBPrint/AstraControl-assembly.pdf documents/AstraControl-assembly.pdf
           mv output/Report/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-JLCPCB.zip
           mv output/Report/JLCPCB/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_jlc.csv
-          mv output/Report/JLCPCB/PickAndPlae/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv
+          mv output/Report/JLCPCB/PickAndPlace/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv
           rm -rf output
           ls -l
           ls -l export
