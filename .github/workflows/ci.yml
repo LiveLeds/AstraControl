@@ -85,28 +85,28 @@ jobs:
         with:
           name: Render_Top_Angled
           path: output
-    Report:
-      runs-on: ubuntu-latest
-      container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+  Report:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-          with:
-            fetch-depth: "0"
-        - name: Run Kibot
-          uses: INTI-CMNB/KiBot@v2_dk8
-          with:
-            config: config.kibot.yaml
-            dir: output
-            schema: "AstraControlPCB/AstraControl.kicad_sch"
-            board: "AstraControlPCB/AstraControl.kicad_pcb"
-            verbose: 3
-        - name: Upload Artifacts
-          uses: actions/upload-artifact@v4
-          with:
-            name: Config
-            path: output
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "0"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: config.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Report
+          path: output
   Render_3D_Top:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
