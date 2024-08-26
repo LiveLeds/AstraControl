@@ -169,7 +169,8 @@ outputs:
     dir: "report"
     options:
       converted_output: "%f-%i%I%v.%x"
-      eurocircuits_class_target: "0"
+      eurocircuits_class_target: "3B"
+      eurocircuits_reduce_holes: 0
       template: "full"
       do_convert: true
       convert_to: "pdf"
@@ -326,8 +327,5 @@ outputs:
     type: "info"
     dir: "CI"
     options:
-      # [string='names'] [names,none,full] List environment variables.
-      # IMPORTANT: Don't use `full` unless you know you are not leaking sensitive information
       environment: "names"
-      # [string='%f-%i%I%v.%x'] Filename for the output (%i=info, %x=txt). Affected by global options
       output: "%f-%i%I%v.%x"
