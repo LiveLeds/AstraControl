@@ -157,7 +157,7 @@ jobs:
           ls -l output/Render_Top_Angled
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
-          mv output/report/AstraControl-report.txt ./AstraControl-report.md
+          mv output/Report/AstraControl-report.txt ./AstraControl-report.md
           mv output/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
           mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
           mv output/IBOM/AstraControl-ibom.html html/AstraControl-ibom.html
