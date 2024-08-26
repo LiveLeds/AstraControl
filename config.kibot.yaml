@@ -94,39 +94,22 @@ outputs:
             - layer: F.Cu
             - layer: F.SilkS
             - layer: Dwgs.User
-  - name: "Step"
-    comment: "Exports the PCB as a 3D model."
-    type: "step"
-    dir: "Step"
-    options:
-      download: false
-      download_lcsc: False
-      metric_units: true
-      # [number=-1] The minimum distance between points to treat them as separate ones (-1 is KiCad default: 0.01 mm)
-      min_distance: -1
-      # [boolean=false] Used to exclude 3D models for components with 'virtual' attribute
-      no_virtual: false
-      # [string='grid'] Determines the coordinates origin. Using grid the coordinates are the same as you have in the design sheet.
-      # The drill option uses the auxiliary reference defined by the user.
-      # You can define any other origin using the format 'X,Y', i.e. '3.2,-10'
-      origin: "grid"
-      # [string='%f-%i%I%v.%x'] Name for the generated STEP file (%i='3D' %x='step'). Affected by global options
-      output: "%f-%i%I%v.%x"
-      # [boolean=true] Substitute STEP or IGS models with the same name in place of VRML models
-      subst_models: true
-      # [string=''] Board variant to apply
-      variant: ""
+  # - name: "Step"
+  #   comment: "Exports the PCB as a 3D model."
+  #   type: "step"
+  #   dir: "Step"
+  #   options:
+  #     download: false
+  #     download_lcsc: False
+  #     metric_units: true
   - name: "pcbdraw"
     comment: "Exports the PCB as a 2D model (SVG, PNG or JPG)."
     type: "pcbdraw"
     dir: "Render"
     options:
-      # [number=300] [10,1200] Dots per inch (resolution) of the generated image
       dpi: 800
-      show_components: none
+      show_components: true
       format: "png"
-      # [number|dict] Margin around the generated image [mm].
-      # Using a number the margin is the same in the four directions
       margin:
         bottom: 5
         left: 5
@@ -271,6 +254,7 @@ outputs:
     options:
       dark_mode: true
       name_format: "index"
+      extra_fields: 'Datasheet'
 
   - name: "JLCPCB_position"
     comment: "Pick and place file, JLCPCB style"
