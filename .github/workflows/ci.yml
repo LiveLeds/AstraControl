@@ -155,19 +155,20 @@ jobs:
           ls -l
           ls -l output
           ls -l output/Render_Top_Angled
+          ls -l output/report
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
-          mv output/Report/AstraControl-report.txt ./AstraControl-report.md
-          mv output/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
-          mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
-          mv output/IBOM/AstraControl-ibom.html html/AstraControl-ibom.html
-          mv output/Render/AstraControl-top.png images/AstraControl-top.png
-          mv output/Schematic/AstraControl-schematic.pdf documents/AstraControl-schematic.pdf
-          mv output/PCBPRint/AstraControl-assembly.pdf documents/AstraControl-assembly.pdf
+          mv output/AstraControl/report/AstraControl-report.txt ./AstraControl-report.md
+          mv output/AstraControl/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
+          mv output/AstraControl/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
+          mv output/AstraControl/IBOM/AstraControl-ibom.html html/AstraControl-ibom.html
+          mv output/AstraControl/Render/AstraControl-top.png images/AstraControl-top.png
+          mv output/AstraControl/Schematic/AstraControl-schematic.pdf documents/AstraControl-schematic.pdf
+          mv output/AstraControl/PCBPRint/AstraControl-assembly.pdf documents/AstraControl-assembly.pdf
           mkdir export
-          mv output/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-JLCPCB.zip
-          mv output/JLCPCB/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_jlc.csv
-          mv output/JLCPCB/PickAndPlae/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv
+          mv output/AstraControl/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-JLCPCB.zip
+          mv output/AstraControl/JLCPCB/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_jlc.csv
+          mv output/AstraControl/JLCPCB/PickAndPlae/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv
           rm -rf output
           ls -l
           ls -l export
