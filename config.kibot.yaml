@@ -125,11 +125,11 @@ outputs:
       placeholder: false
       style:
         # [string='#208b47'] Color for the board without copper (covered by solder mask)
-        board: "#333333"
+        board: "#1d1918"
         # [string='#cabb3e'] Color for the PCB core (not covered by solder mask)
-        clad: "#999999"
+        clad: "#72786c"
         # [string='#285e3a'] Color for the copper zones (covered by solder mask)
-        copper: "#777777"
+        copper: "#2d2522"
         # [boolean=false] Highlight over the component (not under)
         highlight_on_top: false
         # [number=1.5] [0,1000] How much the highlight extends around the component [mm]
@@ -139,9 +139,9 @@ outputs:
         # [string='#000000'] Color for the outline
         outline: "#000000"
         # [string='#8b898c'] Color for the exposed pads (metal finish)
-        pads: "#d4af37"
+        pads: "#cfb96e"
         # [string='#d5dce4'] Color for the silk screen
-        silk: "#000000"
+        silk: "#d5dce4"
         # [string='#bf2600'] Color for the V-CUTS
         vcut: "#bf2600"
       # [string='visible'] [visible,all,none] Using visible only the warnings about components in the visible side are generated

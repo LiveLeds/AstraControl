@@ -96,7 +96,7 @@
 	)
 	(tbtext "${##}"
 		(name "")
-		(pos 6 6.0002)
+		(pos 8.0002 6.0002)
 		(font
 			(face "ING Me Headline")
 			(size 2.5 2.5) bold)
