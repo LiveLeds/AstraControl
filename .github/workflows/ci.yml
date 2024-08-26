@@ -156,16 +156,16 @@ jobs:
           ls -l output
           ls -l output/Render_Top_Angled
           ls -l output/Report
+          mkdir export
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
           mv output/Report/report/AstraControl-report.txt ./AstraControl-report.md
           mv output/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
           mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
-          mv output/Report/IBOM/AstraControl-ibom.html html/AstraControl-ibom.html
+          mv output/Report/IBOM/AstraControl-ibom.html export/AstraControl-ibom.html
           mv output/Report/Render/AstraControl-top.png images/AstraControl-top.png
           mv output/Report/Schematic/AstraControl-schematic.pdf documents/AstraControl-schematic.pdf
-          mv output/Report/PCBPRint/AstraControl-assembly.pdf documents/AstraControl-assembly.pdf
-          mkdir export
+          mv output/Report/PCBPrint/AstraControl-assembly.pdf documents/AstraControl-assembly.pdf
           mv output/Report/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-JLCPCB.zip
           mv output/Report/JLCPCB/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_jlc.csv
           mv output/Report/JLCPCB/PickAndPlae/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv

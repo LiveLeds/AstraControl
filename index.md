@@ -5,6 +5,10 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 ![Image](/images/AstraControl-3D_blender_top_angled.png)
 ![Image](/images/AstraControl-3D_blender_top.png)
+![Image](/images/AstraControl-top.png)
+
+[IBOM](/export/AstraControl-ibom.html)
+[Schematic](/documents/AstraControl-schematic.pdf)
 
 Jekyll requires blog post files to be named according to the following format:
 
@@ -31,3 +35,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 {% include_relative erc_validation.md %}
 
 {% include_relative drc_validation.md %}
+
+{% include_relative AstraControl-report.md %}
