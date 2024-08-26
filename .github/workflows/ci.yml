@@ -94,6 +94,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: "0"
+      - name: Move template to root
+        run: |
+          ls -l
+          mkdir template
+          mv AstraControlPCB/template/* template/
+          ls -l template
       - name: Run Kibot
         uses: INTI-CMNB/KiBot@v2_dk8
         with:
