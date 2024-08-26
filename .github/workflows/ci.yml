@@ -155,7 +155,7 @@ jobs:
           ls -l
           ls -l output
           ls -l output/Render_Top_Angled
-          ls -l output/report
+          ls -l output/AstraControl
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
           mv output/AstraControl/report/AstraControl-report.txt ./AstraControl-report.md
