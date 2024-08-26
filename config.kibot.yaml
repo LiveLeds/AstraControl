@@ -6,7 +6,7 @@ kibot:
   version: 1
 
 globals:
-  resources_dir: ../Resources
+  resources_dir: resources
   field_lcsc_part: "LCSC Part"
   solder_mask_color: black
   pcb_finish: ENIG
@@ -21,16 +21,16 @@ filters:
 
 variants:
   - name: rotated
-    comment: 'Rotate for JLCPCB'
+    comment: "Rotate for JLCPCB"
     type: kibom
     variant: rotated
     pre_transform: _rot_footprint_jlcpcb
 
 outputs:
-  - name: 'pcb_print_example'
-    comment: 'Prints the PCB using a mechanism that is more flexible than `pdf_pcb_print` and `svg_pcb_print`.'
-    type: 'pcb_print'
-    dir: 'PCBPrint'
+  - name: "pcb_print_example"
+    comment: "Prints the PCB using a mechanism that is more flexible than `pdf_pcb_print` and `svg_pcb_print`."
+    type: "pcb_print"
+    dir: "PCBPrint"
     options:
       # [boolean=false] Add a background to the pages, see `background_color`
       add_background: true
@@ -39,46 +39,46 @@ outputs:
       # [number=0] Default vertical margin used for the autoscaling mode [mm]
       autoscale_margin_y: 0
       # [string='#FFFFFF'] Color for the background when `add_background` is enabled
-      background_color: '#000000'
+      background_color: "#000000"
       # [string=''] Color used for blind/buried `colored_vias`
-      blind_via_color: ''
+      blind_via_color: ""
       # [string='_builtin_classic'] Selects the color theme. Only applies to KiCad 6.
       # To use the KiCad 6 default colors select `_builtin_default`.
       # Usually user colors are stored as `user`, but you can give it another name
-      color_theme: 'Arcana'
+      color_theme: "Arcana"
       # [boolean=true] Plot through-hole in a different color. Like KiCad GUI does
       colored_pads: true
       # [boolean=true] Plot vias in a different color. Like KiCad GUI does
       colored_vias: true
       # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
       # A short-cut to use for simple cases where a variant is an overkill
-      dnf_filter: '_none'
+      dnf_filter: "_none"
       # [number=360] [36,1200] Resolution (Dots Per Inch) for the output file. Most objects are vectors, but thing
       # like the the solder mask are handled as images by the conversion tools
       dpi: 600
       # [string='full'] [none,small,full] What to use to indicate the drill places, can be none, small or full (for real scale)
-      drill_marks: 'full'
+      drill_marks: "full"
       # [boolean=false] Add the `Edge.Cuts` to all the pages
       force_edge_cuts: false
       # [string=''] Color used for the `force_edge_cuts` option
-      forced_edge_cuts_color: ''
+      forced_edge_cuts_color: ""
       # [boolean=true] Used when enabling the `force_edge_cuts`, in this case this is the `use_for_center` option of the forced
       # layer
       forced_edge_cuts_use_for_center: true
       # [string='PDF'] [PDF,SVG,PNG,EPS,PS] Format for the output file/s.
       # Note that for PS you need `ghostscript` which isn't part of the default docker images
-      format: 'PDF'
+      format: "PDF"
       keep_temporal_files: true
       pages:
         - scaling: 1.0
-          sheet: '%ln'
-          repeat_for_layer: 'F.Cu'
+          sheet: "%ln"
+          repeat_for_layer: "F.Cu"
           repeat_layers: outers
           layers:
             - layer: Edge.Cuts
             - layer: F.Cu
             - layer: F.Mask
-              color: '#ff00ff40'
+              color: "#ff00ff40"
             - layer: F.Paste
             - layer: F.SilkS
             - layer: F.Fab
@@ -86,18 +86,18 @@ outputs:
               plot_footprint_values: false
             - layer: Dwgs.User
         - scaling: 1.0
-          sheet: '%ln'
-          repeat_for_layer: 'F.Cu'
+          sheet: "%ln"
+          repeat_for_layer: "F.Cu"
           repeat_layers: inners
           layers:
             - layer: Edge.Cuts
             - layer: F.Cu
             - layer: F.SilkS
             - layer: Dwgs.User
-  - name: 'Step'
-    comment: 'Exports the PCB as a 3D model.'
-    type: 'step'
-    dir: 'Step'
+  - name: "Step"
+    comment: "Exports the PCB as a 3D model."
+    type: "step"
+    dir: "Step"
     options:
       download: false
       download_lcsc: False
@@ -109,22 +109,22 @@ outputs:
       # [string='grid'] Determines the coordinates origin. Using grid the coordinates are the same as you have in the design sheet.
       # The drill option uses the auxiliary reference defined by the user.
       # You can define any other origin using the format 'X,Y', i.e. '3.2,-10'
-      origin: 'grid'
+      origin: "grid"
       # [string='%f-%i%I%v.%x'] Name for the generated STEP file (%i='3D' %x='step'). Affected by global options
-      output: '%f-%i%I%v.%x'
+      output: "%f-%i%I%v.%x"
       # [boolean=true] Substitute STEP or IGS models with the same name in place of VRML models
       subst_models: true
       # [string=''] Board variant to apply
-      variant: ''
-  - name: 'pcbdraw'
-    comment: 'Exports the PCB as a 2D model (SVG, PNG or JPG).'
-    type: 'pcbdraw'
-    dir: 'Render'
+      variant: ""
+  - name: "pcbdraw"
+    comment: "Exports the PCB as a 2D model (SVG, PNG or JPG)."
+    type: "pcbdraw"
+    dir: "Render"
     options:
       # [number=300] [10,1200] Dots per inch (resolution) of the generated image
       dpi: 800
       show_components: none
-      format: 'png'
+      format: "png"
       # [number|dict] Margin around the generated image [mm].
       # Using a number the margin is the same in the four directions
       margin:
@@ -137,52 +137,42 @@ outputs:
       outline_width: 0.15
       show_solderpaste: false
       # [string='%f-%i%I%v.%x'] Name for the generated file. Affected by global options
-      output: '%f-%i%I%v.%x'
+      output: "%f-%i%I%v.%x"
       # [boolean=false] Show placeholder for missing components
       placeholder: false
       style:
         # [string='#208b47'] Color for the board without copper (covered by solder mask)
-        board: '#333333'
+        board: "#333333"
         # [string='#cabb3e'] Color for the PCB core (not covered by solder mask)
-        clad: '#999999'
+        clad: "#999999"
         # [string='#285e3a'] Color for the copper zones (covered by solder mask)
-        copper: '#777777'
+        copper: "#777777"
         # [boolean=false] Highlight over the component (not under)
         highlight_on_top: false
         # [number=1.5] [0,1000] How much the highlight extends around the component [mm]
         highlight_padding: 1.5
         # [string='stroke:none;fill:#ff0000;opacity:0.5;'] SVG code for the highlight style
-        highlight_style: 'stroke:none;fill:#ff0000;opacity:0.5;'
+        highlight_style: "stroke:none;fill:#ff0000;opacity:0.5;"
         # [string='#000000'] Color for the outline
-        outline: '#000000'
+        outline: "#000000"
         # [string='#8b898c'] Color for the exposed pads (metal finish)
-        pads: '#d4af37'
+        pads: "#d4af37"
         # [string='#d5dce4'] Color for the silk screen
-        silk: '#000000'
+        silk: "#000000"
         # [string='#bf2600'] Color for the V-CUTS
-        vcut: '#bf2600'
+        vcut: "#bf2600"
       # [string='visible'] [visible,all,none] Using visible only the warnings about components in the visible side are generated
-      warnings: 'none'
-  - name: 'report'
-    comment: 'Generates a report about the design.'
-    type: 'report'
-    dir: 'Report'
+      warnings: "none"
+  - name: "report"
+    comment: "Generates a report about the design."
+    type: "report"
+    dir: "report"
     options:
-      # [string='%f-%i%I%v.%x'] Converted output file name (%i='report', %x=`convert_to`).
-      # Note that the extension should match the `convert_to` value. Affected by global options
-      converted_output: '%f-%i%I%v.%x'
-      # [string='10F'] Which Eurocircuits class are we aiming at
-      eurocircuits_class_target: '10F'
-      # [number=0.45] When computing the Eurocircuits category: Final holes sizes smaller or equal to this given
-      # diameter can be reduced to accommodate the correct annular ring values.
-      # Use 0 to disable it
-      eurocircuits_reduce_holes: 0.45
-      # [string='%f-%i%I%v.%x'] Output file name (%i='report', %x='txt'). Affected by global options
-      output: '%f-%i%I%v.%x'
-      # [string='full'] Name for one of the internal templates (full, full_svg, simple) or a custom template file.
-      # Environment variables and ~ are allowed.
-      # Note: when converting to PDF PanDoc can fail on some Unicode values (use `simple_ASCII`)
-      template: 'full'
+      converted_output: "%f-%i%I%v.%x"
+      eurocircuits_class_target: "0"
+      template: "full"
+      do_convert: true
+      convert_to: "pdf"
   - name: "pdf_sch_print"
     comment: "Exports the schematic to the most common exchange format. Suitable for printing."
     type: "pdf_sch_print"
@@ -255,8 +245,8 @@ outputs:
     dir: JLCPCB/Drill
     options:
       pth_and_npth_single_file: false
-      pth_id: '-PTH'
-      npth_id: '-NPTH'
+      pth_id: "-PTH"
+      npth_id: "-NPTH"
       metric_units: true
       map: gerber
       route_mode_for_oval_holes: false
@@ -275,19 +265,19 @@ outputs:
 
   - name: ibom
     comment: Interactive BOM
-    type: ibom 
+    type: ibom
     dir: IBOM
     options:
       dark_mode: true
-      name_format: 'index'
+      name_format: "index"
 
-  - name: 'JLCPCB_position'
+  - name: "JLCPCB_position"
     comment: "Pick and place file, JLCPCB style"
     type: position
     dir: JLCPCB/PickAndPlace
     options:
       variant: rotated
-      output: '%f_cpl_jlc.%x'
+      output: "%f_cpl_jlc.%x"
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
@@ -306,24 +296,24 @@ outputs:
         - id: Side
           name: Layer
 
-  - name: 'JLCPCB_bom'
+  - name: "JLCPCB_bom"
     comment: "BoM for JLCPCB"
     type: bom
-    dir: JLCPCB/BOM    
+    dir: JLCPCB/BOM
     options:
-      output: '%f_%i_jlc.%x'
-      exclude_filter: 'only_jlc_parts'
-      ref_separator: ','
+      output: "%f_%i_jlc.%x"
+      exclude_filter: "only_jlc_parts"
+      ref_separator: ","
       columns:
         - field: Value
           name: Comment
         - field: References
           name: Designator
         - Footprint
-        - field: 'LCSC Part'
-          name: 'LCSC Part #'
-        - field: 'Quantity Per PCB'
-          name: 'QTY'
+        - field: "LCSC Part"
+          name: "LCSC Part #"
+        - field: "Quantity Per PCB"
+          name: "QTY"
       csv:
         hide_pcb_info: true
         hide_stats_info: true

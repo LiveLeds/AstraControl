@@ -27,10 +27,10 @@ outputs:
           type: "POINT"
 
         - name: "light3"
-          energy: 3
+          energy: 6
           pos_x: 0
           pos_y: 0
-          pos_z: size*7
+          pos_z: size*12
           type: "SUN"
       render_options:
         transparent_background: true
