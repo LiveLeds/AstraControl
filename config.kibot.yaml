@@ -108,7 +108,7 @@ outputs:
     dir: "Render"
     options:
       dpi: 800
-      show_components: true
+      show_components: all
       format: "png"
       margin:
         bottom: 5
