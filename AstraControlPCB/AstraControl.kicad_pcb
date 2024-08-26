@@ -152,6 +152,8 @@
 			(outputdirectory "build/plot/")
 		)
 	)
+	(property "BOARD_NAME" "AstraControl")
+	(property "PROJECT_NAME" "AstraBeam")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "+3V3")
