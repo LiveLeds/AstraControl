@@ -159,8 +159,8 @@ jobs:
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
           mv output/Report/report/AstraControl-report.txt ./AstraControl-report.md
-          mv output/Report/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
-          mv output/Report/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
+          mv output/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
+          mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
           mv output/Report/IBOM/AstraControl-ibom.html html/AstraControl-ibom.html
           mv output/Report/Render/AstraControl-top.png images/AstraControl-top.png
           mv output/Report/Schematic/AstraControl-schematic.pdf documents/AstraControl-schematic.pdf
