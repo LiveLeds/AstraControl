@@ -412,16 +412,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 53.34) (xy 111.76 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128ec9b8-8b21-40d4-8bae-76453f621d1d")
-	)
-	(wire
-		(pts
 			(xy 35.56 22.86) (xy 43.18 22.86)
 		)
 		(stroke
@@ -550,19 +540,9 @@
 		)
 		(uuid "3d6ce91c-ac05-4b9d-989a-76182ea7e3a2")
 	)
-	(wire
-		(pts
-			(xy 35.56 48.26) (xy 111.76 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd82e0a-39c6-4ade-b526-e70b3a4ca27b")
-	)
 	(polyline
 		(pts
-			(xy 121.92 45.72) (xy 121.92 55.88)
+			(xy 121.92 40.64) (xy 121.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -679,6 +659,16 @@
 			(type default)
 		)
 		(uuid "53ad469a-c555-4ede-9c03-e248bbdcc66d")
+	)
+	(wire
+		(pts
+			(xy 35.56 48.26) (xy 111.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556b1e1a-5ba0-4ab0-aba1-2a4dda7d8d58")
 	)
 	(polyline
 		(pts
@@ -862,7 +852,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.38 45.72) (xy 121.92 45.72)
+			(xy 119.38 40.64) (xy 121.92 40.64)
 		)
 		(stroke
 			(width 0)
@@ -922,7 +912,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.38 55.88) (xy 121.92 55.88)
+			(xy 119.38 50.8) (xy 121.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -959,6 +949,16 @@
 			(type default)
 		)
 		(uuid "b9c2da52-5ba3-472b-b65e-4397e951c4c3")
+	)
+	(wire
+		(pts
+			(xy 35.56 43.18) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb84e66-66f2-4351-a89d-dbecce70b6f0")
 	)
 	(polyline
 		(pts
@@ -1202,7 +1202,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 124.46 50.8 90)
+		(at 120.65 39.37 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1213,7 +1213,7 @@
 	)
 	(text "FAN"
 		(exclude_from_sim no)
-		(at 137.16 132.08 90)
+		(at 133.35 125.73 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1224,7 +1224,7 @@
 	)
 	(text "LED PWM"
 		(exclude_from_sim no)
-		(at 144.78 50.8 90)
+		(at 151.13 39.37 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1235,7 +1235,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 127 106.68 90)
+		(at 123.19 100.33 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1246,7 +1246,7 @@
 	)
 	(text "I2S Microphone"
 		(exclude_from_sim no)
-		(at 144.78 99.06 90)
+		(at 153.67 87.63 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1257,7 +1257,7 @@
 	)
 	(text "5V GPIO"
 		(exclude_from_sim no)
-		(at 147.32 147.32 90)
+		(at 152.4 133.35 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1268,7 +1268,7 @@
 	)
 	(text "RS-485"
 		(exclude_from_sim no)
-		(at 134.62 71.12 90)
+		(at 132.08 59.69 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1279,7 +1279,7 @@
 	)
 	(text "UART"
 		(exclude_from_sim no)
-		(at 154.94 78.74 90)
+		(at 160.02 72.39 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1290,7 +1290,7 @@
 	)
 	(text "SCREEN"
 		(exclude_from_sim no)
-		(at 142.24 147.32 90)
+		(at 139.7 140.97 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1301,7 +1301,7 @@
 	)
 	(text "HMI"
 		(exclude_from_sim no)
-		(at 142.24 119.38 90)
+		(at 146.05 113.03 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1309,6 +1309,17 @@
 			)
 		)
 		(uuid "f2f45501-2d71-4404-8bcd-c00bd4a9ce0c")
+	)
+	(text "TEMP"
+		(exclude_from_sim no)
+		(at 135.89 156.21 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6238a8e-1ea6-43ff-a192-e3d2f7268096")
 	)
 	(symbol
 		(lib_id "LiveAstra:+5V_IN")
@@ -1783,7 +1794,7 @@
 			(uuid "97cb2ef0-ccbe-49a0-abc5-5218283a7eff")
 		)
 		(pin "USB_D-" bidirectional
-			(at 111.76 53.34 180)
+			(at 111.76 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1806,7 @@
 			(uuid "aa3dae91-9fe3-4b66-af06-a15d6a6539df")
 		)
 		(pin "USB_D+" bidirectional
-			(at 111.76 48.26 180)
+			(at 111.76 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2706,7 @@
 			(uuid "9824c428-0333-4b71-a089-745fda3de419")
 		)
 		(pin "USB_D-" bidirectional
-			(at 35.56 53.34 0)
+			(at 35.56 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,7 +2718,7 @@
 			(uuid "36bb9b99-3299-4804-b5a5-61700ea658b6")
 		)
 		(pin "USB_D+" bidirectional
-			(at 35.56 48.26 0)
+			(at 35.56 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
