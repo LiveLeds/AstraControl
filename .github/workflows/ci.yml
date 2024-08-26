@@ -98,7 +98,7 @@ jobs:
         run: |
           ls -l
           mkdir template
-          mv AstraControlPCB/template/* template/
+          cp AstraControlPCB/template/* template/
           ls -l template
       - name: Run Kibot
         uses: INTI-CMNB/KiBot@v2_dk8
