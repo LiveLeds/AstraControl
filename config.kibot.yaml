@@ -325,7 +325,7 @@ outputs:
           name: "LCSC Part #"
         - field: "Quantity Per PCB"
           name: "Quantity"
-      format: "html"
+      format: "HTML"
       html:
         datasheet_as_link: "Datasheet"
         lcsc_link: true
