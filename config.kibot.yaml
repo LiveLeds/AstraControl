@@ -254,7 +254,7 @@ outputs:
     options:
       dark_mode: true
       name_format: "index"
-      extra_fields: 'Datasheet'
+      extra_fields: "Datasheet"
 
   - name: "JLCPCB_position"
     comment: "Pick and place file, JLCPCB style"
@@ -303,9 +303,28 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
-  # It can be used to know more about the environment used to generate the files.
-  # Please don't rely on the way things are reported, its content could change,
-  # adding or removing information
+  - name: "Markdown components table"
+    comment: "All components in a markdown list"
+    type: bom
+    dir: BOM
+    options:
+      output: "%f_%i.%x"
+      columns:
+        - field: Value
+          name: Value
+        - field: References
+          name: Reference
+        - field: References
+          name: Reference
+        - field: "Extra Values"
+          name: "Extra Values"
+        - Footprint
+        - Datasheet
+        - field: "LCSC Part"
+          name: "LCSC Part #"
+        - field: "Quantity Per PCB"
+          name: "Quantity"
+      format: "HRTXT"
   - name: "Info"
     comment: "Records information about the current run."
     type: "info"
