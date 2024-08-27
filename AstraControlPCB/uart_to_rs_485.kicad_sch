@@ -3817,15 +3817,6 @@
 				(justify right)
 			)
 		)
-		(property "Extra Value" ""
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "aefeb86b-7aa2-480e-9397-f8be103688b8")
 		)

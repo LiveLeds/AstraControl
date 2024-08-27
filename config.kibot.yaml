@@ -314,8 +314,6 @@ outputs:
           name: Value
         - field: References
           name: Reference
-        - field: References
-          name: Reference
         - field: "Extra Values"
           name: "Extra Values"
         - Footprint

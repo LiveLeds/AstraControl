@@ -2461,15 +2461,6 @@
 				(justify right)
 			)
 		)
-		(property "Extra Value" ""
-			(at 187.96 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "36a477f0-0351-4e8b-aee6-5b38122a99ef")
 		)
@@ -3148,15 +3139,6 @@
 				(justify right)
 			)
 		)
-		(property "Extra Value" ""
-			(at 251.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bf886068-abd1-4217-839f-f721ff183093")
 		)
@@ -3637,15 +3619,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 232.41 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
