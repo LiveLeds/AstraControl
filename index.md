@@ -8,6 +8,9 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 ![Image](/images/AstraControl-top.png)
 
 [IBOM](/export/AstraControl-ibom.html)
+
+[BOM](/export/AstraControl-bom.html)
+
 [Schematic](/documents/AstraControl-schematic.pdf)
 
 Jekyll requires blog post files to be named according to the following format:

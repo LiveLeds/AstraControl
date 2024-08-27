@@ -320,11 +320,16 @@ outputs:
           name: "Extra Values"
         - Footprint
         - Datasheet
+        - Sheetpath
         - field: "LCSC Part"
           name: "LCSC Part #"
         - field: "Quantity Per PCB"
           name: "Quantity"
-      format: "HRTXT"
+      format: "html"
+      html:
+        datasheet_as_link: "Datasheet"
+        lcsc_link: true
+
   - name: "Info"
     comment: "Records information about the current run."
     type: "info"

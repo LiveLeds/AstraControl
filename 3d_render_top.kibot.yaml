@@ -32,8 +32,8 @@ outputs:
           pos_y: 0
           pos_z: size*8
           type: "SUN"
-      - camera:
-        type: "orthographic"
+      camera:
+        - type: "orthographic"
       auto_camera_z_axis_factor: 0.6
       render_options:
         transparent_background: true
