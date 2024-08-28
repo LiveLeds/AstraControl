@@ -102,50 +102,6 @@ outputs:
   #     download: false
   #     download_lcsc: False
   #     metric_units: true
-  - name: "pcbdraw"
-    comment: "Exports the PCB as a 2D model (SVG, PNG or JPG)."
-    type: "pcbdraw"
-    dir: "Render"
-    options:
-      dpi: 800
-      show_components: all
-      format: "png"
-      margin:
-        bottom: 5
-        left: 5
-        right: 5
-        top: 5
-      # [number=0.15] [0,10] Width of the trace to draw the PCB border [mm].
-      # Note this also affects the drill holes
-      outline_width: 0.15
-      show_solderpaste: false
-      # [string='%f-%i%I%v.%x'] Name for the generated file. Affected by global options
-      output: "%f-%i%I%v.%x"
-      # [boolean=false] Show placeholder for missing components
-      placeholder: false
-      style:
-        # [string='#208b47'] Color for the board without copper (covered by solder mask)
-        board: "#1d1918"
-        # [string='#cabb3e'] Color for the PCB core (not covered by solder mask)
-        clad: "#72786c"
-        # [string='#285e3a'] Color for the copper zones (covered by solder mask)
-        copper: "#2d2522"
-        # [boolean=false] Highlight over the component (not under)
-        highlight_on_top: false
-        # [number=1.5] [0,1000] How much the highlight extends around the component [mm]
-        highlight_padding: 1.5
-        # [string='stroke:none;fill:#ff0000;opacity:0.5;'] SVG code for the highlight style
-        highlight_style: "stroke:none;fill:#ff0000;opacity:0.5;"
-        # [string='#000000'] Color for the outline
-        outline: "#000000"
-        # [string='#8b898c'] Color for the exposed pads (metal finish)
-        pads: "#cfb96e"
-        # [string='#d5dce4'] Color for the silk screen
-        silk: "#d5dce4"
-        # [string='#bf2600'] Color for the V-CUTS
-        vcut: "#bf2600"
-      # [string='visible'] [visible,all,none] Using visible only the warnings about components in the visible side are generated
-      warnings: "none"
   - name: "report"
     comment: "Generates a report about the design."
     type: "report"

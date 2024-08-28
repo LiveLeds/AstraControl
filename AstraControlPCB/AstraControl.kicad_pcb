@@ -51,7 +51,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "#00000026")
+				(color "#0000002B")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -96,7 +96,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Black")
+				(color "#0000002B")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -104,7 +104,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
-				(color "#0000004D")
+				(color "White")
 			)
 			(copper_finish "ENIG")
 			(dielectric_constraints yes)
@@ -371,7 +371,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V Â±1% 0805 125mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1071,7 +1071,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R ±20% 0603"
+		(property "Extra Values" "6.3V X5R Â±20% 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1762,7 +1762,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3124,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R ±20% 0805"
+		(property "Extra Values" "6.3V X5R Â±20% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3764,7 +3764,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1kV X7R ±10% 0805"
+		(property "Extra Values" "1kV X7R Â±10% 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5619,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X5R ±10% 0603"
+		(property "Extra Values" "16V X5R Â±10% 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5942,7 +5942,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW"
+		(property "Extra Values" "50V Â±1% 0402 62.5mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11504,7 +11504,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1kV X7R ±10% 0805"
+		(property "Extra Values" "1kV X7R Â±10% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11805,7 +11805,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12879,7 +12879,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13191,7 +13191,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14276,7 +14276,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V Â±1% 0805 125mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16492,7 +16492,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16810,7 +16810,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17787,7 +17787,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19160,7 +19160,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19865,7 +19865,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X5R ±10% 0603"
+		(property "Extra Values" "16V X5R Â±10% 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20192,7 +20192,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW"
+		(property "Extra Values" "50V Â±1% 0402 62.5mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20511,7 +20511,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R ±20% 0805"
+		(property "Extra Values" "6.3V X5R Â±20% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20806,7 +20806,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21494,7 +21494,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21790,7 +21790,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22092,7 +22092,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R ±20% 0805"
+		(property "Extra Values" "6.3V X5R Â±20% 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22417,7 +22417,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V Â±1% 0805 125mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22724,7 +22724,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23013,7 +23013,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "25V X5R ±10% 0402"
+		(property "Extra Values" "25V X5R Â±10% 0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24742,7 +24742,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X5R ±10% 0603"
+		(property "Extra Values" "16V X5R Â±10% 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25034,7 +25034,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "25V X5R ±10% 0402"
+		(property "Extra Values" "25V X5R Â±10% 0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26295,7 +26295,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26607,7 +26607,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28011,7 +28011,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW"
+		(property "Extra Values" "50V Â±1% 0402 62.5mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28330,7 +28330,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29342,7 +29342,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30396,7 +30396,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31065,7 +31065,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31367,7 +31367,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31690,7 +31690,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32361,7 +32361,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R ±20% 0603"
+		(property "Extra Values" "6.3V X5R Â±20% 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32692,7 +32692,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1kV X7R ±10% 0805"
+		(property "Extra Values" "1kV X7R Â±10% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33396,7 +33396,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33702,7 +33702,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34385,7 +34385,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36080,7 +36080,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V Â±1% 0805 125mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36394,7 +36394,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R ±20% 0805"
+		(property "Extra Values" "6.3V X5R Â±20% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36642,7 +36642,7 @@
 				)
 			)
 		)
-		(property "Description" "4A 2.2uH ±20% 4A 41mÎ© SMD,4.1x4.5mm Inductors (SMD) ROHS"
+		(property "Description" "4A 2.2uH Â±20% 4A 41mÎ© SMD,4.1x4.5mm Inductors (SMD) ROHS"
 			(at 0 10.6 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36668,7 +36668,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "4A ±20% 41mÎ©"
+		(property "Extra Values" "4A Â±20% 41mÎ©"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37451,7 +37451,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V Â±1% 0805 125mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37754,7 +37754,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38788,7 +38788,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW"
+		(property "Extra Values" "50V Â±1% 0402 62.5mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39072,7 +39072,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39376,7 +39376,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40650,7 +40650,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V C0G ±5% 0805"
+		(property "Extra Values" "50V C0G Â±5% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42111,7 +42111,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42436,7 +42436,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42761,7 +42761,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43456,7 +43456,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW"
+		(property "Extra Values" "50V Â±1% 0402 62.5mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43774,7 +43774,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44081,7 +44081,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW"
+		(property "Extra Values" "50V Â±1% 0402 62.5mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45121,7 +45121,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45433,7 +45433,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46963,7 +46963,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1kV X7R ±10% 0805"
+		(property "Extra Values" "1kV X7R Â±10% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47675,7 +47675,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47981,7 +47981,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48273,7 +48273,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49303,7 +49303,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49610,7 +49610,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50274,7 +50274,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50577,7 +50577,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51249,7 +51249,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52364,7 +52364,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52676,7 +52676,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "25V X5R ±10% 0402"
+		(property "Extra Values" "25V X5R Â±10% 0402"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53348,7 +53348,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54070,7 +54070,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R Â±10% 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55163,7 +55163,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V Â±1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57855,7 +57855,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V Â±1% 0402 62mW"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58613,7 +58613,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V Â±1% 0805 125mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59165,216 +59165,6 @@
 		)
 		(layer "User.4")
 		(uuid "c5832215-d44d-4cfc-9476-fc345182f577")
-	)
-	(gr_line
-		(start 90.278573 111.124)
-		(end 90.278573 162.31)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "1a1ef9d4-c825-4bd7-afd2-6c9dc5665f04")
-	)
-	(gr_line
-		(start 13.292858 122.644)
-		(end 105.042858 122.644)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "2ebc821a-f801-457c-975b-b6d51a8b1fcf")
-	)
-	(gr_line
-		(start 13.292858 137.068)
-		(end 105.292858 137.068)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "3042ee29-9dae-4301-96a8-b2ff0274c747")
-	)
-	(gr_line
-		(start 13.292858 126.25)
-		(end 105.292858 126.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "404ef4d2-2af9-41e5-8882-42d69d78c296")
-	)
-	(gr_line
-		(start 13.292858 119.038)
-		(end 105.042858 119.038)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "4d3f11b0-5668-4675-b846-2ce1c0c1535a")
-	)
-	(gr_line
-		(start 13.292858 111.124)
-		(end 13.292858 162.31)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "5c97022e-948d-414a-afd1-b812a1fe43c8")
-	)
-	(gr_line
-		(start 13.292858 158.704)
-		(end 105.042858 158.704)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "66770e62-4f7c-4ab1-925e-6a6cd0685e50")
-	)
-	(gr_line
-		(start 13.292858 140.674)
-		(end 105.292858 140.674)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "7bf19a3d-c701-440f-ade7-223f17e38ab7")
-	)
-	(gr_line
-		(start 13.292858 147.886)
-		(end 105.292858 147.886)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "88274dab-187d-4881-897f-d9a613e51fa9")
-	)
-	(gr_line
-		(start 13.292858 151.492)
-		(end 105.292858 151.492)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "8baa6abf-cbcf-4c9f-b440-64e9ea71a086")
-	)
-	(gr_line
-		(start 13.292858 115.432)
-		(end 105.042858 115.432)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "a75962d0-f5c7-4c00-b88f-ba89cc687a7b")
-	)
-	(gr_line
-		(start 13.292858 133.462)
-		(end 105.042858 133.462)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "ad948d91-cdc1-4721-b278-9183dae0b21c")
-	)
-	(gr_line
-		(start 105.135715 111.124)
-		(end 105.135715 162.31)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "bfbbb75e-6cac-4732-b897-b09866f28b1f")
-	)
-	(gr_line
-		(start 13.292858 111.124)
-		(end 105.542858 111.124)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "e1dc3165-ac50-47bf-a93f-031bdefe4e3f")
-	)
-	(gr_line
-		(start 13.292858 162.31)
-		(end 105.292858 162.31)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "e1ddd7d6-7e68-4327-898e-37d6648063de")
-	)
-	(gr_line
-		(start 13.292858 129.856)
-		(end 105.292858 129.856)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "e8dec5b0-2f33-4e2f-ad55-8874d44203dd")
-	)
-	(gr_line
-		(start 28.678572 111.124)
-		(end 28.678572 162.31)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "eae71201-0a41-45ff-a60b-d261bcc36686")
-	)
-	(gr_line
-		(start 53.75 111.124)
-		(end 53.75 162.31)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "efde480b-1fbc-424b-bf9d-9a429a64fc0b")
-	)
-	(gr_line
-		(start 70.250001 111.124)
-		(end 70.250001 162.31)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "f6b4a0e4-e3a9-4931-9e75-a4e0de9b40b7")
-	)
-	(gr_line
-		(start 13.292858 155.098)
-		(end 105.042858 155.098)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "f6c96efc-09aa-4935-a28d-8992e08ad419")
-	)
-	(gr_line
-		(start 13.292858 144.28)
-		(end 105.292858 144.28)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "f99e89c7-fd25-4f05-9a10-f69e66007a13")
 	)
 	(gr_text "D-"
 		(at 123.25 84.75 0)
@@ -65032,1122 +64822,6 @@
 					(xy 135.667054 65.714521) (xy 135.718581 65.761156) (xy 135.724158 65.791116)
 				)
 			)
-		)
-	)
-	(gr_text "BOARD CHARACTERISTICS"
-		(at 14.592857 62.006 0)
-		(layer "User.9")
-		(uuid "000ee206-40f3-4771-b353-5a6fa2daab7e")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 54.5 119.788 0)
-		(layer "User.9")
-		(uuid "008b2c39-2ed0-4551-a018-1402e170f0f8")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.2104 mm"
-		(at 71.000001 130.606 0)
-		(layer "User.9")
-		(uuid "06a1c2ce-c94f-4727-aaf2-e37794ef0099")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "F.Silkscreen"
-		(at 14.042858 116.182 0)
-		(layer "User.9")
-		(uuid "07aef156-7b65-43cc-9f43-bfd287c4c99e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Not specified"
-		(at 54.5 159.454 0)
-		(layer "User.9")
-		(uuid "094380a7-191a-4551-bd85-26a3e3d3e95e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "1.065 mm"
-		(at 71.000001 137.818 0)
-		(layer "User.9")
-		(uuid "0c5ec3a2-8442-47bc-a20c-d6246857f0b4")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "FR4 natural"
-		(at 91.028573 137.818 0)
-		(layer "User.9")
-		(uuid "0f5e10ed-70a1-45a6-91e8-330430c80029")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Min hole diameter: "
-		(at 15.278566 94.828 0)
-		(layer "User.9")
-		(uuid "106fb260-8e8e-48a4-8a52-d8367989d6f5")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 91.028573 141.424 0)
-		(layer "User.9")
-		(uuid "22156435-8e5c-48ce-b71f-7d2bc43ec5ec")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "In2.Cu"
-		(at 14.042858 141.424 0)
-		(layer "User.9")
-		(uuid "230362db-e1e1-46c0-9a7f-c10773d3ca93")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 91.028573 119.788 0)
-		(layer "User.9")
-		(uuid "2695188c-6a8f-42c4-9919-ccc9a9e0defd")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Plated Board Edge: "
-		(at 15.278566 102.742 0)
-		(layer "User.9")
-		(uuid "2b014f98-b749-4f2e-a526-540d9ab004c6")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "copper"
-		(at 29.428572 127 0)
-		(layer "User.9")
-		(uuid "30bb7cf1-d85f-4a09-b1f8-6c8330f5b831")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.01 mm"
-		(at 71.000001 152.242 0)
-		(layer "User.9")
-		(uuid "325700b6-cc13-4c30-b212-fe9894f87534")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0 mm"
-		(at 71.000001 116.182 0)
-		(layer "User.9")
-		(uuid "333ec11c-e923-453d-aef8-aad1fb929d7e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "#0000004D"
-		(at 91.028573 123.394 0)
-		(layer "User.9")
-		(uuid "337daec1-2698-4f2f-8a60-c036f7bc80d9")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Type"
-		(at 29.428572 111.874 0)
-		(layer "User.9")
-		(uuid "3434bd08-8303-4590-a807-8d137a1aca25")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Edge card connectors: "
-		(at 15.342857 87.285 0)
-		(layer "User.9")
-		(uuid "36ab5a3b-be41-4646-9a30-d530f4da1dfd")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Top Silk Screen"
-		(at 29.428572 116.182 0)
-		(layer "User.9")
-		(uuid "435d9dd7-0b7f-4521-b275-8c5e6f1ad167")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Layer Name"
-		(at 14.042858 111.874 0)
-		(layer "User.9")
-		(uuid "46ed7188-bf40-4f71-945c-97c7ffbfb092")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.0152 mm"
-		(at 71.000001 141.424 0)
-		(layer "User.9")
-		(uuid "4d0b1224-9c5d-41ae-8403-9e54ffb8f0d0")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "102.0000 mm x 96.0000 mm"
-		(at 48 71.457 0)
-		(layer "User.9")
-		(uuid "50969889-29b3-4463-a268-92b678e458dc")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Copper Layer Count: "
-		(at 15.342857 67.5 0)
-		(layer "User.9")
-		(uuid "510cc264-8c07-4d09-9644-7975927c030f")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.035 mm"
-		(at 71.000001 127 0)
-		(layer "User.9")
-		(uuid "541b3a50-9b4c-4e96-bbc0-15c38a58a015")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "1.6062 mm"
-		(at 40.221423 91.207 0)
-		(layer "User.9")
-		(uuid "54b0102f-3230-4f21-b036-c1db5a667ee2")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Bottom Solder Mask"
-		(at 29.428572 152.242 0)
-		(layer "User.9")
-		(uuid "54bf14f2-9a4b-43c0-99f5-ef02acd63cf0")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Castellated pads: "
-		(at 15.342857 83.328 0)
-		(layer "User.9")
-		(uuid "54ea65b9-a04d-4d7e-a7af-e062fd7fa216")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 54.5 148.636 0)
-		(layer "User.9")
-		(uuid "57c97df1-ac2e-401e-83ac-2414859a21e9")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 91.028573 148.636 0)
-		(layer "User.9")
-		(uuid "5a0d7447-5ad8-468c-95d9-1f92245e0566")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Yes"
-		(at 40.221423 98.785 0)
-		(layer "User.9")
-		(uuid "5e69c721-58c9-4cc9-8295-e4b73864639d")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "B.Silkscreen"
-		(at 14.042858 159.454 0)
-		(layer "User.9")
-		(uuid "5fde8abe-dc43-47bc-bd4b-91b7d3d3c5f7")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 83.585709 71.457 0)
-		(layer "User.9")
-		(uuid "6b314bb8-d4d3-4481-9680-dedcecd85f38")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0 mm"
-		(at 71.000001 119.788 0)
-		(layer "User.9")
-		(uuid "6b86506c-998a-4f21-9882-e761edbbf60a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Dielectric 2"
-		(at 14.042858 137.818 0)
-		(layer "User.9")
-		(uuid "6f09ffd2-0598-4905-98a5-7689c8b39d39")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "ENIG"
-		(at 48 79.371 0)
-		(layer "User.9")
-		(uuid "72dc7979-cd9c-488d-a2c1-a630f2dc5eb8")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "copper"
-		(at 29.428572 141.424 0)
-		(layer "User.9")
-		(uuid "72f99c11-1b85-49fe-b45a-250a9f2e651b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "FR4 natural"
-		(at 91.028573 145.03 0)
-		(layer "User.9")
-		(uuid "75c0658f-5701-413b-8549-dc2509d9d98a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Top Solder Mask"
-		(at 29.428572 123.394 0)
-		(layer "User.9")
-		(uuid "75ef1da1-0794-4feb-8b1e-45268cb7a53a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 91.028573 134.212 0)
-		(layer "User.9")
-		(uuid "778b72d2-b499-4cde-9bf9-1fd3db08df5a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Black"
-		(at 91.028573 152.242 0)
-		(layer "User.9")
-		(uuid "78f26173-a340-4f40-93cb-5e7289c1cc0b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "copper"
-		(at 29.428572 134.212 0)
-		(layer "User.9")
-		(uuid "793070a8-78a6-430b-8d7c-db5c2f5cf987")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Board overall dimensions: "
-		(at 15.342857 71.457 0)
-		(layer "User.9")
-		(uuid "79c23608-ebf0-4192-a08e-e253fbc12169")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Board Thickness: "
-		(at 15.278566 91.207 0)
-		(layer "User.9")
-		(uuid "7c308fbe-6179-4168-a55d-bce8df1a335a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 54.5 127 0)
-		(layer "User.9")
-		(uuid "7ee8a38b-239c-49b6-820e-e578161d0769")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "B.Mask"
-		(at 14.042858 152.242 0)
-		(layer "User.9")
-		(uuid "7eef27f5-cc47-4d7f-bf24-c7436295542b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 54.5 155.848 0)
-		(layer "User.9")
-		(uuid "806017cb-56ae-485b-92e8-6ae607a71357")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "No"
-		(at 48 83.328 0)
-		(layer "User.9")
-		(uuid "81cd8e41-0ab1-48ea-b3d1-9b7c4a304f1e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "F.Cu"
-		(at 14.042858 127 0)
-		(layer "User.9")
-		(uuid "84678019-52a5-4461-bd81-c500d6210797")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "In1.Cu"
-		(at 14.042858 134.212 0)
-		(layer "User.9")
-		(uuid "853885bc-85a7-40c1-9a3f-e039ef755002")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Dielectric 1"
-		(at 14.042858 130.606 0)
-		(layer "User.9")
-		(uuid "92f5fe59-90f2-4de2-9a87-1982fe8fdb20")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "FR4"
-		(at 54.5 145.03 0)
-		(layer "User.9")
-		(uuid "93363bd5-44df-4ef9-b44d-337ffc308e0c")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "No"
-		(at 48 87.285 0)
-		(layer "User.9")
-		(uuid "940e22ec-4ddf-4067-a4ca-0eba11f7e02f")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Dielectric 3"
-		(at 14.042858 145.03 0)
-		(layer "User.9")
-		(uuid "9797298d-dc41-4310-9bc8-1bcf952a1635")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "#0000004D"
-		(at 91.028573 159.454 0)
-		(layer "User.9")
-		(uuid "990bbe8a-1c60-459b-8cce-ac9abc203187")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0 mm"
-		(at 71.000001 155.848 0)
-		(layer "User.9")
-		(uuid "9a9c6ceb-7546-4d4d-8385-d34cb7dbc77b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Top Solder Paste"
-		(at 29.428572 119.788 0)
-		(layer "User.9")
-		(uuid "a0b69df9-81ff-4ba8-830a-4f5c29aabae7")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Not specified"
-		(at 54.5 152.242 0)
-		(layer "User.9")
-		(uuid "a1ed5bd4-c045-4e7a-9026-09084be91e94")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.035 mm"
-		(at 71.000001 148.636 0)
-		(layer "User.9")
-		(uuid "a41b858f-d477-4a22-a094-c36e18534c48")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "4"
-		(at 48 67.5 0)
-		(layer "User.9")
-		(uuid "a49fb2d9-9640-440a-9e32-f324518afe7e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Min track/spacing: "
-		(at 15.342857 75.414 0)
-		(layer "User.9")
-		(uuid "a75facd9-75fa-4003-bdcb-e7c96aab7497")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "FR4"
-		(at 54.5 137.818 0)
-		(layer "User.9")
-		(uuid "a810f669-3682-471e-bd28-8fbe943ca67e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Not specified"
-		(at 54.5 116.182 0)
-		(layer "User.9")
-		(uuid "ace57ba7-5e10-4877-80ca-dd5afb489329")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "prepreg"
-		(at 29.428572 145.03 0)
-		(layer "User.9")
-		(uuid "acea4cc8-952e-4cef-bf65-cce3872dc3f6")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0 mm"
-		(at 71.000001 159.454 0)
-		(layer "User.9")
-		(uuid "ae4c7f14-f42c-472c-a10f-65ca22acd2ca")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Thickness (mm)"
-		(at 71.000001 111.874 0)
-		(layer "User.9")
-		(uuid "b0b9ca0d-c595-4c4d-a96e-007d38cc9c73")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "copper"
-		(at 29.428572 148.636 0)
-		(layer "User.9")
-		(uuid "b1764f5c-3832-4af9-9091-f7c410251267")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Impedance Control: "
-		(at 15.278566 98.785 0)
-		(layer "User.9")
-		(uuid "b450f663-85a9-4ee9-a33b-d997d068b4a6")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Material"
-		(at 54.5 111.874 0)
-		(layer "User.9")
-		(uuid "b47425c4-b698-4274-a6ad-d0acd28d0c74")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "FR4 natural"
-		(at 91.028573 130.606 0)
-		(layer "User.9")
-		(uuid "b577ce04-c87f-4f05-8245-08c8a7046181")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "F.Paste"
-		(at 14.042858 119.788 0)
-		(layer "User.9")
-		(uuid "b86d5b5c-7af0-4b92-8030-24524c75bce2")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "B.Paste"
-		(at 14.042858 155.848 0)
-		(layer "User.9")
-		(uuid "b92f6a63-e514-4817-a836-e2aaeecdab90")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "White"
-		(at 91.028573 116.182 0)
-		(layer "User.9")
-		(uuid "baa26689-d923-4f36-976a-a399df06c1d2")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 91.028573 155.848 0)
-		(layer "User.9")
-		(uuid "bc50929e-ea9d-4cf7-b761-4d2bff5846a7")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "FR4"
-		(at 54.5 130.606 0)
-		(layer "User.9")
-		(uuid "bedeced7-76c2-4bae-b5ed-3a7a7d93b9c8")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 108.528566 71.457 0)
-		(layer "User.9")
-		(uuid "bee51256-e3ae-4759-b5d0-cc7e3f0f916c")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Bottom Solder Paste"
-		(at 29.428572 155.848 0)
-		(layer "User.9")
-		(uuid "bf9699ea-09aa-4f37-8e48-faf1c5a430bd")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Copper Finish: "
-		(at 15.342857 79.371 0)
-		(layer "User.9")
-		(uuid "c4b85eeb-963a-4825-aabe-2a15455a116f")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.1500 mm / 0.1500 mm"
-		(at 48 75.414 0)
-		(layer "User.9")
-		(uuid "c8d02e9b-1d25-4324-9889-e8fdc430f038")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "F.Mask"
-		(at 14.042858 123.394 0)
-		(layer "User.9")
-		(uuid "d3f681ca-9e6f-401a-9726-5a6c20eea86b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 91.028573 127 0)
-		(layer "User.9")
-		(uuid "d73e47c0-b214-4eb8-bed6-fa157c93b2b3")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Bottom Silk Screen"
-		(at 29.428572 159.454 0)
-		(layer "User.9")
-		(uuid "d787690f-426f-4d77-8499-5735b481c3a3")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "B.Cu"
-		(at 14.042858 148.636 0)
-		(layer "User.9")
-		(uuid "da5f45a7-95ec-4c81-a229-7ec58284592b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.01 mm"
-		(at 71.000001 123.394 0)
-		(layer "User.9")
-		(uuid "daea83f2-bbe1-4395-bfe2-fa607d5ce0a4")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.3000 mm"
-		(at 40.221423 94.828 0)
-		(layer "User.9")
-		(uuid "e144ac53-ca71-4445-8af2-d4539e63c718")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 54.5 141.424 0)
-		(layer "User.9")
-		(uuid "e438bf16-a00d-4529-9d88-2011b5504a73")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.2104 mm"
-		(at 71.000001 145.03 0)
-		(layer "User.9")
-		(uuid "ed9d135e-0ae2-455f-8031-95d8760381db")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 54.5 134.212 0)
-		(layer "User.9")
-		(uuid "ef286ce7-c6cc-4509-b52c-2a2cd759d293")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Not specified"
-		(at 54.5 123.394 0)
-		(layer "User.9")
-		(uuid "f225fd9d-e3c6-4af6-ab32-9653849df765")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "prepreg"
-		(at 29.428572 130.606 0)
-		(layer "User.9")
-		(uuid "f6c26ce2-d802-4f1c-af0f-bc5b7a9a01c0")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "core"
-		(at 29.428572 137.818 0)
-		(layer "User.9")
-		(uuid "fbc810c7-7c02-4e23-ba37-455a732b7570")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0.0152 mm"
-		(at 71.000001 134.212 0)
-		(layer "User.9")
-		(uuid "fe20f478-edb9-492d-bbfa-2c61429d48f4")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Color"
-		(at 91.028573 111.874 0)
-		(layer "User.9")
-		(uuid "fea273a8-c521-4f08-ac0e-1f1527ae9691")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "No"
-		(at 40.221423 102.742 0)
-		(layer "User.9")
-		(uuid "febb18e0-2ea9-495a-a495-3325862d5d23")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
 		)
 	)
 	(dimension
@@ -89112,72 +87786,6 @@
 				(xy 153.863026 105.750022) (xy 153.854759 105.746581) (xy 153.851347 105.738301) (xy 153.851416 105.73705)
 				(xy 153.913924 105.165453) (xy 153.917281 105.158455) (xy 154.151312 104.924424) (xy 154.159584 104.920998)
 			)
-		)
-	)
-	(group "group-boardCharacteristics"
-		(uuid "771fb6f6-9a22-4714-a2e9-2cc0bc494d5a")
-		(members "000ee206-40f3-4771-b353-5a6fa2daab7e" "106fb260-8e8e-48a4-8a52-d8367989d6f5"
-			"2b014f98-b749-4f2e-a526-540d9ab004c6" "36ab5a3b-be41-4646-9a30-d530f4da1dfd"
-			"50969889-29b3-4463-a268-92b678e458dc" "510cc264-8c07-4d09-9644-7975927c030f"
-			"54b0102f-3230-4f21-b036-c1db5a667ee2" "54ea65b9-a04d-4d7e-a7af-e062fd7fa216"
-			"5e69c721-58c9-4cc9-8295-e4b73864639d" "6b314bb8-d4d3-4481-9680-dedcecd85f38"
-			"72dc7979-cd9c-488d-a2c1-a630f2dc5eb8" "79c23608-ebf0-4192-a08e-e253fbc12169"
-			"7c308fbe-6179-4168-a55d-bce8df1a335a" "81cd8e41-0ab1-48ea-b3d1-9b7c4a304f1e"
-			"940e22ec-4ddf-4067-a4ca-0eba11f7e02f" "a49fb2d9-9640-440a-9e32-f324518afe7e"
-			"a75facd9-75fa-4003-bdcb-e7c96aab7497" "b450f663-85a9-4ee9-a33b-d997d068b4a6"
-			"bee51256-e3ae-4759-b5d0-cc7e3f0f916c" "c4b85eeb-963a-4825-aabe-2a15455a116f"
-			"c8d02e9b-1d25-4324-9889-e8fdc430f038" "e144ac53-ca71-4445-8af2-d4539e63c718"
-			"febb18e0-2ea9-495a-a495-3325862d5d23"
-		)
-	)
-	(group "group-boardStackUp"
-		(uuid "8b7c6714-fd0b-4748-a848-0e0721137ecc")
-		(members "008b2c39-2ed0-4551-a018-1402e170f0f8" "06a1c2ce-c94f-4727-aaf2-e37794ef0099"
-			"07aef156-7b65-43cc-9f43-bfd287c4c99e" "094380a7-191a-4551-bd85-26a3e3d3e95e"
-			"0c5ec3a2-8442-47bc-a20c-d6246857f0b4" "0f5e10ed-70a1-45a6-91e8-330430c80029"
-			"1a1ef9d4-c825-4bd7-afd2-6c9dc5665f04" "22156435-8e5c-48ce-b71f-7d2bc43ec5ec"
-			"230362db-e1e1-46c0-9a7f-c10773d3ca93" "2695188c-6a8f-42c4-9919-ccc9a9e0defd"
-			"2ebc821a-f801-457c-975b-b6d51a8b1fcf" "3042ee29-9dae-4301-96a8-b2ff0274c747"
-			"30bb7cf1-d85f-4a09-b1f8-6c8330f5b831" "325700b6-cc13-4c30-b212-fe9894f87534"
-			"333ec11c-e923-453d-aef8-aad1fb929d7e" "337daec1-2698-4f2f-8a60-c036f7bc80d9"
-			"3434bd08-8303-4590-a807-8d137a1aca25" "404ef4d2-2af9-41e5-8882-42d69d78c296"
-			"435d9dd7-0b7f-4521-b275-8c5e6f1ad167" "46ed7188-bf40-4f71-945c-97c7ffbfb092"
-			"4d0b1224-9c5d-41ae-8403-9e54ffb8f0d0" "4d3f11b0-5668-4675-b846-2ce1c0c1535a"
-			"541b3a50-9b4c-4e96-bbc0-15c38a58a015" "54bf14f2-9a4b-43c0-99f5-ef02acd63cf0"
-			"57c97df1-ac2e-401e-83ac-2414859a21e9" "5a0d7447-5ad8-468c-95d9-1f92245e0566"
-			"5c97022e-948d-414a-afd1-b812a1fe43c8" "5fde8abe-dc43-47bc-bd4b-91b7d3d3c5f7"
-			"66770e62-4f7c-4ab1-925e-6a6cd0685e50" "6b86506c-998a-4f21-9882-e761edbbf60a"
-			"6f09ffd2-0598-4905-98a5-7689c8b39d39" "72f99c11-1b85-49fe-b45a-250a9f2e651b"
-			"75c0658f-5701-413b-8549-dc2509d9d98a" "75ef1da1-0794-4feb-8b1e-45268cb7a53a"
-			"778b72d2-b499-4cde-9bf9-1fd3db08df5a" "78f26173-a340-4f40-93cb-5e7289c1cc0b"
-			"793070a8-78a6-430b-8d7c-db5c2f5cf987" "7bf19a3d-c701-440f-ade7-223f17e38ab7"
-			"7ee8a38b-239c-49b6-820e-e578161d0769" "7eef27f5-cc47-4d7f-bf24-c7436295542b"
-			"806017cb-56ae-485b-92e8-6ae607a71357" "84678019-52a5-4461-bd81-c500d6210797"
-			"853885bc-85a7-40c1-9a3f-e039ef755002" "88274dab-187d-4881-897f-d9a613e51fa9"
-			"8baa6abf-cbcf-4c9f-b440-64e9ea71a086" "92f5fe59-90f2-4de2-9a87-1982fe8fdb20"
-			"93363bd5-44df-4ef9-b44d-337ffc308e0c" "9797298d-dc41-4310-9bc8-1bcf952a1635"
-			"990bbe8a-1c60-459b-8cce-ac9abc203187" "9a9c6ceb-7546-4d4d-8385-d34cb7dbc77b"
-			"a0b69df9-81ff-4ba8-830a-4f5c29aabae7" "a1ed5bd4-c045-4e7a-9026-09084be91e94"
-			"a41b858f-d477-4a22-a094-c36e18534c48" "a75962d0-f5c7-4c00-b88f-ba89cc687a7b"
-			"a810f669-3682-471e-bd28-8fbe943ca67e" "ace57ba7-5e10-4877-80ca-dd5afb489329"
-			"acea4cc8-952e-4cef-bf65-cce3872dc3f6" "ad948d91-cdc1-4721-b278-9183dae0b21c"
-			"ae4c7f14-f42c-472c-a10f-65ca22acd2ca" "b0b9ca0d-c595-4c4d-a96e-007d38cc9c73"
-			"b1764f5c-3832-4af9-9091-f7c410251267" "b47425c4-b698-4274-a6ad-d0acd28d0c74"
-			"b577ce04-c87f-4f05-8245-08c8a7046181" "b86d5b5c-7af0-4b92-8030-24524c75bce2"
-			"b92f6a63-e514-4817-a836-e2aaeecdab90" "baa26689-d923-4f36-976a-a399df06c1d2"
-			"bc50929e-ea9d-4cf7-b761-4d2bff5846a7" "bedeced7-76c2-4bae-b5ed-3a7a7d93b9c8"
-			"bf9699ea-09aa-4f37-8e48-faf1c5a430bd" "bfbbb75e-6cac-4732-b897-b09866f28b1f"
-			"d3f681ca-9e6f-401a-9726-5a6c20eea86b" "d73e47c0-b214-4eb8-bed6-fa157c93b2b3"
-			"d787690f-426f-4d77-8499-5735b481c3a3" "da5f45a7-95ec-4c81-a229-7ec58284592b"
-			"daea83f2-bbe1-4395-bfe2-fa607d5ce0a4" "e1dc3165-ac50-47bf-a93f-031bdefe4e3f"
-			"e1ddd7d6-7e68-4327-898e-37d6648063de" "e438bf16-a00d-4529-9d88-2011b5504a73"
-			"e8dec5b0-2f33-4e2f-ad55-8874d44203dd" "eae71201-0a41-45ff-a60b-d261bcc36686"
-			"ed9d135e-0ae2-455f-8031-95d8760381db" "ef286ce7-c6cc-4509-b52c-2a2cd759d293"
-			"efde480b-1fbc-424b-bf9d-9a429a64fc0b" "f225fd9d-e3c6-4af6-ab32-9653849df765"
-			"f6b4a0e4-e3a9-4931-9e75-a4e0de9b40b7" "f6c26ce2-d802-4f1c-af0f-bc5b7a9a01c0"
-			"f6c96efc-09aa-4935-a28d-8992e08ad419" "f99e89c7-fd25-4f05-9a10-f69e66007a13"
-			"fbc810c7-7c02-4e23-ba37-455a732b7570" "fe20f478-edb9-492d-bbfa-2c61429d48f4"
-			"fea273a8-c521-4f08-ac0e-1f1527ae9691"
 		)
 	)
 	(generated
