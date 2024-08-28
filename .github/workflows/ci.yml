@@ -186,7 +186,7 @@ jobs:
           mv output/erc_validation.md ./
           mv output/Report/report/AstraControl-report.txt ./AstraControl-report.md
           mv output/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
-          mv output/Render_Bottom/AstraControl-3D_blender_bottom.png images/AstraControl-3D_blender_bottom.png
+          mv output/Render_Bottom/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_bottom.png
           mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
           mv output/Report/IBOM/AstraControl-ibom.html export/AstraControl-ibom.html
           mv output/Report/BOM/AstraControl_bom.html export/AstraControl-bom.html
