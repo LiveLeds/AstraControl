@@ -27,13 +27,13 @@ outputs:
           type: "AREA"
 
         - name: "light3"
-          energy: 18
+          energy: 13
           pos_x: 0
           pos_y: 0
           pos_z: size*12
           type: "AREA"
       render_options:
-        auto_crop: false
+        auto_crop: true
         transparent_background: true
         samples: 2
         resolution_x: 2048

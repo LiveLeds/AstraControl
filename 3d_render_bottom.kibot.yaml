@@ -27,22 +27,22 @@ outputs:
           type: "AREA"
 
         - name: "light3"
-          energy: 18
+          energy: 13
           pos_x: 0
           pos_y: 0
           pos_z: size*12
           type: "AREA"
       render_options:
-        auto_crop: false
+        auto_crop: true
         transparent_background: true
         samples: 2
         resolution_x: 2048
         resolution_y: 2048
       auto_camera_z_axis_factor: 0.6
       point_of_view:
-        rotate_x: 0
+        rotate_x: 180
         rotate_y: 0
         rotate_z: 0
-        view: "bottom"
+        view: "top" # Bottom doesn't work, use 180 rotation.
       outputs:
         - type: render
