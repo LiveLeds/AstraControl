@@ -24,21 +24,21 @@ outputs:
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: size*5
-          type: "HEMI"
+          type: "POINT"
 
         - name: "light2"
           energy: 1
           pos_x: size*3.33
           pos_y: -size*3.33
           pos_z: size*5
-          type: "HEMI"
+          type: "POINT"
 
         - name: "light3"
           energy: 1
           pos_x: 0
           pos_y: 0
           pos_z: size*8
-          type: "HEMI"
+          type: "POINT"
       camera:
         type: "orthographic"
       auto_camera_z_axis_factor: 0.001
@@ -51,6 +51,6 @@ outputs:
         rotate_x: 0
         rotate_y: 0
         rotate_z: 0
-        view: top
+        view: "top"
       outputs:
         - type: render
