@@ -10,6 +10,7 @@ remote_theme: abhinavs/moonwalk
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-toc
 
 theme_config:
   appearance: "auto"

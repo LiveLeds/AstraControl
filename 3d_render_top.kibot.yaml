@@ -7,31 +7,38 @@ globals:
   pcb_finish: ENIG
 
 outputs:
+  - name: basic_render_3d_top
+    comment: 3D view from top
+    type: render_3d
+    options:
+      ray_tracing: true
+      orthographic: true
+      zoom: 3
   - name: _blender_3d_top
     comment: "HQ 3D Render of the PCB"
     type: blender_export
     options:
       light:
         - name: "light1"
-          energy: 0.01
+          energy: 1
           pos_x: -size*3.33
           pos_y: size*3.33
           pos_z: size*5
-          type: "POINT"
+          type: "HEMI"
 
         - name: "light2"
-          energy: 0.01
+          energy: 1
           pos_x: size*3.33
           pos_y: -size*3.33
           pos_z: size*5
-          type: "POINT"
+          type: "HEMI"
 
         - name: "light3"
-          energy: 0.01
+          energy: 1
           pos_x: 0
           pos_y: 0
           pos_z: size*8
-          type: "SUN"
+          type: "HEMI"
       camera:
         type: "orthographic"
       auto_camera_z_axis_factor: 0.001

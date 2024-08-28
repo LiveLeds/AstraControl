@@ -31,7 +31,7 @@ outputs:
           pos_x: 0
           pos_y: 0
           pos_z: size*12
-          type: "SUN"
+          type: "HEMI"
       render_options:
         transparent_background: true
         samples: 2

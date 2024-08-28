@@ -157,6 +157,9 @@ jobs:
           ls -l output/Render_Top_Angled
           ls -l output/Report
           mkdir export
+          mkdir html
+          mkdir images
+          mkdir documents
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
           mv output/Report/report/AstraControl-report.txt ./AstraControl-report.md

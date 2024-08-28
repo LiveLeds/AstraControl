@@ -309,6 +309,7 @@ outputs:
     dir: BOM
     options:
       output: "%f_%i.%x"
+      exclude_filter: "only_jlc_parts"
       columns:
         - field: Value
           name: Value
