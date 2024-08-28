@@ -40,7 +40,7 @@ outputs:
         resolution_y: 2048
       auto_camera_z_axis_factor: 0.7
       point_of_view:
-        rotate_x: 15
+        rotate_x: -15
         rotate_y: 25
         rotate_z: 90
         view: top

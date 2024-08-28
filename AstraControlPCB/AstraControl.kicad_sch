@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(circle
-		(center 21.5 88.75)
-		(radius 0.7071)
+		(center 21.59 87.63)
+		(radius 0.6351)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -24,9 +24,33 @@
 		)
 		(uuid 044045f8-f9fa-418e-bd96-0e63087d2f6b)
 	)
+	(rectangle
+		(start 20.32 123.19)
+		(end 29.21 128.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04cd221f-6039-4026-a503-e46285bb1229)
+	)
+	(rectangle
+		(start 20.32 129.54)
+		(end 29.21 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 19b8e61c-6d7e-4f32-ba39-95e886ecb15f)
+	)
 	(circle
-		(center 21.5 96.5)
-		(radius 0.7071)
+		(center 21.59 93.98)
+		(radius 0.6174)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -50,8 +74,45 @@
 		(uuid 39023891-0190-4ec4-ad26-b20d4b548701)
 	)
 	(circle
-		(center 21.5 133.75)
+		(center 21.59 144.78)
 		(radius 0.7071)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid 4290b5f7-20da-4921-b360-f07704859418)
+	)
+	(rectangle
+		(start 20.32 104.14)
+		(end 29.21 109.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 44b60b18-63ef-4f36-96fd-db5d442f1f7d)
+	)
+	(rectangle
+		(start 20.32 116.84)
+		(end 29.21 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5499ba99-fa0c-4a9a-b8da-9995792d635a)
+	)
+	(circle
+		(center 21.59 125.73)
+		(radius 0.7354)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -62,9 +123,33 @@
 		)
 		(uuid 54bf0852-2e6d-44a5-82e2-e5e2ce9344d8)
 	)
+	(rectangle
+		(start 20.32 148.59)
+		(end 29.21 153.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e0f3f02-7433-46cf-b290-9701c6409e2d)
+	)
+	(rectangle
+		(start 20.32 91.44)
+		(end 29.21 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e5dc880-bd6b-46ae-bffa-1686660652f1)
+	)
 	(circle
-		(center 21.5 110.75)
-		(radius 0.7071)
+		(center 21.59 106.68)
+		(radius 0.6696)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -75,22 +160,33 @@
 		)
 		(uuid 68afb796-724a-4752-a936-2006160bc5d7)
 	)
-	(circle
-		(center 21.5 163.25)
-		(radius 0.7071)
+	(rectangle
+		(start 20.32 142.24)
+		(end 29.21 147.32)
 		(stroke
-			(width -0.0001)
+			(width 0)
 			(type default)
 		)
 		(fill
-			(type color)
-			(color 255 255 255 1)
+			(type none)
 		)
-		(uuid 69ce66d9-8961-4f2f-9bd8-ad99e8a87796)
+		(uuid 72b54474-033a-4d29-9fe8-2b1e698c85ac)
+	)
+	(rectangle
+		(start 20.32 110.49)
+		(end 29.21 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b5a010a-d407-4526-a381-cb8969e5cba8)
 	)
 	(circle
-		(center 21.5 118.5)
-		(radius 0.7071)
+		(center 21.59 113.03)
+		(radius 0.73)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -102,8 +198,8 @@
 		(uuid 82b255d9-9c8f-4add-acea-c70e22c14f00)
 	)
 	(circle
-		(center 21.5 103)
-		(radius 0.7071)
+		(center 21.59 100.33)
+		(radius 0.6306)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -114,9 +210,34 @@
 		)
 		(uuid 84e6f551-fd2d-4e6b-a911-55fd4e705db0)
 	)
+	(rectangle
+		(start 20.32 154.94)
+		(end 29.21 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8524be41-03a1-4e94-bb85-64f57d3c821c)
+	)
 	(circle
-		(center 21.5 141.5)
-		(radius 0.7071)
+		(center 21.59 157.48)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(uuid 89ab8882-f73b-442f-8c56-f920e80397ef)
+	)
+	(circle
+		(center 21.59 132.08)
+		(radius 0.8135)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -127,9 +248,21 @@
 		)
 		(uuid 91952df1-c7d0-4ce9-b699-e79ca04b22ba)
 	)
+	(rectangle
+		(start 20.32 85.09)
+		(end 29.21 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 956acfaf-bc53-4538-bf22-2984b0c74d82)
+	)
 	(circle
-		(center 21.5 156.75)
-		(radius 0.7071)
+		(center 21.59 151.13)
+		(radius 0.82)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -141,8 +274,8 @@
 		(uuid c40caf24-289d-4014-97e8-211ce195cd58)
 	)
 	(circle
-		(center 21.5 126.25)
-		(radius 0.7071)
+		(center 21.59 119.38)
+		(radius 0.807)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -153,9 +286,33 @@
 		)
 		(uuid c427078d-c49d-403b-b6cc-eee8374e6876)
 	)
+	(rectangle
+		(start 20.32 97.79)
+		(end 29.21 102.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf02b59c-c783-4407-a7ee-2f200be8ad03)
+	)
+	(rectangle
+		(start 20.32 161.29)
+		(end 29.21 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d245a1ce-7306-44e3-a94f-13306160c484)
+	)
 	(circle
-		(center 21.5 171)
-		(radius 0.7071)
+		(center 21.59 163.83)
+		(radius 0.82)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -164,11 +321,23 @@
 			(type color)
 			(color 255 255 255 1)
 		)
-		(uuid d83a1cf2-8323-4167-aca9-32a9ab8780d2)
+		(uuid dafc486b-c82c-4269-b730-d4177403db4a)
+	)
+	(rectangle
+		(start 20.32 135.89)
+		(end 29.21 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f29e90b3-dde3-4167-ae0c-009bad508d38)
 	)
 	(circle
-		(center 21.5 149)
-		(radius 0.7071)
+		(center 21.59 138.43)
+		(radius 0.7409)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -179,9 +348,9 @@
 		)
 		(uuid fa926cff-20aa-47b4-b5af-b1dfaafcd5ac)
 	)
-	(text "Button"
+	(text "2x 5V GPIO"
 		(exclude_from_sim no)
-		(at 24 142.75 0)
+		(at 24.13 133.35 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -190,6 +359,19 @@
 			(justify left)
 		)
 		(uuid "13aa9f60-e432-4c84-9850-b080ce8ee0ad")
+	)
+	(text "I2S"
+		(exclude_from_sim no)
+		(at 24.13 158.75 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "13dda14b-25a7-4b9f-8e97-b6ea57d94ce6")
 	)
 	(text "Render placeholder"
 		(exclude_from_sim no)
@@ -208,7 +390,7 @@
 	)
 	(text "USB C"
 		(exclude_from_sim no)
-		(at 24 97.75 0)
+		(at 24.13 95.25 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -218,9 +400,9 @@
 		)
 		(uuid "1f9ad3c9-5aa4-45c6-8132-a64c96cf273d")
 	)
-	(text "I2C Auxilary"
+	(text "2x I2C Auxilary"
 		(exclude_from_sim no)
-		(at 24 127.5 0)
+		(at 24.13 120.65 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -243,9 +425,9 @@
 		)
 		(uuid "45efd3df-e2f3-49db-ab08-abbed9c5ab58")
 	)
-	(text "ESP32 Based control PCB for other light fixture pcbs."
+	(text "ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485\nfor communication, supporting various sensors and HMI devices for high-power \nLED fixtures or strips."
 		(exclude_from_sim no)
-		(at 20 67.5 0)
+		(at 19.05 63.5 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -257,7 +439,7 @@
 	)
 	(text "AstraControl"
 		(exclude_from_sim no)
-		(at 20 22.5 0)
+		(at 19.05 25.4 0)
 		(effects
 			(font
 				(face "ING Me Headline")
@@ -269,9 +451,22 @@
 		)
 		(uuid "5a9376da-af2f-4737-ac07-023fe87e8719")
 	)
+	(text "5V to 3.3V Step Down DC-DC"
+		(exclude_from_sim no)
+		(at 24.13 146.05 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+				(color 255 255 255 1)
+			)
+			(justify left)
+		)
+		(uuid "5ce9f433-d971-4e80-a57a-81edfbcd2518")
+	)
 	(text "External WiFi Antenna"
 		(exclude_from_sim no)
-		(at 24 104.25 0)
+		(at 24.13 101.6 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -281,9 +476,9 @@
 		)
 		(uuid "78aae4d3-292d-4141-ad25-32082b43046e")
 	)
-	(text "ESP32"
+	(text "ESP32-S3 SoC integrating Wi-Fi 4 and Bluetooth 5 (LE)"
 		(exclude_from_sim no)
-		(at 24 119.75 0)
+		(at 24.13 114.3 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -295,7 +490,7 @@
 	)
 	(text "In review"
 		(exclude_from_sim no)
-		(at 35 52.5 0)
+		(at 31.75 44.45 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -304,9 +499,9 @@
 		)
 		(uuid "8d5d59fa-424b-45d6-a5c5-ba4d06345712")
 	)
-	(text "5V 10A Input"
+	(text "Up to 5V 10A Input"
 		(exclude_from_sim no)
-		(at 24 90 0)
+		(at 24.13 88.9 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -316,9 +511,9 @@
 		)
 		(uuid "b67fe9c2-0a14-4753-a6c6-37bf9bd22c12")
 	)
-	(text "GPIO Breakout"
+	(text "4 Channel LED PWM"
 		(exclude_from_sim no)
-		(at 24 135 0)
+		(at 24.13 127 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -328,9 +523,9 @@
 		)
 		(uuid "bd601b67-5083-4bbb-a189-cd7cac36ba25")
 	)
-	(text "-"
+	(text "UART"
 		(exclude_from_sim no)
-		(at 24 158 0)
+		(at 24.13 152.4 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -339,11 +534,11 @@
 			)
 			(justify left)
 		)
-		(uuid "c17d20d4-076d-4d7f-a9f1-a3cb719f0a19")
+		(uuid "e48c1045-f2ab-4495-a7e9-47a96fbcced5")
 	)
-	(text "-"
+	(text "External button and status LED"
 		(exclude_from_sim no)
-		(at 24 164.5 0)
+		(at 24.13 165.1 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -352,24 +547,11 @@
 			)
 			(justify left)
 		)
-		(uuid "c5a27884-6307-4415-b270-d5bc061ee410")
-	)
-	(text "-"
-		(exclude_from_sim no)
-		(at 24 172.25 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 3 3)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "f491166b-269b-4719-b37d-9bc6f0748fad")
+		(uuid "f134b9ac-77af-4de2-9578-2559b4827012")
 	)
 	(text "Features"
 		(exclude_from_sim no)
-		(at 20 82.5 0)
+		(at 19.05 82.55 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -381,7 +563,7 @@
 	)
 	(text "5Mbps RS485 (half-duplex)"
 		(exclude_from_sim no)
-		(at 24 112 0)
+		(at 24.13 107.95 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -391,9 +573,9 @@
 		)
 		(uuid "ff74f2c9-2187-494d-a564-2a379c865030")
 	)
-	(text "-"
+	(text "4 Wire 5V Fan"
 		(exclude_from_sim no)
-		(at 24 150.25 0)
+		(at 24.13 139.7 0)
 		(effects
 			(font
 				(face "ING Me")

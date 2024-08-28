@@ -2014,7 +2014,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 55.88 59.69 0)
 			(effects
 				(font
