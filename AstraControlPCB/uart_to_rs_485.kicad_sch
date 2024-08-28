@@ -70,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "16V X7R ±10% 0402"
+			(property "Extra Values" "16V X7R 10% 0402"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -227,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "6.3V X5R ±20% 0805"
+			(property "Extra Values" "6.3V X5R 20% 0805"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -384,7 +384,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "150V ±1% 0805"
+			(property "Extra Values" "150V 1% 0805"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -504,7 +504,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "50V ±1% 0402 62mW"
+			(property "Extra Values" "50V 1% 0402 62mW"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -624,7 +624,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "50V ±1% 0402 62mW"
+			(property "Extra Values" "50V 1% 0402 62mW"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -2135,22 +2135,13 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 68.58 90.17 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 					(bold yes)
 				)
-			)
-		)
-		(property "Extra Value" ""
-			(at 68.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2233,7 +2224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 198.12 71.1199 90)
 			(effects
 				(font
@@ -2241,15 +2232,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 195.58 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2330,22 +2312,13 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 68.58 110.49 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 					(bold yes)
 				)
-			)
-		)
-		(property "Extra Value" ""
-			(at 68.58 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2373,7 +2346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "314d9194-00f4-4a30-9337-d0b8705f39f2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR48"
 			(at 182.88 138.43 0)
 			(effects
 				(font
@@ -2423,7 +2396,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR048")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -2492,22 +2465,13 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 185.42 97.79 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 					(bold yes)
 				)
-			)
-		)
-		(property "Extra Value" ""
-			(at 185.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2599,15 +2563,6 @@
 				(justify left)
 			)
 		)
-		(property "Extra Value" ""
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fad4e4c0-f5d7-4d26-a709-c25833d6e265")
 		)
@@ -2630,7 +2585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40f2ec11-df84-46ef-ad94-f35b2d7589cb")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR44"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -2680,7 +2635,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR044")
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -2696,7 +2651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc1d091-f3f2-4096-8f63-56b5062be421")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR49"
 			(at 195.58 64.77 0)
 			(effects
 				(font
@@ -2746,7 +2701,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR049")
+					(reference "#PWR49")
 					(unit 1)
 				)
 			)
@@ -2826,15 +2781,6 @@
 				(justify left)
 			)
 		)
-		(property "Extra Value" ""
-			(at 50.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a0aaa2c0-fdf3-4054-94aa-6b72120edcbd")
 		)
@@ -2912,7 +2858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 185.42 152.3999 90)
 			(effects
 				(font
@@ -2920,15 +2866,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 182.88 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2956,7 +2893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb0e12b-6662-4df7-948c-74724f65910d")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR46"
 			(at 147.32 156.21 0)
 			(effects
 				(font
@@ -3006,7 +2943,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR046")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -3077,7 +3014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 185.42 126.9999 90)
 			(effects
 				(font
@@ -3085,15 +3022,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 182.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3121,7 +3049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c6db0f-cd48-4bc0-b07a-ac0b6ac0477b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR45"
 			(at 106.68 72.39 0)
 			(effects
 				(font
@@ -3171,7 +3099,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR045")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -3187,7 +3115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99668a40-0b38-4534-baed-913665afda76")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR43"
 			(at 63.5 72.39 0)
 			(effects
 				(font
@@ -3237,7 +3165,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR043")
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
@@ -3317,15 +3245,6 @@
 				(justify left)
 			)
 		)
-		(property "Extra Value" ""
-			(at 162.56 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d8df7bef-5525-47ca-b7f6-0db87b073827")
 		)
@@ -3403,7 +3322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 110.49 60.9599 90)
 			(effects
 				(font
@@ -3411,15 +3330,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 106.68 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3507,15 +3417,6 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
-			)
-		)
-		(property "Extra Value" ""
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -3614,22 +3515,13 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 0.762 0.762)
 					(bold yes)
 				)
-			)
-		)
-		(property "Extra Value" ""
-			(at 185.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3721,15 +3613,6 @@
 				(justify left)
 			)
 		)
-		(property "Extra Value" ""
-			(at 50.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "981e545c-47a3-4f60-aecd-d88a18541bd2")
 		)
@@ -3807,7 +3690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "6.3V X5R ±20% 0805"
+		(property "Extra Values" "6.3V X5R 20% 0805"
 			(at 67.31 60.9599 90)
 			(effects
 				(font
@@ -3906,15 +3789,6 @@
 				(justify left)
 			)
 		)
-		(property "Extra Value" ""
-			(at 162.56 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "96c68c28-bbe7-4e0c-b2dd-430f82165ef9")
 		)
@@ -3937,7 +3811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c891ed2b-de29-45e9-b3cd-198f3e555766")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR42"
 			(at 58.42 52.07 0)
 			(effects
 				(font
@@ -3987,7 +3861,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR042")
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)
@@ -4003,7 +3877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca23cffb-3dde-4790-a5cb-df8f97372bcb")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR47"
 			(at 182.88 163.83 0)
 			(effects
 				(font
@@ -4053,7 +3927,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR047")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -4131,15 +4005,6 @@
 					(bold yes)
 				)
 				(justify left)
-			)
-		)
-		(property "Extra Value" ""
-			(at 162.56 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4228,15 +4093,6 @@
 				(justify left)
 			)
 		)
-		(property "Extra Value" ""
-			(at 162.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "05dd42ad-7717-4ec9-8e08-ea13dd2e7989")
 		)
@@ -4314,7 +4170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "16V X7R ±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 90.17 60.9599 90)
 			(effects
 				(font
@@ -4322,15 +4178,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 86.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"

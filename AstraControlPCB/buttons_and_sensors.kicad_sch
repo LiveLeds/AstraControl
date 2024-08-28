@@ -64,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "50V C0G ±5% 0805"
+			(property "Extra Values" "50V C0G 5% 0805"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -376,7 +376,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "150V ±1% 0805"
+			(property "Extra Values" "150V 1% 0805"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -496,7 +496,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "50V ±1% 0402 62mW"
+			(property "Extra Values" "50V 1% 0402 62mW"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -616,7 +616,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" " 150V ±1% 0805 125mW"
+			(property "Extra Values" " 150V 1% 0805 125mW"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -736,7 +736,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "50V ±1% 0402 62.5mW "
+			(property "Extra Values" "50V 1% 0402 62.5mW "
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -2145,7 +2145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW "
+		(property "Extra Values" "50V 1% 0402 62.5mW "
 			(at 127 88.8999 90)
 			(effects
 				(font
@@ -2235,7 +2235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW "
+		(property "Extra Values" "50V 1% 0402 62.5mW "
 			(at 180.34 93.9799 90)
 			(effects
 				(font
@@ -2325,7 +2325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V C0G ±5% 0805"
+		(property "Extra Values" "50V C0G 5% 0805"
 			(at 207.01 58.4199 90)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 154.94 43.1799 90)
 			(effects
 				(font
@@ -2637,7 +2637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW "
+		(property "Extra Values" "50V 1% 0402 62.5mW "
 			(at 180.34 144.7799 90)
 			(effects
 				(font
@@ -2727,7 +2727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "50V ±1% 0402 62.5mW "
+		(property "Extra Values" "50V 1% 0402 62.5mW "
 			(at 127 139.6999 90)
 			(effects
 				(font
@@ -3013,7 +3013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" " 150V ±1% 0805 125mW"
+		(property "Extra Values" " 150V 1% 0805 125mW"
 			(at 193.04 44.45 0)
 			(effects
 				(font
@@ -3166,7 +3166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 121.92 39.37 0)
 			(effects
 				(font

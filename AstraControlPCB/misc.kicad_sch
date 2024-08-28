@@ -376,7 +376,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "1kV X7R ±10% 0805"
+			(property "Extra Values" "1kV X7R 10% 0805"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -533,7 +533,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "150V ±1% 0805 125mW"
+			(property "Extra Values" "150V 1% 0805 125mW"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1113,7 +1113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "097f4b08-4502-4970-85ec-3d80ab618df9")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR88"
 			(at 236.22 102.87 0)
 			(effects
 				(font
@@ -1163,7 +1163,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR088")
+					(reference "#PWR88")
 					(unit 1)
 				)
 			)
@@ -1234,7 +1234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 190.5 86.3599 90)
 			(effects
 				(font
@@ -1242,15 +1242,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 187.96 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1333,7 +1324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 91.44 86.3599 90)
 			(effects
 				(font
@@ -1341,15 +1332,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 88.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1432,7 +1414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 238.76 86.3599 90)
 			(effects
 				(font
@@ -1440,15 +1422,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 236.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1531,7 +1504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "1kV X7R ±10% 0805"
+		(property "Extra Values" "1kV X7R 10% 0805"
 			(at 171.45 86.3599 90)
 			(effects
 				(font
@@ -1539,15 +1512,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 167.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1575,7 +1539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "678d7869-1a09-4778-b3b3-3ac134327406")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR84"
 			(at 55.88 101.6 0)
 			(effects
 				(font
@@ -1625,7 +1589,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR084")
+					(reference "#PWR84")
 					(unit 1)
 				)
 			)
@@ -1696,7 +1660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "150V ±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 142.24 86.3599 90)
 			(effects
 				(font
@@ -1704,15 +1668,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1740,7 +1695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a01d332-50a6-4bf5-a25a-5c32721f6f3b")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR86"
 			(at 139.7 102.87 0)
 			(effects
 				(font
@@ -1790,7 +1745,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR086")
+					(reference "#PWR86")
 					(unit 1)
 				)
 			)
@@ -1861,7 +1816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "1kV X7R ±10% 0805"
+		(property "Extra Values" "1kV X7R 10% 0805"
 			(at 72.39 86.3599 90)
 			(effects
 				(font
@@ -1869,15 +1824,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 68.58 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1960,7 +1906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "1kV X7R ±10% 0805"
+		(property "Extra Values" "1kV X7R 10% 0805"
 			(at 219.71 86.3599 90)
 			(effects
 				(font
@@ -1968,15 +1914,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 215.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2004,7 +1941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4163eef-2b95-4bff-baf2-555e7cccd9c0")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR87"
 			(at 187.96 102.87 0)
 			(effects
 				(font
@@ -2054,7 +1991,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR087")
+					(reference "#PWR87")
 					(unit 1)
 				)
 			)
@@ -2077,7 +2014,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 55.88 59.69 0)
 			(effects
 				(font
@@ -2112,15 +2049,6 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Value" ""
-			(at 55.88 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "265130ca-5ae6-4d3c-88b7-749bdb953059")
 		)
@@ -2143,7 +2071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec893c16-f398-4d4b-8589-3116b8e16f3f")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR85"
 			(at 88.9 102.87 0)
 			(effects
 				(font
@@ -2193,7 +2121,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR085")
+					(reference "#PWR85")
 					(unit 1)
 				)
 			)
@@ -2264,7 +2192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "1kV X7R ±10% 0805"
+		(property "Extra Values" "1kV X7R 10% 0805"
 			(at 123.19 86.3599 90)
 			(effects
 				(font
@@ -2272,15 +2200,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 119.38 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"

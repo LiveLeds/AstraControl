@@ -371,7 +371,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1071,7 +1071,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R Â±20% 0603"
+		(property "Extra Values" "6.3V X5R 20% 0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1762,7 +1762,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3124,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R Â±20% 0805"
+		(property "Extra Values" "6.3V X5R 20% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3764,7 +3764,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1kV X7R Â±10% 0805"
+		(property "Extra Values" "1kV X7R 10% 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5619,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X5R Â±10% 0603"
+		(property "Extra Values" "16V X5R 10% 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5942,7 +5942,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62.5mW"
+		(property "Extra Values" "50V 1% 0402 62.5mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11504,7 +11504,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1kV X7R Â±10% 0805"
+		(property "Extra Values" "1kV X7R 10% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11805,7 +11805,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12879,7 +12879,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13191,7 +13191,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14276,7 +14276,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16140,7 +16140,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1A 22uH ±20% 1.3A"
+		(property "Extra Values" "1A 22uH 20% 1.3A"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16492,7 +16492,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16810,7 +16810,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17787,7 +17787,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19160,7 +19160,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19865,7 +19865,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X5R Â±10% 0603"
+		(property "Extra Values" "16V X5R 10% 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20192,7 +20192,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62.5mW"
+		(property "Extra Values" "50V 1% 0402 62.5mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20511,7 +20511,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R Â±20% 0805"
+		(property "Extra Values" "6.3V X5R 20% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20806,7 +20806,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21494,7 +21494,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21790,7 +21790,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22092,7 +22092,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R Â±20% 0805"
+		(property "Extra Values" "6.3V X5R 20% 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22417,7 +22417,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22724,7 +22724,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23013,7 +23013,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "25V X5R Â±10% 0402"
+		(property "Extra Values" "25V X5R 10% 0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24742,7 +24742,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X5R Â±10% 0603"
+		(property "Extra Values" "16V X5R 10% 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25034,7 +25034,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "25V X5R Â±10% 0402"
+		(property "Extra Values" "25V X5R 10% 0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26295,7 +26295,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26607,7 +26607,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28011,7 +28011,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62.5mW"
+		(property "Extra Values" "50V 1% 0402 62.5mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28330,7 +28330,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29342,7 +29342,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30396,7 +30396,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31065,7 +31065,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31367,7 +31367,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31690,7 +31690,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32361,7 +32361,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R Â±20% 0603"
+		(property "Extra Values" "6.3V X5R 20% 0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32692,7 +32692,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1kV X7R Â±10% 0805"
+		(property "Extra Values" "1kV X7R 10% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33396,7 +33396,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33702,7 +33702,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34385,7 +34385,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36080,7 +36080,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36394,7 +36394,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "6.3V X5R Â±20% 0805"
+		(property "Extra Values" "6.3V X5R 20% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36642,7 +36642,7 @@
 				)
 			)
 		)
-		(property "Description" "4A 2.2uH Â±20% 4A 41mÎ© SMD,4.1x4.5mm Inductors (SMD) ROHS"
+		(property "Description" "4A 2.2uH 20% 4A 41mÎ© SMD,4.1x4.5mm Inductors (SMD) ROHS"
 			(at 0 10.6 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36668,7 +36668,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "4A Â±20% 41mÎ©"
+		(property "Extra Values" "4A 20% 41mÎ©"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37451,7 +37451,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37754,7 +37754,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38788,7 +38788,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62.5mW"
+		(property "Extra Values" "50V 1% 0402 62.5mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39072,7 +39072,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39376,7 +39376,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40650,7 +40650,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V C0G Â±5% 0805"
+		(property "Extra Values" "50V C0G 5% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42111,7 +42111,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42436,7 +42436,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42761,7 +42761,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43456,7 +43456,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62.5mW"
+		(property "Extra Values" "50V 1% 0402 62.5mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43774,7 +43774,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44081,7 +44081,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62.5mW"
+		(property "Extra Values" "50V 1% 0402 62.5mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45121,7 +45121,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45433,7 +45433,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46963,7 +46963,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "1kV X7R Â±10% 0805"
+		(property "Extra Values" "1kV X7R 10% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47675,7 +47675,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47981,7 +47981,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48273,7 +48273,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49303,7 +49303,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49610,7 +49610,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50274,7 +50274,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50577,7 +50577,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51249,7 +51249,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52364,7 +52364,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52676,7 +52676,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "25V X5R Â±10% 0402"
+		(property "Extra Values" "25V X5R 10% 0402"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53348,7 +53348,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54070,7 +54070,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "16V X7R Â±10% 0402"
+		(property "Extra Values" "16V X7R 10% 0402"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55163,7 +55163,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805"
+		(property "Extra Values" "150V 1% 0805"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57855,7 +57855,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "50V Â±1% 0402 62mW"
+		(property "Extra Values" "50V 1% 0402 62mW"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58613,7 +58613,7 @@
 				)
 			)
 		)
-		(property "Extra Values" "150V Â±1% 0805 125mW"
+		(property "Extra Values" "150V 1% 0805 125mW"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

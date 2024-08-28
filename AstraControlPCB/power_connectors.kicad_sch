@@ -1090,7 +1090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3793e685-74b5-4108-a3d5-23e51b6ce889")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG3"
 			(at 218.44 76.835 0)
 			(effects
 				(font
@@ -1140,7 +1140,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#FLG03")
+					(reference "#FLG3")
 					(unit 1)
 				)
 			)
@@ -1156,7 +1156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3941b2e1-3ec2-41b6-aa3c-f1c503bcb605")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR34"
 			(at 203.2 110.49 0)
 			(effects
 				(font
@@ -1206,7 +1206,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR034")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -1285,15 +1285,6 @@
 					(bold yes)
 				)
 				(justify right)
-			)
-		)
-		(property "Extra Value" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1386,15 +1377,6 @@
 				(justify right)
 			)
 		)
-		(property "Extra Value" ""
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "10275a05-65ca-47a8-9a83-c36b7e983854")
 		)
@@ -1484,15 +1466,6 @@
 				(justify left)
 			)
 		)
-		(property "Extra Value" ""
-			(at 203.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7724d7e2-1d6b-46fe-bd35-b0ff422c7000")
 		)
@@ -1577,15 +1550,6 @@
 				)
 			)
 		)
-		(property "Extra Value" ""
-			(at 71.12 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "214e48dd-5eb9-4f68-ad56-11f8acb88f68")
 		)
@@ -1617,7 +1581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96f3434f-4e75-4c73-9e49-e59dd5c8ca2f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR35"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -1667,7 +1631,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR035")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -1683,7 +1647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ccec6c-8a75-4ada-8170-79924d19df59")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR33"
 			(at 203.2 86.36 0)
 			(effects
 				(font
@@ -1733,7 +1697,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR033")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -1749,7 +1713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baaca279-03c5-4b62-88a4-1aa3bece7c93")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR30"
 			(at 81.28 100.33 0)
 			(effects
 				(font
@@ -1799,7 +1763,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR030")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -1815,7 +1779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bac9f26c-dd77-4fd7-96c2-9098f973e57e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR31"
 			(at 101.6 107.95 0)
 			(effects
 				(font
@@ -1865,7 +1829,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR031")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -1881,7 +1845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7facb49-293e-4060-8883-6c8f60dc2bf0")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR36"
 			(at 228.6 109.22 0)
 			(effects
 				(font
@@ -1931,7 +1895,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR036")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -1947,7 +1911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc115bfe-2335-4ccf-a457-e46eb60a7370")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG2"
 			(at 203.2 76.835 0)
 			(effects
 				(font
@@ -1997,7 +1961,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -2012,7 +1976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8ece38d-e121-4809-8102-3b4b3355f2c4")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG4"
 			(at 233.68 76.835 0)
 			(effects
 				(font
@@ -2062,7 +2026,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#FLG04")
+					(reference "#FLG4")
 					(unit 1)
 				)
 			)
@@ -2078,7 +2042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5213aac-d2a3-4bb9-9e96-6477998aa53c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR32"
 			(at 152.4 107.95 0)
 			(effects
 				(font
@@ -2128,7 +2092,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR032")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -2206,15 +2170,6 @@
 					(bold yes)
 				)
 				(justify left)
-			)
-		)
-		(property "Extra Value" ""
-			(at 228.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
