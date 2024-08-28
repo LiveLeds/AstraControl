@@ -35,11 +35,12 @@ outputs:
       camera:
         type: "orthographic"
       render_options:
-        auto_crop: true
+        auto_crop: false
         transparent_background: true
         samples: 2
         resolution_x: 2048
         resolution_y: 2048
+      auto_camera_z_axis_factor: 0.7
       point_of_view:
         rotate_x: 0
         rotate_y: 0
