@@ -24,30 +24,6 @@
 		)
 		(uuid 044045f8-f9fa-418e-bd96-0e63087d2f6b)
 	)
-	(rectangle
-		(start 20.32 123.19)
-		(end 29.21 128.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 04cd221f-6039-4026-a503-e46285bb1229)
-	)
-	(rectangle
-		(start 20.32 129.54)
-		(end 29.21 134.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 19b8e61c-6d7e-4f32-ba39-95e886ecb15f)
-	)
 	(circle
 		(center 21.59 93.98)
 		(radius 0.6174)
@@ -62,8 +38,8 @@
 		(uuid 3092cd6f-3ef3-42ec-a224-797b00d3f33b)
 	)
 	(rectangle
-		(start 182.5 67.5)
-		(end 277.5 155)
+		(start 196.85 76.2)
+		(end 279.4 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -86,30 +62,6 @@
 		)
 		(uuid 4290b5f7-20da-4921-b360-f07704859418)
 	)
-	(rectangle
-		(start 20.32 104.14)
-		(end 29.21 109.22)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 44b60b18-63ef-4f36-96fd-db5d442f1f7d)
-	)
-	(rectangle
-		(start 20.32 116.84)
-		(end 29.21 121.92)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5499ba99-fa0c-4a9a-b8da-9995792d635a)
-	)
 	(circle
 		(center 21.59 125.73)
 		(radius 0.7354)
@@ -123,30 +75,6 @@
 		)
 		(uuid 54bf0852-2e6d-44a5-82e2-e5e2ce9344d8)
 	)
-	(rectangle
-		(start 20.32 148.59)
-		(end 29.21 153.67)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5e0f3f02-7433-46cf-b290-9701c6409e2d)
-	)
-	(rectangle
-		(start 20.32 91.44)
-		(end 29.21 96.52)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5e5dc880-bd6b-46ae-bffa-1686660652f1)
-	)
 	(circle
 		(center 21.59 106.68)
 		(radius 0.6696)
@@ -159,30 +87,6 @@
 			(color 255 255 255 1)
 		)
 		(uuid 68afb796-724a-4752-a936-2006160bc5d7)
-	)
-	(rectangle
-		(start 20.32 142.24)
-		(end 29.21 147.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 72b54474-033a-4d29-9fe8-2b1e698c85ac)
-	)
-	(rectangle
-		(start 20.32 110.49)
-		(end 29.21 115.57)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7b5a010a-d407-4526-a381-cb8969e5cba8)
 	)
 	(circle
 		(center 21.59 113.03)
@@ -210,18 +114,6 @@
 		)
 		(uuid 84e6f551-fd2d-4e6b-a911-55fd4e705db0)
 	)
-	(rectangle
-		(start 20.32 154.94)
-		(end 29.21 160.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8524be41-03a1-4e94-bb85-64f57d3c821c)
-	)
 	(circle
 		(center 21.59 157.48)
 		(radius 0.82)
@@ -247,18 +139,6 @@
 			(color 255 255 255 1)
 		)
 		(uuid 91952df1-c7d0-4ce9-b699-e79ca04b22ba)
-	)
-	(rectangle
-		(start 20.32 85.09)
-		(end 29.21 90.17)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 956acfaf-bc53-4538-bf22-2984b0c74d82)
 	)
 	(circle
 		(center 21.59 151.13)
@@ -286,30 +166,6 @@
 		)
 		(uuid c427078d-c49d-403b-b6cc-eee8374e6876)
 	)
-	(rectangle
-		(start 20.32 97.79)
-		(end 29.21 102.87)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cf02b59c-c783-4407-a7ee-2f200be8ad03)
-	)
-	(rectangle
-		(start 20.32 161.29)
-		(end 29.21 166.37)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d245a1ce-7306-44e3-a94f-13306160c484)
-	)
 	(circle
 		(center 21.59 163.83)
 		(radius 0.82)
@@ -322,18 +178,6 @@
 			(color 255 255 255 1)
 		)
 		(uuid dafc486b-c82c-4269-b730-d4177403db4a)
-	)
-	(rectangle
-		(start 20.32 135.89)
-		(end 29.21 140.97)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f29e90b3-dde3-4167-ae0c-009bad508d38)
 	)
 	(circle
 		(center 21.59 138.43)
@@ -375,7 +219,7 @@
 	)
 	(text "Render placeholder"
 		(exclude_from_sim no)
-		(at 205 115 0)
+		(at 215.9 107.95 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -490,11 +334,11 @@
 	)
 	(text "In review"
 		(exclude_from_sim no)
-		(at 31.75 44.45 0)
+		(at 30.48 40.64 0)
 		(effects
 			(font
 				(face "ING Me")
-				(size 5 5)
+				(size 4.064 4.064)
 			)
 		)
 		(uuid "8d5d59fa-424b-45d6-a5c5-ba4d06345712")
@@ -551,11 +395,13 @@
 	)
 	(text "Features"
 		(exclude_from_sim no)
-		(at 19.05 82.55 0)
+		(at 19.05 81.28 0)
 		(effects
 			(font
 				(face "ING Me")
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -587,8 +433,8 @@
 		(uuid "ffb8efa9-0448-4a10-bbd7-1f30d41cdae6")
 	)
 	(sheet
-		(at 114.89 151.92)
-		(size 34 27)
+		(at 241.89 145.57)
+		(size 37.51 32.23)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -599,7 +445,7 @@
 		)
 		(uuid "0db21d8e-3390-4d67-877f-0e5d98e37848")
 		(property "Sheetname" "Block Diagram"
-			(at 114.89 151.2084 0)
+			(at 241.89 144.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,7 +455,7 @@
 			)
 		)
 		(property "Sheetfile" "block_diagram.kicad_sch"
-			(at 114.89 179.5046 0)
+			(at 241.89 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -626,8 +472,8 @@
 		)
 	)
 	(sheet
-		(at 63.43 152.92)
-		(size 34 24)
+		(at 196.85 146.05)
+		(size 38.1 31.75)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -638,7 +484,7 @@
 		)
 		(uuid "120c81b5-e37e-42ba-9ea8-918058b1f430")
 		(property "Sheetname" "Overview"
-			(at 63.43 152.2084 0)
+			(at 196.85 145.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,7 +494,7 @@
 			)
 		)
 		(property "Sheetfile" "overview.kicad_sch"
-			(at 63.43 177.5046 0)
+			(at 196.85 178.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

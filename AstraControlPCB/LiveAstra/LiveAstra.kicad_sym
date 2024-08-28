@@ -4110,6 +4110,220 @@
 			)
 		)
 	)
+	(symbol "Information_Box"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "I"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at -15.24 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -15.24 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -15.24 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -15.24 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Information_Box_1_1"
+			(arc
+				(start -25.3998 -8.8898)
+				(mid -24.6559 -10.6859)
+				(end -22.8598 -11.4298)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -25.4 0)
+				(end 25.4 -8.89)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -22.86 2.54)
+				(mid -24.6561 1.7961)
+				(end -25.4 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -22.86 2.54)
+				(end 22.86 -11.43)
+				(stroke
+					(width -0.0001)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -21.6207 -1.0455)
+				(radius 1.524)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 194 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25.4 0) (xy -25.4 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22.86 -11.43) (xy 22.86 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22.86 2.54) (xy -22.86 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 -8.89) (xy 25.4 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 22.86 -11.43)
+				(mid 24.6561 -10.6861)
+				(end 25.4 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 25.4 0)
+				(mid 24.6561 1.7961)
+				(end 22.86 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "?"
+				(at -21.59 -1.27 0)
+				(effects
+					(font
+						(face "ING Me Headline")
+						(size 2.032 2.032)
+						(color 0 194 0 1)
+					)
+				)
+			)
+			(text "Information"
+				(at -19.05 -1.27 0)
+				(effects
+					(font
+						(face "ING Me Headline")
+						(size 2.032 2.032)
+						(color 0 194 0 1)
+					)
+					(justify left)
+				)
+			)
+			(text "Text that provides information to the reader.\nLow priority."
+				(at -22.86 -7.62 0)
+				(effects
+					(font
+						(face "ING Me")
+						(size 1.524 1.524)
+					)
+					(justify left)
+				)
+			)
+		)
+	)
 	(symbol "JP_SolderJumper_2_Open"
 		(pin_numbers hide)
 		(pin_names
