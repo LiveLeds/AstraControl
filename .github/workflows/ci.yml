@@ -135,6 +135,28 @@ jobs:
         with:
           name: Render_Top
           path: output
+  Render_3D_Bottom:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "0"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_render_bottom.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Render_Bottom
+          path: output
   Build_Jekyll:
     runs-on: ubuntu-latest
     needs: [Preflight, Render_3D_Top, Render_3D_Top_Angled, Report]
@@ -164,6 +186,7 @@ jobs:
           mv output/erc_validation.md ./
           mv output/Report/report/AstraControl-report.txt ./AstraControl-report.md
           mv output/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
+          mv output/Render_Bottom/AstraControl-3D_blender_bottom.png images/AstraControl-3D_blender_bottom.png
           mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
           mv output/Report/IBOM/AstraControl-ibom.html export/AstraControl-ibom.html
           mv output/Report/BOM/AstraControl_bom.html export/AstraControl-bom.html

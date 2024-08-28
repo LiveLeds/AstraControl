@@ -9,6 +9,7 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 ![Image](/images/AstraControl-3D_blender_top_angled.png)
 ![Image](/images/AstraControl-3D_blender_top.png)
+![Image](/images/AstraControl-3D_blender_bottom.png)
 ![Image](/images/AstraControl-top.png)
 
 [IBOM](/export/AstraControl-ibom.html)
