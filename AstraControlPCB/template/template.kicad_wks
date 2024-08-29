@@ -112,12 +112,12 @@
 	)
 	(line
 		(name "")
-		(start 196.9892 2.0022)
-		(end 196.9892 15.0022)
+		(start 202.9892 2.0022)
+		(end 202.9892 15.0022)
 	)
 	(tbtext "${ISSUE_DATE}"
 		(name "")
-		(pos 58.989 5.5022)
+		(pos 55.9892 5.5022)
 		(font
 			(face "ING Me")
 		)
@@ -138,14 +138,14 @@
 	)
 	(tbtext "${COMPANY}"
 		(name "")
-		(pos 195.9892 5.5022)
+		(pos 200.9892 5.5022)
 		(font
 			(face "ING Me") bold)
 		(comment "company")
 	)
 	(tbtext "${TITLE}"
 		(name "")
-		(pos 155.9892 5.5022)
+		(pos 164.9892 5.5022)
 		(font
 			(face "ING Me")
 		)
@@ -161,13 +161,13 @@
 	)
 	(line
 		(name "")
-		(start 236.9892 2.0022)
-		(end 236.9892 15.0022)
+		(start 242.9892 2.0022)
+		(end 242.9892 15.0022)
 	)
 	(line
 		(name "")
-		(start 156.9892 2.0022)
-		(end 156.9892 15.0022)
+		(start 165.9892 2.0022)
+		(end 165.9892 15.0022)
 	)
 	(tbtext "Board Name"
 		(name "")
@@ -179,7 +179,7 @@
 	)
 	(tbtext "Project Name"
 		(name "")
-		(pos 235.9892 13.0022)
+		(pos 241.9892 13.0022)
 		(font
 			(face "ING Me Headline")
 		)
@@ -187,7 +187,7 @@
 	)
 	(tbtext "Company"
 		(name "")
-		(pos 195.9892 12.0022)
+		(pos 200.9892 12.0022)
 		(font
 			(face "ING Me Headline")
 		)
@@ -196,7 +196,7 @@
 	)
 	(tbtext "Sheet Title"
 		(name "")
-		(pos 155.9892 13.0022)
+		(pos 164.9892 13.0022)
 		(font
 			(face "ING Me Headline")
 		)
@@ -222,8 +222,8 @@
 	)
 	(line
 		(name "")
-		(start 59.989 2.0022)
-		(end 59.989 15.0022)
+		(start 56.9892 2.0022)
+		(end 56.9892 15.0022)
 	)
 	(line
 		(name "")
@@ -240,7 +240,7 @@
 	)
 	(tbtext "Date"
 		(name "")
-		(pos 58.989 13.0022)
+		(pos 55.9892 13.0022)
 		(font
 			(face "ING Me Headline")
 		)
@@ -282,7 +282,7 @@
 	)
 	(tbtext "${PROJECT_NAME}"
 		(name "")
-		(pos 235.9892 6.0022)
+		(pos 241.9892 6.0022)
 		(font
 			(face "ING Me")
 			(size 2.5 2.5) bold)
