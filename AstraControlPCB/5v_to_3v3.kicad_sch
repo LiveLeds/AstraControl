@@ -11,6 +11,220 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
+		(symbol "Information_Box_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "INF6"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Information_Box_1_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.59 3.81)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 41 182 246 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "i"
+					(at -21.5593 3.5855 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 41 182 246 1)
+						)
+					)
+				)
+				(text "Information"
+					(at -19.05 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 41 182 246 1)
+						)
+						(justify left)
+					)
+				)
+				(text "PI Filter\nCutoff frequency: 8.76kHz\nMostly for educational purposes."
+					(at -22.86 -2.54 0)
+					(effects
+						(font
+							(face "ING Me")
+							(size 1.524 1.524)
+						)
+						(justify left)
+					)
+				)
+			)
+		)
 		(symbol "LiveAstra:C_22uF_X5R_0603"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -649,6 +863,220 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Information_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "INF4"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Information_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.59 3.81)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 41 182 246 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "i"
+					(at -21.5593 3.5855 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 41 182 246 1)
+						)
+					)
+				)
+				(text "Information"
+					(at -19.05 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 41 182 246 1)
+						)
+						(justify left)
+					)
+				)
+				(text "VO = VFB * [1 + R1 / R2]\nVO = 0.6V * (1 + 10k/45.3k) = 3.318V"
+					(at -22.86 -2.54 0)
+					(effects
+						(font
+							(face "ING Me")
+							(size 1.524 1.524)
+						)
+						(justify left)
 					)
 				)
 			)
@@ -2176,81 +2604,17 @@
 		)
 		(uuid "ff889db0-d8a2-4446-b8f6-bfb8e3499e45")
 	)
-	(rectangle
-		(start 207.01 72.39)
-		(end 250.19 90.17)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4935919e-0e8d-4adf-915d-3a2f11312a0c)
-	)
-	(rectangle
-		(start 45.09 68.16)
-		(end 102.87 83.4)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6e04dabb-65b4-4c6f-861f-8c92d867089d)
-	)
-	(text "5V to 3V3 Buck Converter"
+	(text "5V to 3.3V"
 		(exclude_from_sim no)
-		(at 53.34 73.66 0)
+		(at 19.05 25.4 0)
 		(effects
 			(font
-				(face "ING Me")
-				(size 3 3)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "5676cd8f-c92f-4465-8a0c-d603e53a9705")
-	)
-	(text "VO = VFB * [1 + R1 / R2]\nVO = 0.6V * (1 + 10k/45.3k) = 3.318V"
-		(exclude_from_sim no)
-		(at 47.09 77.41 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 1.5 1.5)
-				(color 255 255 255 1)
+				(face "ING Me Headline")
+				(size 8 8)
 			)
 			(justify left top)
 		)
-		(uuid "79378c70-0b31-4990-acf7-b33dec6cf20c")
-	)
-	(text "Cutoff frequency: 8.76kHz\n\nNot really needed.\nMostly for educational purposes."
-		(exclude_from_sim no)
-		(at 209.55 80.01 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 1.5 1.5)
-				(color 255 255 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "a2522004-e0de-4c37-8145-54653f2a8fe9")
-	)
-	(text "PI Filter"
-		(exclude_from_sim no)
-		(at 214.63 77.47 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 3 3)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "c05617a8-bd7b-4225-a242-9c01086eb064")
+		(uuid "92104911-9a79-4b1e-894a-0ce1da12809b")
 	)
 	(label "SW_OUT_UNFILTERED"
 		(at 114.3 101.6 0)
@@ -2321,6 +2685,69 @@
 		(uuid "8cdf11d6-67b5-412e-9be4-3f24cf7cc893")
 	)
 	(symbol
+		(lib_name "Information_Box_1")
+		(lib_id "LiveAstra:Information_Box")
+		(at 222.25 82.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04ef9704-4b3d-4bed-b321-11bf3da1f87a")
+		(property "Reference" "INF6"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 222.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
+					(reference "INF6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 121.92 130.81 0)
 		(unit 1)
@@ -2330,7 +2757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dcb7f28-1c79-48a3-b682-fd68420d9a78")
-		(property "Reference" "#PWR23"
+		(property "Reference" "#PWR023"
 			(at 121.92 137.16 0)
 			(effects
 				(font
@@ -2380,7 +2807,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR23")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2660,7 +3087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20a4a6f4-5f05-4e72-a176-8e7e5fb5581c")
-		(property "Reference" "#PWR27"
+		(property "Reference" "#PWR027"
 			(at 204.47 121.92 0)
 			(effects
 				(font
@@ -2710,7 +3137,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR27")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2726,7 +3153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a8eb16-c6dc-488c-b9f1-173d04de6c73")
-		(property "Reference" "#PWR26"
+		(property "Reference" "#PWR026"
 			(at 187.96 142.24 0)
 			(effects
 				(font
@@ -2776,7 +3203,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR26")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2792,7 +3219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ec59999-bd5c-4e55-beaa-0beda93a5bdd")
-		(property "Reference" "#PWR28"
+		(property "Reference" "#PWR028"
 			(at 232.41 123.19 0)
 			(effects
 				(font
@@ -2842,7 +3269,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR28")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3214,7 +3641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e8e609-2efb-4052-b236-cc6b7c912612")
-		(property "Reference" "#PWR25"
+		(property "Reference" "#PWR025"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -3264,7 +3691,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR25")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3280,7 +3707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55163a64-ed0e-4eb0-8f70-dfd80628f9f7")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR024"
 			(at 147.32 121.92 0)
 			(effects
 				(font
@@ -3330,7 +3757,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR24")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3436,7 +3863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "587eacb3-4baf-454a-89a2-bab831b84ab1")
-		(property "Reference" "#PWR21"
+		(property "Reference" "#PWR021"
 			(at 27.94 137.16 0)
 			(effects
 				(font
@@ -3486,7 +3913,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR21")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3863,7 +4290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5665838-17ec-41ff-9ef2-479f5f026ae1")
-		(property "Reference" "#FLG1"
+		(property "Reference" "#FLG01"
 			(at 269.24 97.155 0)
 			(effects
 				(font
@@ -3913,7 +4340,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#FLG1")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -3929,7 +4356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a93869-426b-446b-b8ce-32cc6dfa9faa")
-		(property "Reference" "#PWR29"
+		(property "Reference" "#PWR029"
 			(at 251.46 142.24 0)
 			(effects
 				(font
@@ -3979,7 +4406,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR29")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4162,6 +4589,68 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:Information_Box")
+		(at 69.85 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c11b7386-e7b0-4a47-9de2-8aa61fa792a7")
+		(property "Reference" "INF4"
+			(at 69.85 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
+					(reference "INF4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:L_2u2H_4A_MDA4020-2R2M")
 		(at 106.68 101.6 0)
 		(unit 1)
@@ -4258,7 +4747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc900755-6259-491c-8c5f-25b0b573147c")
-		(property "Reference" "#PWR22"
+		(property "Reference" "#PWR022"
 			(at 71.12 130.81 0)
 			(effects
 				(font
@@ -4308,7 +4797,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR22")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

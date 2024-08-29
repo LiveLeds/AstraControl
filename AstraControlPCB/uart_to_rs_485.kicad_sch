@@ -325,6 +325,221 @@
 				)
 			)
 		)
+		(symbol "LiveAstra:Critical_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "CRT3"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Critical_Box_1_1"
+				(arc
+					(start -25.3998 -10.1598)
+					(mid -24.6559 -11.9559)
+					(end -22.8598 -12.6998)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -12.7)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -12.7) (xy 22.86 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -10.16) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.352 2.794) (xy -20.828 5.588) (xy -19.304 2.794) (xy -22.352 2.794)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 244 67 54 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -12.7)
+					(mid 24.6561 -11.9561)
+					(end 25.4 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Because ESD and EFT transients have a \nwide-frequency bandwidth from approximately \n3 MHz to 3 GHz, high frequency layout \ntechniques must be applied during PCB design.\nFollow layout example carefully."
+					(at -22.86 -5.08 0)
+					(effects
+						(font
+							(face "ING Me")
+							(size 1.524 1.524)
+						)
+						(justify left)
+					)
+				)
+				(text "Critical"
+					(at -18.288 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 244 67 54 1)
+						)
+						(justify left)
+					)
+				)
+				(text "x"
+					(at -20.828 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 244 67 54 1)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LiveAstra:R_0Ohm_0805_125mW"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1918,43 +2133,17 @@
 		)
 		(uuid "fd3e39a6-a375-4756-a10e-7b9b17df87ba")
 	)
-	(rectangle
-		(start 137.16 27.94)
-		(end 185.42 50.8)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c121f41d-c7ee-4467-96c1-ccd267600ca5)
-	)
-	(text "Because ESD and EFT transients have a \nwide-frequency bandwidth from approximately \n3 MHz to 3 GHz, high frequency layout \ntechniques must be applied during PCB design.\nFollow layout example carefully."
+	(text "UART to RS-485"
 		(exclude_from_sim no)
-		(at 139.91 37.19 0)
+		(at 19.05 25.4 0)
 		(effects
 			(font
-				(face "ING Me")
-				(size 1.5 1.5)
-				(color 255 255 255 1)
+				(face "ING Me Headline")
+				(size 8 8)
 			)
 			(justify left top)
 		)
-		(uuid "8cddd391-270d-4405-bd08-540f4c3d64b4")
-	)
-	(text "Critical"
-		(exclude_from_sim no)
-		(at 145.41 33.44 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 3 3)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "b94f93d8-7b8c-4a67-9cc7-5aaaa531286a")
+		(uuid "2569ce75-0a41-4b8b-8883-1da6952c6ca5")
 	)
 	(label "RS485_RX_IC"
 		(at 165.1 76.2 0)
@@ -2346,7 +2535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "314d9194-00f4-4a30-9337-d0b8705f39f2")
-		(property "Reference" "#PWR48"
+		(property "Reference" "#PWR048"
 			(at 182.88 138.43 0)
 			(effects
 				(font
@@ -2396,7 +2585,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR48")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2585,7 +2774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40f2ec11-df84-46ef-ad94-f35b2d7589cb")
-		(property "Reference" "#PWR44"
+		(property "Reference" "#PWR044"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -2635,7 +2824,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR44")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2651,7 +2840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc1d091-f3f2-4096-8f63-56b5062be421")
-		(property "Reference" "#PWR49"
+		(property "Reference" "#PWR049"
 			(at 195.58 64.77 0)
 			(effects
 				(font
@@ -2701,7 +2890,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR49")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2893,7 +3082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb0e12b-6662-4df7-948c-74724f65910d")
-		(property "Reference" "#PWR46"
+		(property "Reference" "#PWR046"
 			(at 147.32 156.21 0)
 			(effects
 				(font
@@ -2943,7 +3132,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR46")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3040,6 +3229,68 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:Critical_Box")
+		(at 158.75 44.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e20e3a9-0786-45de-a837-941f79a8ee68")
+		(property "Reference" "CRT3"
+			(at 158.75 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 158.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.272 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.272 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.272 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "CRT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 66.04 0)
 		(unit 1)
@@ -3049,7 +3300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90c6db0f-cd48-4bc0-b07a-ac0b6ac0477b")
-		(property "Reference" "#PWR45"
+		(property "Reference" "#PWR045"
 			(at 106.68 72.39 0)
 			(effects
 				(font
@@ -3099,7 +3350,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR45")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3115,7 +3366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99668a40-0b38-4534-baed-913665afda76")
-		(property "Reference" "#PWR43"
+		(property "Reference" "#PWR043"
 			(at 63.5 72.39 0)
 			(effects
 				(font
@@ -3165,7 +3416,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR43")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3811,7 +4062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c891ed2b-de29-45e9-b3cd-198f3e555766")
-		(property "Reference" "#PWR42"
+		(property "Reference" "#PWR042"
 			(at 58.42 52.07 0)
 			(effects
 				(font
@@ -3861,7 +4112,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR42")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3877,7 +4128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca23cffb-3dde-4790-a5cb-df8f97372bcb")
-		(property "Reference" "#PWR47"
+		(property "Reference" "#PWR047"
 			(at 182.88 163.83 0)
 			(effects
 				(font
@@ -3927,7 +4178,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR47")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)

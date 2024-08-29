@@ -18,8 +18,8 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board no)
-			(property "Reference" "I"
-				(at 0 5.08 0)
+			(property "Reference" "INF"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,7 +27,7 @@
 				)
 			)
 			(property "Value" ""
-				(at -15.24 0 0)
+				(at -15.24 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,7 +35,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -15.24 0 0)
+				(at -15.24 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,7 +44,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -15.24 0 0)
+				(at -15.24 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,7 +53,7 @@
 				)
 			)
 			(property "Description" ""
-				(at -15.24 0 0)
+				(at -15.24 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -63,9 +63,9 @@
 			)
 			(symbol "Information_Box_1_1_1"
 				(arc
-					(start -25.3998 -8.8898)
-					(mid -24.6559 -10.6859)
-					(end -22.8598 -11.4298)
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
 					(stroke
 						(width 0)
 						(type default)
@@ -75,8 +75,8 @@
 					)
 				)
 				(rectangle
-					(start -25.4 0)
-					(end 25.4 -8.89)
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
 					(stroke
 						(width -0.0001)
 						(type default)
@@ -86,9 +86,9 @@
 					)
 				)
 				(arc
-					(start -22.86 2.54)
-					(mid -24.6561 1.7961)
-					(end -25.4 0)
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -98,8 +98,8 @@
 					)
 				)
 				(rectangle
-					(start -22.86 2.54)
-					(end 22.86 -11.43)
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
 					(stroke
 						(width -0.0001)
 						(type default)
@@ -109,12 +109,12 @@
 					)
 				)
 				(circle
-					(center -21.6207 -1.0455)
+					(center -21.59 3.81)
 					(radius 1.524)
 					(stroke
-						(width 0)
+						(width 0.381)
 						(type default)
-						(color 0 194 0 1)
+						(color 41 182 246 1)
 					)
 					(fill
 						(type none)
@@ -122,7 +122,7 @@
 				)
 				(polyline
 					(pts
-						(xy -25.4 0) (xy -25.4 -8.89)
+						(xy -25.4 5.08) (xy -25.4 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -134,7 +134,7 @@
 				)
 				(polyline
 					(pts
-						(xy -22.86 -11.43) (xy 22.86 -11.43)
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -146,7 +146,7 @@
 				)
 				(polyline
 					(pts
-						(xy 22.86 2.54) (xy -22.86 2.54)
+						(xy 22.86 7.62) (xy -22.86 7.62)
 					)
 					(stroke
 						(width 0)
@@ -158,7 +158,7 @@
 				)
 				(polyline
 					(pts
-						(xy 25.4 -8.89) (xy 25.4 0)
+						(xy 25.4 -5.08) (xy 25.4 5.08)
 					)
 					(stroke
 						(width 0)
@@ -169,9 +169,9 @@
 					)
 				)
 				(arc
-					(start 22.86 -11.43)
-					(mid 24.6561 -10.6861)
-					(end 25.4 -8.89)
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -181,9 +181,438 @@
 					)
 				)
 				(arc
-					(start 25.4 0)
-					(mid 24.6561 1.7961)
-					(end 22.86 2.54)
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Generic information box to inform about \nspecifics of the part or layout, notes, \nhelpful information."
+					(at -22.86 -2.54 0)
+					(effects
+						(font
+							(face "ING Me")
+							(size 1.524 1.524)
+						)
+						(justify left)
+					)
+				)
+				(text "i"
+					(at -21.5593 3.5855 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 41 182 246 1)
+						)
+					)
+				)
+				(text "Information"
+					(at -19.05 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 41 182 246 1)
+						)
+						(justify left)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Critical_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "CRT"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Critical_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.352 2.794) (xy -20.828 5.588) (xy -19.304 2.794) (xy -22.352 2.794)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 244 67 54 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Critical"
+					(at -18.288 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 244 67 54 1)
+						)
+						(justify left)
+					)
+				)
+				(text "It is critical to follow the instructions here. \nFailure to do so will result in poor\nperformance or failuire."
+					(at -22.86 -2.54 0)
+					(effects
+						(font
+							(face "ING Me")
+							(size 1.524 1.524)
+						)
+						(justify left)
+					)
+				)
+				(text "x"
+					(at -20.828 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 244 67 54 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Question_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "QST"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Question_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.082 3.81)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 102 187 106 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -193,28 +622,243 @@
 					)
 				)
 				(text "?"
-					(at -21.59 -1.27 0)
+					(at -21.0362 3.6939 0)
 					(effects
 						(font
 							(face "ING Me Headline")
-							(size 2.032 2.032)
-							(color 0 194 0 1)
+							(size 1.778 1.778)
+							(color 102 187 106 1)
 						)
 					)
 				)
-				(text "Information"
-					(at -19.05 -1.27 0)
+				(text "Question"
+					(at -18.288 3.81 0)
 					(effects
 						(font
 							(face "ING Me Headline")
 							(size 2.032 2.032)
-							(color 0 194 0 1)
+							(color 102 187 106 1)
 						)
 						(justify left)
 					)
 				)
-				(text "Text that provides information to the reader.\nLow priority."
-					(at -22.86 -7.62 0)
+				(text "Something is unclear or a missing piece of \ninformation potentially needs to be \nexplored further."
+					(at -22.86 -2.54 0)
+					(effects
+						(font
+							(face "ING Me")
+							(size 1.524 1.524)
+						)
+						(justify left)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Warning_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "WRN"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Warning_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.352 2.794) (xy -20.828 5.588) (xy -19.304 2.794) (xy -22.352 2.794)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 255 167 38 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "!"
+					(at -20.828 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 255 167 38 1)
+						)
+					)
+				)
+				(text "Caution"
+					(at -18.288 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 255 167 38 1)
+						)
+						(justify left)
+					)
+				)
+				(text "Extra care is required here. Pay attention to\ndetails, routing, and try your best to follow\nthe advice."
+					(at -22.86 -2.54 0)
 					(effects
 						(font
 							(face "ING Me")
@@ -236,30 +880,6 @@
 		)
 		(uuid "84f4d95c-da8f-4475-afd7-d6817844bb59")
 	)
-	(rectangle
-		(start 71.2633 165.64)
-		(end 117.2633 184.64)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 020ecd1b-dd96-4196-aa28-8dfa139283be)
-	)
-	(rectangle
-		(start 20.0133 165.64)
-		(end 66.0133 184.64)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 87e2c502-4822-4b41-a97b-30e5fbbe377d)
-	)
 	(circle
 		(center 22.86 121.92)
 		(radius 0.6351)
@@ -269,21 +889,9 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid e660677b-8cd6-4b82-978e-727f17629181)
-	)
-	(rectangle
-		(start 122.7633 165.64)
-		(end 168.7633 184.64)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ee16877b-349f-4482-bf1f-7544582ec5d5)
 	)
 	(circle
 		(center 22.86 128.27)
@@ -294,7 +902,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid f337b07d-d014-4175-9b12-7e41afc6c550)
 	)
@@ -305,7 +913,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -318,7 +925,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -331,7 +937,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -344,7 +949,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -357,7 +961,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -370,7 +973,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -383,7 +985,6 @@
 			(font
 				(face "ING Me")
 				(size 4 4)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -396,7 +997,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -422,7 +1022,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -435,7 +1034,6 @@
 			(font
 				(face "ING Me")
 				(size 4 4)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -455,19 +1053,6 @@
 		)
 		(uuid "5c06f5f1-608f-4fc8-b492-379b3d74020a")
 	)
-	(text "Generic information box to inform about \nspecifics of the part or layout, notes, \nhelpful information."
-		(exclude_from_sim no)
-		(at 22.0133 174.89 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 1.5 1.5)
-				(color 255 255 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "5d38ca82-94fa-40e0-a8e3-78ff4f47c34c")
-	)
 	(text "Page"
 		(exclude_from_sim no)
 		(at 100.5 49.95 0)
@@ -475,46 +1060,18 @@
 			(font
 				(face "ING Me")
 				(size 4 4)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
 		(uuid "604a7bfc-4e53-4de8-9260-47bccfd95e07")
 	)
-	(text "Extra care is required here. Pay attention to\ndetails, routing, and try your best to follow\nthe advice."
-		(exclude_from_sim no)
-		(at 74.0133 174.89 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 1.5 1.5)
-				(color 255 255 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "639f7488-9335-4ebd-b0e7-0f04e02f6055")
-	)
-	(text "It is critical to follow the instructions here. \nFailure to do so will result in poor\nperformance or failuire."
-		(exclude_from_sim no)
-		(at 125.5133 174.89 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 1.5 1.5)
-				(color 255 255 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "74a3ecc2-6046-4f81-af0f-05ecc48942ca")
-	)
 	(text "Overview"
 		(exclude_from_sim no)
-		(at 20 22.5 0)
+		(at 19.05 25.4 0)
 		(effects
 			(font
-				(face "ING Me")
+				(face "ING Me Headline")
 				(size 8 8)
-				(color 255 255 255 1)
 			)
 			(justify left top)
 		)
@@ -527,24 +1084,10 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
 		(uuid "788aaef5-6239-415e-bf3e-1a12668a239d")
-	)
-	(text "Information"
-		(exclude_from_sim no)
-		(at 28.2633 171.14 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 3 3)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "83f2424d-7618-4242-9efd-dbb4e3c1f743")
 	)
 	(text "Overview"
 		(exclude_from_sim no)
@@ -553,24 +1096,10 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
 		(uuid "95de8026-a957-4832-a10c-74a437af8fd1")
-	)
-	(text "Design Considerations"
-		(exclude_from_sim no)
-		(at 20 163.5 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 4 4)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "a3760a33-d7b0-4443-a442-3f01310d87fc")
 	)
 	(text "Second time creating a PCB. Mistakes were probably made."
 		(exclude_from_sim no)
@@ -579,24 +1108,10 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
 		(uuid "a3820afe-4323-4d5a-8e24-4184abfa5faa")
-	)
-	(text "Critical"
-		(exclude_from_sim no)
-		(at 131.0133 171.14 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 3 3)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "a90833c5-a050-486b-9b8e-02fb6911da51")
 	)
 	(text "7"
 		(exclude_from_sim no)
@@ -605,7 +1120,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -618,7 +1132,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -631,7 +1144,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -644,24 +1156,10 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
 		(uuid "e323d6f1-2abe-438a-9e81-77de125968e4")
-	)
-	(text "Caution"
-		(exclude_from_sim no)
-		(at 79.5133 171.14 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 3 3)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "f375af88-0899-4a8e-8a78-50606a5d6912")
 	)
 	(text "Description"
 		(exclude_from_sim no)
@@ -670,7 +1168,6 @@
 			(font
 				(face "ING Me")
 				(size 4 4)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -683,7 +1180,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -692,25 +1188,24 @@
 	(symbol
 		(lib_name "Information_Box_1")
 		(lib_id "LiveAstra:Information_Box")
-		(at 45.72 144.78 0)
+		(at 101.6 158.75 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0fe178f-3653-40ae-ab3b-49586e783ef8")
-		(property "Reference" "I2"
-			(at 45.72 138.43 0)
+		(uuid "66fb6ec0-a463-4373-8e9b-eadeb57b25de")
+		(property "Reference" "INF1"
+			(at 101.6 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "~"
-			(at 45.72 140.97 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +1213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 144.78 0)
+			(at 86.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,7 +1222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 144.78 0)
+			(at 86.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +1231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 144.78 0)
+			(at 86.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +1242,193 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
-					(reference "I2")
+					(reference "INF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Warning_Box")
+		(at 215.9 158.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b74295f-7f32-4b2a-8b1a-e4f1853876ff")
+		(property "Reference" "WRN1"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.422 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.422 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.422 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
+					(reference "WRN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Critical_Box")
+		(at 158.75 158.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "814144f5-89a6-4a1c-b1db-062dc3b5df8c")
+		(property "Reference" "CRT2"
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.272 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.272 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.272 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
+					(reference "CRT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Question_Box")
+		(at 44.45 158.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0c0d40e-a15d-4a02-92a5-896719770cfd")
+		(property "Reference" "QST1"
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.972 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.972 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.972 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
+					(reference "QST1")
 					(unit 1)
 				)
 			)

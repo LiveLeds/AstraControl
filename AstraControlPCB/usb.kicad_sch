@@ -336,6 +336,221 @@
 				)
 			)
 		)
+		(symbol "LiveAstra:Critical_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "CRT1"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -14.478 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Critical_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.352 2.794) (xy -20.828 5.588) (xy -19.304 2.794) (xy -22.352 2.794)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 244 67 54 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Critical"
+					(at -18.288 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 244 67 54 1)
+						)
+						(justify left)
+					)
+				)
+				(text "Route carefully for good performance ESD \nprotection. Place the protection IC as \nclose as possible to the connector."
+					(at -22.86 -2.54 0)
+					(effects
+						(font
+							(face "ING Me")
+							(size 1.524 1.524)
+						)
+						(justify left)
+					)
+				)
+				(text "x"
+					(at -20.828 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 244 67 54 1)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LiveAstra:R_5k1Ohm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1953,43 +2168,17 @@
 		)
 		(uuid "fcf24883-b0f8-41e4-ad15-261f3cc5dcbf")
 	)
-	(rectangle
-		(start 202.57 80.86)
-		(end 245.75 99.06)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6f906552-abaf-484e-8042-2a85680ddc67)
-	)
-	(text "Route carefully for good performance ESD \nprotection. Place the protection IC as \nclose as possible to the connector."
+	(text "USB C"
 		(exclude_from_sim no)
-		(at 205.32 90.11 0)
+		(at 19.05 25.4 0)
 		(effects
 			(font
-				(face "ING Me")
-				(size 1.5 1.5)
-				(color 255 255 255 1)
+				(face "ING Me Headline")
+				(size 8 8)
 			)
 			(justify left top)
 		)
-		(uuid "38178837-576c-4cb0-a046-a7c2777fe992")
-	)
-	(text "Critical"
-		(exclude_from_sim no)
-		(at 210.82 86.36 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 3 3)
-				(color 255 255 255 1)
-			)
-			(justify left)
-		)
-		(uuid "4d98685b-b294-4fc9-a3de-462636bfc26e")
+		(uuid "830c4971-6a97-4efe-aca9-157a0fbfb690")
 	)
 	(label "USB_CONN_D-"
 		(at 116.84 109.22 0)
@@ -2081,7 +2270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15018f27-c095-491d-99ef-b7cce7878633")
-		(property "Reference" "#PWR41"
+		(property "Reference" "#PWR041"
 			(at 177.8 138.43 0)
 			(effects
 				(font
@@ -2131,7 +2320,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "#PWR41")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2454,7 +2643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ed48ce-74a4-4649-abdc-78a172e5d616")
-		(property "Reference" "#PWR39"
+		(property "Reference" "#PWR039"
 			(at 121.92 97.79 0)
 			(effects
 				(font
@@ -2504,7 +2693,69 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "#PWR39")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Critical_Box")
+		(at 222.25 88.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "786f2258-2a5a-4c25-9ec9-761223059504")
+		(property "Reference" "CRT1"
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.772 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.772 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.772 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
+					(reference "CRT1")
 					(unit 1)
 				)
 			)
@@ -2696,7 +2947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd6f130-a407-4fce-8afc-6a61468aa703")
-		(property "Reference" "#PWR89"
+		(property "Reference" "#PWR089"
 			(at 193.04 80.01 0)
 			(effects
 				(font
@@ -2746,7 +2997,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "#PWR89")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -2762,7 +3013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07941b1-4d7a-4fd2-a13a-7a43aad558b7")
-		(property "Reference" "#PWR38"
+		(property "Reference" "#PWR038"
 			(at 101.6 171.45 0)
 			(effects
 				(font
@@ -2812,7 +3063,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "#PWR38")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2927,7 +3178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfda8584-db05-4031-bd2c-b07b42a89359")
-		(property "Reference" "#PWR40"
+		(property "Reference" "#PWR040"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -2977,7 +3228,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "#PWR40")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3079,7 +3330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3efc317-655a-4beb-b366-7d923fbd3287")
-		(property "Reference" "#FLG5"
+		(property "Reference" "#FLG05"
 			(at 127 53.975 0)
 			(effects
 				(font
@@ -3129,7 +3380,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "#FLG5")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -3234,7 +3485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff22979e-a2ef-4454-81d6-4041f2663e85")
-		(property "Reference" "#PWR37"
+		(property "Reference" "#PWR037"
 			(at 91.44 170.18 0)
 			(effects
 				(font
@@ -3284,7 +3535,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "#PWR37")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)

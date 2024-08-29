@@ -692,80 +692,80 @@
 		)
 	)
 	(junction
-		(at 167.64 76.2)
+		(at 173.99 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1348cf6f-c64a-4738-8026-77265dba7bf0")
 	)
 	(junction
-		(at 236.22 91.44)
+		(at 242.57 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1abac971-8df0-4ba6-bf50-185336855d58")
 	)
 	(junction
-		(at 139.7 76.2)
+		(at 146.05 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1eb7c7c8-b439-4cbb-a604-18a1cf5815a3")
 	)
 	(junction
-		(at 68.58 76.2)
+		(at 74.93 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "270afb31-9621-4056-8432-ed71c2be0132")
 	)
 	(junction
-		(at 88.9 91.44)
+		(at 95.25 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e3dedbf-0173-4b38-9514-906c3c0cdaa3")
 	)
 	(junction
-		(at 139.7 91.44)
+		(at 146.05 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "932df8cd-8b49-4e62-8e92-9e7ff045d6d8")
 	)
 	(junction
-		(at 88.9 76.2)
+		(at 95.25 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f4e99c6-0e71-4483-b2f8-5c21afe2c4bd")
 	)
 	(junction
-		(at 119.38 76.2)
+		(at 125.73 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "affcf9d4-f89c-4989-82da-2805a055860e")
 	)
 	(junction
-		(at 215.9 76.2)
+		(at 222.25 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b054a605-32f2-4d63-9f75-e94e480de34f")
 	)
 	(junction
-		(at 187.96 76.2)
+		(at 194.31 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be5494d8-42eb-4590-ad41-88f9ecf4ca33")
 	)
 	(junction
-		(at 187.96 91.44)
+		(at 194.31 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da3e8469-0931-4c2a-8d1d-9f928f9e2534")
 	)
 	(junction
-		(at 55.88 76.2)
+		(at 62.23 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4f27a91-7168-49b9-834b-73f6f174eae3")
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 139.7 91.44)
+			(xy 125.73 110.49) (xy 146.05 110.49)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 76.2) (xy 167.64 76.2)
+			(xy 146.05 95.25) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
@@ -785,7 +785,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 119.38 76.2)
+			(xy 95.25 95.25) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -795,7 +795,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 88.9 91.44)
+			(xy 95.25 107.95) (xy 95.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -805,7 +805,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 236.22 76.2)
+			(xy 242.57 97.79) (xy 242.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -815,7 +815,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 91.44) (xy 236.22 96.52)
+			(xy 242.57 110.49) (xy 242.57 115.57)
 		)
 		(stroke
 			(width 0)
@@ -825,7 +825,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 88.9) (xy 215.9 91.44)
+			(xy 222.25 107.95) (xy 222.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +835,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 187.96 91.44)
+			(xy 173.99 110.49) (xy 194.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -845,7 +845,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 68.58 78.74)
+			(xy 74.93 95.25) (xy 74.93 97.79)
 		)
 		(stroke
 			(width 0)
@@ -855,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 76.2) (xy 215.9 76.2)
+			(xy 194.31 95.25) (xy 222.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -865,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 76.2) (xy 55.88 96.52)
+			(xy 62.23 95.25) (xy 62.23 115.57)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 76.2) (xy 215.9 76.2)
+			(xy 242.57 95.25) (xy 222.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 78.74) (xy 139.7 76.2)
+			(xy 146.05 97.79) (xy 146.05 95.25)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 88.9 76.2)
+			(xy 95.25 97.79) (xy 95.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -905,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 139.7 76.2)
+			(xy 125.73 95.25) (xy 146.05 95.25)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 76.2) (xy 215.9 78.74)
+			(xy 222.25 95.25) (xy 222.25 97.79)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 76.2) (xy 119.38 78.74)
+			(xy 125.73 95.25) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 139.7 96.52)
+			(xy 146.05 110.49) (xy 146.05 115.57)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 187.96 76.2)
+			(xy 173.99 95.25) (xy 194.31 95.25)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 88.9) (xy 167.64 91.44)
+			(xy 173.99 107.95) (xy 173.99 110.49)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +965,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 68.58 76.2)
+			(xy 95.25 95.25) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 88.9) (xy 187.96 91.44)
+			(xy 194.31 107.95) (xy 194.31 110.49)
 		)
 		(stroke
 			(width 0)
@@ -985,7 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 91.44) (xy 88.9 91.44)
+			(xy 74.93 110.49) (xy 95.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 187.96 96.52)
+			(xy 194.31 110.49) (xy 194.31 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 88.9) (xy 68.58 91.44)
+			(xy 74.93 107.95) (xy 74.93 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 187.96 76.2)
+			(xy 194.31 97.79) (xy 194.31 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1025,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 73.66) (xy 55.88 76.2)
+			(xy 62.23 92.71) (xy 62.23 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 76.2) (xy 68.58 76.2)
+			(xy 62.23 95.25) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1045,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 139.7 91.44)
+			(xy 146.05 107.95) (xy 146.05 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 119.38 91.44)
+			(xy 125.73 107.95) (xy 125.73 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 236.22 91.44)
+			(xy 222.25 110.49) (xy 242.57 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1075,7 +1075,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 91.44) (xy 88.9 96.52)
+			(xy 95.25 110.49) (xy 95.25 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 88.9) (xy 236.22 91.44)
+			(xy 242.57 107.95) (xy 242.57 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1095,7 +1095,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 167.64 78.74)
+			(xy 173.99 95.25) (xy 173.99 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1103,9 +1103,21 @@
 		)
 		(uuid "fdb8c3db-21a6-4e4e-833f-ae4207fbe985")
 	)
+	(text "Misc"
+		(exclude_from_sim no)
+		(at 19.05 25.4 0)
+		(effects
+			(font
+				(face "ING Me Headline")
+				(size 8 8)
+			)
+			(justify left top)
+		)
+		(uuid "b7755393-974b-4516-9cac-1eabd166c52d")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 96.52 0)
+		(at 242.57 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1113,8 +1125,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "097f4b08-4502-4970-85ec-3d80ab618df9")
-		(property "Reference" "#PWR88"
-			(at 236.22 102.87 0)
+		(property "Reference" "#PWR088"
+			(at 242.57 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 101.6 0)
+			(at 242.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 96.52 0)
+			(at 242.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 96.52 0)
+			(at 242.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 96.52 0)
+			(at 242.57 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1175,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR88")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -1171,7 +1183,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
-		(at 187.96 83.82 90)
+		(at 194.31 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1180,7 +1192,7 @@
 		(fields_autoplaced yes)
 		(uuid "1075288f-b6c1-455d-8f40-8fed0a3cf1b8")
 		(property "Reference" "R37"
-			(at 190.5 81.2799 90)
+			(at 196.85 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1201,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 190.5 83.82 90)
+			(at 196.85 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1211,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 196.85 83.82 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1220,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1MR-1004-1_C17514.html"
-			(at 200.66 83.82 0)
+			(at 207.01 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1229,7 @@
 			)
 		)
 		(property "Description" "Chip Resistor - Surface Mount ROHS"
-			(at 193.04 83.82 0)
+			(at 199.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1238,7 @@
 			)
 		)
 		(property "LCSC Part" "C17514"
-			(at 204.47 83.82 0)
+			(at 210.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1247,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805 125mW"
-			(at 190.5 86.3599 90)
+			(at 196.85 105.4099 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1261,7 +1273,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
-		(at 88.9 83.82 90)
+		(at 95.25 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1270,7 +1282,7 @@
 		(fields_autoplaced yes)
 		(uuid "25872a20-78d7-4d12-9c10-55a672261d2a")
 		(property "Reference" "R35"
-			(at 91.44 81.2799 90)
+			(at 97.79 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1291,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 91.44 83.82 90)
+			(at 97.79 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1301,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 97.79 83.82 0)
+			(at 104.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1310,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1MR-1004-1_C17514.html"
-			(at 101.6 83.82 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1307,7 +1319,7 @@
 			)
 		)
 		(property "Description" "Chip Resistor - Surface Mount ROHS"
-			(at 93.98 83.82 0)
+			(at 100.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1328,7 @@
 			)
 		)
 		(property "LCSC Part" "C17514"
-			(at 105.41 83.82 0)
+			(at 111.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1337,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805 125mW"
-			(at 91.44 86.3599 90)
+			(at 97.79 105.4099 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1351,7 +1363,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
-		(at 236.22 83.82 90)
+		(at 242.57 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1360,7 +1372,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e434916-913d-4624-8e2d-ceb484de55da")
 		(property "Reference" "R38"
-			(at 238.76 81.2799 90)
+			(at 245.11 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1381,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 238.76 83.82 90)
+			(at 245.11 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1391,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 245.11 83.82 0)
+			(at 251.46 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1400,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1MR-1004-1_C17514.html"
-			(at 248.92 83.82 0)
+			(at 255.27 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1409,7 @@
 			)
 		)
 		(property "Description" "Chip Resistor - Surface Mount ROHS"
-			(at 241.3 83.82 0)
+			(at 247.65 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1418,7 @@
 			)
 		)
 		(property "LCSC Part" "C17514"
-			(at 252.73 83.82 0)
+			(at 259.08 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1427,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805 125mW"
-			(at 238.76 86.3599 90)
+			(at 245.11 105.4099 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1441,7 +1453,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:C_10nF_X7R_0805")
-		(at 167.64 83.82 90)
+		(at 173.99 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1450,7 +1462,7 @@
 		(fields_autoplaced yes)
 		(uuid "59c79d0b-bb4f-4aee-bfb0-51eaf5863bca")
 		(property "Reference" "C25"
-			(at 171.45 81.2799 90)
+			(at 177.8 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,7 +1471,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 171.45 83.82 90)
+			(at 177.8 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1481,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 176.53 83.82 0)
+			(at 182.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1490,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FV21X103K102ECG_C565682.html"
-			(at 180.34 83.82 0)
+			(at 186.69 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1499,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 172.72 83.82 0)
+			(at 179.07 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1508,7 @@
 			)
 		)
 		(property "LCSC Part" "C565682"
-			(at 184.15 83.82 0)
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1517,7 @@
 			)
 		)
 		(property "Extra Values" "1kV X7R 10% 0805"
-			(at 171.45 86.3599 90)
+			(at 177.8 105.4099 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1531,7 +1543,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:CHASSIS")
-		(at 55.88 96.52 0)
+		(at 62.23 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1539,8 +1551,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "678d7869-1a09-4778-b3b3-3ac134327406")
-		(property "Reference" "#PWR84"
-			(at 55.88 101.6 0)
+		(property "Reference" "#PWR084"
+			(at 62.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1561,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 55.753 100.33 0)
+			(at 62.103 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1569,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 97.79 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 97.79 0)
+			(at 62.23 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 55.88 96.52 0)
+			(at 62.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1601,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR84")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -1597,7 +1609,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
-		(at 139.7 83.82 90)
+		(at 146.05 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1606,7 +1618,7 @@
 		(fields_autoplaced yes)
 		(uuid "68292f2b-4252-4d53-acf9-ae8334739c7c")
 		(property "Reference" "R36"
-			(at 142.24 81.2799 90)
+			(at 148.59 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,7 +1627,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 142.24 83.82 90)
+			(at 148.59 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1637,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 148.59 83.82 0)
+			(at 154.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1646,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1MR-1004-1_C17514.html"
-			(at 152.4 83.82 0)
+			(at 158.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1655,7 @@
 			)
 		)
 		(property "Description" "Chip Resistor - Surface Mount ROHS"
-			(at 144.78 83.82 0)
+			(at 151.13 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +1664,7 @@
 			)
 		)
 		(property "LCSC Part" "C17514"
-			(at 156.21 83.82 0)
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1673,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805 125mW"
-			(at 142.24 86.3599 90)
+			(at 148.59 105.4099 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1687,7 +1699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 96.52 0)
+		(at 146.05 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1695,8 +1707,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a01d332-50a6-4bf5-a25a-5c32721f6f3b")
-		(property "Reference" "#PWR86"
-			(at 139.7 102.87 0)
+		(property "Reference" "#PWR086"
+			(at 146.05 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 101.6 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 96.52 0)
+			(at 146.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 96.52 0)
+			(at 146.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 96.52 0)
+			(at 146.05 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +1757,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR86")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -1753,7 +1765,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:C_10nF_X7R_0805")
-		(at 68.58 83.82 90)
+		(at 74.93 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1762,7 +1774,7 @@
 		(fields_autoplaced yes)
 		(uuid "893b9b8e-4b3a-4ab6-9435-e4d81c5e5c06")
 		(property "Reference" "C23"
-			(at 72.39 81.2799 90)
+			(at 78.74 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1783,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 72.39 83.82 90)
+			(at 78.74 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +1793,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 77.47 83.82 0)
+			(at 83.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1802,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FV21X103K102ECG_C565682.html"
-			(at 81.28 83.82 0)
+			(at 87.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +1811,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 73.66 83.82 0)
+			(at 80.01 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1820,7 @@
 			)
 		)
 		(property "LCSC Part" "C565682"
-			(at 85.09 83.82 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1829,7 @@
 			)
 		)
 		(property "Extra Values" "1kV X7R 10% 0805"
-			(at 72.39 86.3599 90)
+			(at 78.74 105.4099 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1843,7 +1855,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:C_10nF_X7R_0805")
-		(at 215.9 83.82 90)
+		(at 222.25 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1852,7 +1864,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2e6049e-2d96-4780-8da9-e6cd99cfb8e5")
 		(property "Reference" "C26"
-			(at 219.71 81.2799 90)
+			(at 226.06 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1873,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 219.71 83.82 90)
+			(at 226.06 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1883,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 224.79 83.82 0)
+			(at 231.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1892,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FV21X103K102ECG_C565682.html"
-			(at 228.6 83.82 0)
+			(at 234.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1901,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 220.98 83.82 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1910,7 @@
 			)
 		)
 		(property "LCSC Part" "C565682"
-			(at 232.41 83.82 0)
+			(at 238.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1919,7 @@
 			)
 		)
 		(property "Extra Values" "1kV X7R 10% 0805"
-			(at 219.71 86.3599 90)
+			(at 226.06 105.4099 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1933,7 +1945,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 96.52 0)
+		(at 194.31 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1941,8 +1953,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4163eef-2b95-4bff-baf2-555e7cccd9c0")
-		(property "Reference" "#PWR87"
-			(at 187.96 102.87 0)
+		(property "Reference" "#PWR087"
+			(at 194.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 101.6 0)
+			(at 194.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 96.52 0)
+			(at 194.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 96.52 0)
+			(at 194.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 96.52 0)
+			(at 194.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +2003,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR87")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -1999,7 +2011,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:AstraControl_Ground_Guard")
-		(at 55.88 66.04 0)
+		(at 62.23 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2007,7 +2019,7 @@
 		(dnp no)
 		(uuid "dc48194e-1370-4ae2-b3e0-b7e887ec61da")
 		(property "Reference" "G1"
-			(at 55.88 59.69 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2027,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.88 59.69 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2035,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:AstraControl_Ground_Band"
-			(at 55.88 59.69 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 59.69 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 59.69 0)
+			(at 62.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,7 +2075,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 96.52 0)
+		(at 95.25 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2071,8 +2083,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec893c16-f398-4d4b-8589-3116b8e16f3f")
-		(property "Reference" "#PWR85"
-			(at 88.9 102.87 0)
+		(property "Reference" "#PWR085"
+			(at 95.25 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 101.6 0)
+			(at 95.25 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 96.52 0)
+			(at 95.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 96.52 0)
+			(at 95.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 96.52 0)
+			(at 95.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2133,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/f4845962-3a2f-4778-bb13-eae0f2a437f4"
-					(reference "#PWR85")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2129,7 +2141,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:C_10nF_X7R_0805")
-		(at 119.38 83.82 90)
+		(at 125.73 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2138,7 +2150,7 @@
 		(fields_autoplaced yes)
 		(uuid "f41a0ca8-fafd-4991-b379-d9b3315257c9")
 		(property "Reference" "C24"
-			(at 123.19 81.2799 90)
+			(at 129.54 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,7 +2159,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 123.19 83.82 90)
+			(at 129.54 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2169,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 128.27 83.82 0)
+			(at 134.62 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2178,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FV21X103K102ECG_C565682.html"
-			(at 132.08 83.82 0)
+			(at 138.43 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2187,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 124.46 83.82 0)
+			(at 130.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +2196,7 @@
 			)
 		)
 		(property "LCSC Part" "C565682"
-			(at 135.89 83.82 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2205,7 @@
 			)
 		)
 		(property "Extra Values" "1kV X7R 10% 0805"
-			(at 123.19 86.3599 90)
+			(at 129.54 105.4099 90)
 			(effects
 				(font
 					(size 0.762 0.762)

@@ -17,7 +17,11 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 #### Schematic
 
-[Schematic](/documents/AstraControl-schematic.pdf)
+[Schematic Dark](/documents/AstraControl-schematic_dark.pdf)
+
+[Schematic Light](/documents/AstraControl-schematic_default.pdf)
+
+[Schematic Monochromatic](/documents/AstraControl-schematic_mono.pdf)
 
 Jekyll requires blog post files to be named according to the following format:
 

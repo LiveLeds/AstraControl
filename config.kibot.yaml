@@ -113,37 +113,30 @@ outputs:
       template: "full"
       do_convert: true
       convert_to: "pdf"
-  - name: "pdf_sch_print"
-    comment: "Exports the schematic to the most common exchange format. Suitable for printing."
+  - name: "pdf_sch_print_dark"
     type: "pdf_sch_print"
     dir: "Schematic"
     options:
-      # [boolean=true] Generate with all hierarchical sheets
       all_pages: true
-      # [boolean=false] Use the background color from the `color_theme` (KiCad 6)
       background_color: true
-      # [string=''] Color theme used, this must exist in the KiCad config (KiCad 6)
       color_theme: "Arcana"
-      # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
-      # A short-cut to use for simple cases where a variant is an overkill
-      dnf_filter: "_none"
-      # [boolean=true] Include the frame and title block
-      frame: true
-      # [boolean=false] Generate a monochromatic output
       monochrome: false
-      # [string='%f-%i%I%v.%x'] Filename for the output PDF (%i=schematic, %x=pdf). Affected by global options
-      output: "%f-%i%I%v.%x"
-      # [string=''] Worksheet file (.kicad_wks) to use. Leave empty to use the one specified in the project.
-      # This option works only when you print the toplevel sheet of a project and the project
-      # file is available
-      sheet_reference_layout: ""
-      # [string=''] Text used to replace the sheet title. %VALUE expansions are allowed.
-      # If it starts with `+` the text is concatenated
-      title: ""
-      # [string=''] Board variant to apply.
-      # Not fitted components are crossed
-      variant: ""
-      # Info:
+      output: "%f-%i%I%v-dark.%x"
+  - name: "pdf_sch_print_default"
+    type: "pdf_sch_print"
+    dir: "Schematic"
+    options:
+      all_pages: true
+      monochrome: false
+      output: "%f-%i%I%v-default.%x"
+  - name: "pdf_sch_print_mono"
+    type: "pdf_sch_print"
+    dir: "Schematic"
+    options:
+      all_pages: true
+      monochrome: true
+      output: "%f-%i%I%v-mono.%x"
+
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
     type: gerber

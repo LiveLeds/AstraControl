@@ -20,9 +20,22 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid 044045f8-f9fa-418e-bd96-0e63087d2f6b)
+	)
+	(circle
+		(center 21.59 144.78)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 0d0cc753-d171-4400-bb8e-c0b31f06700e)
 	)
 	(circle
 		(center 21.59 93.98)
@@ -33,22 +46,9 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid 3092cd6f-3ef3-42ec-a224-797b00d3f33b)
-	)
-	(circle
-		(center 21.59 144.78)
-		(radius 0.7071)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(uuid 4290b5f7-20da-4921-b360-f07704859418)
 	)
 	(circle
 		(center 21.59 125.73)
@@ -59,9 +59,22 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid 54bf0852-2e6d-44a5-82e2-e5e2ce9344d8)
+	)
+	(circle
+		(center 21.59 151.13)
+		(radius 0.82)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 5afc6778-fcbb-4b0c-a9b8-2712b0c0dfa6)
 	)
 	(circle
 		(center 21.59 106.68)
@@ -72,7 +85,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid 68afb796-724a-4752-a936-2006160bc5d7)
 	)
@@ -85,7 +98,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid 82b255d9-9c8f-4add-acea-c70e22c14f00)
 	)
@@ -98,22 +111,9 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid 84e6f551-fd2d-4e6b-a911-55fd4e705db0)
-	)
-	(circle
-		(center 21.59 157.48)
-		(radius 0.82)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type color)
-			(color 255 255 255 1)
-		)
-		(uuid 89ab8882-f73b-442f-8c56-f920e80397ef)
 	)
 	(circle
 		(center 21.59 132.08)
@@ -124,12 +124,12 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid 91952df1-c7d0-4ce9-b699-e79ca04b22ba)
 	)
 	(circle
-		(center 21.59 151.13)
+		(center 21.59 157.48)
 		(radius 0.82)
 		(stroke
 			(width -0.0001)
@@ -137,9 +137,9 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
-		(uuid c40caf24-289d-4014-97e8-211ce195cd58)
+		(uuid c32a03af-763c-4886-a64c-b20b3cd4869d)
 	)
 	(circle
 		(center 21.59 119.38)
@@ -150,7 +150,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid c427078d-c49d-403b-b6cc-eee8374e6876)
 	)
@@ -163,7 +163,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid dafc486b-c82c-4269-b730-d4177403db4a)
 	)
@@ -176,7 +176,7 @@
 		)
 		(fill
 			(type color)
-			(color 255 255 255 1)
+			(color 0 0 0 0)
 		)
 		(uuid fa926cff-20aa-47b4-b5af-b1dfaafcd5ac)
 	)
@@ -7281,7 +7281,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -7335,7 +7334,7 @@
 		)
 		(uuid "45efd3df-e2f3-49db-ab08-abbed9c5ab58")
 	)
-	(text "ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485\nfor communication, supporting various sensors and HMI devices for high-power \nLED fixtures or strips."
+	(text "ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485\nfor communication, supporting various sensors and HMI devices for high-power \nLED fixtures or strips. One device can act as master or all fixtures will receive \ndata from a dedicated receiver."
 		(exclude_from_sim no)
 		(at 19.05 63.5 0)
 		(effects
@@ -7368,7 +7367,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -7440,7 +7438,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -7453,7 +7450,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)
@@ -7492,7 +7488,6 @@
 			(font
 				(face "ING Me")
 				(size 3 3)
-				(color 255 255 255 1)
 			)
 			(justify left)
 		)

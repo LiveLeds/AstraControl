@@ -543,6 +543,18 @@
 		)
 		(uuid "f966d9e5-2847-4f08-86a2-903f6e2f2a3a")
 	)
+	(text "5V GPIO Connectors"
+		(exclude_from_sim no)
+		(at 19.05 25.4 0)
+		(effects
+			(font
+				(face "ING Me Headline")
+				(size 8 8)
+			)
+			(justify left top)
+		)
+		(uuid "54e7f929-52a3-4cbb-86bd-4ef2b2af7df2")
+	)
 	(hierarchical_label "GPIO_36_5V"
 		(shape bidirectional)
 		(at 127 91.44 180)
@@ -601,7 +613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26c46c5e-f2cf-414e-a6c2-a5c5836738aa")
-		(property "Reference" "#PWR52"
+		(property "Reference" "#PWR052"
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -651,7 +663,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a08072bc-5c98-487a-a9a6-bb737e215888"
-					(reference "#PWR52")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -667,7 +679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63fd39e6-4a91-4a4a-a783-c33367024045")
-		(property "Reference" "#PWR51"
+		(property "Reference" "#PWR051"
 			(at 127 118.11 0)
 			(effects
 				(font
@@ -717,7 +729,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a08072bc-5c98-487a-a9a6-bb737e215888"
-					(reference "#PWR51")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -733,7 +745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68557a0a-57ee-42c2-8187-2b901ba18a87")
-		(property "Reference" "#PWR50"
+		(property "Reference" "#PWR050"
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -783,7 +795,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a08072bc-5c98-487a-a9a6-bb737e215888"
-					(reference "#PWR50")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -983,7 +995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f950170f-9ef7-4087-8cab-7d9939c33dd0")
-		(property "Reference" "#PWR53"
+		(property "Reference" "#PWR053"
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -1033,7 +1045,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a08072bc-5c98-487a-a9a6-bb737e215888"
-					(reference "#PWR53")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
