@@ -1503,7 +1503,7 @@
 		)
 		(uuid "d9abe1db-7359-4ca8-ab06-925e29eb4b0b")
 	)
-	(text "Overvoltage: 5.67V\nUndervoltage: 3V\nMax current: 600mA - 780mA\nMax V_{IN}: 21V"
+	(text "Over-voltage: 5.67V\nUnder-voltage: 3V\nMax current: 600mA - 780mA\nMax V_{IN}: 21V"
 		(exclude_from_sim no)
 		(at 129.6926 54.9845 0)
 		(effects
