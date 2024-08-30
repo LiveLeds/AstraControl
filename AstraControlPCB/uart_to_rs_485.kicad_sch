@@ -325,23 +325,23 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:Critical_Box"
+		(symbol "LiveAstra:Critical_Box_L"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board no)
-			(property "Reference" "CRT3"
-				(at 0 11.43 0)
+			(property "Reference" "CRT"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "~"
-				(at 0 8.89 0)
+			(property "Value" ""
+				(at -14.478 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -375,7 +375,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Critical_Box_1_1"
+			(symbol "Critical_Box_L_1_1"
 				(arc
 					(start -25.3998 -10.1598)
 					(mid -24.6559 -11.9559)
@@ -390,7 +390,7 @@
 				)
 				(rectangle
 					(start -25.4 5.08)
-					(end 25.4 -12.7)
+					(end 25.4 -10.16)
 					(stroke
 						(width -0.0001)
 						(type default)
@@ -413,7 +413,7 @@
 				)
 				(rectangle
 					(start -22.86 7.62)
-					(end 22.86 -7.62)
+					(end 22.86 -12.7)
 					(stroke
 						(width -0.0001)
 						(type default)
@@ -472,7 +472,7 @@
 				)
 				(polyline
 					(pts
-						(xy -22.352 2.794) (xy -20.828 5.588) (xy -19.304 2.794) (xy -22.352 2.794)
+						(xy -22.86 3.81) (xy -21.336 6.604) (xy -19.812 3.81) (xy -22.86 3.81)
 					)
 					(stroke
 						(width 0.381)
@@ -507,18 +507,8 @@
 						(type background)
 					)
 				)
-				(text "Because ESD and EFT transients have a \nwide-frequency bandwidth from approximately \n3 MHz to 3 GHz, high frequency layout \ntechniques must be applied during PCB design.\nFollow layout example carefully."
-					(at -22.86 -5.08 0)
-					(effects
-						(font
-							(face "ING Me")
-							(size 1.524 1.524)
-						)
-						(justify left)
-					)
-				)
 				(text "Critical"
-					(at -18.288 3.81 0)
+					(at -17.78 5.08 0)
 					(effects
 						(font
 							(face "ING Me Headline")
@@ -529,7 +519,7 @@
 					)
 				)
 				(text "x"
-					(at -20.828 3.81 0)
+					(at -21.336 4.826 0)
 					(effects
 						(font
 							(face "ING Me Headline")
@@ -2133,6 +2123,18 @@
 		)
 		(uuid "fd3e39a6-a375-4756-a10e-7b9b17df87ba")
 	)
+	(text "Because ESD and EFT transients have a \nwide-frequency bandwidth from approximately \n3 MHz to 3 GHz, high frequency layout \ntechniques must be applied during PCB design.\nFollow layout example carefully."
+		(exclude_from_sim no)
+		(at 137.16 50.8 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "0bac784b-0130-493c-bacb-4ad210cb31d5")
+	)
 	(text "UART to RS-485"
 		(exclude_from_sim no)
 		(at 19.05 25.4 0)
@@ -2831,6 +2833,70 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:Critical_Box_L")
+		(at 160.02 45.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d0272e1-62ae-4eb9-8714-2de7a420cb01")
+		(property "Reference" "CRT3"
+			(at 186.69 46.3549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.542 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.542 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 145.542 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "CRT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 195.58 60.96 0)
 		(unit 1)
@@ -3223,68 +3289,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:Critical_Box")
-		(at 158.75 44.45 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e20e3a9-0786-45de-a837-941f79a8ee68")
-		(property "Reference" "CRT3"
-			(at 158.75 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 158.75 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.272 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.272 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.272 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "CRT3")
 					(unit 1)
 				)
 			)

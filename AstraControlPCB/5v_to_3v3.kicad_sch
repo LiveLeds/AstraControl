@@ -18,16 +18,16 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board no)
-			(property "Reference" "INF6"
-				(at 0 11.43 0)
+			(property "Reference" "INF"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "~"
-				(at 0 8.89 0)
+			(property "Value" ""
+				(at -15.24 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -109,7 +109,7 @@
 					)
 				)
 				(circle
-					(center -21.59 3.81)
+					(center -21.082 5.08)
 					(radius 1.524)
 					(stroke
 						(width 0.381)
@@ -193,7 +193,7 @@
 					)
 				)
 				(text "i"
-					(at -21.5593 3.5855 0)
+					(at -21.0726 4.8456 0)
 					(effects
 						(font
 							(face "ING Me Headline")
@@ -203,22 +203,12 @@
 					)
 				)
 				(text "Information"
-					(at -19.05 3.81 0)
+					(at -17.78 5.08 0)
 					(effects
 						(font
 							(face "ING Me Headline")
 							(size 2.032 2.032)
 							(color 41 182 246 1)
-						)
-						(justify left)
-					)
-				)
-				(text "PI Filter:\nCutoff frequency: 8.76kHz\nMostly for educational purposes."
-					(at -22.86 -2.54 0)
-					(effects
-						(font
-							(face "ING Me")
-							(size 1.524 1.524)
 						)
 						(justify left)
 					)
@@ -863,220 +853,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "LiveAstra:Information_Box"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "INF4"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "~"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Information_Box_1_1"
-				(arc
-					(start -25.3998 -5.0798)
-					(mid -24.6559 -6.8759)
-					(end -22.8598 -7.6198)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -25.4 5.08)
-					(end 25.4 -5.08)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -22.86 7.62)
-					(mid -24.6561 6.8761)
-					(end -25.4 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -22.86 7.62)
-					(end 22.86 -7.62)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -21.59 3.81)
-					(radius 1.524)
-					(stroke
-						(width 0.381)
-						(type default)
-						(color 41 182 246 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -25.4 5.08) (xy -25.4 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -22.86 -7.62) (xy 22.86 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 7.62) (xy -22.86 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -5.08) (xy 25.4 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 22.86 -7.62)
-					(mid 24.6561 -6.8761)
-					(end 25.4 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 25.4 5.08)
-					(mid 24.6561 6.8761)
-					(end 22.86 7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "i"
-					(at -21.5593 3.5855 0)
-					(effects
-						(font
-							(face "ING Me Headline")
-							(size 1.27 1.27)
-							(color 41 182 246 1)
-						)
-					)
-				)
-				(text "Information"
-					(at -19.05 3.81 0)
-					(effects
-						(font
-							(face "ING Me Headline")
-							(size 2.032 2.032)
-							(color 41 182 246 1)
-						)
-						(justify left)
-					)
-				)
-				(text "VO = VFB * [1 + R1 / R2]\nVO = 0.6V * (1 + 10k/45.3k) = 3.318V"
-					(at -22.86 -2.54 0)
-					(effects
-						(font
-							(face "ING Me")
-							(size 1.524 1.524)
-						)
-						(justify left)
 					)
 				)
 			)
@@ -2604,6 +2380,18 @@
 		)
 		(uuid "ff889db0-d8a2-4446-b8f6-bfb8e3499e45")
 	)
+	(text "VO = VFB * [1 + R1 / R2]\nVO = 0.6V * (1 + 10k/45.3k) = 3.318V"
+		(exclude_from_sim no)
+		(at 48.26 78.74 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "26114ab3-279c-4a50-9f28-c8eb5caac56c")
+	)
 	(text "5V to 3.3V"
 		(exclude_from_sim no)
 		(at 19.05 25.4 0)
@@ -2615,6 +2403,18 @@
 			(justify left top)
 		)
 		(uuid "92104911-9a79-4b1e-894a-0ce1da12809b")
+	)
+	(text "PI Filter:\nCutoff frequency: 8.76kHz\nMostly for educational purposes."
+		(exclude_from_sim no)
+		(at 198.12 83.82 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "a177672b-111d-4619-9ed9-28875f041fac")
 	)
 	(label "SW_OUT_UNFILTERED"
 		(at 114.3 101.6 0)
@@ -2683,69 +2483,6 @@
 			(justify right)
 		)
 		(uuid "8cdf11d6-67b5-412e-9be4-3f24cf7cc893")
-	)
-	(symbol
-		(lib_name "Information_Box_1")
-		(lib_id "LiveAstra:Information_Box")
-		(at 222.25 82.55 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04ef9704-4b3d-4bed-b321-11bf3da1f87a")
-		(property "Reference" "INF5"
-			(at 222.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 222.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "INF5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4589,17 +4326,18 @@
 		)
 	)
 	(symbol
+		(lib_name "Information_Box_1")
 		(lib_id "LiveAstra:Information_Box")
-		(at 69.85 76.2 0)
+		(at 71.12 76.2 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c11b7386-e7b0-4a47-9de2-8aa61fa792a7")
+		(uuid "b34e9947-05c3-4c5e-8f18-c5e6f4f3d6bf")
 		(property "Reference" "INF4"
-			(at 69.85 64.77 0)
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4345,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 69.85 67.31 0)
+			(at 71.12 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 72.39 0)
+			(at 55.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 72.39 0)
+			(at 55.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 72.39 0)
+			(at 55.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,6 +4383,69 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
 					(reference "INF4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Information_Box_1")
+		(lib_id "LiveAstra:Information_Box")
+		(at 220.98 81.28 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c277ca36-19ec-4de6-bbc4-52daa91f1a8d")
+		(property "Reference" "INF5"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 220.98 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
+					(reference "INF5")
 					(unit 1)
 				)
 			)
