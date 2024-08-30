@@ -42,20 +42,14 @@ outputs:
       background_color: "#000000"
       # [string=''] Color used for blind/buried `colored_vias`
       blind_via_color: ""
-      # [string='_builtin_classic'] Selects the color theme. Only applies to KiCad 6.
-      # To use the KiCad 6 default colors select `_builtin_default`.
-      # Usually user colors are stored as `user`, but you can give it another name
-      color_theme: "Arcana"
+      color_theme: "_builtin_default"
       # [boolean=true] Plot through-hole in a different color. Like KiCad GUI does
       colored_pads: true
       # [boolean=true] Plot vias in a different color. Like KiCad GUI does
       colored_vias: true
-      # [string|list(string)='_none'] Name of the filter to mark components as not fitted.
-      # A short-cut to use for simple cases where a variant is an overkill
-      dnf_filter: "_none"
       # [number=360] [36,1200] Resolution (Dots Per Inch) for the output file. Most objects are vectors, but thing
       # like the the solder mask are handled as images by the conversion tools
-      dpi: 600
+      dpi: 800
       # [string='full'] [none,small,full] What to use to indicate the drill places, can be none, small or full (for real scale)
       drill_marks: "full"
       # [boolean=false] Add the `Edge.Cuts` to all the pages
@@ -70,29 +64,29 @@ outputs:
       format: "PDF"
       keep_temporal_files: true
       pages:
-        - scaling: 1.0
+        - scaling: 1.8
           sheet: "%ln"
-          repeat_for_layer: "F.Cu"
-          repeat_layers: outers
+          title: "Front Fabrication"
           layers:
             - layer: Edge.Cuts
             - layer: F.Cu
+              color: "#333333FF"
             - layer: F.Mask
-              color: "#ff00ff40"
+              color: "#333333FF"
             - layer: F.Paste
-            - layer: F.SilkS
+              color: "#333333FF"
             - layer: F.Fab
+              color: "#888888FF"
               plot_footprint_refs: false
               plot_footprint_values: false
             - layer: Dwgs.User
-        - scaling: 1.0
+        - scaling: 1.8
           sheet: "%ln"
-          repeat_for_layer: "F.Cu"
-          repeat_layers: inners
+          title: "Back Fabrication"
           layers:
             - layer: Edge.Cuts
-            - layer: F.Cu
-            - layer: F.SilkS
+            - layer: B.Cu
+            - layer: B.SilkS
             - layer: Dwgs.User
   # - name: "Step"
   #   comment: "Exports the PCB as a 3D model."
@@ -289,7 +283,10 @@ outputs:
       include_only: 
         - column: "References"
           regex: "TP.*"
-      group_fields: ["References"]
+      group_fields: ["_none"]
+      exclude_any:
+          - column: ''
+            regex: ''
       group_connectors: false
       columns:
         - field: Value
