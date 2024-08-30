@@ -289,7 +289,7 @@ outputs:
       include_only: 
         - column: "Reference"
           regex: "TP.*"
-      group_fields: "Reference"
+      group_fields: ["Reference"]
       group_connectors: false
       columns:
         - field: Value
