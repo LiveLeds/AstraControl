@@ -33,7 +33,7 @@ outputs:
     dir: "PCBPrint"
     options:
       # [boolean=false] Add a background to the pages, see `background_color`
-      add_background: true
+      add_background: false
       # [number=0] Default horizontal margin used for the autoscaling mode [mm]
       autoscale_margin_x: 0
       # [number=0] Default vertical margin used for the autoscaling mode [mm]
@@ -64,25 +64,18 @@ outputs:
       format: "PDF"
       keep_temporal_files: true
       pages:
-        - scaling: 1.4
-          sheet: "%ln"
+        - scaling: 1.3
+          sheet: "Front Fabrication"
           title: "Front Fabrication"
           layers:
             - layer: Edge.Cuts
-            - layer: F.Cu
-              color: "#333333FF"
-            - layer: F.Mask
-              color: "#333333FF"
-            - layer: F.Paste
-              color: "#333333FF"
             - layer: F.Fab
-              color: "#888888FF"
             - layer: Board.Data
             - layer: User.1
               plot_footprint_refs: false
               plot_footprint_values: false
-        - scaling: 1.4
-          sheet: "%ln"
+        - scaling: 1.3
+          sheet: "Front Fabrication"
           title: "Back Fabrication"
           layers:
             - layer: Edge.Cuts

@@ -190,7 +190,7 @@
 			(xy -2.125 -3.5) (xy -1.775 -3.5)
 		)
 		(height -0.4)
-		(gr_text "0.3500 mm"
+		(gr_text "0.35 mm"
 			(at -1.9 -4 0)
 			(layer "User.1")
 			(uuid "157f0bd1-eb5a-42bf-ac69-b3fd4bced596")
@@ -206,7 +206,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.01)
@@ -223,7 +223,7 @@
 			(xy -0.65 -2.7) (xy 0 -2.7)
 		)
 		(height -1.2)
-		(gr_text "0.6500 mm"
+		(gr_text "0.65 mm"
 			(at -0.325 -4.025 0)
 			(layer "User.1")
 			(uuid "427d84c3-1dfe-460a-895d-2cfbbd14ccbe")
@@ -239,8 +239,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
-		)
+			(precision 2) suppress_zeroes)
 		(style
 			(thickness 0.01)
 			(arrow_length 0.01)
@@ -256,7 +255,7 @@
 			(xy -1.95 -2.8) (xy -1.95 2.8)
 		)
 		(height 1.05)
-		(gr_text "5.6000 mm"
+		(gr_text "5.6 mm"
 			(at -3 0 90)
 			(layer "User.1")
 			(uuid "b6c52664-52a8-4999-804a-5cc8465f6858")
@@ -272,8 +271,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
-		)
+			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.01)
 			(arrow_length 0.01)
@@ -286,11 +284,11 @@
 		(layer "User.1")
 		(uuid "ff868c1a-4635-45f1-a36b-36ecc4a8b820")
 		(pts
-			(xy -2.125 -3.5) (xy -2.125 -1.9)
+			(xy -2.275 -3.6) (xy -2.275 -2)
 		)
 		(height 0.175)
-		(gr_text "1.6000 mm"
-			(at -2.3 -2.7 90)
+		(gr_text "1.6 mm"
+			(at -2.45 -2.9 90)
 			(layer "User.1")
 			(uuid "ff868c1a-4635-45f1-a36b-36ecc4a8b820")
 			(effects
@@ -305,8 +303,7 @@
 			(suffix "")
 			(units 3)
 			(units_format 1)
-			(precision 4)
-		)
+			(precision 4) suppress_zeroes)
 		(style
 			(thickness 0.01)
 			(arrow_length 0.01)
