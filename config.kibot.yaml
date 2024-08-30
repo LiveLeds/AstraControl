@@ -64,7 +64,7 @@ outputs:
       format: "PDF"
       keep_temporal_files: true
       pages:
-        - scaling: 1.8
+        - scaling: 1.4
           sheet: "%ln"
           title: "Front Fabrication"
           layers:
@@ -81,7 +81,7 @@ outputs:
             - layer: User.1
               plot_footprint_refs: false
               plot_footprint_values: false
-        - scaling: 1.8
+        - scaling: 1.4
           sheet: "%ln"
           title: "Back Fabrication"
           layers:
