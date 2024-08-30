@@ -11,220 +11,6 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
-		(symbol "Information_Box_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "INF"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Information_Box_1_1_1"
-				(arc
-					(start -25.3998 -5.0798)
-					(mid -24.6559 -6.8759)
-					(end -22.8598 -7.6198)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -25.4 5.08)
-					(end 25.4 -5.08)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -22.86 7.62)
-					(mid -24.6561 6.8761)
-					(end -25.4 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -22.86 7.62)
-					(end 22.86 -7.62)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -21.59 3.81)
-					(radius 1.524)
-					(stroke
-						(width 0.381)
-						(type default)
-						(color 41 182 246 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -25.4 5.08) (xy -25.4 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -22.86 -7.62) (xy 22.86 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 7.62) (xy -22.86 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -5.08) (xy 25.4 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 22.86 -7.62)
-					(mid 24.6561 -6.8761)
-					(end 25.4 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 25.4 5.08)
-					(mid 24.6561 6.8761)
-					(end 22.86 7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "Generic information box to inform about \nspecifics of the part or layout, notes, \nhelpful information."
-					(at -22.86 -2.54 0)
-					(effects
-						(font
-							(face "ING Me")
-							(size 1.524 1.524)
-						)
-						(justify left)
-					)
-				)
-				(text "i"
-					(at -21.5593 3.5855 0)
-					(effects
-						(font
-							(face "ING Me Headline")
-							(size 1.27 1.27)
-							(color 41 182 246 1)
-						)
-					)
-				)
-				(text "Information"
-					(at -19.05 3.81 0)
-					(effects
-						(font
-							(face "ING Me Headline")
-							(size 2.032 2.032)
-							(color 41 182 246 1)
-						)
-						(justify left)
-					)
-				)
-			)
-		)
 		(symbol "LiveAstra:Critical_Box"
 			(pin_numbers hide)
 			(pin_names
@@ -436,6 +222,220 @@
 							(size 1.27 1.27)
 							(color 244 67 54 1)
 						)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Information_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "INF"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Information_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.59 3.81)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 41 182 246 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Generic information box to inform about \nspecifics of the part or layout, notes, \nhelpful information."
+					(at -22.86 -2.54 0)
+					(effects
+						(font
+							(face "ING Me")
+							(size 1.524 1.524)
+						)
+						(justify left)
+					)
+				)
+				(text "i"
+					(at -21.5593 3.5855 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 41 182 246 1)
+						)
+					)
+				)
+				(text "Information"
+					(at -19.05 3.81 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 41 182 246 1)
+						)
+						(justify left)
 					)
 				)
 			)
@@ -1186,7 +1186,6 @@
 		(uuid "fea10f92-5b82-491a-80d2-3ac57b73c066")
 	)
 	(symbol
-		(lib_name "Information_Box_1")
 		(lib_id "LiveAstra:Information_Box")
 		(at 101.6 158.75 0)
 		(unit 1)
