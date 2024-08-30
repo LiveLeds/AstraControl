@@ -287,15 +287,19 @@ outputs:
     options:
       output: "%f_%i_TP.%x"
       include_only: 
-        - column: "Reference"
+        - column: "References"
           regex: "TP.*"
-      group_fields: ["Reference"]
+      group_fields: ["References"]
       group_connectors: false
       columns:
         - field: Value
           name: Value
         - field: References
           name: Reference
+        - field: Footprint X
+          name: X
+        - field: Footprint Y
+          name: Y
         - Footprint
         - Sheetpath
       format: "HTML"
