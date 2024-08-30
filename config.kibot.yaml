@@ -63,7 +63,6 @@ outputs:
       # Note that for PS you need `ghostscript` which isn't part of the default docker images
       format: "PDF"
       keep_temporal_files: true
-      sheet_reference_layout: "template/template_brd.kicad_wks"
       pages:
         - scaling: 0
           sheet: "Front Fabrication"
@@ -269,31 +268,6 @@ outputs:
       html:
         datasheet_as_link: "Datasheet"
         lcsc_link: true
-  - name: "Test point table"
-    comment: "All test points in HTML"
-    type: bom
-    dir: BOM
-    options:
-      output: "%f_%i_TP.%x"
-      include_only: 
-        - column: "References"
-          regex: "TP.*"
-      exclude_any:
-          - column: 'x'
-            regex: '-'
-      group_connectors: false
-      columns:
-        - field: Value
-          name: Value
-        - field: References
-          name: Reference
-        - field: Footprint X
-          name: X
-        - field: Footprint Y
-          name: Y
-        - Footprint
-        - Sheetpath
-      format: "HTML"
 
   - name: "Info"
     comment: "Records information about the current run."

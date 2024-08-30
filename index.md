@@ -15,8 +15,6 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 [BOM](/export/AstraControl-bom.html)
 
-[BOM](/export/AstraControl-bom-tp.html)
-
 #### Schematic
 
 [Schematic Dark](/documents/AstraControl-schematic-dark.pdf)
