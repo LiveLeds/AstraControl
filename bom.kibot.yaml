@@ -1,0 +1,27 @@
+# ATTENTION! THIS ISN'T A FULLY FUNCTIONAL EXAMPLE.
+# You should take portions of this example and edit the options to make
+# them suitable for your use.
+# This file is useful to know all the available options.
+kibot:
+  version: 1
+
+outputs:
+  - name: "Mechanical components table"
+    comment: "All mechanical components in a markdown list"
+    type: bom
+    dir: BOM
+    options:
+      output: "%f_%i-TP.%x"
+      include_only: 
+        - column: "Reference"
+          regex: "TP.*"
+      group_fields: ["Reference"]
+      group_connectors: false
+      columns:
+        - field: Value
+          name: Value
+        - field: References
+          name: Reference
+        - Footprint
+        - Sheetpath
+      format: "HTML"

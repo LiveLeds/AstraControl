@@ -1212,7 +1212,7 @@
 		)
 		(uuid "0d777136-9a68-4ef9-824f-6cef9de4345c")
 	)
-	(text "Are the TVS diodes enough or should I add anything\nextra? MOV / TBU?"
+	(text "Are the TVS diodes enough or should I add\nanything extra? MOV / TBU? \nAiming to cover ~90% of cases."
 		(exclude_from_sim no)
 		(at 91.44 60.96 0)
 		(effects
@@ -1224,7 +1224,7 @@
 		)
 		(uuid "a86e1864-f1bd-44a9-889a-3e1a360db821")
 	)
-	(text "Should there be another TVS between A and B?"
+	(text "Should there be another TVS Diode \nbetween D- and D+?"
 		(exclude_from_sim no)
 		(at 147.32 60.96 0)
 		(effects

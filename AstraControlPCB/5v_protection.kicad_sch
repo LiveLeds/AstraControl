@@ -301,7 +301,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:Information_Box_L"
+		(symbol "LiveAstra:Information_Box_XL"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -351,11 +351,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Information_Box_L_1_1"
+			(symbol "Information_Box_XL_1_1"
 				(arc
-					(start -25.3998 -7.6198)
-					(mid -24.6559 -9.4159)
-					(end -22.8598 -10.1598)
+					(start -25.3998 -10.1598)
+					(mid -24.6559 -11.9559)
+					(end -22.8598 -12.6998)
 					(stroke
 						(width 0)
 						(type default)
@@ -366,7 +366,7 @@
 				)
 				(rectangle
 					(start -25.4 5.08)
-					(end 25.4 -7.62)
+					(end 25.4 -10.16)
 					(stroke
 						(width -0.0001)
 						(type default)
@@ -389,7 +389,7 @@
 				)
 				(rectangle
 					(start -22.86 7.62)
-					(end 22.86 -10.16)
+					(end 22.86 -12.7)
 					(stroke
 						(width -0.0001)
 						(type default)
@@ -423,7 +423,7 @@
 				)
 				(polyline
 					(pts
-						(xy -25.4 5.08) (xy -25.4 -7.62)
+						(xy -25.4 5.08) (xy -25.4 -10.16)
 					)
 					(stroke
 						(width 0)
@@ -435,7 +435,7 @@
 				)
 				(polyline
 					(pts
-						(xy -22.86 -10.16) (xy 22.86 -10.16)
+						(xy -22.86 -12.7) (xy 22.86 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -459,7 +459,7 @@
 				)
 				(polyline
 					(pts
-						(xy 25.4 -7.62) (xy 25.4 5.08)
+						(xy 25.4 -10.16) (xy 25.4 5.08)
 					)
 					(stroke
 						(width 0)
@@ -470,9 +470,9 @@
 					)
 				)
 				(arc
-					(start 22.86 -10.16)
-					(mid 24.6561 -9.4161)
-					(end 25.4 -7.62)
+					(start 22.86 -12.7)
+					(mid 24.6561 -11.9561)
+					(end 25.4 -10.16)
 					(stroke
 						(width 0)
 						(type default)
@@ -1850,69 +1850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:Information_Box_L")
-		(at 152.4 53.34 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "49c5a879-a1a0-4bcb-a180-1321d7930a10")
-		(property "Reference" "INF3"
-			(at 149.86 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 179.07 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
-					(reference "INF3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 177.8 124.46 0)
 		(unit 1)
@@ -2527,6 +2464,69 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:Information_Box_XL")
+		(at 152.4 53.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "d03d66bd-f608-4c58-8bf7-3f047c780e4f")
+		(property "Reference" "INF3"
+			(at 149.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
+					(reference "INF3")
 					(unit 1)
 				)
 			)

@@ -190,6 +190,7 @@ jobs:
           mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
           mv output/Report/IBOM/AstraControl-ibom.html export/AstraControl-ibom.html
           mv output/Report/BOM/AstraControl_bom.html export/AstraControl-bom.html
+          mv output/Report/BOM/AstraControl_bom_tp.html export/AstraControl-bom-tp.html
           mv output/Report/Schematic/AstraControl-schematic-default.pdf documents/AstraControl-schematic-default.pdf
           mv output/Report/Schematic/AstraControl-schematic-dark.pdf documents/AstraControl-schematic-dark.pdf
           mv output/Report/Schematic/AstraControl-schematic-mono.pdf documents/AstraControl-schematic-mono.pdf

@@ -122,6 +122,7 @@ outputs:
       color_theme: "Arcana"
       monochrome: false
       output: "%f-%i%I%v-dark.%x"
+      title: "AstraControl - Schematic"
   - name: "pdf_sch_print_default"
     type: "pdf_sch_print"
     dir: "Schematic"
@@ -129,6 +130,7 @@ outputs:
       all_pages: true
       monochrome: false
       output: "%f-%i%I%v-default.%x"
+      title: "AstraControl - Schematic"
   - name: "pdf_sch_print_mono"
     type: "pdf_sch_print"
     dir: "Schematic"
@@ -136,6 +138,7 @@ outputs:
       all_pages: true
       monochrome: true
       output: "%f-%i%I%v-mono.%x"
+      title: "AstraControl - Schematic"
 
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
@@ -253,7 +256,7 @@ outputs:
         hide_stats_info: true
         quote_all: true
   - name: "Markdown components table"
-    comment: "All components in a markdown list"
+    comment: "All LCSC components in HTML"
     type: bom
     dir: BOM
     options:
@@ -277,6 +280,25 @@ outputs:
       html:
         datasheet_as_link: "Datasheet"
         lcsc_link: true
+  - name: "Test point table"
+    comment: "All test points in HTML"
+    type: bom
+    dir: BOM
+    options:
+      output: "%f_%i_TP.%x"
+      include_only: 
+        - column: "Reference"
+          regex: "TP.*"
+      group_fields: "Reference"
+      group_connectors: false
+      columns:
+        - field: Value
+          name: Value
+        - field: References
+          name: Reference
+        - Footprint
+        - Sheetpath
+      format: "HTML"
 
   - name: "Info"
     comment: "Records information about the current run."
