@@ -80,9 +80,9 @@
 	)
 	(tbtext "${#}"
 		(name "")
-		(pos 18.1002 6.0002)
+		(pos 18.1 6)
 		(font
-			(face "ING Me Headline")
+			(face "ING Me")
 			(size 2.5 2.5) bold)
 		(comment "Sheet id")
 	)
@@ -96,17 +96,17 @@
 	)
 	(tbtext "${##}"
 		(name "")
-		(pos 8.0002 6.0002)
+		(pos 8 6)
 		(font
-			(face "ING Me Headline")
+			(face "ING Me")
 			(size 2.5 2.5) bold)
 		(comment "sheet number total")
 	)
 	(tbtext "${PAPER}"
 		(name "")
-		(pos 28.989 6.0022)
+		(pos 28.989 6.002)
 		(font
-			(face "ING Me Headline")
+			(face "ING Me")
 			(size 2.5 2.5) bold)
 		(comment "paper size")
 	)
@@ -290,17 +290,17 @@
 	)
 	(tbtext "${BOARD_NAME}"
 		(name "")
-		(pos 273.9892 6.0022)
+		(pos 273.989 6.002)
 		(font
-			(face "ING Me Headline")
+			(face "ING Me")
 			(size 2.5 2.5) bold)
 		(comment "board name")
 	)
 	(tbtext "${REVISION}"
 		(name "")
-		(pos 39.0022 6.0072)
+		(pos 39.002 6.007)
 		(font
-			(face "ING Me Headline")
+			(face "ING Me")
 			(size 2.5 2.5) bold)
 		(comment "rev")
 	)
