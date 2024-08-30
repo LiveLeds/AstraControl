@@ -1319,7 +1319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "814144f5-89a6-4a1c-b1db-062dc3b5df8c")
-		(property "Reference" "CRT2"
+		(property "Reference" "CRT1"
 			(at 158.75 147.32 0)
 			(effects
 				(font
@@ -1365,7 +1365,7 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/120c81b5-e37e-42ba-9ea8-918058b1f430"
-					(reference "CRT2")
+					(reference "CRT1")
 					(unit 1)
 				)
 			)

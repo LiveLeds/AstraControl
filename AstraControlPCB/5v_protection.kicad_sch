@@ -483,7 +483,7 @@
 					)
 				)
 				(text "i"
-					(at -21.5593 3.5855 0)
+					(at -21.6168 3.6523 0)
 					(effects
 						(font
 							(face "ING Me Headline")
@@ -499,16 +499,6 @@
 							(face "ING Me Headline")
 							(size 2.032 2.032)
 							(color 41 182 246 1)
-						)
-						(justify left)
-					)
-				)
-				(text "Overvoltage: 5.67V\nUndervoltage: 3V\nMax current: 600mA - 780mA\nMax V_{IN}: 21V"
-					(at -22.86 -3.81 0)
-					(effects
-						(font
-							(face "ING Me")
-							(size 1.524 1.524)
 						)
 						(justify left)
 					)
@@ -1513,6 +1503,18 @@
 		)
 		(uuid "d9abe1db-7359-4ca8-ab06-925e29eb4b0b")
 	)
+	(text "Overvoltage: 5.67V\nUndervoltage: 3V\nMax current: 600mA - 780mA\nMax V_{IN}: 21V"
+		(exclude_from_sim no)
+		(at 129.6926 54.9845 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "2b87cdd0-fdbf-4932-889f-6b4fed37ea3b")
+	)
 	(text "5V Protection"
 		(exclude_from_sim no)
 		(at 19.05 25.4 0)
@@ -1846,7 +1848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d540e5c-18e9-45b7-a866-ec6f83c7262c")
-		(property "Reference" "TP7"
+		(property "Reference" "TP6"
 			(at 180.34 118.6476 0)
 			(effects
 				(font
@@ -1916,7 +1918,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
-					(reference "TP7")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2528,7 +2530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d95d3ac3-814f-4425-94e3-8ed9faa3b5dc")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 116.84 75.4676 0)
 			(effects
 				(font
@@ -2598,7 +2600,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)

@@ -3369,7 +3369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52225a4e-4055-4340-9c33-cb3a8ab7d39a")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 170.18 151.6676 0)
 			(effects
 				(font
@@ -3439,7 +3439,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)

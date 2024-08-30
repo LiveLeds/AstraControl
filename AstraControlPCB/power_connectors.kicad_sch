@@ -1842,7 +1842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70aa7376-ce89-4e25-9c64-97eafec11410")
-		(property "Reference" "TP11"
+		(property "Reference" "TP10"
 			(at 205.74 95.7876 0)
 			(effects
 				(font
@@ -1912,7 +1912,7 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "TP11")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -2673,7 +2673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdbec830-2415-4a1c-94a0-b02106e20c2e")
-		(property "Reference" "TP12"
+		(property "Reference" "TP11"
 			(at 231.14 95.7876 0)
 			(effects
 				(font
@@ -2743,7 +2743,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "TP12")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
