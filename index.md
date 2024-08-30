@@ -25,6 +25,11 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 [Schematic Monochromatic](/documents/AstraControl-schematic-mono.pdf)
 
+
+#### Assembly
+
+[Schematic Dark](/documents/AstraControl-assembly.pdf)
+
 Jekyll requires blog post files to be named according to the following format:
 
 `YEAR-MONTH-DAY-title.MARKUP`
