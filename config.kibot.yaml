@@ -35,9 +35,9 @@ outputs:
       # [boolean=false] Add a background to the pages, see `background_color`
       add_background: true
       # [number=0] Default horizontal margin used for the autoscaling mode [mm]
-      autoscale_margin_x: 20
+      autoscale_margin_x: 0
       # [number=0] Default vertical margin used for the autoscaling mode [mm]
-      autoscale_margin_y: 20
+      autoscale_margin_y: 0
       # [string='#FFFFFF'] Color for the background when `add_background` is enabled
       background_color: "#000000"
       # [string=''] Color used for blind/buried `colored_vias`
@@ -66,7 +66,7 @@ outputs:
       keep_temporal_files: true
       invert_use_for_center: true
       pages:
-        - scaling: 0
+        - scaling: 1.0
           sheet: "Front Fabrication"
           title: "Front Fabrication"
           layers:
@@ -80,7 +80,7 @@ outputs:
             - layer: Board.Data
               plot_footprint_refs: false
               plot_footprint_values: false
-        - scaling: 0
+        - scaling: 1.0
           sheet: "Front Fabrication"
           title: "Back Fabrication"
           layers:
