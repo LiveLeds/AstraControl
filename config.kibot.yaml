@@ -33,11 +33,11 @@ outputs:
     dir: "PCBPrint"
     options:
       # [boolean=false] Add a background to the pages, see `background_color`
-      add_background: false
+      add_background: true
       # [number=0] Default horizontal margin used for the autoscaling mode [mm]
-      autoscale_margin_x: 5
+      autoscale_margin_x: 20
       # [number=0] Default vertical margin used for the autoscaling mode [mm]
-      autoscale_margin_y: 5
+      autoscale_margin_y: 20
       # [string='#FFFFFF'] Color for the background when `add_background` is enabled
       background_color: "#000000"
       # [string=''] Color used for blind/buried `colored_vias`
@@ -64,15 +64,20 @@ outputs:
       format: "PDF"
       frame_plot_mechanism: "gui"
       keep_temporal_files: true
+      invert_use_for_center: true
       pages:
         - scaling: 0
           sheet: "Front Fabrication"
           title: "Front Fabrication"
           layers:
             - layer: Edge.Cuts
+              plot_footprint_refs: false
+              plot_footprint_values: false
+              use_for_center: false
             - layer: F.Fab
+              plot_footprint_refs: false
+              plot_footprint_values: false
             - layer: Board.Data
-            - layer: User.1
               plot_footprint_refs: false
               plot_footprint_values: false
         - scaling: 0
@@ -80,6 +85,7 @@ outputs:
           title: "Back Fabrication"
           layers:
             - layer: Edge.Cuts
+              use_for_center: false
             - layer: B.Cu
             - layer: B.SilkS
             - layer: Dwgs.User
