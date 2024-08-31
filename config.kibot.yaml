@@ -62,6 +62,7 @@ outputs:
       # [string='PDF'] [PDF,SVG,PNG,EPS,PS] Format for the output file/s.
       # Note that for PS you need `ghostscript` which isn't part of the default docker images
       format: "PDF"
+      frame_plot_mechanism: "gui"
       keep_temporal_files: true
       pages:
         - scaling: 0
