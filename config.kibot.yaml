@@ -62,11 +62,11 @@ outputs:
       # [string='PDF'] [PDF,SVG,PNG,EPS,PS] Format for the output file/s.
       # Note that for PS you need `ghostscript` which isn't part of the default docker images
       format: "PDF"
-      frame_plot_mechanism: "gui"
+      frame_plot_mechanism: "plot"
       keep_temporal_files: true
       invert_use_for_center: true
       pages:
-        - scaling: 1.0
+        - scaling: 1.4
           sheet: "Front Fabrication"
           title: "Front Fabrication"
           layers:
@@ -80,7 +80,7 @@ outputs:
             - layer: Board.Data
               plot_footprint_refs: false
               plot_footprint_values: false
-        - scaling: 1.0
+        - scaling: 1.4
           sheet: "Front Fabrication"
           title: "Back Fabrication"
           layers:
