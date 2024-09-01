@@ -113,6 +113,42 @@ jobs:
         with:
           name: Report
           path: output
+  PCBPrint:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "0"
+      - name: Move template to root
+        run: |
+          ls -l
+          mkdir template
+          cp AstraControlPCB/template/* template/
+          ls -l template
+      - name: Run Kibot for Dark PCBPrint
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: pcb_print_dark.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Run Kibot for Light PCBPrint
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: pcb_print_light.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: PCBPrint
+          path: output
   Render_3D_Top:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest

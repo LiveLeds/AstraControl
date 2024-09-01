@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "USBLC6-4SC6_PROTECTION"
-		(at 0 3.6 0)
+		(at 0 5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "be4f5115-5d39-4845-b3a7-ce4c61bdad47")
@@ -119,6 +119,17 @@
 		(layer "F.CrtYd")
 		(uuid "c4b6c964-b5ed-4892-8387-69b0e2456af3")
 	)
+	(fp_rect
+		(start -1.405 -1.45)
+		(end 1.405 1.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2be054b0-af50-4b1c-933c-6b0645cfdd5e")
+	)
 	(fp_circle
 		(center -1 0.2)
 		(end -0.8 0.2)
@@ -151,7 +162,7 @@
 		(uuid "66f4e2b6-6e5b-4f68-bc38-293a6d188deb")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.1 5.8 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "9c596836-9e1e-459f-b14d-3eccf965c5ef")

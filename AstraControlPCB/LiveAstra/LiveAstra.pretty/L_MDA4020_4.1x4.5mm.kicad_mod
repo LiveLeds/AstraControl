@@ -167,8 +167,19 @@
 		(layer "F.CrtYd")
 		(uuid "517d51bf-b8db-4f4d-a580-825fae4e1494")
 	)
+	(fp_rect
+		(start -2.225 -2.025)
+		(end 2.225 2.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8a121b43-d4ad-4600-be80-22ec3f75c8f5")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 6.1 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "69fa5433-97ef-4eea-95d1-035b877cacd2")

@@ -78,33 +78,9 @@
 		(repeat 100)
 		(incry 50)
 	)
-	(tbtext "${#}"
-		(name "")
-		(pos 18.1 6)
-		(font
-			(face "ING Me")
-			(size 2.5 2.5) bold)
-		(comment "Sheet id")
-	)
-	(tbtext "of"
-		(name "")
-		(pos 11.9892 5.5022)
-		(font
-			(face "ING Me")
-		)
-		(comment "Sheet id")
-	)
-	(tbtext "${##}"
-		(name "")
-		(pos 8 6)
-		(font
-			(face "ING Me")
-			(size 2.5 2.5) bold)
-		(comment "sheet number total")
-	)
 	(tbtext "${PAPER}"
 		(name "")
-		(pos 28.989 6.002)
+		(pos 18.9892 6.0022)
 		(font
 			(face "ING Me")
 			(size 2.5 2.5) bold)
@@ -151,14 +127,6 @@
 		)
 		(comment "title")
 	)
-	(tbtext "${SHEETPATH}"
-		(name "")
-		(pos 125.9892 5.5022)
-		(font
-			(face "ING Me")
-		)
-		(comment "Sheet path")
-	)
 	(line
 		(name "")
 		(start 242.9892 2.0022)
@@ -202,19 +170,6 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "Sheet Path"
-		(name "")
-		(pos 125.9892 13.0022)
-		(font
-			(face "ING Me Headline")
-		)
-		(comment "Sheet id")
-	)
-	(line
-		(name "")
-		(start 126.9892 2.0022)
-		(end 126.9892 15.0022)
-	)
 	(line
 		(name "")
 		(start 89.989 2.0022)
@@ -256,35 +211,22 @@
 	)
 	(tbtext "Size"
 		(name "")
-		(pos 28.989 13.0022)
+		(pos 18.9892 13.0022)
 		(font
 			(face "ING Me Headline")
 		)
 		(comment "Sheet id")
-	)
-	(line
-		(name "")
-		(start 29.989 2.0022)
-		(end 29.989 15.0022)
 	)
 	(line
 		(name "")
 		(start 19.989 2.0022)
 		(end 19.989 15.0022)
 	)
-	(tbtext "Sheet"
-		(name "")
-		(pos 18.989 13.002)
-		(font
-			(face "ING Me Headline")
-		)
-		(comment "Sheet id")
-	)
 	(tbtext "${PROJECT_NAME}"
 		(name "")
-		(pos 241.9892 6.0022)
+		(pos 241.989 6.002)
 		(font
-			(face "ING Me")
+			(face "ING Me Headline")
 			(size 2.5 2.5) bold)
 		(comment "project name")
 	)

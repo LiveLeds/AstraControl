@@ -139,6 +139,17 @@
 		(layer "F.CrtYd")
 		(uuid "a8dbc129-4d38-40b3-91ee-b6469d883d23")
 	)
+	(fp_rect
+		(start -1.4 -1.5)
+		(end 1.4 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "78dbc664-2787-4599-92d9-b55b6134c75a")
+	)
 	(fp_circle
 		(center 1 -0.4)
 		(end 1.1 -0.4)
@@ -151,7 +162,7 @@
 		(uuid "6397b056-4946-4cd9-bbe6-7a03398cd227")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3.75 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ef5f41e2-6810-4ba8-9ec4-0304b862d3c3")
