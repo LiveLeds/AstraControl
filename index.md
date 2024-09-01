@@ -4,45 +4,81 @@ layout: home
 
 {% assign cacheBust = site.time | date:'?v=%s' %}
 
-#### Table of contents
-[Render Top Angled](#Render Top Angled)
-[Render Top](#Render Top)
-[Render Bottom](#Render Bottom)
-[Interactive BOM](#Interactive BOM)
-[PCB properties](#pcb)
+## Table of contents
 
-##### Render Top Angled
+- [Table of contents](#table-of-contents)
+  - [Render Top Angled](#render-top-angled)
+  - [Render Top](#render-top)
+  - [Render Bottom](#render-bottom)
+  - [Interactive BOM](#interactive-bom)
+  - [BOM](#bom)
+  - [Schematic](#schematic)
+    - [Dark](#dark)
+    - [Monochromatic](#monochromatic)
+    - [Light](#light)
+  - [Assembly](#assembly)
+    - [Dark](#dark-1)
+    - [Light](#light-1)
+  - [Downloads](#downloads)
+- [Report](#report)
+    - [ERC](#erc)
+    - [DRC](#drc)
+
+### Render Top Angled
+
 ![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }})
 
-##### Render Top
+### Render Top
+
 ![Image]({{ "/images/AstraControl-3D_blender_top.png" | relative_url | append: cacheBust }})
 
-##### Render Bottom
+### Render Bottom
+
 ![Image]({{ "/images/AstraControl-3D_blender_bottom.png" | relative_url | append: cacheBust }})
 
-##### Interactive BOM
-Easily check component locations by hovering.
-[IBOM]({{ "/export/AstraControl-ibom.html" | relative_url | append: cacheBust }})
+### Interactive BOM
 
-##### BOM
+Easily check component locations by hovering over a specific component.
+
+[IBOM HTML]({{ "/export/AstraControl-ibom.html" | relative_url | append: cacheBust }})
+
+### BOM
+
 All components with Values, References, Sheetpath and Links to the datasheet.
-[BOM]({{ "/export/AstraControl-bom.html" | relative_url | append: cacheBust }})
 
-#### Schematic
-##### Dark
-[Schematic Dark]({{ "/documents/AstraControl-schematic-dark.pdf" | relative_url | append: cacheBust }})
+[BOM HTML]({{ "/export/AstraControl-bom.html" | relative_url | append: cacheBust }})
 
-##### Monochromatic
-[Schematic Mono]({{ "/documents/AstraControl-schematic-mono.pdf" | relative_url | append: cacheBust }})
+### Schematic
 
-##### Light
-[Schematic Light]({{ "/documents/AstraControl-schematic-default.pdf" | relative_url | append: cacheBust }})
+#### Dark
 
+- [Schematic Dark PDF]({{ "/documents/AstraControl-schematic-dark.pdf" | relative_url | append: cacheBust }})
 
-#### PCB
-[PCB Dark]({{ "/documents/AstraControl-pcb-dark.pdf" | relative_url | append: cacheBust }})
+#### Monochromatic
 
-[PCB Light]({{ "/documents/AstraControl-pcb-light.pdf" | relative_url | append: cacheBust }})
+- [Schematic Monochromatic PDF]({{ "/documents/AstraControl-schematic-mono.pdf" | relative_url | append: cacheBust }})
+
+#### Light
+
+- [Schematic Light PDF]({{ "/documents/AstraControl-schematic-default.pdf" | relative_url | append: cacheBust }})
+
+### Assembly
+
+#### Dark
+
+- [PCB Dark PDF]({{ "/documents/AstraControl-pcb-dark.pdf" | relative_url | append: cacheBust }})
+
+#### Light
+
+- [PCB Light PDF]({{ "/documents/AstraControl-pcb-light.pdf" | relative_url | append: cacheBust }})
+
+### Downloads
+
+- [JLCPCB Zip]({{ "export/AstraControl-JLCPCB.zip" | relative_url | append: cacheBust }})
+- [JLCPCB BOM CSV]({{ "export/AstraControl_bom_jlc.csv" | relative_url | append: cacheBust }})
+- [JLCPCB CPL CSV]({{ "export/AstraControl_cpl_jlc.csv" | relative_url | append: cacheBust }})
+
+## Report
 
 #### ERC
 
@@ -51,7 +87,5 @@ All components with Values, References, Sheetpath and Links to the datasheet.
 #### DRC
 
 {% include_relative drc_validation.md %}
-
-#### Report
 
 {% include_relative AstraControl-report.md %}
