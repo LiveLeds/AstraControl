@@ -230,7 +230,8 @@ jobs:
           mv output/Report/Schematic/AstraControl-schematic-default.pdf documents/AstraControl-schematic-default.pdf
           mv output/Report/Schematic/AstraControl-schematic-dark.pdf documents/AstraControl-schematic-dark.pdf
           mv output/Report/Schematic/AstraControl-schematic-mono.pdf documents/AstraControl-schematic-mono.pdf
-          mv output/Report/PCBPrint/AstraControl-assembly.pdf documents/AstraControl-assembly.pdf
+          mv output/PCBPrint/PCBPrintDark/AstraControl-united-Dark.pdf documents/AstraControl-pcb-dark.pdf
+          mv output/PCBPrint/PCBPrintLight/AstraControl-united-Light.pdf documents/AstraControl-pcb-light.pdf
           mv output/Report/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-JLCPCB.zip
           mv output/Report/JLCPCB/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_jlc.csv
           mv output/Report/JLCPCB/PickAndPlace/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv
