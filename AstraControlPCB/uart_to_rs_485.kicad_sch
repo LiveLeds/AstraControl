@@ -168,11 +168,11 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:C_47u_X5R_0805"
+		(symbol "LiveAstra:C_DNP_0805"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "C"
 				(at 0 8.89 0)
@@ -182,7 +182,7 @@
 					)
 				)
 			)
-			(property "Value" "47u"
+			(property "Value" "DNP"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -200,7 +200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
+			(property "Datasheet" ""
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -218,7 +218,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C16780"
+			(property "LCSC Part" ""
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -227,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "6.3V X5R 20% 0805"
+			(property "Extra Values" "0805"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -236,7 +236,7 @@
 					)
 				)
 			)
-			(symbol "C_47u_X5R_0805_0_1"
+			(symbol "C_DNP_0805_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.51 0)
@@ -286,7 +286,7 @@
 					)
 				)
 			)
-			(symbol "C_47u_X5R_0805_1_1"
+			(symbol "C_DNP_0805_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3205,6 +3205,96 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:C_DNP_0805")
+		(at 63.5 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "609bd798-9573-4731-9e8b-bdb300b5da5f")
+		(property "Reference" "C17"
+			(at 67.31 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DNP"
+			(at 67.31 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitor"
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "0805"
+			(at 67.31 60.9599 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "d989aae8-4077-49f5-ac10-23b3f6a7973c")
+		)
+		(pin "2"
+			(uuid "b1f9d588-6d2f-42b1-8165-e4d73fa1f3f7")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:R_10kOhm_0402_62mW")
 		(at 182.88 124.46 90)
 		(unit 1)
@@ -3875,96 +3965,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
 					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:C_47u_X5R_0805")
-		(at 63.5 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "bbbf95ee-0d9e-4932-95f1-4c1a5cd2e7ff")
-		(property "Reference" "C17"
-			(at 67.31 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47u"
-			(at 67.31 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
-			(at 76.2 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitor"
-			(at 68.58 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C16780"
-			(at 80.01 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "6.3V X5R 20% 0805"
-			(at 67.31 60.9599 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "aefeb86b-7aa2-480e-9397-f8be103688b8")
-		)
-		(pin "2"
-			(uuid "ac6a46e7-5871-44b1-b262-e2d4a4b89195")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "C17")
 					(unit 1)
 				)
 			)
