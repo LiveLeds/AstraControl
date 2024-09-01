@@ -5,56 +5,44 @@ layout: home
 {% assign cacheBust = site.time | date:'?v=%s' %}
 
 #### Table of contents
+[Render Top Angled](#Render Top Angled)
+[Render Top](#Render Top)
+[Render Bottom](#Render Bottom)
+[Interactive BOM](#Interactive BOM)
 [PCB properties](#pcb)
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
+##### Render Top Angled
 ![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }})
 
+##### Render Top
+![Image]({{ "/images/AstraControl-3D_blender_top.png" | relative_url | append: cacheBust }})
 
-![Image](/images/AstraControl-3D_blender_top.png)
-![Image](/images/AstraControl-3D_blender_bottom.png)
+##### Render Bottom
+![Image]({{ "/images/AstraControl-3D_blender_bottom.png" | relative_url | append: cacheBust }})
 
-[IBOM](/export/AstraControl-ibom.html)
+##### Interactive BOM
+Easily check component locations by hovering.
+[IBOM]({{ "/export/AstraControl-ibom.html" | relative_url | append: cacheBust }})
 
-[BOM](/export/AstraControl-bom.html)
+##### BOM
+All components with Values, References, Sheetpath and Links to the datasheet.
+[BOM]({{ "/export/AstraControl-bom.html" | relative_url | append: cacheBust }})
 
 #### Schematic
+##### Dark
+[Schematic Dark]({{ "/documents/AstraControl-schematic-dark.pdf" | relative_url | append: cacheBust }})
 
-[Schematic Dark](/documents/AstraControl-schematic-dark.pdf)
+##### Monochromatic
+[Schematic Mono]({{ "/documents/AstraControl-schematic-mono.pdf" | relative_url | append: cacheBust }})
 
-[Schematic Light](/documents/AstraControl-schematic-default.pdf)
+##### Light
+[Schematic Light]({{ "/documents/AstraControl-schematic-default.pdf" | relative_url | append: cacheBust }})
 
-[Schematic Monochromatic](/documents/AstraControl-schematic-mono.pdf)
 
+#### PCB
+[PCB Dark]({{ "/documents/AstraControl-pcb-dark.pdf" | relative_url | append: cacheBust }})
 
-#### Assembly
-
-[Assembly Light](/documents/AstraControl-pcb-light.pdf)
-
-[Assembly Dark](/documents/AstraControl-pcb-dark.pdf)
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[PCB Light]({{ "/documents/AstraControl-pcb-light.pdf" | relative_url | append: cacheBust }})
 
 #### ERC
 
