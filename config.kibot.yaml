@@ -139,7 +139,9 @@ outputs:
     options:
       dark_mode: true
       name_format: "index"
-      extra_fields: "Datasheet"
+      include_tracks: true
+      checkboxes: false
+      show_fields: "Value,Footprint,X,Y,Datasheet"
 
   - name: "JLCPCB_position"
     comment: "Pick and place file, JLCPCB style"
