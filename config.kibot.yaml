@@ -141,7 +141,9 @@ outputs:
       dark_mode: true
       name_format: "index"
       include_tracks: true
-      checkboxes: ""
+      extra_fields: "datasheet,LCSC"
+      checkboxes: "_none"
+      group_fields: "Reference"
       show_fields: "Value,Footprint,X,Y,Datasheet"
 
   - name: "JLCPCB_position"
