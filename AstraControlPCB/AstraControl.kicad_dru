@@ -11,3 +11,8 @@
 	(severity warning)
 	(constraint assertion "A.Line_Width >= 0.16mm")
 	(condition "A.Layer == '?.Silkscreen' && A.Type != 'text' && A.Value != 'G***"))
+
+(rule "Pad to Silkscreen"
+	(constraint silk_clearance (min 0.15mm))
+	(layer outer)
+	(condition "A.Type == 'pad' && (B.Type == 'text')"))
