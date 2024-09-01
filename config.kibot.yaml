@@ -27,68 +27,6 @@ variants:
     pre_transform: _rot_footprint_jlcpcb
 
 outputs:
-  - name: "pcb_print_example"
-    comment: "Prints the PCB using a mechanism that is more flexible than `pdf_pcb_print` and `svg_pcb_print`."
-    type: "pcb_print"
-    dir: "PCBPrint"
-    options:
-      # [boolean=false] Add a background to the pages, see `background_color`
-      add_background: true
-      # [number=0] Default horizontal margin used for the autoscaling mode [mm]
-      autoscale_margin_x: 0
-      # [number=0] Default vertical margin used for the autoscaling mode [mm]
-      autoscale_margin_y: 0
-      # [string='#FFFFFF'] Color for the background when `add_background` is enabled
-      background_color: "#000000"
-      # [string=''] Color used for blind/buried `colored_vias`
-      blind_via_color: ""
-      color_theme: "_builtin_default"
-      # [boolean=true] Plot through-hole in a different color. Like KiCad GUI does
-      colored_pads: true
-      # [boolean=true] Plot vias in a different color. Like KiCad GUI does
-      colored_vias: true
-      # [number=360] [36,1200] Resolution (Dots Per Inch) for the output file. Most objects are vectors, but thing
-      # like the the solder mask are handled as images by the conversion tools
-      dpi: 800
-      # [string='full'] [none,small,full] What to use to indicate the drill places, can be none, small or full (for real scale)
-      drill_marks: "full"
-      # [boolean=false] Add the `Edge.Cuts` to all the pages
-      force_edge_cuts: false
-      # [string=''] Color used for the `force_edge_cuts` option
-      forced_edge_cuts_color: ""
-      # [boolean=true] Used when enabling the `force_edge_cuts`, in this case this is the `use_for_center` option of the forced
-      # layer
-      forced_edge_cuts_use_for_center: true
-      # [string='PDF'] [PDF,SVG,PNG,EPS,PS] Format for the output file/s.
-      # Note that for PS you need `ghostscript` which isn't part of the default docker images
-      format: "PDF"
-      frame_plot_mechanism: "plot"
-      keep_temporal_files: true
-      invert_use_for_center: true
-      pages:
-        - scaling: 1.4
-          sheet: "Front Fabrication"
-          title: "Front Fabrication"
-          layers:
-            - layer: Edge.Cuts
-              plot_footprint_refs: false
-              plot_footprint_values: false
-              use_for_center: false
-            - layer: F.Fab
-              plot_footprint_refs: false
-              plot_footprint_values: false
-            - layer: Board.Data
-              plot_footprint_refs: false
-              plot_footprint_values: false
-        - scaling: 1.4
-          sheet: "Front Fabrication"
-          title: "Back Fabrication"
-          layers:
-            - layer: Edge.Cuts
-              use_for_center: false
-            - layer: B.Cu
-            - layer: B.SilkS
-            - layer: Dwgs.User
   # - name: "Step"
   #   comment: "Exports the PCB as a 3D model."
   #   type: "step"
