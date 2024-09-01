@@ -10,4 +10,4 @@
 (rule "Minimum silkscreen line width"
 	(severity warning)
 	(constraint assertion "A.Line_Width >= 0.16mm")
-	(condition "A.Layer == '?.Silkscreen' && A.Type != 'text'"))
+	(condition "A.Layer == '?.Silkscreen' && A.Type != 'text' && A.Value != 'G***"))
