@@ -26,8 +26,9 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 #### Assembly
 
-[Assembly Dark](/documents/AstraControl-pcb-light.pdf)
-[Assembly Light](/documents/AstraControl-pcb-dark.pdf)
+[Assembly Light](/documents/AstraControl-pcb-light.pdf)
+
+[Assembly Dark](/documents/AstraControl-pcb-dark.pdf)
 
 Jekyll requires blog post files to be named according to the following format:
 
