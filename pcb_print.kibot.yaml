@@ -99,6 +99,7 @@ outputs:
               color: "@DIM_COLOR@"
             - layer: Edge.Cuts
             - layer: B.SilkS
+              color: "@FOREGROUND_COLOR@"
             - layer: Board.Title
               color: "@FOREGROUND_COLOR@"
             - layer: Board.Center

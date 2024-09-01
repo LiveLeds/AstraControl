@@ -54,6 +54,7 @@ outputs:
       background_color: true
       color_theme: "Arcana"
       monochrome: false
+      dnf_filter: ""
       output: "%f-%i%I%v-dark.%x"
       title: "AstraControl - Schematic"
   - name: "pdf_sch_print_default"
@@ -140,7 +141,7 @@ outputs:
       dark_mode: true
       name_format: "index"
       include_tracks: true
-      checkboxes: false
+      checkboxes: ""
       show_fields: "Value,Footprint,X,Y,Datasheet"
 
   - name: "JLCPCB_position"
