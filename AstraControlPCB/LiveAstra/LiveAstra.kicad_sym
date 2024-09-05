@@ -242,13 +242,13 @@
 			)
 		)
 	)
-	(symbol "AstraControl_Ground_Guard"
+	(symbol "AstraControl_Ground_Ring"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "G"
+		(property "Reference" "RING"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -264,7 +264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:AstraControl_Ground_Band"
+		(property "Footprint" "LiveAstra:AstraControl_Ground_Ring"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -291,7 +291,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AstraControl_Ground_Guard_0_1"
+		(symbol "AstraControl_Ground_Ring_0_1"
 			(rectangle
 				(start -10.16 5.08)
 				(end 10.16 -5.08)
@@ -315,7 +315,7 @@
 				)
 			)
 		)
-		(symbol "AstraControl_Ground_Guard_1_1"
+		(symbol "AstraControl_Ground_Ring_1_1"
 			(circle
 				(center -9.398 -4.318)
 				(radius 0.508)

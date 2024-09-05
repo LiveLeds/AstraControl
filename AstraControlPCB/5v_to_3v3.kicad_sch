@@ -2000,12 +2000,6 @@
 		(uuid "17454cad-d995-4819-b522-daa35845f623")
 	)
 	(junction
-		(at 27.94 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ea6d4f3-26e6-444f-992e-41d8223af3e4")
-	)
-	(junction
 		(at 187.96 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2030,10 +2024,22 @@
 		(uuid "5ec7e3b4-ed67-485a-8c80-ddd3758292de")
 	)
 	(junction
+		(at 27.94 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7707c2cf-4e21-4b6a-8a28-7ab1d97decce")
+	)
+	(junction
 		(at 269.24 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a450a7a-2c53-4cd6-b488-86d5bd2b82e0")
+	)
+	(junction
+		(at 40.64 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97510896-0c1d-452a-8d56-e4424c341065")
 	)
 	(junction
 		(at 204.47 101.6)
@@ -2052,12 +2058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0841bf5-e9f8-482c-8eea-22b05a0c9057")
-	)
-	(junction
-		(at 35.56 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2417703-6c05-4493-b626-66967333c1b3")
 	)
 	(junction
 		(at 232.41 101.6)
@@ -2089,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 101.6) (xy 35.56 116.84)
+			(xy 27.94 101.6) (xy 27.94 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 101.6) (xy 35.56 101.6)
+			(xy 25.4 101.6) (xy 27.94 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2189,6 +2189,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 101.6) (xy 40.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4767f567-0bd4-4e20-b381-d6872ad6766e")
+	)
+	(wire
+		(pts
 			(xy 204.47 104.14) (xy 204.47 101.6)
 		)
 		(stroke
@@ -2239,26 +2249,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 101.6) (xy 27.94 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b585786-7d67-4508-bf7c-9addc7116590")
-	)
-	(wire
-		(pts
-			(xy 25.4 101.6) (xy 27.94 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ced8e8f-4cba-4828-b87e-cd023bf83be6")
-	)
-	(wire
-		(pts
 			(xy 251.46 124.46) (xy 251.46 101.6)
 		)
 		(stroke
@@ -2279,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 130.81) (xy 27.94 129.54)
+			(xy 40.64 113.03) (xy 40.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2349,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 116.84) (xy 58.42 116.84)
+			(xy 45.72 132.08) (xy 55.88 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2449,13 +2439,43 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 116.84) (xy 43.18 116.84)
+			(xy 40.64 101.6) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1eb4d78-80b0-4d75-9641-3fa09ef3ff61")
+	)
+	(wire
+		(pts
+			(xy 27.94 132.08) (xy 35.56 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c4bde581-5de6-4b4d-83f8-65916b98aca0")
+	)
+	(wire
+		(pts
+			(xy 55.88 116.84) (xy 58.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8077963-e2e0-40de-924b-b78f157b668c")
+	)
+	(wire
+		(pts
+			(xy 55.88 132.08) (xy 55.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caae17d7-9231-46c1-bb2f-2f71e0a2a944")
 	)
 	(wire
 		(pts
@@ -2476,16 +2496,6 @@
 			(type default)
 		)
 		(uuid "dfe71d7f-bb71-458c-9dca-67db8ed18357")
-	)
-	(wire
-		(pts
-			(xy 35.56 101.6) (xy 48.26 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e329179d-85a5-435a-90b1-7e57d99bb981")
 	)
 	(wire
 		(pts
@@ -2585,7 +2595,7 @@
 		(uuid "a508fa42-2067-40ab-bc12-c1819aa55329")
 	)
 	(label "EN"
-		(at 53.34 116.84 0)
+		(at 55.88 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2796,7 +2806,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
-		(at 48.26 116.84 180)
+		(at 40.64 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2805,7 +2815,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fda02cd-1882-4102-b63b-71aa87b37a13")
 		(property "Reference" "R9"
-			(at 48.26 107.95 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2823,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 48.26 110.49 0)
+			(at 40.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2832,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 48.26 107.95 0)
+			(at 40.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2841,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1MR-1004-1_C17514.html"
-			(at 48.26 104.14 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2850,7 @@
 			)
 		)
 		(property "Description" "Chip Resistor - Surface Mount ROHS"
-			(at 48.26 111.76 0)
+			(at 40.64 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +2859,7 @@
 			)
 		)
 		(property "LCSC Part" "C17514"
-			(at 48.26 100.33 0)
+			(at 40.64 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +2868,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805 125mW"
-			(at 48.26 113.03 0)
+			(at 40.64 128.27 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3659,7 +3669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 130.81 0)
+		(at 40.64 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3668,7 +3678,7 @@
 		(fields_autoplaced yes)
 		(uuid "587eacb3-4baf-454a-89a2-bab831b84ab1")
 		(property "Reference" "#PWR021"
-			(at 27.94 137.16 0)
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 135.89 0)
+			(at 40.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 130.81 0)
+			(at 40.64 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 130.81 0)
+			(at 40.64 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 130.81 0)
+			(at 40.64 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +4228,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:C_4u7_X5R_0603")
-		(at 27.94 124.46 90)
+		(at 40.64 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4227,7 +4237,7 @@
 		(fields_autoplaced yes)
 		(uuid "a96b7fc0-33bf-4298-8c0f-8889319dc373")
 		(property "Reference" "C9"
-			(at 31.75 121.9199 90)
+			(at 44.45 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4246,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 31.75 124.46 90)
+			(at 44.45 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4256,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:C_0603_1608Metric"
-			(at 36.83 124.46 0)
+			(at 49.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4265,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html"
-			(at 40.64 124.46 0)
+			(at 53.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4274,7 @@
 			)
 		)
 		(property "Description" "Surface mount ceramic multilayer capacitor"
-			(at 33.02 124.46 0)
+			(at 45.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4283,7 @@
 			)
 		)
 		(property "LCSC Part" "C19666"
-			(at 43.18 124.46 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4292,7 @@
 			)
 		)
 		(property "Extra Values" "16V X5R 10% 0603"
-			(at 31.75 126.9999 90)
+			(at 44.45 109.2199 90)
 			(effects
 				(font
 					(size 0.762 0.762)

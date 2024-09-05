@@ -385,10 +385,10 @@
 		(uuid "4765bc5e-1336-4ca3-9121-beaebfbc2396")
 	)
 	(junction
-		(at 45.72 27.94)
+		(at 45.72 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "707fff04-8295-43cb-a2c1-54083333be5b")
+		(uuid "4edc6a83-df90-44a2-8e2c-82d32159bc5e")
 	)
 	(wire
 		(pts
@@ -412,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 27.94) (xy 45.72 27.94)
+			(xy 38.1 30.48) (xy 45.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -499,16 +499,6 @@
 			(type default)
 		)
 		(uuid "382c83f9-4726-4248-95aa-91effee8af03")
-	)
-	(wire
-		(pts
-			(xy 38.1 33.02) (xy 53.34 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac1ff7a-50e5-4e51-a7b7-c45a59f4e266")
 	)
 	(polyline
 		(pts
@@ -702,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 25.4) (xy 45.72 27.94)
+			(xy 45.72 27.94) (xy 45.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 53.34 27.94)
+			(xy 45.72 30.48) (xy 53.34 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1313,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:+5V_IN")
-		(at 45.72 25.4 0)
+		(at 45.72 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1332,7 +1322,7 @@
 		(fields_autoplaced yes)
 		(uuid "4af541ba-9f3c-45d1-9490-c3d0369b5bd2")
 		(property "Reference" "#PWR01"
-			(at 45.72 29.21 0)
+			(at 45.72 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1331,7 @@
 			)
 		)
 		(property "Value" "+5V_IN"
-			(at 45.72 20.32 0)
+			(at 45.72 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 25.4 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 25.4 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V_IN\""
-			(at 45.72 25.4 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,8 +2642,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 22.86)
-		(size 20.32 66.04)
+		(at 17.78 25.4)
+		(size 20.32 63.5)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2664,7 +2654,7 @@
 		)
 		(uuid "e0a60313-5e73-4a17-9374-b4b4ea2344cd")
 		(property "Sheetname" "Power Connectors"
-			(at 17.78 22.1484 0)
+			(at 17.78 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +2672,7 @@
 			)
 		)
 		(pin "5V_IN" output
-			(at 38.1 27.94 0)
+			(at 38.1 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,18 +2682,6 @@
 				(justify right)
 			)
 			(uuid "df09677b-c700-483d-bccf-c06fb70a4cd8")
-		)
-		(pin "VBUS" output
-			(at 38.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "9824c428-0333-4b71-a089-745fda3de419")
 		)
 		(pin "USB_D-" bidirectional
 			(at 38.1 53.34 0)
@@ -2762,8 +2740,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 22.86)
-		(size 25.4 15.24)
+		(at 53.34 25.4)
+		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2774,7 +2752,7 @@
 		)
 		(uuid "e21714b4-6921-40f8-8882-480f43314016")
 		(property "Sheetname" "5V Protection"
-			(at 53.34 22.1484 0)
+			(at 53.34 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2761,7 @@
 			)
 		)
 		(property "Sheetfile" "5v_protection.kicad_sch"
-			(at 53.34 38.6846 0)
+			(at 53.34 36.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2770,7 @@
 			)
 		)
 		(pin "5V_IN" input
-			(at 53.34 27.94 180)
+			(at 53.34 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,18 +2792,6 @@
 				(justify right)
 			)
 			(uuid "c7cbe50c-e03f-4296-91c0-30520cd00e21")
-		)
-		(pin "VBUS" input
-			(at 53.34 33.02 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "aa32bad7-90de-4c87-a522-0b9124929d00")
 		)
 		(instances
 			(project "AstraControl"

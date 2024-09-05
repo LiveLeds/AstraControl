@@ -1781,11 +1781,11 @@
 		(uuid "f9f298ff-1743-4e36-b8d0-1a3eaa1281c1")
 	)
 	(no_connect
-		(at 114.3 149.86)
+		(at 111.76 149.86)
 		(uuid "575ad386-f952-448a-81b0-289939728738")
 	)
 	(no_connect
-		(at 114.3 144.78)
+		(at 111.76 144.78)
 		(uuid "6ef29488-6f7b-4b5c-97e1-cd919d559192")
 	)
 	(wire
@@ -2000,16 +2000,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 149.86) (xy 111.76 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918187fa-b25c-46b8-9d7d-4f132dc24dc0")
-	)
-	(wire
-		(pts
 			(xy 114.3 121.92) (xy 114.3 119.38)
 		)
 		(stroke
@@ -2087,16 +2077,6 @@
 			(type default)
 		)
 		(uuid "cfe5cae4-53b1-408f-9f1d-57c290e5e0b6")
-	)
-	(wire
-		(pts
-			(xy 114.3 144.78) (xy 111.76 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d394509d-e89f-45eb-a036-195cef453034")
 	)
 	(wire
 		(pts
@@ -2337,10 +2317,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8fc93ca-a37a-487f-9c09-8e5b257812c6")
+			(uuid "7354a8f4-78c0-427e-94c5-69d820213a7c")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
 					(reference "#PWR041")
 					(unit 1)
@@ -2420,63 +2400,55 @@
 			)
 		)
 		(pin "A1"
-			(uuid "94a790b8-739e-42d8-892a-41f25a526d15")
+			(uuid "0578c9f0-3a96-4225-9ef0-f5969f661f9d")
 		)
 		(pin "A4"
-			(uuid "c1ac91dd-faca-4a3f-90cd-9dc22c31318d")
+			(uuid "190f402f-8993-439b-9675-1cce9a887d70")
 		)
 		(pin "A5"
-			(uuid "e21ac2d6-65de-4f93-b067-b07f973caef9")
+			(uuid "9671cbc6-a69d-4999-aca0-5f7009f555d8")
 		)
 		(pin "A6"
-			(uuid "c51a008e-73e5-4333-b954-fae5e700ce2c")
+			(uuid "897a3e62-5323-4f92-822e-a384794ab6a6")
 		)
 		(pin "A7"
-			(uuid "605f5cf3-3e48-4044-9762-69c87455e910")
+			(uuid "a82144cc-59ad-4a52-9fe3-b7b21f525bee")
 		)
 		(pin "A8"
-			(uuid "55beabd1-7978-4952-a140-39d32f7dc90a")
+			(uuid "18f162dc-22ff-46a0-8b1d-2173f2c732b1")
 		)
 		(pin "A9"
-			(uuid "3e3625fb-0891-4adc-b297-2c465142cc32")
+			(uuid "abd6cddf-d34a-4843-a32f-e512924baa9b")
 		)
 		(pin "B1"
-			(uuid "861fdc14-ac80-418a-a3be-89cd479975c6")
+			(uuid "19a1da35-4532-4316-978e-b2dbb7548561")
 		)
 		(pin "B12"
-			(uuid "c259d947-90fa-45ba-b536-0952fdf216da")
+			(uuid "ba99f43d-a4f8-4908-8ce2-b8b26662cd9e")
 		)
 		(pin "B4"
-			(uuid "917a6223-ec28-44ae-91b5-852d87a0aa52")
+			(uuid "f05015f5-7dad-4e1a-862a-edf2e54d5495")
 		)
 		(pin "B5"
-			(uuid "b4ac2858-0f65-4ac4-bd59-3a70c453c15d")
+			(uuid "45633de4-ddc1-415f-ab81-c9008096b4ad")
 		)
 		(pin "B6"
-			(uuid "219d1e8a-b971-4cc2-99dc-d2feece02b51")
+			(uuid "585cdf78-495f-4886-81ff-e50933fed99d")
 		)
 		(pin "B7"
-			(uuid "2f962ddd-c550-44c7-b4a5-3197048b6bd5")
+			(uuid "565f8195-3e50-42a1-816d-6bcdd1ad30e0")
 		)
 		(pin "B8"
-			(uuid "78894a69-7282-46fd-8a61-76a956899981")
+			(uuid "491d376e-e76a-4921-877e-caf781be2cee")
 		)
 		(pin "B9"
-			(uuid "12416eea-a400-4653-aa20-7030b42a86e2")
+			(uuid "0b78a72d-3f3d-4223-8fd6-8ce746222cbf")
 		)
 		(pin "S1"
-			(uuid "b1931e35-31f1-43d8-b5bc-60bda543f0b0")
+			(uuid "17385f2d-75b4-48a8-a264-b5c4ad51afdd")
 		)
 		(pin "A12"
-			(uuid "3891cde9-dd59-4363-be6b-2412de0f8064")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "USBC1")
-					(unit 1)
-				)
-			)
+			(uuid "9a65d5df-81e8-4db7-aac4-a5f08c06a1cb")
 		)
 	)
 	(symbol
@@ -2554,15 +2526,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "91dec2e6-3e2e-41d3-94ec-58de3a6d69b5")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
+			(uuid "d34b1363-f859-441c-8f69-819dbbc48140")
 		)
 	)
 	(symbol
@@ -2641,18 +2605,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "158ac8d2-72b5-4473-aa50-d596ba0e6875")
+			(uuid "b23bbd05-f75b-497b-93ba-b1d399192d8f")
 		)
 		(pin "2"
-			(uuid "08964a6d-fe42-4837-b54e-34219adc9dde")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "R13")
-					(unit 1)
-				)
-			)
+			(uuid "a90ba285-3f60-4840-8795-d45ca92a01eb")
 		)
 	)
 	(symbol
@@ -2710,10 +2666,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe9858eb-1fa1-4583-81a9-9c853adac37d")
+			(uuid "724e7cf3-dc30-4351-9500-e82c496ceecf")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
 					(reference "#PWR039")
 					(unit 1)
@@ -2772,14 +2728,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "CRT2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2859,18 +2807,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "afe56e34-f22b-4718-a0df-6004ab06f0c9")
+			(uuid "35ac0fa1-d918-45ce-b73b-44dde2edeaf5")
 		)
 		(pin "2"
-			(uuid "dd2466de-988a-4d21-a63c-e8f89bf3256b")
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "C16")
-					(unit 1)
-				)
-			)
+			(uuid "5c8c876b-42ef-4e16-a80d-85068b5b4559")
 		)
 	)
 	(symbol
@@ -2948,15 +2888,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e406957-f6e3-499d-8d56-ab68db9a71e5")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
+			(uuid "487353a8-b9c2-4568-82d4-92e7089d7069")
 		)
 	)
 	(symbol
@@ -3014,10 +2946,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4951a49f-461c-4cd5-8499-0cfd87d35715")
+			(uuid "0f16c0c3-f302-4eda-b4dc-4db9e0a1aa36")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
 					(reference "#PWR042")
 					(unit 1)
@@ -3080,10 +3012,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "12c30177-fcb8-40ea-bdf9-0a44d44e97ec")
+			(uuid "41694bb7-098d-4806-9b2a-c8a26719c7f9")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
 					(reference "#PWR038")
 					(unit 1)
@@ -3164,30 +3096,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "21f4b04a-566c-4c73-abd0-b6b724e0cd24")
+			(uuid "5a40df05-c539-49f5-bd4d-482987a2ec82")
 		)
 		(pin "3"
-			(uuid "61baa719-51d6-4c01-a46e-dba05bd02611")
+			(uuid "e6f28e27-92bd-4f46-8238-fa1210cb6a1e")
 		)
 		(pin "2"
-			(uuid "891b15ca-7fef-4778-be39-be2b0c61fb5e")
+			(uuid "67a01deb-01b5-46e1-b5f5-598685a8b100")
 		)
 		(pin "6"
-			(uuid "b2011a62-1e3e-44b5-81f3-324634770fdc")
+			(uuid "195397c9-df80-481e-8d0f-43d5001df110")
 		)
 		(pin "4"
-			(uuid "ddb776b5-7263-4d49-83d1-2d5b10b26dbd")
+			(uuid "62a00b89-1a77-41ae-9fb7-b1eab8320eea")
 		)
 		(pin "1"
-			(uuid "633b73f6-7d69-49d6-89a5-d62bc19fa12f")
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "U4")
-					(unit 1)
-				)
-			)
+			(uuid "6edb68ad-834e-4603-8f46-d5556371bba0")
 		)
 	)
 	(symbol
@@ -3245,10 +3169,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9f40d81-33e6-4bdd-9a60-b07dc849d3d9")
+			(uuid "3a5f18f7-4c6f-4297-86a8-ca1db9d0d691")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
 					(reference "#PWR040")
 					(unit 1)
@@ -3331,15 +3255,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4192e876-11c2-4d0e-b798-1f26e264b35f")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
+			(uuid "abae2bdf-6817-4fcf-ab28-271785e9a4aa")
 		)
 	)
 	(symbol
@@ -3397,10 +3313,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0f83ec2-8f81-417a-87e8-4766fb8c4f26")
+			(uuid "cbfb56d2-44ac-46d0-850a-ec3e2525b090")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
 					(reference "#FLG05")
 					(unit 1)
@@ -3484,18 +3400,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "73b5aee6-a25a-426d-9046-2ba5acc01eb5")
+			(uuid "44d0419a-f5c0-436e-89fa-0e1f86bcb44e")
 		)
 		(pin "2"
-			(uuid "faca2026-bf0c-4d36-bafe-503348387ebb")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
-					(reference "R12")
-					(unit 1)
-				)
-			)
+			(uuid "4e6e1af3-8ae2-4e78-ac11-fe61ffe3fdfe")
 		)
 	)
 	(symbol
@@ -3552,10 +3460,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d50c7192-9663-4b50-a94b-71efb5423cd5")
+			(uuid "f1313c02-a6d6-41a7-b3ac-4a2c47351940")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd/ea44b509-6c8b-4806-9ef7-64f990484017"
 					(reference "#PWR037")
 					(unit 1)
