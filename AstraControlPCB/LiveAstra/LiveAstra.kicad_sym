@@ -3501,7 +3501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "5A 50W 10V 5.6V Bidirectional"
+		(property "Extra Values" "5A 50W 10V 5.6V 15pF Bidirectional"
 			(at 0 5.08 0)
 			(effects
 				(font

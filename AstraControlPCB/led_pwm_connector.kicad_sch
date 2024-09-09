@@ -1499,7 +1499,7 @@
 		)
 		(uuid "38f96145-05a1-4d44-8584-5bc4ecf87d52")
 	)
-	(label "EXTRA_PIN"
+	(label "RESERVED_PIN"
 		(at 127 35.56 0)
 		(fields_autoplaced yes)
 		(effects

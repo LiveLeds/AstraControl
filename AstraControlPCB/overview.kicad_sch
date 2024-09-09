@@ -863,6 +863,19 @@
 		(uuid "84f4d95c-da8f-4475-afd7-d6817844bb59")
 	)
 	(circle
+		(center 22.86 134.62)
+		(radius 0.6351)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid bb0b6c6b-0509-4b94-a210-8ff4fcaf248f)
+	)
+	(circle
 		(center 22.86 121.92)
 		(radius 0.6351)
 		(stroke
@@ -1067,6 +1080,18 @@
 			(justify left)
 		)
 		(uuid "3b9aaeb4-20f3-429c-ad92-c7886aa49e06")
+	)
+	(text "PCB components are spread apart a bit more than the minimum allowed clearance for easy debuging and adjustments."
+		(exclude_from_sim no)
+		(at 25.4 135.89 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "3d9a2190-1158-42ea-b881-23f37baf9992")
 	)
 	(text "Something is unclear or a missing piece of \ninformation potentially needs to be \nexplored further."
 		(exclude_from_sim no)
