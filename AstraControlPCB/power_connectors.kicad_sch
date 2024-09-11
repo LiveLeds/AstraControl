@@ -312,22 +312,21 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:D_TVS_H5VL10B_BIDI_50W"
-			(pin_numbers hide)
+		(symbol "LiveAstra:D_TVS_NUP3105LT1G_BIDI_ARRAY_300W"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 10.16 0)
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "H5VL10B"
-				(at 0 7.62 0)
+			(property "Value" "NUP3105LT1G"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -335,8 +334,8 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:D_DFN0603_H5VL10B_Bidirectional_TVS"
-				(at 0 -11.43 0)
+			(property "Footprint" "LiveAstra:TVS_NUP3105LT1G_36V"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -344,8 +343,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-H5VL10B/C7420372"
-				(at 0 -19.05 0)
+			(property "Datasheet" "https://jlcpcb.com/partdetail/Born-BNUP3105LT1G/C5344577"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -353,7 +352,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5A 50W 10V 5.6V Bidirectional 5V DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(property "Description" "TVS Diode Array"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -362,7 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C7420372"
+			(property "LCSC Part" "C2931121"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -371,8 +370,8 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "5A 50W 10V 5.6V 15pF Bidirectional"
-				(at 0 5.08 0)
+			(property "Extra Values" "300W SO 36V BR 45V CL 70V 15pF"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -380,22 +379,10 @@
 					)
 				)
 			)
-			(symbol "D_TVS_H5VL10B_BIDI_50W_0_1"
+			(symbol "D_TVS_NUP3105LT1G_BIDI_ARRAY_300W_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 0 1.27) (xy 0 -1.27) (xy 1.27 -2.54)
+						(xy -7.62 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -407,7 +394,139 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27) (xy 2.54 -1.27)
+						(xy -7.62 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 -2.54) (xy -2.54 -3.81) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 0 -2.54) (xy 2.54 -3.81) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 0 2.54) (xy 2.54 1.27) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy 7.62 5.08) (xy 7.62 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08)
 					)
 					(stroke
 						(width 0)
@@ -418,11 +537,35 @@
 					)
 				)
 			)
-			(symbol "D_TVS_H5VL10B_BIDI_50W_1_1"
+			(symbol "D_TVS_NUP3105LT1G_BIDI_ARRAY_300W_1_1"
+				(polyline
+					(pts
+						(xy -0.51 -1.02) (xy -0.51 -1.02) (xy 0 -1.27) (xy 0 -3.81) (xy 0.51 -4.06) (xy 0.51 -4.06)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 4.06) (xy -0.51 4.06) (xy 0 3.81) (xy 0 1.27) (xy 0.51 1.02) (xy 0.51 1.02)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "C"
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -438,9 +581,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -453,6 +596,239 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:Information_Box_XL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "INF"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Information_Box_XL_1_1"
+				(arc
+					(start -25.3998 -10.1598)
+					(mid -24.6559 -11.9559)
+					(end -22.8598 -12.6998)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -10.16)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -12.7)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.082 5.08)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 41 182 246 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -12.7) (xy 22.86 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -10.16) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -12.7)
+					(mid 24.6561 -11.9561)
+					(end 25.4 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "i"
+					(at -21.0726 4.8456 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 41 182 246 1)
+						)
+					)
+				)
+				(text "Information"
+					(at -17.78 5.08 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 41 182 246 1)
+						)
+						(justify left)
 					)
 				)
 			)
@@ -1122,16 +1498,16 @@
 		)
 	)
 	(junction
-		(at 101.6 86.36)
+		(at 96.52 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "56434e45-1235-4ff0-8a56-6bbfa95b2307")
+		(uuid "41083036-8b18-4c43-9540-9a771b68c004")
 	)
 	(junction
-		(at 152.4 81.28)
+		(at 101.6 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f44f0215-63d8-458f-8c5d-aba169cd182f")
+		(uuid "4c5583f8-f4f1-4a38-bfb1-66a9c043742b")
 	)
 	(wire
 		(pts
@@ -1145,7 +1521,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 119.38) (xy 152.4 119.38)
+			(xy 132.08 132.08) (xy 152.4 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1531,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 124.46) (xy 101.6 124.46)
+			(xy 129.54 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480830a5-38b7-4b89-92b1-d47371269a3d")
+	)
+	(wire
+		(pts
+			(xy 76.2 137.16) (xy 101.6 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1172,16 +1558,6 @@
 			(type default)
 		)
 		(uuid "4e67e464-8b6a-44b2-9c08-ad33c9129d9a")
-	)
-	(wire
-		(pts
-			(xy 152.4 81.28) (xy 152.4 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5239f94c-0771-49fd-883e-7443edb0099c")
 	)
 	(wire
 		(pts
@@ -1205,13 +1581,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 81.28) (xy 167.64 81.28)
+			(xy 96.52 104.14) (xy 101.6 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79d9742b-4382-4d4b-8ff8-793e89f3cc68")
+		(uuid "81c2f5f1-98d5-4ec8-a0ea-93e5990dbada")
 	)
 	(wire
 		(pts
@@ -1225,13 +1601,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 121.92 119.38)
+			(xy 76.2 132.08) (xy 121.92 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a485dfe8-1d98-423f-8e92-8d13b362c8f7")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 127 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b555d649-fc8e-4bd9-bfa3-596e01c4f38d")
 	)
 	(wire
 		(pts
@@ -1242,6 +1628,16 @@
 			(type default)
 		)
 		(uuid "b5c95ab5-6235-4caa-a3bf-0d37a6a67856")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e44493-1129-4db4-acef-592c76433829")
 	)
 	(wire
 		(pts
@@ -1275,17 +1671,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 101.6 86.36)
+			(xy 101.6 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd94991e-e302-4eba-9f45-954b582419e4")
+		(uuid "e171124e-7367-4f62-9c66-ef51bdafeadc")
 	)
 	(wire
 		(pts
-			(xy 76.2 86.36) (xy 101.6 86.36)
+			(xy 76.2 86.36) (xy 96.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1295,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 99.06) (xy 152.4 101.6)
+			(xy 129.54 101.6) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1305,7 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 129.54) (xy 101.6 129.54)
+			(xy 76.2 142.24) (xy 101.6 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1315,27 +1711,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 101.6 99.06)
+			(xy 96.52 86.36) (xy 96.52 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9356164-db88-4c1c-ad75-3b4b5be2a3d8")
+		(uuid "efdf321a-ca0b-4174-894e-776858166400")
 	)
 	(wire
 		(pts
-			(xy 101.6 86.36) (xy 127 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb855488-4e93-40f5-8924-57026d56f2e9")
-	)
-	(wire
-		(pts
-			(xy 76.2 81.28) (xy 152.4 81.28)
+			(xy 76.2 81.28) (xy 101.6 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1355,6 +1741,18 @@
 		)
 		(uuid "0d777136-9a68-4ef9-824f-6cef9de4345c")
 	)
+	(text "The external power is at 48V, in-case D- or D+ \naccidentally short to it the TVS diode hopefully\ndoesn't get destroyed immediately. This is the closest\ndiode I found that will not overshoot the clamping \nvoltage of 70V (max tolerated by the tranciever) \nwith V_{BR_MAX} 50V, in stock at JLC and 15pF capacitance."
+		(exclude_from_sim no)
+		(at 137.16 104.14 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.397 1.397)
+			)
+			(justify left)
+		)
+		(uuid "8c57c987-1d70-4ef3-bc63-d7d100b75380")
+	)
 	(text "Are the TVS diodes enough or should I add\nanything extra? MOV / TBU? \nAiming to cover ~90% of cases."
 		(exclude_from_sim no)
 		(at 91.44 60.96 0)
@@ -1366,18 +1764,6 @@
 			(justify left)
 		)
 		(uuid "a86e1864-f1bd-44a9-889a-3e1a360db821")
-	)
-	(text "Should there be another TVS Diode \nbetween D- and D+?"
-		(exclude_from_sim no)
-		(at 147.32 60.96 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 1.397 1.397)
-			)
-			(justify left)
-		)
-		(uuid "e0f7b958-7e23-4d0d-abd1-dfeb436fe196")
 	)
 	(hierarchical_label "RS485_D+"
 		(shape bidirectional)
@@ -1393,7 +1779,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
-		(at 101.6 129.54 0)
+		(at 101.6 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1405,7 +1791,7 @@
 	)
 	(hierarchical_label "RS485_D-"
 		(shape bidirectional)
-		(at 167.64 81.28 0)
+		(at 127 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1429,7 +1815,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
-		(at 101.6 124.46 0)
+		(at 101.6 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1441,7 +1827,7 @@
 	)
 	(hierarchical_label "5V_IN"
 		(shape output)
-		(at 152.4 119.38 0)
+		(at 152.4 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1462,6 +1848,96 @@
 			(justify left)
 		)
 		(uuid "f2c2115b-6a1d-42c1-91d8-373207a0f3c1")
+	)
+	(symbol
+		(lib_id "LiveAstra:D_TVS_NUP3105LT1G_BIDI_ARRAY_300W")
+		(at 114.3 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8ccc80-b9e7-4c3d-99fa-62448515a65b")
+		(property "Reference" "D3"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NUP3105LT1G"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:TVS_NUP3105LT1G_36V"
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Born-BNUP3105LT1G/C5344577"
+			(at 114.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS Diode Array"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2931121"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "300W SO 36V BR 45V CL 70V 15pF"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "60521b23-979c-4ad8-8553-57fcb82515ba")
+		)
+		(pin "3"
+			(uuid "6f97364f-fbde-41bf-9d64-8e818b0c2c71")
+		)
+		(pin "1"
+			(uuid "4703208d-7f98-4069-9112-6c0a5f5d896c")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -1596,45 +2072,35 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:D_TVS_H5VL10B_BIDI_50W")
-		(at 101.6 93.98 90)
+		(lib_id "LiveAstra:Information_Box_XL")
+		(at 160.02 99.06 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "48fb9d3d-32ab-430b-86fb-26fa99ff9f58")
-		(property "Reference" "D2"
-			(at 105.41 91.4399 90)
+		(uuid "5a7d2060-4b18-4798-a30a-05bcc5bafc7e")
+		(property "Reference" "INF10"
+			(at 186.69 100.9649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "H5VL10B"
-			(at 105.41 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:D_DFN0603_H5VL10B_Bidirectional_TVS"
-			(at 113.03 93.98 0)
+		(property "Value" "~"
+			(at 186.69 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-H5VL10B/C7420372"
-			(at 120.65 93.98 0)
+		(property "Footprint" ""
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,8 +2108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5A 50W 10V 5.6V Bidirectional 5V DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 109.22 93.98 0)
+		(property "Datasheet" ""
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,125 +2117,19 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C7420372"
-			(at 116.84 93.98 0)
+		(property "Description" ""
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Extra Values" "5A 50W 10V 5.6V 15pF Bidirectional"
-			(at 105.41 96.5199 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "4fc093ce-0eaf-4713-96ef-a00e7694b6a0")
-		)
-		(pin "2"
-			(uuid "895768ca-8592-4217-bcd2-7a55fb350afc")
 		)
 		(instances
-			(project "AstraControl"
+			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:D_TVS_H5VL10B_BIDI_50W")
-		(at 152.4 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a9689ea-a4d4-43bc-b455-03972d15cd29")
-		(property "Reference" "D3"
-			(at 156.21 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "H5VL10B"
-			(at 156.21 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:D_DFN0603_H5VL10B_Bidirectional_TVS"
-			(at 163.83 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Hongjiacheng-H5VL10B/C7420372"
-			(at 171.45 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5A 50W 10V 5.6V Bidirectional 5V DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C7420372"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "5A 50W 10V 5.6V 15pF Bidirectional"
-			(at 156.21 96.5199 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "10275a05-65ca-47a8-9a83-c36b7e983854")
-		)
-		(pin "2"
-			(uuid "a3676e9f-96b7-4c6e-bec1-9a16f9ed17b2")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "D3")
+					(reference "INF10")
 					(unit 1)
 				)
 			)
@@ -2149,68 +2509,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:Question_Box")
-		(at 170.18 58.42 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b22ac2f0-a0d9-4247-b0f8-007ac0e3a081")
-		(property "Reference" "QST3"
-			(at 170.18 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 170.18 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.702 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.702 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 155.702 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "QST3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 93.98 0)
 		(unit 1)
@@ -2271,72 +2569,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bac9f26c-dd77-4fd7-96c2-9098f973e57e")
-		(property "Reference" "#PWR031"
-			(at 101.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63864c02-1b6a-4249-91fb-95a911dbd102")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2541,7 +2773,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:D_Schottky_SS14_1A_40V")
-		(at 127 119.38 180)
+		(at 127 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2550,7 +2782,7 @@
 		(fields_autoplaced yes)
 		(uuid "df60429c-5fab-443b-8674-5038e2ac77e8")
 		(property "Reference" "D1"
-			(at 127.38 110.49 0)
+			(at 127.38 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2790,7 @@
 			)
 		)
 		(property "Value" "SS14 Schottky"
-			(at 127.38 113.03 0)
+			(at 127.38 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:D_SMA_SS14_C2480"
-			(at 127 110.49 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +2808,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html"
-			(at 127 106.68 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +2817,7 @@
 			)
 		)
 		(property "Description" "Schottky Barrier Diode"
-			(at 127 114.3 0)
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2826,7 @@
 			)
 		)
 		(property "LCSC Part" "C2480"
-			(at 127 102.87 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2835,7 @@
 			)
 		)
 		(property "Extra Values" "40V Single 1A 550mV@1A"
-			(at 127.38 115.57 0)
+			(at 127.38 128.27 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2628,7 +2860,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 101.6 0)
+		(at 129.54 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2637,7 +2869,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5213aac-d2a3-4bb9-9e96-6477998aa53c")
 		(property "Reference" "#PWR032"
-			(at 152.4 107.95 0)
+			(at 129.54 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 106.68 0)
+			(at 129.54 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 101.6 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +2895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 101.6 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 101.6 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +3011,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 114.3)
+		(at 63.5 127)
 		(size 12.7 20.32)
 		(stroke
 			(width 0.1524)
@@ -2790,7 +3022,7 @@
 		)
 		(uuid "ea44b509-6c8b-4806-9ef7-64f990484017")
 		(property "Sheetname" "USB"
-			(at 63.5 114.3 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +3031,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 63.5 135.2046 0)
+			(at 63.5 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +3040,7 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 76.2 119.38 0)
+			(at 76.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +3050,7 @@
 			(uuid "8f13cea8-2559-482b-830e-fdd86f4474f5")
 		)
 		(pin "USB_D-" bidirectional
-			(at 76.2 129.54 0)
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +3060,7 @@
 			(uuid "343fb149-2fa1-4506-b491-ee96e211289c")
 		)
 		(pin "USB_D+" bidirectional
-			(at 76.2 124.46 0)
+			(at 76.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)

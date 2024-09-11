@@ -863,6 +863,19 @@
 		(uuid "84f4d95c-da8f-4475-afd7-d6817844bb59")
 	)
 	(circle
+		(center 22.86 140.97)
+		(radius 0.6351)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid 252d6903-4cd2-4cd7-85a3-01d2a1d6a333)
+	)
+	(circle
 		(center 22.86 134.62)
 		(radius 0.6351)
 		(stroke
@@ -1359,6 +1372,18 @@
 			(justify left)
 		)
 		(uuid "b7b9100a-6435-4ca8-81f0-e9a3d0ce5736")
+	)
+	(text "Some aspects of the schematic / PCB are more verbose to aid in the review process."
+		(exclude_from_sim no)
+		(at 25.4 142.24 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "bf8008cb-6cba-4d6a-a9e0-5ffc815f5b77")
 	)
 	(text "9"
 		(exclude_from_sim no)
