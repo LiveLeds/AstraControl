@@ -11002,7 +11002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "LiveAstra:R_DNP_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 -7.62 0)
 			(effects
 				(font

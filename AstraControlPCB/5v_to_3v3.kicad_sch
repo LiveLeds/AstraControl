@@ -709,7 +709,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(property "Footprint" "LiveAstra:C_DNP_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -3298,7 +3298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "LiveAstra:C_DNP_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 260.35 129.54 0)
 			(effects
 				(font
@@ -4644,7 +4644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "LiveAstra:C_DNP_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 196.85 129.54 0)
 			(effects
 				(font
