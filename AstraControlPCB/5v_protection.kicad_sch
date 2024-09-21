@@ -564,6 +564,126 @@
 				)
 			)
 		)
+		(symbol "LiveAstra:R_1MOhm_0805_125mW"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1M"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1MR-1004-1_C17514.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Chip Resistor - Surface Mount ROHS"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C17514"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "150V 1% 0805 125mW"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "R_1MOhm_0805_125mW_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_1MOhm_0805_125mW_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LiveAstra:R_220Ohm_0402_62mW"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1066,6 +1186,12 @@
 		)
 	)
 	(junction
+		(at 106.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f1edad0-f007-4bd7-8c2f-2dd3d5f2c7ba")
+	)
+	(junction
 		(at 200.66 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1100,10 +1226,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6dd6e0c-144d-4309-bedc-32ea392597e2")
-	)
-	(no_connect
-		(at 142.24 109.22)
-		(uuid "cb122f73-dc3e-4e02-b630-0f719dadc267")
 	)
 	(wire
 		(pts
@@ -1187,6 +1309,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5063fb66-9fa8-494f-b0b5-49b4f83ba63c")
+	)
+	(wire
+		(pts
 			(xy 170.18 83.82) (xy 170.18 86.36)
 		)
 		(stroke
@@ -1194,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "527f647a-12eb-428f-9be5-fab43979ec31")
+	)
+	(wire
+		(pts
+			(xy 106.68 83.82) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a569e5-2734-4b44-9618-8415b50fc801")
 	)
 	(wire
 		(pts
@@ -1214,6 +1356,16 @@
 			(type default)
 		)
 		(uuid "6ae5b620-2928-496e-b02c-d30edde6e9bd")
+	)
+	(wire
+		(pts
+			(xy 106.68 109.22) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774b04e7-cd0a-4b97-b165-cf7d0a299328")
 	)
 	(wire
 		(pts
@@ -1287,16 +1439,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 109.22) (xy 144.78 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6300db4-b56f-4331-9870-06625820e35c")
-	)
-	(wire
-		(pts
 			(xy 248.92 101.6) (xy 248.92 99.06)
 		)
 		(stroke
@@ -1317,6 +1459,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90fc009-823b-4853-885a-112142e2ed0a")
+	)
+	(wire
+		(pts
 			(xy 236.22 99.06) (xy 213.36 99.06)
 		)
 		(stroke
@@ -1327,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 114.3 83.82)
+			(xy 63.5 83.82) (xy 106.68 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1369,6 +1521,17 @@
 			(justify left bottom)
 		)
 		(uuid "02102da5-5043-4251-abff-5cf6b7b4255c")
+	)
+	(label "FLAG_IC"
+		(at 124.46 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e08a450-907f-4a0f-aadc-0ac06cf22aab")
 	)
 	(hierarchical_label "5V_OUT"
 		(shape output)
@@ -1783,6 +1946,93 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:R_1MOhm_0805_125mW")
+		(at 116.84 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94f31e63-3c45-4647-852b-2b1d38d1938f")
+		(property "Reference" "R14"
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 116.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1MR-1004-1_C17514.html"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor - Surface Mount ROHS"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17514"
+			(at 116.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "150V 1% 0805 125mW"
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14e746b0-dbbc-4f5e-a91c-63433848c58b")
+		)
+		(pin "2"
+			(uuid "f2dd9b5b-4dc6-434e-a9cc-5d0727074240")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
+					(reference "R14")
 					(unit 1)
 				)
 			)

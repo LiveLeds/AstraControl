@@ -392,6 +392,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 139.7) (xy 114.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f780206-a4f7-412c-ace4-0fd0fdd6caf3")
+	)
+	(wire
+		(pts
 			(xy 170.18 106.68) (xy 246.38 106.68)
 		)
 		(stroke
@@ -572,16 +582,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 170.18) (xy 114.3 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbe51fd-0d3c-4d62-8df6-4573305035c8")
-	)
-	(wire
-		(pts
 			(xy 78.74 73.66) (xy 114.3 73.66)
 		)
 		(stroke
@@ -692,6 +692,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 165.1) (xy 114.3 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647af8c2-c179-4b52-949c-6a864d417421")
+	)
+	(wire
+		(pts
 			(xy 45.72 27.94) (xy 45.72 30.48)
 		)
 		(stroke
@@ -709,16 +719,6 @@
 			(type default)
 		)
 		(uuid "6b5d6aba-9a2c-4afe-9eac-95a8456ce8e3")
-	)
-	(wire
-		(pts
-			(xy 38.1 134.62) (xy 114.3 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e52010c-39f4-4aa5-8c39-faf8e732be9a")
 	)
 	(polyline
 		(pts
@@ -822,16 +822,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 165.1) (xy 114.3 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90318047-1c58-4b1b-85dd-e357b0f30d83")
-	)
-	(wire
-		(pts
 			(xy 104.14 30.48) (xy 109.22 30.48)
 		)
 		(stroke
@@ -879,6 +869,16 @@
 			(type default)
 		)
 		(uuid "a46c76c7-6cd3-4e6d-bea4-c0fd333bfd11")
+	)
+	(wire
+		(pts
+			(xy 38.1 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c5a9fa-516c-42ff-816e-cc1a5a89823a")
 	)
 	(wire
 		(pts
@@ -1010,16 +1010,6 @@
 		)
 		(uuid "cd1b661c-3bf4-40a5-b94e-5f2b3c1a7583")
 	)
-	(wire
-		(pts
-			(xy 38.1 139.7) (xy 114.3 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb3438c-ad35-44b0-b467-4f081b621855")
-	)
 	(polyline
 		(pts
 			(xy 139.7 157.48) (xy 142.24 157.48)
@@ -1059,6 +1049,16 @@
 			(type default)
 		)
 		(uuid "d3f5ddff-d357-4911-b1a5-7280daebd7a8")
+	)
+	(wire
+		(pts
+			(xy 38.1 170.18) (xy 114.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d403cced-8702-4b49-b336-c1955849657c")
 	)
 	(wire
 		(pts
@@ -2059,30 +2059,6 @@
 			)
 			(uuid "70b0bbaa-591f-44a5-83ff-fcce2ae2aa28")
 		)
-		(pin "GPIO_36_FAN_TACHO" input
-			(at 114.3 139.7 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "e3617193-5491-4f24-b728-afe6b886a1c3")
-		)
-		(pin "GPIO_35_FAN_PWM" bidirectional
-			(at 114.3 134.62 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "091e8e91-05ad-4a54-b7f4-9a3e2d923079")
-		)
 		(pin "GPIO_9_SCREEN_I2C_SCL" output
 			(at 114.3 149.86 180)
 			(effects
@@ -2107,8 +2083,8 @@
 			)
 			(uuid "54f016b2-cb96-499e-94ae-fb3815679d7a")
 		)
-		(pin "GPIO_37_TEMP_I2C_SCL" output
-			(at 114.3 170.18 180)
+		(pin "GPIO_38_FAN_TACHO" input
+			(at 114.3 139.7 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,9 +2093,9 @@
 				)
 				(justify left)
 			)
-			(uuid "b1e7605e-eb53-48cb-94e2-3cb078124c8a")
+			(uuid "148f5f80-ffa1-4cee-84f1-125d85ad62a5")
 		)
-		(pin "GPIO_38_TEMP_I2C_SDA" bidirectional
+		(pin "GPIO_36_TEMP_I2C_SDA" bidirectional
 			(at 114.3 165.1 180)
 			(effects
 				(font
@@ -2129,7 +2105,31 @@
 				)
 				(justify left)
 			)
-			(uuid "3d693d97-1836-4e15-b489-bbbc35ec0157")
+			(uuid "1c37dd30-8e31-44e2-acd8-ac0f1fa60d51")
+		)
+		(pin "GPIO_37_FAN_PWM" bidirectional
+			(at 114.3 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "8468e82d-1f8d-4c6e-9765-959126058ef0")
+		)
+		(pin "GPIO_35_TEMP_I2C_SCL" output
+			(at 114.3 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "ddcc1833-f2f0-4dd7-9d62-edd6226fff63")
 		)
 		(instances
 			(project "AstraControl"

@@ -168,7 +168,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:C_22uF_X5R_0603"
+		(symbol "LiveAstra:C_47u_X5R_0805"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -182,7 +182,7 @@
 					)
 				)
 			)
-			(property "Value" "22u"
+			(property "Value" "47u"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -191,7 +191,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:C_0603_1608Metric"
+			(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -200,7 +200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -218,7 +218,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C59461"
+			(property "LCSC Part" "C16780"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -227,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "6.3V X5R 20% 0603"
+			(property "Extra Values" "6.3V X5R 20% 0805"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -236,10 +236,10 @@
 					)
 				)
 			)
-			(symbol "C_22uF_X5R_0603_0_1"
+			(symbol "C_47u_X5R_0805_0_1"
 				(polyline
 					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
+						(xy -2.54 0) (xy -0.51 0)
 					)
 					(stroke
 						(width 0)
@@ -251,7 +251,19 @@
 				)
 				(polyline
 					(pts
-						(xy -0.51 0) (xy -2.54 0)
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -273,20 +285,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "C_22uF_X5R_0603_1_1"
+			(symbol "C_47u_X5R_0805_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1990,6 +1990,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 91.44) (xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2706a429-5dab-47fd-968b-f75cc638a94d")
+	)
+	(wire
+		(pts
 			(xy 182.88 116.84) (xy 180.34 116.84)
 		)
 		(stroke
@@ -2037,16 +2047,6 @@
 			(type default)
 		)
 		(uuid "2d6f42f3-6366-4d06-b9bd-3aae9404da21")
-	)
-	(wire
-		(pts
-			(xy 182.88 91.44) (xy 180.34 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3410ad5a-bbe1-4482-9321-e3828caafcde")
 	)
 	(wire
 		(pts
@@ -2230,16 +2230,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 180.34 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88bf2d4f-9907-49ab-9bcf-4e2201ce4b91")
-	)
-	(wire
-		(pts
 			(xy 55.88 48.26) (xy 55.88 45.72)
 		)
 		(stroke
@@ -2297,6 +2287,16 @@
 			(type default)
 		)
 		(uuid "9962cb53-fc16-4974-82b7-45747c473912")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e6ed2b-14a6-49b9-9a38-d01086456222")
 	)
 	(wire
 		(pts
@@ -2390,6 +2390,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 86.36) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e550d4-1789-4bba-acbd-ce041d26228c")
+	)
+	(wire
+		(pts
 			(xy 121.92 71.12) (xy 124.46 71.12)
 		)
 		(stroke
@@ -2440,6 +2450,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 96.52) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4d59fc-d447-4e4f-9c45-21cbe261d490")
+	)
+	(wire
+		(pts
 			(xy 180.34 71.12) (xy 182.88 71.12)
 		)
 		(stroke
@@ -2477,26 +2497,6 @@
 			(type default)
 		)
 		(uuid "e9a4977c-1343-4726-a9e4-d0c3fe1a49f2")
-	)
-	(wire
-		(pts
-			(xy 182.88 101.6) (xy 180.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecc27825-3634-4607-b1e3-c8a5d3ee532c")
-	)
-	(wire
-		(pts
-			(xy 182.88 96.52) (xy 180.34 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfb228e-6e78-459a-8551-c307fbe00c36")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -2578,9 +2578,9 @@
 		)
 		(uuid "01f3b169-c271-4832-965c-846d2b77b093")
 	)
-	(hierarchical_label "GPIO_38_TEMP_I2C_SDA"
+	(hierarchical_label "GPIO_36_TEMP_I2C_SDA"
 		(shape bidirectional)
-		(at 182.88 86.36 0)
+		(at 182.88 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2746,9 +2746,9 @@
 		)
 		(uuid "7c64c00e-d489-4128-942b-cdbb3fb895c1")
 	)
-	(hierarchical_label "GPIO_37_TEMP_I2C_SCL"
+	(hierarchical_label "GPIO_35_TEMP_I2C_SCL"
 		(shape output)
-		(at 182.88 91.44 0)
+		(at 182.88 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,9 +2770,9 @@
 		)
 		(uuid "9b33e07b-bb54-4c76-a1ae-f98db06e97f2")
 	)
-	(hierarchical_label "GPIO_35_FAN_PWM"
+	(hierarchical_label "GPIO_37_FAN_PWM"
 		(shape bidirectional)
-		(at 182.88 101.6 0)
+		(at 182.88 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2902,9 +2902,9 @@
 		)
 		(uuid "f1a55d71-d7bf-4599-8ca3-da3a576659f5")
 	)
-	(hierarchical_label "GPIO_36_FAN_TACHO"
+	(hierarchical_label "GPIO_38_FAN_TACHO"
 		(shape input)
-		(at 182.88 96.52 0)
+		(at 182.88 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3177,96 +3177,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
 					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:C_22uF_X5R_0603")
-		(at 33.02 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "364b96c1-0990-44d9-acc8-9658086313bf")
-		(property "Reference" "C1"
-			(at 36.83 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 36.83 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:C_0603_1608Metric"
-			(at 41.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitor"
-			(at 38.1 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C59461"
-			(at 49.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "6.3V X5R 20% 0603"
-			(at 36.83 55.8799 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "96ce764d-3cf2-4ff5-a68c-fe5b88fb14b3")
-		)
-		(pin "1"
-			(uuid "8f88ad6a-14bf-4f66-b71d-aa9be488eb4e")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4012,6 +3922,96 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:C_47u_X5R_0805")
+		(at 33.02 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2a7a196-02b8-4913-bbc1-12d59c1a5e26")
+		(property "Reference" "C19"
+			(at 36.83 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47u"
+			(at 36.83 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 41.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitor"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C16780"
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "6.3V X5R 20% 0805"
+			(at 36.83 55.8799 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "b846d2c0-0e55-493a-b2fa-64d1d27d6238")
+		)
+		(pin "2"
+			(uuid "a29b6e00-3de4-4234-9e4d-dc25f13e6b8f")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
+					(reference "C19")
 					(unit 1)
 				)
 			)

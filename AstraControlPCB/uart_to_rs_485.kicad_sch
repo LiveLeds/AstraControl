@@ -168,11 +168,11 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:C_DNP_0805"
+		(symbol "LiveAstra:C_47u_X5R_0805"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
 				(at 0 8.89 0)
@@ -182,7 +182,7 @@
 					)
 				)
 			)
-			(property "Value" "DNP"
+			(property "Value" "47u"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -200,7 +200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -218,7 +218,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" ""
+			(property "LCSC Part" "C16780"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -227,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "0805"
+			(property "Extra Values" "6.3V X5R 20% 0805"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -236,7 +236,7 @@
 					)
 				)
 			)
-			(symbol "C_DNP_0805_0_1"
+			(symbol "C_47u_X5R_0805_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.51 0)
@@ -286,7 +286,7 @@
 					)
 				)
 			)
-			(symbol "C_DNP_0805_1_1"
+			(symbol "C_47u_X5R_0805_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1794,12 +1794,6 @@
 		(uuid "3e041b1c-3630-49b4-905f-11445169900b")
 	)
 	(junction
-		(at 93.98 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c8052c8-8c3a-4503-8c4a-a5c0e5410e2d")
-	)
-	(junction
 		(at 182.88 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1830,10 +1824,22 @@
 		(uuid "82ee3aa8-a487-472f-9d78-2022c4375be9")
 	)
 	(junction
+		(at 111.76 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96dabfea-4ecb-438b-ada0-1f8f2fed538f")
+	)
+	(junction
 		(at 111.76 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad851f4d-1906-4b16-8a12-bc3151dcd3eb")
+	)
+	(junction
+		(at 111.76 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b28e9a76-63d0-418a-8f14-88000cce5d48")
 	)
 	(junction
 		(at 162.56 142.24)
@@ -1846,12 +1852,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef84448e-ba00-419c-9ad8-6cd24bddd887")
-	)
-	(junction
-		(at 93.98 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f817cb46-0bae-47d6-b41f-c06d30f15de5")
 	)
 	(wire
 		(pts
@@ -1872,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "01cbad3b-977e-44d6-b8fa-871f0e444679")
+	)
+	(wire
+		(pts
+			(xy 111.76 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087a8520-5679-454c-bda2-c6044254baf0")
 	)
 	(wire
 		(pts
@@ -1912,6 +1922,16 @@
 			(type default)
 		)
 		(uuid "19a3f0a3-815e-4fa1-b8d9-24794aff6583")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 111.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b61e919-527d-47e1-92b7-26bfa3d6097c")
 	)
 	(wire
 		(pts
@@ -1975,16 +1995,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 114.3) (xy 137.16 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b845439-100c-41bd-9d43-d81cb797004e")
-	)
-	(wire
-		(pts
 			(xy 162.56 101.6) (xy 180.34 101.6)
 		)
 		(stroke
@@ -2012,6 +2022,16 @@
 			(type default)
 		)
 		(uuid "40345b93-d301-447d-aa5e-fb19d1387407")
+	)
+	(wire
+		(pts
+			(xy 104.14 93.98) (xy 111.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cedb4e-52fa-4186-897d-d7db3feb2a94")
 	)
 	(wire
 		(pts
@@ -2045,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 111.76) (xy 93.98 114.3)
+			(xy 111.76 111.76) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2155,16 +2175,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 93.98 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e1ed8ec-3512-47b5-9049-acb4a76de286")
-	)
-	(wire
-		(pts
 			(xy 162.56 116.84) (xy 182.88 116.84)
 		)
 		(stroke
@@ -2182,6 +2192,16 @@
 			(type default)
 		)
 		(uuid "88bf378a-e985-429f-bfde-192234a13b07")
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b21da0f-8522-403f-ae41-9e94612801c8")
 	)
 	(wire
 		(pts
@@ -2305,23 +2325,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 91.44) (xy 93.98 93.98)
+			(xy 111.76 91.44) (xy 111.76 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8f43ab1-3073-4334-a11d-d1400a4ad7f2")
-	)
-	(wire
-		(pts
-			(xy 93.98 93.98) (xy 137.16 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caa7b450-b9c8-4b12-82aa-543637ed5af7")
 	)
 	(wire
 		(pts
@@ -2415,16 +2425,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 93.98) (xy 93.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecc83ff0-5f5a-42be-a3a6-ea648c42eb0e")
-	)
-	(wire
-		(pts
 			(xy 215.9 73.66) (xy 215.9 76.2)
 		)
 		(stroke
@@ -2489,7 +2489,7 @@
 	)
 	(text "ESD Protection is on the connector side (Page 8)."
 		(exclude_from_sim no)
-		(at 22.86 106.68 0)
+		(at 40.64 106.68 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -2498,16 +2498,6 @@
 			(justify left)
 		)
 		(uuid "59e1b756-75f9-4a5a-a526-085716b2a22d")
-	)
-	(text "Swap to C3246171, no output resistors, place DNP termination resistor. Use a better TVS for 30V."
-		(exclude_from_sim no)
-		(at 104.14 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c30d4bce-b07c-422e-99b9-2d8562e697b6")
 	)
 	(label "RS485_RX_IC"
 		(at 165.1 76.2 0)
@@ -2520,17 +2510,6 @@
 		)
 		(uuid "3371e706-e41e-4efd-8a3a-dc9d61d4488b")
 	)
-	(label "RS485_IC_D+"
-		(at 119.38 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63e47b20-6425-4da6-8d9c-50734cca93e5")
-	)
 	(label "RS485_TX_IC"
 		(at 165.2386 101.6 0)
 		(fields_autoplaced yes)
@@ -2541,17 +2520,6 @@
 			(justify left bottom)
 		)
 		(uuid "74f0ec82-f953-4227-aee3-be36281bfaa9")
-	)
-	(label "RS485_IC_D-"
-		(at 119.38 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f82109c3-ff59-4988-a806-166d848a5e26")
 	)
 	(hierarchical_label "RS485_DE"
 		(shape input)
@@ -2567,7 +2535,7 @@
 	)
 	(hierarchical_label "RS485_D-"
 		(shape bidirectional)
-		(at 86.36 93.98 180)
+		(at 104.14 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2603,7 +2571,7 @@
 	)
 	(hierarchical_label "RS485_D+"
 		(shape bidirectional)
-		(at 86.36 114.3 180)
+		(at 104.14 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3284,7 +3252,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 93.98 111.76 0)
+		(at 111.76 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3293,7 +3261,7 @@
 		(fields_autoplaced yes)
 		(uuid "55fa8b4b-f973-425b-a76a-5f0b8be0d4ce")
 		(property "Reference" "TP16"
-			(at 96.52 105.9476 0)
+			(at 114.3 105.9476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3270,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 93.98 121.92 0)
+			(at 111.76 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3279,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 93.98 127 0)
+			(at 111.76 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 106.68 90)
+			(at 111.76 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3297,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 106.68 90)
+			(at 111.76 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +3306,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 93.98 132.08 0)
+			(at 111.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3315,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 96.52 108.4876 0)
+			(at 114.3 108.4876 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3525,96 +3493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:C_DNP_0805")
-		(at 93.98 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "609bd798-9573-4731-9e8b-bdb300b5da5f")
-		(property "Reference" "C17"
-			(at 97.79 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DNP"
-			(at 97.79 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 102.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitor"
-			(at 99.06 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 110.49 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "0805"
-			(at 97.79 60.9599 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "d989aae8-4077-49f5-ac10-23b3f6a7973c")
-		)
-		(pin "2"
-			(uuid "b1f9d588-6d2f-42b1-8165-e4d73fa1f3f7")
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 86.36 48.26 0)
 		(unit 1)
@@ -3682,7 +3560,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:Information_Box")
-		(at 45.72 104.14 0)
+		(at 63.5 104.14 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3691,7 +3569,7 @@
 		(fields_autoplaced yes)
 		(uuid "70d3f638-dc5b-4a07-891e-c163bb2cb829")
 		(property "Reference" "INF9"
-			(at 45.72 92.71 0)
+			(at 63.5 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3577,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 45.72 95.25 0)
+			(at 63.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +3585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 100.33 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 100.33 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 100.33 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,6 +3867,96 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:C_47u_X5R_0805")
+		(at 93.98 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b181dd7-6479-4674-9f2c-04f81ed6d044")
+		(property "Reference" "C1"
+			(at 97.79 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47u"
+			(at 97.79 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitor"
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C16780"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "6.3V X5R 20% 0805"
+			(at 97.79 60.9599 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "94ce21ad-dae5-4f65-bc96-c44066b6437e")
+		)
+		(pin "2"
+			(uuid "a618eaff-110c-42ee-bb81-354846054862")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 162.56 114.3 0)
 		(unit 1)
@@ -4163,7 +4131,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 93.98 91.44 0)
+		(at 111.76 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4172,7 +4140,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb649063-2213-4c0f-bd8d-8d0eea4e3c99")
 		(property "Reference" "TP15"
-			(at 96.52 85.6276 0)
+			(at 114.3 85.6276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4149,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 93.98 101.6 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4158,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 93.98 106.68 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 86.36 90)
+			(at 111.76 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 86.36 90)
+			(at 111.76 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4185,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 93.98 111.76 0)
+			(at 111.76 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4194,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 96.52 88.1676 0)
+			(at 114.3 88.1676 0)
 			(effects
 				(font
 					(size 0.762 0.762)

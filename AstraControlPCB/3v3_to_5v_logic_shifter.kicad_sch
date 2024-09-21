@@ -11,6 +11,163 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
+		(symbol "C_DNP_0805_1"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DNP"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "LiveAstra:C_DNP_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitor"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" ""
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "0805"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "C_DNP_0805_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_DNP_0805_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LiveAstra:C_100nF_X7R_0402"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -130,6 +287,163 @@
 				)
 			)
 			(symbol "C_100nF_X7R_0402_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LiveAstra:C_DNP_0805"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DNP"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer Ceramic Capacitor"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" ""
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "0805"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+						(bold yes)
+					)
+				)
+			)
+			(symbol "C_DNP_0805_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_DNP_0805_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1222,10 +1536,22 @@
 		(uuid "316e2d65-4339-4dbc-8dd8-a983a864d240")
 	)
 	(junction
+		(at 213.36 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46045f36-1901-4f64-b19a-7ef8511dd236")
+	)
+	(junction
 		(at 190.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e075666-079f-49f1-962a-0a1a7ee759fb")
+	)
+	(junction
+		(at 91.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c506517-9f04-43fc-a21e-21d14583c602")
 	)
 	(junction
 		(at 106.68 76.2)
@@ -1337,16 +1663,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.8) (xy 127 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a8c676c-d9a6-47a3-be89-0a160d990286")
-	)
-	(wire
-		(pts
 			(xy 165.1 124.46) (xy 243.84 124.46)
 		)
 		(stroke
@@ -1437,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 76.2) (xy 76.2 76.2)
+			(xy 68.58 76.2) (xy 60.96 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1507,6 +1823,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 50.8) (xy 213.36 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43eec274-e1a5-4b30-bf3c-d523fdce88cf")
+	)
+	(wire
+		(pts
 			(xy 127 50.8) (xy 134.62 50.8)
 		)
 		(stroke
@@ -1524,6 +1850,16 @@
 			(type default)
 		)
 		(uuid "46912203-e28b-45d6-bd44-628a4878fdc5")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f5ab1b-0313-41a5-86d3-a20832c40ca0")
 	)
 	(wire
 		(pts
@@ -1547,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 48.26) (xy 190.5 50.8)
+			(xy 213.36 48.26) (xy 213.36 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1577,6 +1913,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 66.04) (xy 91.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc2a4e7-5177-425d-adce-28a33d299e10")
+	)
+	(wire
+		(pts
 			(xy 124.46 76.2) (xy 124.46 93.98)
 		)
 		(stroke
@@ -1594,6 +1940,16 @@
 			(type default)
 		)
 		(uuid "8604c0fb-7b78-49a0-9503-c289d74837f9")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8702e829-84c5-4036-b03b-d0d8cc037354")
 	)
 	(wire
 		(pts
@@ -1717,7 +2073,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 76.2) (xy 106.68 76.2)
+			(xy 213.36 66.04) (xy 213.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae66d4c-4822-4054-b64d-50d23aacc6f4")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1744,6 +2110,16 @@
 			(type default)
 		)
 		(uuid "b72a098c-07ea-4464-957c-870172cb6fad")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b82658-206b-4e1b-b25e-032b7bfd561c")
 	)
 	(wire
 		(pts
@@ -1807,13 +2183,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 114.3 50.8)
+			(xy 91.44 48.26) (xy 91.44 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7b50ce3-351a-4ac8-a077-84553008f6a1")
+	)
+	(wire
+		(pts
+			(xy 213.36 50.8) (xy 190.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81893e2-7399-47b0-9b74-f843c7f77988")
 	)
 	(text "3V3 to 5V Logic Shifter"
 		(exclude_from_sim no)
@@ -1876,7 +2262,7 @@
 	)
 	(hierarchical_label "LEVEL_SHIFTER_IO_OE"
 		(shape input)
-		(at 76.2 76.2 180)
+		(at 60.96 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2256,7 +2642,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 48.26 0)
+		(at 213.36 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2265,7 +2651,7 @@
 		(fields_autoplaced yes)
 		(uuid "32df8010-052c-4b89-a2ba-921a2b4fc668")
 		(property "Reference" "#PWR055"
-			(at 190.5 52.07 0)
+			(at 213.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +2660,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 43.18 0)
+			(at 213.36 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 48.26 0)
+			(at 213.36 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,7 +2677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 48.26 0)
+			(at 213.36 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 48.26 0)
+			(at 213.36 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2708,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 114.3 48.26 0)
+		(at 91.44 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2331,7 +2717,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f99f2e9-6128-4c7d-8ac0-b9237c9ef705")
 		(property "Reference" "#PWR052"
-			(at 114.3 52.07 0)
+			(at 91.44 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2726,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 114.3 43.18 0)
+			(at 91.44 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 48.26 0)
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 48.26 0)
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2752,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 48.26 0)
+			(at 91.44 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +3241,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_0Ohm_0805_125mW")
-		(at 88.9 76.2 0)
+		(at 73.66 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2864,7 +3250,7 @@
 		(fields_autoplaced yes)
 		(uuid "533bab4c-ada1-486b-9229-f54b5e3f8e04")
 		(property "Reference" "R21"
-			(at 88.9 67.31 0)
+			(at 73.66 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +3258,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 88.9 69.85 0)
+			(at 73.66 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +3267,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 88.9 88.9 0)
+			(at 73.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +3276,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-1_C17477.html"
-			(at 88.9 85.09 0)
+			(at 73.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +3285,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors"
-			(at 88.9 81.28 0)
+			(at 73.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +3294,7 @@
 			)
 		)
 		(property "LCSC Part" "C17477"
-			(at 88.9 92.71 0)
+			(at 73.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +3303,7 @@
 			)
 		)
 		(property "Extra Values" "150V 1% 0805"
-			(at 88.9 72.39 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -3331,6 +3717,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 91.44 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83b7f52e-10b1-42f9-8148-97add4c46384")
+		(property "Reference" "#PWR046"
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea046b66-5cdc-4c9c-91a7-4fc99db3492f")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87afa8d8-4beb-42b4-97b5-f9105667657b")
+		(property "Reference" "#PWR031"
+			(at 213.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8c293ee-3588-4cc4-9046-a3fffab5fbb6")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 127 48.26 0)
 		(unit 1)
@@ -3677,6 +4195,187 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_DNP_0805_1")
+		(lib_id "LiveAstra:C_DNP_0805")
+		(at 213.36 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e7a37fca-abf9-424e-b947-48e5c96c2ff8")
+		(property "Reference" "C28"
+			(at 217.17 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DNP"
+			(at 217.17 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:C_DNP_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitor"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 229.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "0805"
+			(at 217.17 60.9599 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "6ac4e928-4d9b-4016-92ef-29f2f4c1cc26")
+		)
+		(pin "2"
+			(uuid "16c5d2a3-0efa-4fe9-a6ec-62688aab3625")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:C_DNP_0805")
+		(at 91.44 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ebde559e-a4da-47d3-aeba-7bee6eee3b3e")
+		(property "Reference" "C17"
+			(at 95.25 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DNP"
+			(at 95.25 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 100.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitor"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 107.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "0805"
+			(at 95.25 60.9599 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "6013db3a-e993-4d79-914a-e96ed5e5c38b")
+		)
+		(pin "2"
+			(uuid "44caee5a-d4e2-4343-a1ce-cd2982188c6c")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/12d48f68-9e8c-4210-a297-afac62bc105d"
+					(reference "C17")
 					(unit 1)
 				)
 			)

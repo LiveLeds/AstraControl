@@ -381,50 +381,55 @@
 			(extension_height 0)
 			(extension_offset 0) keep_text_aligned)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 0.95 -1.15)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "66997de2-106b-4446-883f-2353fedd011a")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0 -1.15)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "a8f427be-3158-405a-b059-873c3f465f9c")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -0.95 -1.15)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "faf6670a-665e-4d1c-acbb-39a0d40a27fe")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -0.95 1.15)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "a16e4708-9ed3-418b-8583-395ff1515360")
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at 0.95 1.15)
 		(size 0.6 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "e718df4e-cff0-4d8a-9e3c-d48c62eaf0f4")
 	)
 	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/TSOT-23-5_L2.9-W1.6-H1.00-LS2.8-P0.95.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -0.05)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 90)
 		)
 	)
 )
