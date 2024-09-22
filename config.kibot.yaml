@@ -141,8 +141,7 @@ outputs:
       dark_mode: true
       name_format: "index"
       include_tracks: true
-      group_fields: "_none"
-      show_fields: "Value,Footprint,X,Y,Datasheet,LCSC"
+      show_fields: "Value,Footprint,Datasheet,LCSC"
 
   - name: "JLCPCB_position"
     comment: "Pick and place file, JLCPCB style"

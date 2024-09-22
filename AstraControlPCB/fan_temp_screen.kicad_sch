@@ -1279,8 +1279,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 5.08 90)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2538,7 +2538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 170.18 101.6 90)
 			(effects
 				(font
@@ -2597,7 +2597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e7c3674-0d22-4389-b038-a1731bff1a2d")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR071"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -2647,7 +2647,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR069")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 99.06 45.72 90)
 			(effects
 				(font
@@ -2749,7 +2749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12722cba-9189-4151-bc93-7fbdab06a0cf")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR073"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -2799,7 +2799,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR071")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2815,7 +2815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16ea1176-7ffa-4b64-b6f9-755dd2712c19")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 144.78 49.53 0)
 			(effects
 				(font
@@ -2886,7 +2886,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2902,7 +2902,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1c029e72-f50b-43d1-a2c4-fad37282b9f4")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 223.52 149.8599 90)
 			(effects
 				(font
@@ -2976,7 +2976,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2992,7 +2992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266436d5-81f4-4a56-80a5-a9068301f342")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR075"
 			(at 195.58 97.79 0)
 			(effects
 				(font
@@ -3042,7 +3042,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3150,7 +3150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f2296de-f056-4c63-aac3-ccbb353ce4e0")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 106.68 93.9799 90)
 			(effects
 				(font
@@ -3224,7 +3224,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3240,7 +3240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bba4d7a-975b-40bc-8552-ddf35804c64e")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR066"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -3290,7 +3290,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3306,7 +3306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524ac0bd-324e-4f23-8eea-75b9925bd024")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 194.31 63.4999 90)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3396,7 +3396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a162b51-479b-4fc6-8d58-939f09a02556")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR067"
 			(at 99.06 125.73 0)
 			(effects
 				(font
@@ -3446,7 +3446,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR065")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3463,7 +3463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aa4c513-7d30-468b-bee8-b1927a9974d3")
-		(property "Reference" "INF6"
+		(property "Reference" "INF8"
 			(at 190.5 26.67 0)
 			(effects
 				(font
@@ -3509,7 +3509,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "INF6")
+					(reference "INF8")
 					(unit 1)
 				)
 			)
@@ -3525,7 +3525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62402ddd-2d15-48c0-a1bc-ff26b448412b")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 157.48 48.2599 90)
 			(effects
 				(font
@@ -3599,7 +3599,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6280cc4e-12fd-4a10-9eaf-9ab0fd024c64")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR065"
 			(at 83.82 181.61 0)
 			(effects
 				(font
@@ -3665,7 +3665,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3681,7 +3681,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6376fead-78b6-44e2-95be-fdb6d137e674")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 132.08 93.9799 90)
 			(effects
 				(font
@@ -3755,7 +3755,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3771,7 +3771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71572ba0-bf2c-4dcb-aa7e-2ad0f6e709a3")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 220.98 148.59 0)
 			(effects
 				(font
@@ -3821,7 +3821,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 86.36 147.32 90)
 			(effects
 				(font
@@ -3923,7 +3923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75752df8-4bf7-48a6-8cf8-cb800dffd700")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR077"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR075")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3989,7 +3989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dfcb8e6-649c-449b-bd7b-b861e2952227")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 83.82 77.47 0)
 			(effects
 				(font
@@ -4039,7 +4039,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4055,7 +4055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8204d76f-8f3b-4bf5-98ce-460af2f1d2b0")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR069"
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -4105,7 +4105,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR067")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4121,7 +4121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83bacaed-5e12-4cb8-8c43-06b1f1537169")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 83.82 130.81 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4187,7 +4187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92c6f2e0-f6e7-4e75-8b88-99f4f2dedbef")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR072"
 			(at 129.54 143.51 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR070")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4280,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 134.62 40.64 90)
 			(effects
 				(font
@@ -4339,7 +4339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c297ea7-d0ae-41d6-bf62-c5583350f828")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 198.12 149.8599 90)
 			(effects
 				(font
@@ -4413,7 +4413,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4456,7 +4456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 86.36 96.52 90)
 			(effects
 				(font
@@ -4515,7 +4515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b20aba3b-45db-4cf3-a9a3-e046abab4eee")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 180.34 49.53 0)
 			(effects
 				(font
@@ -4586,7 +4586,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4694,7 +4694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b31aeb67-3adc-43ef-a5df-fd42d3cf9d39")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR070"
 			(at 104.14 143.51 0)
 			(effects
 				(font
@@ -4744,7 +4744,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR068")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4760,7 +4760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b404304f-c42d-46b7-a8fa-10c209ab60b0")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 114.3 44.45 0)
 			(effects
 				(font
@@ -4831,7 +4831,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4847,7 +4847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b45c41ed-ee99-4367-9e66-a5e69c9ed721")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR068"
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -4897,7 +4897,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR066")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4913,7 +4913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6bd236c-ee33-461d-8eed-42adf69e3525")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR076"
 			(at 195.58 148.59 0)
 			(effects
 				(font
@@ -4963,7 +4963,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -4979,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bad56ae1-ffd2-4a10-b6bb-a26681f2e6e7")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 106.68 144.7799 90)
 			(effects
 				(font
@@ -5053,7 +5053,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5162,7 +5162,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ecd86ccf-2dd1-45b9-ac54-07dfaa29641c")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 223.52 99.0599 90)
 			(effects
 				(font
@@ -5236,7 +5236,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -5252,7 +5252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f03027c1-dbf1-41fc-9540-5fb379bb96fc")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 198.12 99.0599 90)
 			(effects
 				(font
@@ -5326,7 +5326,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -5342,7 +5342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f33054-5557-4db6-abb8-b1404842577c")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR074"
 			(at 190.5 80.01 0)
 			(effects
 				(font
@@ -5392,7 +5392,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR072")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5435,7 +5435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 170.18 152.4 90)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc658991-eda0-44fe-927e-75c43442c8e4")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 132.08 144.7799 90)
 			(effects
 				(font
@@ -5568,7 +5568,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)

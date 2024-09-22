@@ -1073,7 +1073,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "1A 20% 1.3A 30mΩ"
+			(property "Extra Values" "1A 20% 1.3A 30mOhm"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1230,7 +1230,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "4A 20% 41mΩ"
+			(property "Extra Values" "4A 20% 41mOhm"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1720,8 +1720,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 5.08 90)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2780,7 +2780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "1A 20% 1.3A 30mΩ"
+		(property "Extra Values" "1A 20% 1.3A 30mOhm"
 			(at 219.71 99.06 0)
 			(effects
 				(font
@@ -2814,7 +2814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fda02cd-1882-4102-b63b-71aa87b37a13")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 40.64 123.19 0)
 			(effects
 				(font
@@ -2885,7 +2885,7 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3396,7 +3396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 254 93.98 90)
 			(effects
 				(font
@@ -3587,7 +3587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ca94b3-34d8-4c45-8470-b5b491a4e368")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 124.46 121.9199 90)
 			(effects
 				(font
@@ -3661,7 +3661,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3833,7 +3833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1b6d09-447f-465f-bd2a-e40f079ad4ec")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 124.46 106.6799 90)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4045,7 +4045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 177.8 93.98 90)
 			(effects
 				(font
@@ -4353,7 +4353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
 			(at 48.26 93.98 90)
 			(effects
 				(font
@@ -4591,7 +4591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "4A 20% 41mΩ"
+		(property "Extra Values" "4A 20% 41mOhm"
 			(at 106.68 99.06 0)
 			(effects
 				(font

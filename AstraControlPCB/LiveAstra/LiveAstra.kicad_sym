@@ -8422,7 +8422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "1A 20% 1.3A 30mΩ"
+		(property "Extra Values" "1A 20% 1.3A 30mOhm"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -8579,7 +8579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "4A 20% 41mΩ"
+		(property "Extra Values" "4A 20% 41mOhm"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -11527,8 +11527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 5.08 90)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
