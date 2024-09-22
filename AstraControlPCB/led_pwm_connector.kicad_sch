@@ -1532,7 +1532,7 @@
 		)
 		(uuid "e02ffaa7-0f5b-4755-acea-6a5febd2474c")
 	)
-	(hierarchical_label "PWM_CH3"
+	(hierarchical_label "GPIO_16_PWM_CH3"
 		(shape input)
 		(at 109.22 93.98 180)
 		(fields_autoplaced yes)
@@ -1544,7 +1544,7 @@
 		)
 		(uuid "59180f84-51fb-49e6-a695-028ce014ef48")
 	)
-	(hierarchical_label "PWM_CH2"
+	(hierarchical_label "GPIO_17_PWM_CH2"
 		(shape input)
 		(at 109.22 73.66 180)
 		(fields_autoplaced yes)
@@ -1556,7 +1556,7 @@
 		)
 		(uuid "9deca04f-dc2e-4a6a-9679-d6e12a3c3840")
 	)
-	(hierarchical_label "PWM_CH4"
+	(hierarchical_label "GPIO_15_PWM_CH4"
 		(shape input)
 		(at 109.22 114.3 180)
 		(fields_autoplaced yes)
@@ -1568,7 +1568,7 @@
 		)
 		(uuid "c963f8e3-d023-45b5-bae4-9f6c8d7735fa")
 	)
-	(hierarchical_label "PWM_CH1"
+	(hierarchical_label "GPIO_18_PWM_CH1"
 		(shape input)
 		(at 109.22 55.88 180)
 		(fields_autoplaced yes)

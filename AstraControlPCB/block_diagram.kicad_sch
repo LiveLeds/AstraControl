@@ -2413,31 +2413,7 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_35_5V" bidirectional
-			(at 246.38 147.32 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "cc869420-0f25-45d2-9e29-41352ec2f918")
-		)
-		(pin "GPIO_36_5V" bidirectional
-			(at 246.38 152.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "fbd56e2b-e1bb-4bc0-8a5e-a8a06bfc24f4")
-		)
-		(pin "GPIO_37_5V" bidirectional
+		(pin "GPIO_40_5V" bidirectional
 			(at 246.38 157.48 180)
 			(effects
 				(font
@@ -2447,9 +2423,9 @@
 				)
 				(justify left)
 			)
-			(uuid "b4189194-af3e-4769-876f-1ac0a66637c7")
+			(uuid "81c209e8-4aec-4d49-bbf0-bf1f5a8a0961")
 		)
-		(pin "GPIO_38_5V" bidirectional
+		(pin "GPIO_39_5V" bidirectional
 			(at 246.38 162.56 180)
 			(effects
 				(font
@@ -2459,7 +2435,31 @@
 				)
 				(justify left)
 			)
-			(uuid "bfabdfdb-3ffe-4444-af9c-ad29823b7ea3")
+			(uuid "236b2bd3-f6c7-49de-8e71-77b4031d9ec7")
+		)
+		(pin "GPIO_42_5V" bidirectional
+			(at 246.38 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "ee831bdb-4ab7-448e-8b9a-65f1fffdb537")
+		)
+		(pin "GPIO_41_5V" bidirectional
+			(at 246.38 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "97aa19e4-d1de-4e7a-bdd1-d4eb7c00e78a")
 		)
 		(instances
 			(project "AstraControl"
@@ -2831,7 +2831,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PWM_CH2" input
+		(pin "GPIO_17_PWM_CH2" input
 			(at 246.38 53.34 180)
 			(effects
 				(font
@@ -2841,9 +2841,9 @@
 				)
 				(justify left)
 			)
-			(uuid "f3f6a115-07ab-4de3-9d35-e2217a7f99c8")
+			(uuid "dbebdbb2-d90d-4bf7-b413-4f1cc6fe6810")
 		)
-		(pin "PWM_CH1" input
+		(pin "GPIO_18_PWM_CH1" input
 			(at 246.38 48.26 180)
 			(effects
 				(font
@@ -2853,9 +2853,9 @@
 				)
 				(justify left)
 			)
-			(uuid "aa026499-61fa-4d02-9fe6-e2a7cb46fa50")
+			(uuid "d5829908-3439-4640-bc5b-697581169823")
 		)
-		(pin "PWM_CH4" input
+		(pin "GPIO_15_PWM_CH4" input
 			(at 246.38 63.5 180)
 			(effects
 				(font
@@ -2865,9 +2865,9 @@
 				)
 				(justify left)
 			)
-			(uuid "eebe22a9-f7bb-477f-8bd3-1f7b84770784")
+			(uuid "866f45a9-d30f-452a-af75-f0828f1da2c2")
 		)
-		(pin "PWM_CH3" input
+		(pin "GPIO_16_PWM_CH3" input
 			(at 246.38 58.42 180)
 			(effects
 				(font
@@ -2877,7 +2877,7 @@
 				)
 				(justify left)
 			)
-			(uuid "fef541dd-ffb2-497e-ba9b-3b9295366fba")
+			(uuid "d9cb33cb-44e9-426c-9fdf-cc48ddb16fef")
 		)
 		(instances
 			(project "AstraControl"
