@@ -229,7 +229,6 @@ outputs:
       use_external_command: true
       outputs:
         - source: "PCBPrint@COLOR_SCHEME@/AstraControl-assembly-dimensions.pdf"
-        - source: "PCBPrint@COLOR_SCHEME@/AstraControl-assembly-colored-l1.pdf"
         - source: "PCBPrint@COLOR_SCHEME@/AstraControl-assembly.pdf"
 
 ...
