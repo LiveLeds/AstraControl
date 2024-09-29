@@ -10,6 +10,8 @@ for communication, supporting various sensors and HMI devices for high-power
 LED fixtures or strips. One device can act as master or all fixtures will receive 
 data from a dedicated receiver.
 
+
+
 ![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }}){: width="400" }
 
 ## Table of contents
