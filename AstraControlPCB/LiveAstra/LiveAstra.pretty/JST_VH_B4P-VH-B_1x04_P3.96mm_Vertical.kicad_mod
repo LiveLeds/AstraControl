@@ -6,7 +6,7 @@
 	(descr "JST VH PBT series connector, B4P-VH-B (http://www.jst-mfg.com/product/pdf/eng/eVH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST VH vertical")
 	(property "Reference" "REF**"
-		(at 5.94 -4.9 0)
+		(at 0 -4.9 0)
 		(layer "F.SilkS")
 		(uuid "a1c82023-1634-4d2a-b514-fb21914e0801")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "JST_VH_B4P-VH-B_1x04_P3.96mm_Vertical"
-		(at 5.94 6 0)
+		(at 0 6 0)
 		(layer "F.Fab")
 		(uuid "f15d17b2-6029-4f6f-82bb-62b7b99499a9")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" "JST_VH_B4P-VH-B_1x04_P3.96mm_Vertical"
-		(at 0 0 0)
+		(at -5.94 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -5.94 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -5.94 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.06 -2.11)
-		(end -0.86 -2.11)
+		(start -8 -2.11)
+		(end -6.8 -2.11)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -78,8 +78,8 @@
 		(uuid "19247f05-2356-4865-805b-aecfed503d19")
 	)
 	(fp_line
-		(start -2.06 4.91)
-		(end -2.06 -2.11)
+		(start -8 4.91)
+		(end -8 -2.11)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -88,8 +88,8 @@
 		(uuid "20125ed5-cfb8-4c83-8288-0fe971f0656c")
 	)
 	(fp_line
-		(start -0.86 -3.81)
-		(end 12.74 -3.81)
+		(start -6.8 -3.81)
+		(end 6.8 -3.81)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -98,8 +98,8 @@
 		(uuid "444a0f51-08d8-4f1e-b5ec-41b8122a69c8")
 	)
 	(fp_line
-		(start -0.86 -2.11)
-		(end -0.86 -3.81)
+		(start -6.8 -2.11)
+		(end -6.8 -3.81)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -108,8 +108,8 @@
 		(uuid "de14f46f-8841-44b9-abf5-9f605093c584")
 	)
 	(fp_line
-		(start 12.74 -3.81)
-		(end 12.74 -2.11)
+		(start 6.8 -3.81)
+		(end 6.8 -2.11)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -118,8 +118,8 @@
 		(uuid "f1a90128-f0b5-4c41-9bc5-2083eda5fb48")
 	)
 	(fp_line
-		(start 12.74 -2.11)
-		(end 13.94 -2.11)
+		(start 6.8 -2.11)
+		(end 8 -2.11)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -128,8 +128,8 @@
 		(uuid "f83c64f6-9c02-4dcb-b388-887ca1cfed48")
 	)
 	(fp_line
-		(start 13.94 -2.11)
-		(end 13.94 4.91)
+		(start 8 -2.11)
+		(end 8 4.91)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -138,8 +138,8 @@
 		(uuid "00d012ed-4b05-4acc-b579-46e9acb028d7")
 	)
 	(fp_line
-		(start 13.94 4.91)
-		(end -2.06 4.91)
+		(start 8 4.91)
+		(end -8 4.91)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -149,7 +149,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -3.25 -0.5) (xy -2.75 0) (xy -3.25 0.5)
+			(xy -9.19 -0.5) (xy -8.69 0) (xy -9.19 0.5)
 		)
 		(stroke
 			(width 0.16)
@@ -160,8 +160,8 @@
 		(uuid "e14278fb-df33-4659-811f-5bb2dfb355a4")
 	)
 	(fp_line
-		(start -2.45 -4.2)
-		(end -2.45 5.3)
+		(start -8.39 -4.2)
+		(end -8.39 5.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -170,8 +170,8 @@
 		(uuid "9eab1a18-ddb4-4b38-9453-f1b46d99ec85")
 	)
 	(fp_line
-		(start -2.45 5.3)
-		(end 14.33 5.3)
+		(start -8.39 5.3)
+		(end 8.39 5.3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -180,8 +180,8 @@
 		(uuid "c47e905d-6183-4e43-834e-259f5afe28c2")
 	)
 	(fp_line
-		(start 14.33 -4.2)
-		(end -2.45 -4.2)
+		(start 8.39 -4.2)
+		(end -8.39 -4.2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -190,8 +190,8 @@
 		(uuid "9eef3288-542f-4319-bc16-27b0e4e9ad4a")
 	)
 	(fp_line
-		(start 14.33 5.3)
-		(end 14.33 -4.2)
+		(start 8.39 5.3)
+		(end 8.39 -4.2)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -200,8 +200,8 @@
 		(uuid "07a38de4-51bf-4577-b5fd-b328612e9a66")
 	)
 	(fp_line
-		(start -1.95 -2)
-		(end -1.95 4.8)
+		(start -7.89 -2)
+		(end -7.89 4.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -210,8 +210,8 @@
 		(uuid "436c6938-b6b6-467d-b2ea-fbaa642e8062")
 	)
 	(fp_line
-		(start -1.95 -1)
-		(end -0.95 0)
+		(start -7.89 -1)
+		(end -6.89 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -220,8 +220,8 @@
 		(uuid "c53227f2-0a81-4bdc-b828-475c0b73107d")
 	)
 	(fp_line
-		(start -1.95 1)
-		(end -0.95 0)
+		(start -7.89 1)
+		(end -6.89 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -230,8 +230,8 @@
 		(uuid "3c27915d-26c1-4ca9-83a7-16f88c77ecf0")
 	)
 	(fp_line
-		(start -1.95 4.8)
-		(end 13.83 4.8)
+		(start -7.89 4.8)
+		(end 7.89 4.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -240,8 +240,8 @@
 		(uuid "3add17d7-b30c-41fe-ba67-6f76d6453a41")
 	)
 	(fp_line
-		(start -0.75 -3.7)
-		(end 12.63 -3.7)
+		(start -6.69 -3.7)
+		(end 6.69 -3.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -250,8 +250,8 @@
 		(uuid "8a0778da-6062-4d94-9d06-20c22f69a597")
 	)
 	(fp_line
-		(start -0.75 -2)
-		(end -0.75 -3.7)
+		(start -6.69 -2)
+		(end -6.69 -3.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -260,8 +260,8 @@
 		(uuid "cb139019-16da-425f-9515-5cbf86aa12de")
 	)
 	(fp_line
-		(start 12.63 -3.7)
-		(end 12.63 -2)
+		(start 6.69 -3.7)
+		(end 6.69 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -270,8 +270,8 @@
 		(uuid "01ba76dd-35e3-4a50-9896-e417ce45988b")
 	)
 	(fp_line
-		(start 13.83 -2)
-		(end -1.95 -2)
+		(start 7.89 -2)
+		(end -7.89 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -280,8 +280,8 @@
 		(uuid "b32540a6-f41d-4330-8db8-f9b0865be231")
 	)
 	(fp_line
-		(start 13.83 4.8)
-		(end 13.83 -2)
+		(start 7.89 4.8)
+		(end 7.89 -2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -290,7 +290,7 @@
 		(uuid "63d90985-2bfc-4f6a-ae83-64124193195d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.94 4.1 0)
+		(at 0 4.1 0)
 		(layer "F.Fab")
 		(uuid "d270bc72-ad46-4b8d-9491-7fed3e4fbb6b")
 		(effects
@@ -301,7 +301,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 0 0)
+		(at -5.94 0)
 		(size 2.7 2.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
@@ -310,7 +310,7 @@
 		(uuid "280d6c58-06f7-48d3-a1bd-395920465bf5")
 	)
 	(pad "2" thru_hole circle
-		(at 3.96 0)
+		(at -1.98 0)
 		(size 2.7 2.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
@@ -318,7 +318,7 @@
 		(uuid "3d27311f-09da-41c7-aa42-5762349b54c2")
 	)
 	(pad "3" thru_hole circle
-		(at 7.92 0)
+		(at 1.98 0)
 		(size 2.7 2.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
@@ -326,7 +326,7 @@
 		(uuid "e347e3c6-f35d-4de7-b32b-69b69b6787aa")
 	)
 	(pad "4" thru_hole circle
-		(at 11.88 0)
+		(at 5.94 0)
 		(size 2.7 2.7)
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
@@ -335,7 +335,7 @@
 	)
 	(model "${KIPRJMOD}/LiveAstra/LiveAstra.3dshapes/B4P-VH-LF--SN---3DModel-STEP-56544.STEP"
 		(offset
-			(xyz 5.95 0 0)
+			(xyz 0.01 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
