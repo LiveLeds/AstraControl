@@ -7,6 +7,10 @@
 	(condition "A.Type == 'via' && B.Type == 'pad'")
 	(constraint physical_hole_clearance (min 0.2mm))
 )
+(rule holes_in_pads
+    (constraint physical_hole_clearance (min 0.305mm))
+    (condition "B.Pad_Type == 'SMD'")
+)
 (rule "Minimum silkscreen line width"
 	(severity warning)
 	(constraint assertion "A.Line_Width >= 0.16mm")

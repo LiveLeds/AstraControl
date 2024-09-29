@@ -4,36 +4,32 @@ layout: home
 
 {% assign cacheBust = site.time | date:'?v=%s' %}
 
-# AstraControl PCB
+![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }}){: width="400" }
+
 ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
 for communication, supporting various sensors and HMI devices for high-power 
 LED fixtures or strips. One device can act as master or all fixtures will receive 
 data from a dedicated receiver.
 
-
-
-![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }}){: width="400" }
-
 ## Table of contents
 
-- [AstraControl PCB](#astracontrol-pcb)
-  - [Table of contents](#table-of-contents)
-    - [Render Top Angled](#render-top-angled)
-    - [Render Top](#render-top)
-    - [Render Bottom](#render-bottom)
-    - [Interactive BOM](#interactive-bom)
-    - [BOM](#bom)
-    - [Schematic](#schematic)
-      - [Dark](#dark)
-      - [Monochromatic](#monochromatic)
-      - [Light](#light)
-    - [Assembly](#assembly)
-      - [Dark](#dark-1)
-      - [Light](#light-1)
-    - [Downloads](#downloads)
-  - [Report](#report)
-      - [ERC](#erc)
-      - [DRC](#drc)
+- [Table of contents](#table-of-contents)
+  - [Render Top Angled](#render-top-angled)
+  - [Render Top](#render-top)
+  - [Render Bottom](#render-bottom)
+  - [Interactive BOM](#interactive-bom)
+  - [BOM](#bom)
+  - [Schematic](#schematic)
+    - [Dark](#dark)
+    - [Monochromatic](#monochromatic)
+    - [Light](#light)
+  - [Assembly](#assembly)
+    - [Dark](#dark-1)
+    - [Light](#light-1)
+  - [Downloads](#downloads)
+- [Report](#report)
+    - [ERC](#erc)
+    - [DRC](#drc)
 
 ### Render Top Angled
 
