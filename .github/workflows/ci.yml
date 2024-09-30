@@ -219,7 +219,8 @@ jobs:
           mkdir html
           mkdir images
           mkdir documents
-          mkdir kiri
+          mkdir KiRiDark
+          mkdir KiRiLight
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
           mv output/Report/report/AstraControl-report.txt ./AstraControl-report.md
