@@ -221,6 +221,18 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
+  - name: 'Kiri'
+    comment: 'Generates an interactive web page to browse the schematic and/or PCB differences between git commits.'
+    type: 'kiri'
+    dir: 'Kiri'
+    options:
+      background_color: '#000000'
+      color_theme: 'Arcana'
+      keep_generated: false
+      max_commits: 0
+      revision: 'HEAD'
+      zones: 'global'
+    layers: all
   - name: "Markdown components table"
     comment: "All LCSC components in HTML"
     type: bom
