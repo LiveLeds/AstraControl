@@ -3,7 +3,8 @@ layout: home
 ---
 
 {% assign cacheBust = site.time | date:'?v=%s' %}
-
+[GitHub](https://github.com/alexanderp4580/astra-control-pcb)
+[![CI](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml/badge.svg)](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml)
 ![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }}){: width="400" }
 
 ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
