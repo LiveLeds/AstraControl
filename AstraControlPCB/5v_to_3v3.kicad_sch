@@ -11,210 +11,6 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
-		(symbol "Information_Box_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "INF"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -15.24 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Information_Box_1_1_1"
-				(arc
-					(start -25.3998 -5.0798)
-					(mid -24.6559 -6.8759)
-					(end -22.8598 -7.6198)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -25.4 5.08)
-					(end 25.4 -5.08)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -22.86 7.62)
-					(mid -24.6561 6.8761)
-					(end -25.4 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -22.86 7.62)
-					(end 22.86 -7.62)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -21.082 5.08)
-					(radius 1.524)
-					(stroke
-						(width 0.381)
-						(type default)
-						(color 41 182 246 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -25.4 5.08) (xy -25.4 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -22.86 -7.62) (xy 22.86 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 7.62) (xy -22.86 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 25.4 -5.08) (xy 25.4 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 22.86 -7.62)
-					(mid 24.6561 -6.8761)
-					(end 25.4 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 25.4 5.08)
-					(mid 24.6561 6.8761)
-					(end 22.86 7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "i"
-					(at -21.0726 4.8456 0)
-					(effects
-						(font
-							(face "ING Me Headline")
-							(size 1.27 1.27)
-							(color 41 182 246 1)
-						)
-					)
-				)
-				(text "Information"
-					(at -17.78 5.08 0)
-					(effects
-						(font
-							(face "ING Me Headline")
-							(size 2.032 2.032)
-							(color 41 182 246 1)
-						)
-						(justify left)
-					)
-				)
-			)
-		)
 		(symbol "LiveAstra:C_22uF_X5R_0603"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -256,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitor"
+			(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -281,6 +77,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "CL10A226MQ8NRNC"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Samsung Electro-Mechanics"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "C_22uF_X5R_0603_0_1"
@@ -413,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitor"
+			(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -438,6 +252,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "CL21A476MQYNNNE"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Samsung Electro-Mechanics"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "C_47u_X5R_0805_0_1"
@@ -570,7 +402,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Surface mount ceramic multilayer capacitor"
+			(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -580,7 +412,7 @@
 				)
 			)
 			(property "LCSC Part" "C19666"
-				(at 0 -15.24 0)
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -594,6 +426,23 @@
 					(font
 						(size 0.762 0.762)
 						(bold yes)
+					)
+				)
+			)
+			(property "MPN" "CL10A475KO8NNNC"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -727,7 +576,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitor"
+			(property "Description" "DNP"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -881,7 +730,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Synchronous rectification with enable, 0.7 A, 1.7 MHz fixed or adjustable step-down switching regulator in TSOT23-5L"
+			(property "Description" "Step-down type Adjustable 600mV~5.5V 700mA 2.5V~5.5V TSOT-23-5 DC-DC Converters ROHS"
 				(at 1.27 -25.4 0)
 				(effects
 					(font
@@ -906,6 +755,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "ST1S12GR"
+				(at 0 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "STMicroelectronics"
+				(at 0 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "DC_DC_Step_Down_Converter_ST1S12GR_0_1"
@@ -1014,6 +881,210 @@
 				)
 			)
 		)
+		(symbol "LiveAstra:Information_Box"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "INF"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -15.24 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Information_Box_1_1"
+				(arc
+					(start -25.3998 -5.0798)
+					(mid -24.6559 -6.8759)
+					(end -22.8598 -7.6198)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -25.4 5.08)
+					(end 25.4 -5.08)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -22.86 7.62)
+					(mid -24.6561 6.8761)
+					(end -25.4 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -22.86 7.62)
+					(end 22.86 -7.62)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -21.082 5.08)
+					(radius 1.524)
+					(stroke
+						(width 0.381)
+						(type default)
+						(color 41 182 246 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -25.4 5.08) (xy -25.4 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -7.62) (xy 22.86 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 7.62) (xy -22.86 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -5.08) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 22.86 -7.62)
+					(mid 24.6561 -6.8761)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 25.4 5.08)
+					(mid 24.6561 6.8761)
+					(end 22.86 7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "i"
+					(at -21.0726 4.8456 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 1.27 1.27)
+							(color 41 182 246 1)
+						)
+					)
+				)
+				(text "Information"
+					(at -17.78 5.08 0)
+					(effects
+						(font
+							(face "ING Me Headline")
+							(size 2.032 2.032)
+							(color 41 182 246 1)
+						)
+						(justify left)
+					)
+				)
+			)
+		)
 		(symbol "LiveAstra:L_22uH_1A_ SWPA4030S220MT"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1080,6 +1151,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "SWPA4030S220MT"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Sunlord"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "L_22uH_1A_ SWPA4030S220MT_0_1"
@@ -1203,7 +1292,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/partdetail/Koherelec-MDA40202R2M/C2847469"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html"
 				(at 1.27 -16.51 0)
 				(effects
 					(font
@@ -1237,6 +1326,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "MDA4020-2R2M"
+				(at -1.27 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "KOHERelec"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "L_2u2H_4A_MDA4020-2R2M_0_1"
@@ -1360,7 +1467,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1369,7 +1476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1394,6 +1501,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0402WGF1002TCE"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_10kOhm_0402_62mW_0_1"
@@ -1489,7 +1614,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Chip Resistor - Surface Mount ROHS"
+			(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1MΩ 0805 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1514,6 +1639,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0805W8F1004T5E"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_1MOhm_0805_125mW_0_1"
@@ -1609,7 +1752,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 45.3kΩ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1634,6 +1777,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0402WGF4532TCE"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_45k3Ohm_0402_62mW_0_1"
@@ -1712,7 +1873,7 @@
 				)
 			)
 			(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1721,7 +1882,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-				(at 0 -12.7 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1729,8 +1890,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 5.08 90)
+			(property "Description" "Test Points / Test Rings ROHS "
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1739,7 +1900,7 @@
 				)
 			)
 			(property "LCSC Part" "C5277086"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1754,6 +1915,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "RH-5000"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "ronghe"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "TestPoint_Thimble_1_1"
@@ -2789,6 +2968,24 @@
 				)
 			)
 		)
+		(property "MFN" "Sunlord"
+			(at 219.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA4030S220MT"
+			(at 219.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcafaf29-811b-4ea2-8dae-463ad3c6197b")
 		)
@@ -2849,7 +3046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1MΩ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 40.64 127 0)
 			(effects
 				(font
@@ -2874,6 +3071,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1004T5E"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3136,7 +3351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surface mount ceramic multilayer capacitor"
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 152.4 109.22 0)
 			(effects
 				(font
@@ -3162,6 +3377,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3226,7 +3459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 209.55 109.22 0)
 			(effects
 				(font
@@ -3252,6 +3485,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 224.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A226MQ8NRNC"
+			(at 224.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3316,7 +3567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "DNP"
 			(at 256.54 129.54 0)
 			(effects
 				(font
@@ -3405,7 +3656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 254 93.98 90)
 			(effects
 				(font
@@ -3431,6 +3682,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 254 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 254 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3615,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 130.81 124.46 0)
 			(effects
 				(font
@@ -3624,7 +3893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 127 124.46 0)
 			(effects
 				(font
@@ -3650,6 +3919,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3780,7 +4067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 237.49 109.22 0)
 			(effects
 				(font
@@ -3806,6 +4093,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A476MQYNNNE"
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3870,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 45.3kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 127 109.22 0)
 			(effects
 				(font
@@ -3896,6 +4201,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF4532TCE"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3957,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Synchronous rectification with enable, 0.7 A, 1.7 MHz fixed or adjustable step-down switching regulator in TSOT23-5L"
+		(property "Description" "Step-down type Adjustable 600mV~5.5V 700mA 2.5V~5.5V TSOT-23-5 DC-DC Converters ROHS"
 			(at 72.39 134.62 0)
 			(effects
 				(font
@@ -3982,6 +4305,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "STMicroelectronics"
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ST1S12GR"
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4054,7 +4395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 177.8 93.98 90)
 			(effects
 				(font
@@ -4080,6 +4421,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 177.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 177.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4273,7 +4632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surface mount ceramic multilayer capacitor"
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 45.72 106.68 0)
 			(effects
 				(font
@@ -4299,6 +4658,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 60.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 60.96 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4362,7 +4739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 48.26 93.98 90)
 			(effects
 				(font
@@ -4390,6 +4767,24 @@
 				(justify left)
 			)
 		)
+		(property "MFN" "ronghe"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0da66af8-95be-4fb5-a284-d2010944d0a9")
 		)
@@ -4403,7 +4798,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Information_Box_1")
 		(lib_id "LiveAstra:Information_Box")
 		(at 71.12 76.2 0)
 		(unit 1)
@@ -4466,7 +4860,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Information_Box_1")
 		(lib_id "LiveAstra:Information_Box")
 		(at 220.98 81.28 0)
 		(unit 1)
@@ -4564,7 +4957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Koherelec-MDA40202R2M/C2847469"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html"
 			(at 105.41 85.09 0)
 			(effects
 				(font
@@ -4598,6 +4991,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "KOHERelec"
+			(at 107.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MDA4020-2R2M"
+			(at 107.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4662,7 +5073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "DNP"
 			(at 193.04 129.54 0)
 			(effects
 				(font
@@ -4818,7 +5229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surface mount ceramic multilayer capacitor"
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 172.72 109.22 0)
 			(effects
 				(font
@@ -4844,6 +5255,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 187.96 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

@@ -380,159 +380,6 @@
 			)
 		)
 	)
-	(symbol "B4B-ZR-3.4(LF)(SN)"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "CN"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B4B-ZR-3.4 (LF)(SN)"
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:CONN-TH_B4B-ZR-3.4-LF-SN"
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C163034"
-			(at 0 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "B4B-ZR-3.4(LF)(SN)_0_1"
-			(rectangle
-				(start -3.81 6.35)
-				(end 6.35 -6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(circle
-				(center -2.54 5.08)
-				(radius 0.38)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 3.81 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 1.27 0)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 -1.27 0)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 -3.81 0)
-				(length 2.54)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "CHASSIS"
 		(power)
 		(pin_numbers hide)
@@ -733,7 +580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 			(at 1.27 -8.89 0)
 			(effects
 				(font
@@ -742,7 +589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -752,7 +599,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 1.27 -16.51 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,6 +614,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_100nF_X7R_0402_0_1"
@@ -899,7 +764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " Multilayer Ceramic Capacitors MLCC"
+		(property "Description" "50V 100pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -924,6 +789,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0402CG101J500NT"
+			(at 1.27 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_100pF_C0G_0402_0_1"
@@ -1056,7 +939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors"
+		(property "Description" "50V 100pF C0G ±5% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1081,6 +964,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "CL21C101JBANNNC"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_100pF_C0G_0805_0_1"
@@ -1213,7 +1114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "1kV 10nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1238,6 +1139,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "FV21X103K102ECG"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "PSA(Prosperity Dielectrics)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_10nF_X7R_0805_0_1"
@@ -1370,7 +1289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surface mount ceramic multilayer capacitor"
+		(property "Description" "200V 10nF X7R ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1394,6 +1313,24 @@
 				(font
 					(size 0.762 0.762)
 				)
+			)
+		)
+		(property "MPN" "CC1206JRX7RABB103"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "YAGEO"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_10nF_X7R_1206_0_1"
@@ -1526,7 +1463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1551,6 +1488,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPR" "CL05A105KA5NQNC"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_1uF_X5R_0402_0_1"
@@ -1674,7 +1629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.html"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -1683,7 +1638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samsung Multilayer Ceramic Capacitors"
+		(property "Description" "50V 1uF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1707,6 +1662,24 @@
 				(font
 					(size 0.762 0.762)
 				)
+			)
+		)
+		(property "MPN" "CL21B105KBFNNNE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_1uF_X7R_0805_0_1"
@@ -1839,7 +1812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1864,6 +1837,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "CL10A226MQ8NRNC"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_22uF_X5R_0603_0_1"
@@ -1996,7 +1987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "16V 22uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2021,6 +2012,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "CL31A226KOHNNNE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_22uF_X5R_1206_0_1"
@@ -2153,7 +2162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2178,6 +2187,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "CL21A476MQYNNNE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "C_47u_X5R_0805_0_1"
@@ -2310,7 +2337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surface mount ceramic multilayer capacitor"
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -2320,7 +2347,7 @@
 			)
 		)
 		(property "LCSC Part" "C19666"
-			(at 0 -15.24 0)
+			(at 0 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,6 +2361,23 @@
 				(font
 					(size 0.762 0.762)
 					(bold yes)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2467,7 +2511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "DNP"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -3031,7 +3075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Synchronous rectification with enable, 0.7 A, 1.7 MHz fixed or adjustable step-down switching regulator in TSOT23-5L"
+		(property "Description" "Step-down type Adjustable 600mV~5.5V 700mA 2.5V~5.5V TSOT-23-5 DC-DC Converters ROHS"
 			(at 1.27 -25.4 0)
 			(effects
 				(font
@@ -3056,6 +3100,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "ST1S12GR"
+			(at 0 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "STMicroelectronics"
+			(at 0 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "DC_DC_Step_Down_Converter_ST1S12GR_0_1"
@@ -3205,7 +3267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky Barrier Diode"
+		(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -3230,6 +3292,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "SS14"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "MDD(Microdiode Semiconductor)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "D_Schottky_SS14_1A_40V_0_1"
@@ -3610,7 +3690,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TVS_NUP3105LT1G_36V"
-			(at 0 -12.7 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,8 +3698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Born-BNUP3105LT1G/C5344577"
-			(at 0 -10.16 0)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_BORN-BNUP3105LT1G_C5344577.html"
+			(at 0 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array"
+		(property "Description" "Bidirectional 2 Diode Array 36V SOT-23 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -3637,7 +3717,7 @@
 			)
 		)
 		(property "LCSC Part" "C2931121"
-			(at 0 -15.24 0)
+			(at 0 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,6 +3732,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "BNUP3105LT1G"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "BORN"
+			(at 0 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "D_TVS_NUP3105LT1G_BIDI_ARRAY_300W_0_1"
@@ -4090,7 +4188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/WiFi-Modules_Espressif-Systems-ESP32-S3-WROOM-1U-N8_C2980297.html"
 			(at 0 -67.31 0)
 			(effects
 				(font
@@ -4118,11 +4216,30 @@
 			)
 		)
 		(property "LCSC Part" "C2980297"
-			(at 0 0 0)
+			(at 0 -92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESP32-S3-WROOM-1U-N8"
+			(at 0 -82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Espressif Systems"
+			(at 0 -87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna"
@@ -4983,269 +5100,6 @@
 			)
 		)
 	)
-	(symbol "H3V3SD3B"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "H3V3SD3B"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:SOD-323_L1.8-W1.3-LS2.7-BI"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C20615802"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "H3V3SD3B_0_1"
-			(polyline
-				(pts
-					(xy -3.05 -3.3) (xy -3.05 -0.25)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.05 1.02) (xy -3.05 4.06)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.05 -3.3) (xy 3.05 -0.25)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.05 1.02) (xy 3.05 4.06)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.05 -3.3) (xy -3.56 -3.81) (xy -3.05 -3.3)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.05 -0.25) (xy -2.54 0.25) (xy -3.05 -0.25)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.05 1.02) (xy 3.56 0.51) (xy 3.05 1.02)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.05 4.06) (xy 2.54 4.57) (xy 3.05 4.06)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 0) (xy -5.08 -1.78) (xy 5.08 -1.78) (xy 5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.51 -0.25) (xy -3.05 -1.78) (xy -0.51 -3.3) (xy -0.51 -0.25)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.51 4.06) (xy -3.05 2.54) (xy -0.51 1.02) (xy -0.51 4.06)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.51 -0.25) (xy 3.05 -1.78) (xy 0.51 -3.3) (xy 0.51 -0.25)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.51 4.06) (xy 3.05 2.54) (xy 0.51 1.02) (xy 0.51 4.06)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 5.08 2.54) (xy -5.08 2.54) (xy -5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "Information_Box"
 		(pin_numbers hide)
 		(pin_names
@@ -6071,228 +5925,6 @@
 			)
 		)
 	)
-	(symbol "JST_NH_8PIN"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "CN"
-			(at 0 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B8P-SHF-1AA (LF)(SN)"
-			(at 0 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:CONN-TH_B8P-SHF-1AA-LF-SN"
-			(at 0 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/_JST_B8P-SHF-1AA-LF-SN_B8P-SHF-1AA-LF-SN_C160363.html"
-			(at 0 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C160363"
-			(at 0 -30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "C160363"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "JST_NH_8PIN_0_1"
-			(rectangle
-				(start -1.27 11.43)
-				(end 6.35 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 8.89 0)
-				(length 5.08)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 6.35 0)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 3.81 0)
-				(length 5.08)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 1.27 0)
-				(length 5.08)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 -1.27 0)
-				(length 5.08)
-				(name "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 -3.81 0)
-				(length 5.08)
-				(name "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 -6.35 0)
-				(length 5.08)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -6.35 -8.89 0)
-				(length 5.08)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "JST_VH_2PIN_10A_250V"
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -6324,7 +5956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_JST-B2P-VH-R-LF-SN_C265357.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2P-VH-R-LF-SN_C265357.html"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -6333,7 +5965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VH CONNECTOR 3.96mm pitch/Disconnectable Crimp style connectors"
+		(property "Description" "1x2P 2P VH Tin 2 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -6358,6 +5990,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "B2P-VH-R(LF)(SN)"
+			(at 0 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 0 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "JST_VH_2PIN_10A_250V_1_1"
@@ -6450,7 +6100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VH CONNECTOR 3.96mm pitch/Disconnectable Crimp style connectors"
+		(property "Description" "1x4P 4P VH Tin 4 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -6475,6 +6125,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "B4P-VH(LF)(SN)"
+			(at 0 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 0 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "JST_VH_4PIN_10A_250V_0_1"
@@ -6606,7 +6274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x8P 8P VH Tin 8 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -6631,6 +6299,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "B8P-VH-B(LF)(SN)"
+			(at 0 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 0 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "JST_VH_8PIN_10A_250V_0_1"
@@ -6833,7 +6519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ZH CONNECTOR 1.5mm pitch/Disconnectable Crimp style connectors"
+		(property "Description" "1x4P 4P ZH Tin 4 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
 			(at 0 -16.51 0)
 			(effects
 				(font
@@ -6858,6 +6544,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "B4B-ZR-3.4(LF)(SN)"
+			(at 0 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 0 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "JST_ZH_4PIN_1A_50V_0_1"
@@ -6989,7 +6693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 1x6P 6P ZH Tin 6 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
+		(property "Description" "1x6P 6P ZH Tin 6 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
 			(at 0 -41.91 0)
 			(effects
 				(font
@@ -7014,6 +6718,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "B6B-ZR(LF)(SN)"
+			(at 0 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 0 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "JST_ZH_6PIN_1A_250V_0_1"
@@ -7421,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603 Smd LED Emitting Color Red"
+		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS "
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -7446,6 +7168,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "KT-0603R"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Hubei KENTO Elec"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "LED_RED_20mA_0603_0_1"
@@ -8223,7 +7963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Yellow LED SMD 0603"
+		(property "Description" "20mA Colorless transparent lens -40℃~+85℃ 585.5nm~591.5nm Yellow 120° 60mW 0603 LED Indication - Discrete ROHS"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -8248,6 +7988,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "19-213/Y2C-CQ2R2L/3T(CY)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Everlight Elec"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "LED_YELLOW_25mA_0603_0_1"
@@ -8431,6 +8189,24 @@
 				)
 			)
 		)
+		(property "MPN" "SWPA4030S220MT"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Sunlord"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "L_22uH_1A_ SWPA4030S220MT_0_1"
 			(arc
 				(start -4.29 -0.02)
@@ -8552,7 +8328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Koherelec-MDA40202R2M/C2847469"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html"
 			(at 1.27 -16.51 0)
 			(effects
 				(font
@@ -8586,6 +8362,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "MDA4020-2R2M"
+			(at -1.27 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "KOHERelec"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "L_2u2H_4A_MDA4020-2R2M_0_1"
@@ -8660,162 +8454,6 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 1.016)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "L_4u7H_7.8A_SPM7054VT-4R7M-D"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "L"
-			(at 0 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4u7H"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:L_TDK_SPM7054VT_4R7M"
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Tdk-SPM7054VT_4R7MD/C2047699"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPM7054VT-4R7M-D"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2047699"
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Value" "7.8A 20% 11.2A 16.6mΩ"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(symbol "L_4u7H_7.8A_SPM7054VT-4R7M-D_0_1"
-			(arc
-				(start -4.29 -0.02)
-				(mid -2.81 -1.01)
-				(end -2.27 -0.02)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.13 -0.02)
-				(mid -0.66 -1.01)
-				(end -0.11 -0.02)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.02 -0.02)
-				(mid 1.49 -1.01)
-				(end 2.04 -0.02)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.21 -0.02)
-				(mid 3.68 -1.01)
-				(end 4.23 -0.02)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "L_4u7H_7.8A_SPM7054VT-4R7M-D_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 0.762)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 0.762)
 				(name "2"
 					(effects
 						(font
@@ -8936,277 +8574,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "Q_P_CHANNEL_MOSFET_20V_3A"
-		(pin_numbers hide)
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "Q"
-			(at 0 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_P_CHANNEL_MOSFET_20V_3A"
-			(at 0 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 1.27 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_Diodes-Incorporated-DMP2123LQ-7_C461064.html"
-			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-CHANNEL ENHANCEMENT MODE FIELD EFFECT TRANSISTOR"
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C461064"
-			(at 0 -29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "20V 3A 72mΩ@4.5V,3.5A 1.4W 1.25V@250uA"
-			(at 0 12.7 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(symbol "Q_P_CHANNEL_MOSFET_20V_3A_0_1"
-			(polyline
-				(pts
-					(xy -3.05 2.29) (xy -3.05 -2.29)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.29) (xy -2.54 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -0.51) (xy -2.54 0.51)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy -2.54 2.29)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.78) (xy -2.54 -1.78)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.78) (xy -2.54 1.78)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy 0 0) (xy 0 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.54) (xy 2.54 -2.54) (xy 2.54 -0.51)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy -1.52 0.51) (xy -1.52 -0.51) (xy 0 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.78) (xy 0 2.54) (xy 2.54 2.54) (xy 2.54 0.76)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -0.51) (xy 3.3 0.76) (xy 1.78 0.76) (xy 2.54 -0.51)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.3 -0.51) (xy 3.05 -0.51) (xy 2.03 -0.51) (xy 1.78 -0.51)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Q_P_CHANNEL_MOSFET_20V_3A_1_1"
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.032)
-				(name "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -9461,7 +8828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -9486,6 +8853,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_0Ohm_0805_125mW_0_1"
@@ -9581,7 +8966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 100Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -9606,6 +8991,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "RC0603FR-07100RL"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" " YAGEO"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_100Ohm_0603_100mW_0_1"
@@ -9701,7 +9104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±200ppm/℃ 10Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -9726,6 +9129,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0402WGF100JTCE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_10Ohm_0402_62mW_0_1"
@@ -9812,7 +9233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
 			(at 0 -8.89 0)
 			(effects
 				(font
@@ -9821,7 +9242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -9846,6 +9267,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_10kOhm_0402_62mW_0_1"
@@ -9941,7 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Thick Film Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1MΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -9966,6 +9405,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0402WGF1004TCE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_1MOhm_0402_62mW_0_1"
@@ -10061,7 +9518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1MΩ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10086,6 +9543,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0805W8F1004T5E"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_1MOhm_0805_125mW_0_1"
@@ -10181,7 +9656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10206,6 +9681,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0402WGF2200TCE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_220Ohm_0402_62mW_0_1"
@@ -10301,7 +9794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low Ohmic chip resistor"
+		(property "Description" "500mW 39mΩ Solder Pad Thick Film Resistors ±1000ppm/℃ ±1% 1210 Current Sense Resistors / Shunt Resistors ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10325,6 +9818,24 @@
 				(font
 					(size 0.762 0.762)
 				)
+			)
+		)
+		(property "MPN" "RL1210FR-070R039L"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "YAGEO"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_39mOhm_1210_500mW_0_1"
@@ -10420,7 +9931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 3.3kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10445,6 +9956,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0402WGF3301TCE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_3k3Ohm_0402_62mW_0_1"
@@ -10540,7 +10069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 3.3kΩ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10565,6 +10094,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0805W8F3301T5E"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_3k3Ohm_0805_125mW_0_1"
@@ -10651,16 +10198,15 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2902676-1210W2F400MT5E/C2765497"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-1210W2F400MT5E_C2765497.html"
 			(at 1.27 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Low Ohmic chip resistor"
+		(property "Description" "500mW Thick Film Resistors 200V ±800ppm/℃ ±1% 40mΩ 1210 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10684,6 +10230,22 @@
 				(font
 					(size 0.762 0.762)
 					(bold yes)
+				)
+			)
+		)
+		(property "MPN" "1210W2F400MT5E"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10780,7 +10342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 45.3kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10805,6 +10367,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0402WGF4532TCE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_45k3Ohm_0402_62mW_0_1"
@@ -10900,7 +10480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -10925,6 +10505,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "R_5k1Ohm_0402_62mW_0_1"
@@ -11099,137 +10697,6 @@
 			)
 		)
 	)
-	(symbol "SMBJ48CA_C693510"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "D"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMBJ48CA_C693510"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:SMB_L4.4-W3.6-LS5.4-BI"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/TVS_FTR-SMBJ48CA_C693510.html"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C693510"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "SMBJ48CA_C693510_0_1"
-			(polyline
-				(pts
-					(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27) (xy 2.54 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.51 1.52) (xy -0.51 1.52) (xy 0 1.52) (xy 0 -1.52) (xy 0.51 -1.52) (xy 0.51 -1.52)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 0 180)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "TACTILE_SWITCH_Small_Basic"
 		(pin_numbers hide)
 		(pin_names hide)
@@ -11271,7 +10738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 5.1mm 100,000 Times 160gf 12V 5.1mm 1.5mm Round Button Brick nogging SPST SMD Tactile Switches ROHS"
+		(property "Description" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -11296,6 +10763,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "XKB Connection"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "TACTILE_SWITCH_Small_Basic_0_1"
@@ -11519,7 +11004,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 0 -15.24 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +11013,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 0 -12.7 0)
+			(at 0 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11536,8 +11021,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 5.08 90)
+		(property "Description" "Test Points / Test Rings ROHS "
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11546,7 +11031,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 0 -20.32 0)
+			(at 0 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,6 +11046,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 0 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 0 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "TestPoint_Thimble_1_1"
@@ -11646,8 +11149,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 3.81 -1.27 0)
+		(property "Description" "5A 1 16P Female Type-C SMD USB Connectors ROHS"
+			(at 0 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,6 +11174,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Korean Hroparts Elec"
+			(at 0 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "USB_C_5A_Female_16PIN_0_1"
@@ -12249,6 +11770,24 @@
 				)
 			)
 		)
+		(property "MPN" "NCP361SNT1G"
+			(at 0 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "onsemi"
+			(at 0 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "U_NCP361SNT1G_5V_Protection_IC_TSOP_0_1"
 			(rectangle
 				(start -7.62 22.86)
@@ -12394,7 +11933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SN65HVD178x Fault-Protected RS-485 Transceivers With 3.3-V to 5-V Operation"
+		(property "Description" "Transceiver 10Mbps SN65HVD178x Fault-Protected RS-485 Transceivers With 3.3-V to 5-V Operation"
 			(at 0 -43.18 0)
 			(effects
 				(font
@@ -12419,6 +11958,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "SN65HVD1782DR"
+			(at 0 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Texas Instruments"
+			(at 0 -62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "U_SN65HVD1782DR_RS485_Transiver_Fault_Protected_SOIC8_0_1"
@@ -12611,7 +12168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TexasInstruments-THVD2450DGKR/C3246171"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/RS-485-RS-422-ICs_Texas-Instruments-THVD2450DGKR_C3246171.html"
 			(at 0 -58.42 0)
 			(effects
 				(font
@@ -12645,6 +12202,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "THVD2450DGKR"
+			(at 0 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Texas Instruments"
+			(at 0 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "U_THVD2450DGKR_RS485_Transceiver_MSOP8_0_1"
@@ -12838,7 +12413,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Interface-ICs_TI_TXB0104PWR_TXB0104PWR_C60708.html"
-			(at 1.27 -64.77 0)
+			(at 1.27 -67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12846,8 +12421,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Level Shifter 1.65V~5.5V 1 4 1.2V~3.6V 100Mbps TSSOP-14 Translators, Level Shifters ROHS"
+			(at 0 -63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12856,7 +12431,7 @@
 			)
 		)
 		(property "LCSC Part" "C60708"
-			(at 0 -68.58 0)
+			(at 0 -71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12871,6 +12446,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "TXB0104PWR"
+			(at 0 -74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Texas Instruments"
+			(at 0 -78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "U_TXB0104PWR_4Bit_Logic_Level_Translator_0_1"
@@ -13183,7 +12776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Stmicroelectronics-USBLC62SC6/C7519"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_STMicroelectronics-USBLC6-2SC6_C7519.html"
 			(at 0 -43.18 0)
 			(effects
 				(font
@@ -13217,6 +12810,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 0 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "STMicroelectronics"
+			(at 0 -54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "U_USBLC6-2SC6_USB_TVS_ESD_0_1"
@@ -13382,7 +12993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection for USB"
+		(property "Description" "USB 5A 17V 6V Unidirectional 5.25V SOT-23-6 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 0 -33.02 0)
 			(effects
 				(font
@@ -13407,6 +13018,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "USBLC6-4SC6"
+			(at 0 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "STMicroelectronics"
+			(at 0 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "U_USBLC6_USB_TVS_ESD_SOT23_6L_0_1"

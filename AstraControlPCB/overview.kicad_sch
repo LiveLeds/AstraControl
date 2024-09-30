@@ -313,28 +313,6 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -22.86 7.62)
-					(end 22.86 -7.62)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -22.86 7.62)
-					(end 22.86 -7.62)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(circle
 					(center -21.082 5.08)
 					(radius 1.524)

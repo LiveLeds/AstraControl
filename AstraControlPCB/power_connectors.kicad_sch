@@ -220,7 +220,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky Barrier Diode"
+			(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -245,6 +245,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "SS14"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "MDD(Microdiode Semiconductor)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "D_Schottky_SS14_1A_40V_0_1"
@@ -335,7 +353,7 @@
 				)
 			)
 			(property "Footprint" "LiveAstra:TVS_NUP3105LT1G_36V"
-				(at 0 -12.7 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -343,8 +361,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/partdetail/Born-BNUP3105LT1G/C5344577"
-				(at 0 -10.16 0)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_BORN-BNUP3105LT1G_C5344577.html"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -352,7 +370,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TVS Diode Array"
+			(property "Description" "Bidirectional 2 Diode Array 36V SOT-23 ESD and Surge Protection (TVS/ESD) ROHS"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -362,7 +380,7 @@
 				)
 			)
 			(property "LCSC Part" "C2931121"
-				(at 0 -15.24 0)
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -377,6 +395,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "BNUP3105LT1G"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "BORN"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "D_TVS_NUP3105LT1G_BIDI_ARRAY_300W_0_1"
@@ -873,7 +909,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "VH CONNECTOR 3.96mm pitch/Disconnectable Crimp style connectors"
+			(property "Description" "1x4P 4P VH Tin 4 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -898,6 +934,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "B4P-VH(LF)(SN)"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "JST"
+				(at 0 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "JST_VH_4PIN_10A_250V_0_1"
@@ -1216,7 +1270,7 @@
 				)
 			)
 			(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1225,7 +1279,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-				(at 0 -12.7 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1233,8 +1287,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 5.08 90)
+			(property "Description" "Test Points / Test Rings ROHS "
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1243,7 +1297,7 @@
 				)
 			)
 			(property "LCSC Part" "C5277086"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1258,6 +1312,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "RH-5000"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "ronghe"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "TestPoint_Thimble_1_1"
@@ -1895,7 +1967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Born-BNUP3105LT1G/C5344577"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_BORN-BNUP3105LT1G_C5344577.html"
 			(at 114.3 111.76 0)
 			(effects
 				(font
@@ -1904,7 +1976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS Diode Array"
+		(property "Description" "Bidirectional 2 Diode Array 36V SOT-23 ESD and Surge Protection (TVS/ESD) ROHS"
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -1929,6 +2001,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "BORN"
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BNUP3105LT1G"
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2191,7 +2281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 203.2 96.52 90)
 			(effects
 				(font
@@ -2217,6 +2307,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2338,7 +2446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VH CONNECTOR 3.96mm pitch/Disconnectable Crimp style connectors"
+		(property "Description" "1x4P 4P VH Tin 4 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
 			(at 71.12 67.31 0)
 			(effects
 				(font
@@ -2363,6 +2471,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "JST"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B4P-VH(LF)(SN)"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2826,7 +2952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky Barrier Diode"
+		(property "Description" "40V Independent Type 1A 550mV@1A SMA(DO-214AC) Schottky Diodes ROHS"
 			(at 127 127 0)
 			(effects
 				(font
@@ -2851,6 +2977,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "MDD(Microdiode Semiconductor)"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS14"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2980,7 +3124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 228.6 96.52 90)
 			(effects
 				(font
@@ -3006,6 +3150,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 228.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 228.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

@@ -27,6 +27,8 @@ data from a dedicated receiver.
     - [Dark](#dark-1)
     - [Light](#light-1)
   - [Downloads](#downloads)
+    - [JLCPCB](#jlcpcb)
+    - [Eurocircuits](#eurocircuits)
 - [Report](#report)
     - [ERC](#erc)
     - [DRC](#drc)
@@ -81,10 +83,18 @@ All components with Values, References, Sheetpath and Links to the datasheet.
 
 ### Downloads
 
+#### JLCPCB
+
 - [JLCPCB Zip]({{ "export/AstraControl-JLCPCB.zip" | relative_url | append: cacheBust }})
 - [JLCPCB BOM CSV]({{ "export/AstraControl_bom_jlc.csv" | relative_url | append: cacheBust }})
 - [JLCPCB CPL CSV]({{ "export/AstraControl_cpl_jlc.csv" | relative_url | append: cacheBust }})
 
+#### Eurocircuits
+
+- [Eurocircuits Zip]({{ "export/AstraControl-Eurocircuits.zip" | relative_url | append: cacheBust }})
+- [Eurocircuits BOM CSV]({{ "export/AstraControl_bom_Eurocircuits.csv" | relative_url | append: cacheBust }})
+- [Eurocircuits CPL CSV]({{ "export/AstraControl_cpl_Eurocircuits.csv" | relative_url | append: cacheBust }})
+  
 ## Report
 
 #### ERC

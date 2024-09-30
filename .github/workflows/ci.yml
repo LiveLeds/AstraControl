@@ -235,6 +235,9 @@ jobs:
           mv output/Report/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-JLCPCB.zip
           mv output/Report/JLCPCB/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_jlc.csv
           mv output/Report/JLCPCB/PickAndPlace/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv
+          mv output/Report/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-Eurocircuits.zip
+          mv output/Report/Eurocircuits/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_Eurocircuits.csv
+          mv output/Report/JLCPCB/PickAndPlace/AstraControl_cpl_jlc.csv export/AstraControl_cpl_Eurocircuits.csv
           rm -rf output
           ls -l
           ls -l export

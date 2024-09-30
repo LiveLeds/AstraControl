@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitor"
+			(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -77,6 +77,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MFN" "Samsung Electro-Mechanics"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPR" "CL05A105KA5NQNC"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "C_1uF_X5R_0402_0_1"
@@ -424,7 +442,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0603 Smd LED Emitting Color Red"
+			(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS "
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -449,6 +467,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "KT-0603R"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Hubei KENTO Elec"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "LED_RED_20mA_0603_0_1"
@@ -605,7 +641,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Chip Resistor - Surface Mount ROHS"
+			(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1MΩ 0805 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -630,6 +666,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0805W8F1004T5E"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_1MOhm_0805_125mW_0_1"
@@ -725,7 +779,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -750,6 +804,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0402WGF2200TCE"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_220Ohm_0402_62mW_0_1"
@@ -828,7 +900,7 @@
 				)
 			)
 			(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -837,7 +909,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-				(at 0 -12.7 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -845,8 +917,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 5.08 90)
+			(property "Description" "Test Points / Test Rings ROHS "
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -855,7 +927,7 @@
 				)
 			)
 			(property "LCSC Part" "C5277086"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -870,6 +942,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "RH-5000"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "ronghe"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "TestPoint_Thimble_1_1"
@@ -980,6 +1070,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "NCP361SNT1G"
+				(at 0 -55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "onsemi"
+				(at 0 -59.69 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "U_NCP361SNT1G_5V_Protection_IC_TSOP_0_1"
@@ -1604,7 +1712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -1630,6 +1738,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPR" "CL05A105KA5NQNC"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1692,7 +1818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0603 Smd LED Emitting Color Red"
+		(property "Description" "-40℃~+85℃ Red 0603 LED Indication - Discrete ROHS"
 			(at 208.28 104.14 0)
 			(effects
 				(font
@@ -1717,6 +1843,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "Hubei KENTO Elec"
+			(at 208.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KT-0603R"
+			(at 208.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1780,7 +1924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 177.8 119.38 90)
 			(effects
 				(font
@@ -1806,6 +1950,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 177.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 177.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1996,7 +2158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1MΩ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 116.84 104.14 0)
 			(effects
 				(font
@@ -2021,6 +2183,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1004T5E"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2148,7 +2328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 241.3 93.98 0)
 			(effects
 				(font
@@ -2173,6 +2353,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF2200TCE"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2262,6 +2460,24 @@
 				)
 			)
 		)
+		(property "MFN" "onsemi"
+			(at 152.4 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NCP361SNT1G"
+			(at 152.4 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1ff9249-2e59-45d9-aa59-4d2818ec6d44")
 		)
@@ -2333,7 +2549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -2359,6 +2575,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPR" "CL05A105KA5NQNC"
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2550,7 +2784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 114.3 76.2 90)
 			(effects
 				(font
@@ -2576,6 +2810,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

@@ -211,7 +211,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 				(at 1.27 -8.89 0)
 				(effects
 					(font
@@ -220,7 +220,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitor"
+			(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -230,7 +230,7 @@
 				)
 			)
 			(property "LCSC Part" "C1525"
-				(at 1.27 -16.51 0)
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -245,6 +245,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "CL05B104KO5NNNC"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Samsung Electro-Mechanics"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "C_100nF_X7R_0402_0_1"
@@ -582,7 +600,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistor"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -607,6 +625,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0402WGF5101TCE"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_5k1Ohm_0402_62mW_0_1"
@@ -685,7 +721,7 @@
 				)
 			)
 			(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -694,7 +730,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-				(at 0 -12.7 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -702,8 +738,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 5.08 90)
+			(property "Description" "Test Points / Test Rings ROHS "
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -712,7 +748,7 @@
 				)
 			)
 			(property "LCSC Part" "C5277086"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -727,6 +763,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "RH-5000"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "ronghe"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "TestPoint_Thimble_1_1"
@@ -812,8 +866,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 3.81 -1.27 0)
+			(property "Description" "5A 1 16P Female Type-C SMD USB Connectors ROHS"
+				(at 0 -85.09 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -837,6 +891,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "TYPE-C-31-M-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Korean Hroparts Elec"
+				(at 0 -88.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "USB_C_5A_Female_16PIN_0_1"
@@ -1379,7 +1451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://jlcpcb.com/partdetail/Stmicroelectronics-USBLC62SC6/C7519"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_STMicroelectronics-USBLC6-2SC6_C7519.html"
 				(at 0 -43.18 0)
 				(effects
 					(font
@@ -1413,6 +1485,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "USBLC6-2SC6"
+				(at 0 -50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "STMicroelectronics"
+				(at 0 -54.61 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "U_USBLC6-2SC6_USB_TVS_ESD_0_1"
@@ -2372,7 +2462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5A 1 16P Female Type-C SMD USB Connectors ROHS"
 			(at 100.33 105.41 0)
 			(effects
 				(font
@@ -2397,6 +2487,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "Korean Hroparts Elec"
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "A1"
@@ -2505,7 +2613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 152.4 50.8 90)
 			(effects
 				(font
@@ -2531,6 +2639,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2592,7 +2718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 147.32 83.82 0)
 			(effects
 				(font
@@ -2618,6 +2744,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2801,7 +2945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 			(at 201.93 64.77 0)
 			(effects
 				(font
@@ -2810,7 +2954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 198.12 66.04 0)
 			(effects
 				(font
@@ -2836,6 +2980,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 213.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2899,7 +3061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 203.2 104.14 90)
 			(effects
 				(font
@@ -2925,6 +3087,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 203.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 203.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3107,7 +3287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Stmicroelectronics-USBLC62SC6/C7519"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_STMicroelectronics-USBLC6-2SC6_C7519.html"
 			(at 177.8 152.4 0)
 			(effects
 				(font
@@ -3141,6 +3321,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "STMicroelectronics"
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 177.8 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -3282,7 +3480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 203.2 114.3 90)
 			(effects
 				(font
@@ -3308,6 +3506,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 203.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 203.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3435,7 +3651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 127 83.82 0)
 			(effects
 				(font
@@ -3461,6 +3677,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF5101TCE"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

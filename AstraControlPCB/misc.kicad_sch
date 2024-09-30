@@ -358,7 +358,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(property "Description" "1kV 10nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -383,6 +383,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "FV21X103K102ECG"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "PSA(Prosperity Dielectrics)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "C_10nF_X7R_0805_0_1"
@@ -515,7 +533,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Chip Resistor - Surface Mount ROHS"
+			(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1MΩ 0805 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -540,6 +558,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0805W8F1004T5E"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_1MOhm_0805_125mW_0_1"
@@ -1348,7 +1384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Chip Resistor - Surface Mount ROHS"
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 1MΩ 0805 Chip Resistor - Surface Mount ROHS"
 			(at 101.6 104.14 0)
 			(effects
 				(font
@@ -1374,6 +1410,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F1004T5E"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1438,7 +1492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "1kV 10nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 180.34 104.14 0)
 			(effects
 				(font
@@ -1464,6 +1518,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "PSA(Prosperity Dielectrics)"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FV21X103K102ECG"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1816,7 +1888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "1kV 10nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -1842,6 +1914,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "PSA(Prosperity Dielectrics)"
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FV21X103K102ECG"
+			(at 96.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1906,7 +1996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "1kV 10nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 228.6 104.14 0)
 			(effects
 				(font
@@ -1932,6 +2022,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "PSA(Prosperity Dielectrics)"
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FV21X103K102ECG"
+			(at 243.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2308,7 +2416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "1kV 10nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 132.08 104.14 0)
 			(effects
 				(font
@@ -2334,6 +2442,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "PSA(Prosperity Dielectrics)"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FV21X103K102ECG"
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

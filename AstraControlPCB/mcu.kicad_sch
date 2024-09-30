@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 				(at 1.27 -8.89 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitor"
+			(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -62,7 +62,7 @@
 				)
 			)
 			(property "LCSC Part" "C1525"
-				(at 1.27 -16.51 0)
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -77,6 +77,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "CL05B104KO5NNNC"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Samsung Electro-Mechanics"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "C_100nF_X7R_0402_0_1"
@@ -209,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitor"
+			(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -234,6 +252,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "CL21A476MQYNNNE"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Samsung Electro-Mechanics"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "C_47u_X5R_0805_0_1"
@@ -354,7 +390,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/WiFi-Modules_Espressif-Systems-ESP32-S3-WROOM-1U-N8_C2980297.html"
 				(at 0 -67.31 0)
 				(effects
 					(font
@@ -382,11 +418,30 @@
 				)
 			)
 			(property "LCSC Part" "C2980297"
-				(at 0 0 0)
+				(at 0 -92.71 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ESP32-S3-WROOM-1U-N8"
+				(at 0 -82.55 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Espressif Systems"
+				(at 0 -87.63 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "RF Radio BT ESP ESP32-S3 Espressif onboard PCB antenna"
@@ -1289,7 +1344,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Yellow LED SMD 0603"
+			(property "Description" "20mA Colorless transparent lens -40℃~+85℃ 585.5nm~591.5nm Yellow 120° 60mW 0603 LED Indication - Discrete ROHS"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -1314,6 +1369,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "19-213/Y2C-CQ2R2L/3T(CY)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "Everlight Elec"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "LED_YELLOW_25mA_0603_0_1"
@@ -1470,7 +1543,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors"
+			(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1495,6 +1568,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0805W8F0000T5E"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_0Ohm_0805_125mW_0_1"
@@ -1590,7 +1681,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thick Film Resistors"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1615,6 +1706,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "0402WGF2200TCE"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "R_220Ohm_0402_62mW_0_1"
@@ -1693,7 +1802,7 @@
 				)
 			)
 			(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1702,7 +1811,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-				(at 0 -12.7 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1710,8 +1819,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 5.08 90)
+			(property "Description" "Test Points / Test Rings ROHS "
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1720,7 +1829,7 @@
 				)
 			)
 			(property "LCSC Part" "C5277086"
-				(at 0 -20.32 0)
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1735,6 +1844,24 @@
 						(size 0.762 0.762)
 						(bold yes)
 					)
+				)
+			)
+			(property "MPN" "RH-5000"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFN" "ronghe"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "TestPoint_Thimble_1_1"
@@ -2976,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 			(at 64.77 52.07 0)
 			(effects
 				(font
@@ -2985,7 +3112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 60.96 53.34 0)
 			(effects
 				(font
@@ -3011,6 +3138,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3140,7 +3285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Yellow LED SMD 0603"
+		(property "Description" "20mA Colorless transparent lens -40℃~+85℃ 585.5nm~591.5nm Yellow 120° 60mW 0603 LED Indication - Discrete ROHS"
 			(at 246.38 59.69 0)
 			(effects
 				(font
@@ -3165,6 +3310,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "Everlight Elec"
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "19-213/Y2C-CQ2R2L/3T(CY)"
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3227,7 +3390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 210.82 55.88 0)
 			(effects
 				(font
@@ -3252,6 +3415,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGF2200TCE"
+			(at 210.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3315,7 +3496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 167.64 152.4 90)
 			(effects
 				(font
@@ -3341,6 +3522,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 167.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 167.64 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3459,7 +3658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.html"
 			(at 87.63 52.07 0)
 			(effects
 				(font
@@ -3468,7 +3667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 83.82 53.34 0)
 			(effects
 				(font
@@ -3494,6 +3693,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
+			(at 99.06 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3885,7 +4102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors"
+		(property "Description" "125mW Thick Film Resistors 150V ±800ppm/℃ ±1% 0Ω 0805 Chip Resistor - Surface Mount ROHS"
 			(at 101.6 121.92 0)
 			(effects
 				(font
@@ -3910,6 +4127,24 @@
 					(size 0.762 0.762)
 					(bold yes)
 				)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0805W8F0000T5E"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3974,7 +4209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitor"
+		(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 38.1 53.34 0)
 			(effects
 				(font
@@ -4000,6 +4235,24 @@
 					(bold yes)
 				)
 				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A476MQYNNNE"
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4052,7 +4305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/WiFi-Modules_Espressif-Systems-ESP32-S3-WROOM-1U-N8_C2980297.html"
 			(at 152.4 161.29 0)
 			(effects
 				(font
@@ -4085,6 +4338,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFN" "Espressif Systems"
+			(at 152.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESP32-S3-WROOM-1U-N8"
+			(at 152.4 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "11"
@@ -4265,7 +4536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Points / Test Rings ROHS"
 			(at 76.2 109.22 90)
 			(effects
 				(font
@@ -4291,6 +4562,24 @@
 					(bold yes)
 				)
 				(justify left)
+			)
+		)
+		(property "MFN" "ronghe"
+			(at 76.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RH-5000"
+			(at 76.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

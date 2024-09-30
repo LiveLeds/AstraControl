@@ -150,6 +150,22 @@ outputs:
             - layer: Board.Center
               color: "@BACKGROUND_COLOR@"
               use_for_center: false
+        - title: "L2 GND (Front FAB)"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: true
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: In1.Cu
+            - layer: Edge.Cuts
+            - layer: F.Fab
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
         - title: "L2 GND"
           scaling: 1.3
           colored_holes: true
@@ -157,6 +173,23 @@ outputs:
           holes_color: "@BACKGROUND_COLOR@"
           layers:
             - layer: In1.Cu
+            - layer: Edge.Cuts
+            - layer: Board.Title
+              color: "@FOREGROUND_COLOR@"
+            - layer: Board.Center
+              color: "@BACKGROUND_COLOR@"
+              use_for_center: false
+        - title: "L3 GND (Front FAB)"
+          scaling: 1.3
+          sketch_pads_on_fab_layers: true
+          colored_holes: true
+          sheet_reference_color: "@FOREGROUND_COLOR@"
+          holes_color: "@BACKGROUND_COLOR@"
+          layers:
+            - layer: In2.Cu
+            - layer: Edge.Cuts
+            - layer: F.Fab
+              color: "@FOREGROUND_COLOR@"
             - layer: Board.Title
               color: "@FOREGROUND_COLOR@"
             - layer: Board.Center
@@ -169,6 +202,7 @@ outputs:
           holes_color: "@BACKGROUND_COLOR@"
           layers:
             - layer: In2.Cu
+            - layer: Edge.Cuts
             - layer: Board.Title
               color: "@FOREGROUND_COLOR@"
             - layer: Board.Center
@@ -197,6 +231,7 @@ outputs:
           holes_color: "@BACKGROUND_COLOR@"
           layers:
             - layer: B.Cu
+            - layer: Edge.Cuts
             - layer: Board.Title
               color: "@FOREGROUND_COLOR@"
             - layer: Board.Center

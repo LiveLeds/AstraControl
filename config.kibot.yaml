@@ -190,6 +190,37 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
+  - name: "Eurocircuits_bom"
+    comment: "BoM for Eurocircuits"
+    type: bom
+    dir: Eurocircuits/BOM
+    options:
+      output: "%f_%i_jlc.%x"
+      exclude_filter: "only_jlc_parts"
+      ref_separator: ","
+      columns:
+        - field: MPN
+          name: Manufacturer Part Number
+        - field: Description
+          name: Description
+        - field: References
+          name: Reference Designator
+        - field: Quantity Per PCB
+          name: Quantity
+        - field: Value
+          name: Value
+        - field: Extra Values
+          name: Comment
+        - field: Footprint
+          name: Package name
+        - field: MFN
+          name: Manufacturer
+        - field: Datasheet
+          name: URL
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
   - name: "Markdown components table"
     comment: "All LCSC components in HTML"
     type: bom
@@ -205,6 +236,10 @@ outputs:
         - field: "Extra Values"
           name: "Extra Values"
         - Footprint
+        - field: MFN
+          name: "Manufacturer"
+        - field: MPN
+          name: "Manufacturer Part Number"
         - Datasheet
         - Sheetpath
         - field: "LCSC Part"
