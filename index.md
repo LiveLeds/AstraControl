@@ -34,6 +34,7 @@ data from a dedicated receiver.
 - [Report](#report)
     - [ERC](#erc)
     - [DRC](#drc)
+- [Credits](#credits)
 
 ### Render Top Angled
 
@@ -122,3 +123,14 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 {% include_relative drc_validation.md %}
 
 {% include_relative AstraControl-report.md %}
+
+
+## Credits
+
+[KiCad EDA](https://www.kicad.org)
+
+[KiBot](https://github.com/INTI-CMNB/KiBot)
+
+[Amulet - Inspiration for awesome schematic and PCB](https://github.com/EPFLXplore/XRE_LeggedRobot_HW)
+
+Sorry if I am forgetting someone, I used lots of references and tips from all over the place.

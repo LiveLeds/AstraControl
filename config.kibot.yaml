@@ -224,7 +224,7 @@ outputs:
   - name: 'Kiri Dark'
     comment: 'Generates a dark version of an interactive web page to browse the schematic and/or PCB differences between git commits.'
     type: 'kiri'
-    dir: 'KiriDark'
+    dir: 'KiRiDark'
     options:
       color_theme: "Arcana"
       background_color: '#000000'
@@ -236,10 +236,10 @@ outputs:
   - name: 'Kiri Light'
     comment: 'Generates a light version of an interactive web page to browse the schematic and/or PCB differences between git commits.'
     type: 'kiri'
-    dir: 'KiriLight'
+    dir: 'KiRiLight'
     options:
       keep_generated: false
-      max_commits: 3
+      max_commits: 5
       revision: 'HEAD'
       zones: 'global'
     layers: all
