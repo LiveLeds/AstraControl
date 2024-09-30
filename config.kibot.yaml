@@ -221,13 +221,23 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
-  - name: 'Kiri'
-    comment: 'Generates an interactive web page to browse the schematic and/or PCB differences between git commits.'
+  - name: 'Kiri Dark'
+    comment: 'Generates a dark version of an interactive web page to browse the schematic and/or PCB differences between git commits.'
     type: 'kiri'
-    dir: 'Kiri'
+    dir: 'KiriDark'
     options:
+      color_theme: "Arcana"
       background_color: '#000000'
-      color_theme: 'Arcana'
+      keep_generated: false
+      max_commits: 3
+      revision: 'HEAD'
+      zones: 'global'
+    layers: all
+  - name: 'Kiri Light'
+    comment: 'Generates a light version of an interactive web page to browse the schematic and/or PCB differences between git commits.'
+    type: 'kiri'
+    dir: 'KiriLight'
+    options:
       keep_generated: false
       max_commits: 3
       revision: 'HEAD'
