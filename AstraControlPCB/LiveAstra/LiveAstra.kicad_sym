@@ -1499,7 +1499,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPR" "CL05A105KA5NQNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 0 -20.32 0)
 			(effects
 				(font
