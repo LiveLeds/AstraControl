@@ -229,7 +229,7 @@ outputs:
       color_theme: "Arcana"
       background_color: '#000000'
       keep_generated: false
-      max_commits: 3
+      max_commits: 1
       revision: 'HEAD'
       zones: 'global'
     layers: all
