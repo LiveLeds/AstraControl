@@ -24,7 +24,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: "0"
+          fetch-depth: "5"
+          submodules: "true"
       - name: Run Kibot
         uses: INTI-CMNB/KiBot@v2_dk8
         with:

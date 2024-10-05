@@ -470,9 +470,7 @@
     "pinned_footprint_libs": [
       "LiveAstra"
     ],
-    "pinned_symbol_libs": [
-      "LiveAstra"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "AstraControl.kicad_pro",

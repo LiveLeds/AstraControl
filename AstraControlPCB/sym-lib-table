@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "LiveAstra")(type "KiCad")(uri "${KIPRJMOD}/LiveAstra/LiveAstra.kicad_sym")(options "")(descr ""))
+  (lib (name "LiveAstra")(type "KiCad")(uri "${KIPRJMOD}/LiveAstraLibrary/LiveAstra.kicad_sym")(options "")(descr "LiveAstra Kicad Components"))
 )

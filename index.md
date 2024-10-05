@@ -9,6 +9,8 @@ ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
 for communication, supporting various sensors and HMI devices for high-power 
 LED fixtures or strips. One device can act as master or all fixtures will receive 
 data from a dedicated receiver.
+
+
 [![CI](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml/badge.svg)](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml)
 ## Table of contents
 
