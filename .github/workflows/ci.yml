@@ -108,7 +108,7 @@ jobs:
             mkdir -p ~/.ssh/ && touch ~/.ssh/known_hosts
             ssh-keyscan github.com >> ~/.ssh/known_hosts
             eval $(ssh-agent)
-            ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
+            echo "${{ secrets.SSH_PRIVATE_KEY }}" | tr -d '\r' | ssh-add - > /dev/null
             kibot -vvv -d output -c config.kibot.yaml -e AstraControlPCB/AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
