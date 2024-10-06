@@ -27,9 +27,9 @@ jobs:
           fetch-depth: "5"
           submodules: "true"
       - name: Allow KiRi to clone submodules
-        run: |
-          echo "HOST *" > ~/.ssh/config
-          echo "StrictHostKeyChecking no" >> ~/.ssh/config
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Run Kibot
         uses: INTI-CMNB/KiBot@v2_dk8
         with:
