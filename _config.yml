@@ -1,13 +1,13 @@
-title: AstraControl PCB
+title: AstraControl
 email: support@liveleds.io
 description: >- 
   ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
   for communication, supporting various sensors and HMI devices for high-power 
   LED fixtures or strips. One device can act as master or all fixtures will receive 
   data from a dedicated receiver.
-baseurl: "/astra-control-pcb"
-url: "https://alexanderp4580.github.io"
-github_username:  alexanderp4580
+baseurl: "/AstraControl"
+url: "https://liveleds.github.io"
+github_username: LiveLeds
 permalink: /:slug
 remote_theme: abhinavs/moonwalk
 plugins:
