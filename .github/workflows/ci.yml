@@ -97,13 +97,16 @@ jobs:
         with:
           fetch-depth: "5"
           submodules: "true"
+      - name: "Setup jq"
+        uses: dcarbone/install-jq-action@v2
       - name: Add github to hosts
         run: |
+          ls -l
           mkdir -p /root/.ssh/
           touch /root/.ssh/known_hosts
           chmod 600 /root/.ssh/known_hosts
           ssh-keygen -R github.com
-          curl --silent https://api.github.com/meta | python3 -c 'import json,sys;print(*["github.com " + x for x in json.load(sys.stdin)["ssh_keys"]], sep="\n")' >> /root/.ssh/known_hosts
+          curl --silent https://api.github.com/meta | jq --raw-output '"github.com "+.ssh_keys[]' >> /root/.ssh/known_hosts
           git clone git@github.com:LiveLeds/LiveAstraLibrary.git
       - name: Move template to root
         run: |
