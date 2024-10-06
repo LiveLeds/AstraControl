@@ -229,7 +229,7 @@ outputs:
       color_theme: "Arcana"
       background_color: '#000000'
       keep_generated: false
-      max_commits: 2
+      max_commits: 3
       revision: 'HEAD'
       zones: 'global'
     layers: all
@@ -239,7 +239,7 @@ outputs:
     dir: 'KiRiLight'
     options:
       keep_generated: false
-      max_commits: 2
+      max_commits: 3
       revision: 'HEAD'
       zones: 'global'
     layers: all

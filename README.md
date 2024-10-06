@@ -1,3 +1,3 @@
 ## AstraControl
 
-[Design Report](Report/Design/Report.md)
+[GitHub IO Page](https://liveleds.github.io/AstraControl)
