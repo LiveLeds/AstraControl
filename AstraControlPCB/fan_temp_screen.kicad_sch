@@ -5,7 +5,7 @@
 	(uuid "10a0b7ea-3cf5-404d-8a81-f99d78626e50")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - Root")
+		(title "AstraControl - Fan Temperature Screen")
 		(date "2024-08-26")
 		(rev "A")
 		(company "LiveAstra Technologies")

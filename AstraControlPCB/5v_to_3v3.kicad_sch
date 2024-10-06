@@ -5,7 +5,7 @@
 	(uuid "d9d8489b-a7dd-42ac-b41a-1c4318080cdb")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - Root")
+		(title "AstraControl - 5V to 3.3V")
 		(date "2024-08-26")
 		(rev "A")
 		(company "LiveAstra Technologies")

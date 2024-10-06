@@ -5,7 +5,7 @@
 	(uuid "5368d106-5873-4c36-9400-6df93b9235a1")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - Root")
+		(title "AstraControl - PWM Connector")
 		(date "2024-08-26")
 		(rev "A")
 		(company "LiveAstra Technologies")

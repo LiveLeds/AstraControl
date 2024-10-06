@@ -5,7 +5,7 @@
 	(uuid "65f9fa18-145c-4d07-a88d-39040e5c26b1")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - Root")
+		(title "AstraControl - 3V3 to 5V Logic Shifter")
 		(date "2024-08-26")
 		(rev "A")
 		(company "LiveAstra Technologies")

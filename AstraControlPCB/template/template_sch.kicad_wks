@@ -125,7 +125,7 @@
 	)
 	(tbtext "${FILENAME}"
 		(name "")
-		(pos 88.989 5.5022)
+		(pos 125.9892 3.5022)
 		(font
 			(face "ING Me")
 		)
@@ -153,7 +153,7 @@
 	)
 	(tbtext "${SHEETPATH}"
 		(name "")
-		(pos 125.9892 5.5022)
+		(pos 125.9892 7.5022)
 		(font
 			(face "ING Me")
 		)
@@ -202,9 +202,9 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "Sheet Path"
+	(tbtext "Sheet Path & File Name"
 		(name "")
-		(pos 125.9892 13.0022)
+		(pos 125.989 13.002)
 		(font
 			(face "ING Me Headline")
 		)
@@ -217,11 +217,6 @@
 	)
 	(line
 		(name "")
-		(start 89.989 2.0022)
-		(end 89.989 15.0022)
-	)
-	(line
-		(name "")
 		(start 56.9892 2.0022)
 		(end 56.9892 15.0022)
 	)
@@ -229,14 +224,6 @@
 		(name "")
 		(start 39.989 2.0022)
 		(end 39.989 15.0022)
-	)
-	(tbtext "File Name"
-		(name "")
-		(pos 88.989 13.0022)
-		(font
-			(face "ING Me Headline")
-		)
-		(comment "Sheet id")
 	)
 	(tbtext "Date"
 		(name "")
