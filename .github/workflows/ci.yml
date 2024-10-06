@@ -101,7 +101,7 @@ jobs:
           mkdir -p ~/.ssh/ && touch ~/.ssh/known_hosts
           ssh-keyscan -H github.com >> ~/.ssh/known_hosts
           eval $(ssh-agent)
-          ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
+          echo "${SSH_PRIVATE_KEY}" | ssh-add -
           git clone git@github.com:LiveLeds/LiveAstraLibrary.git
       - name: Move template to root
         run: |
