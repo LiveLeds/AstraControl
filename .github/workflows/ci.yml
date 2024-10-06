@@ -97,10 +97,6 @@ jobs:
           fetch-depth: "0"
       - name: "Setup jq"
         uses: dcarbone/install-jq-action@v2
-      - name: Allow KiRi to clone submodules
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: "Add GitHub to the SSH known hosts file"
         run: |
           mkdir -p -m 0700 /home/runner/.ssh
