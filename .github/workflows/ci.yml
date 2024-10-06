@@ -98,8 +98,10 @@ jobs:
           submodules: "true"
       - name: Allow KiRi to clone submodules
         run: |
+          ls -l
           mkdir -p -m 0700 ~/.ssh
-          echo "HOST *" > ~/.ssh/config
+          touch ~/.ssh/config
+          echo "HOST *" >> ~/.ssh/config
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
           cat ~/.ssh/config
           eval "$(ssh-agent)"
