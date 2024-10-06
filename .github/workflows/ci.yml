@@ -103,7 +103,9 @@ jobs:
           touch ~/.ssh/config
           echo "HOST *" >> ~/.ssh/config
           echo "StrictHostKeyChecking no" >> ~/.ssh/config
+          ls -l ~/.ssh
           cat ~/.ssh/config
+          ssh-keyscan -H github.com >> ~/.ssh/known_hosts
           eval "$(ssh-agent)"
           git clone git@github.com:LiveLeds/LiveAstraLibrary.git
       - name: Move template to root
