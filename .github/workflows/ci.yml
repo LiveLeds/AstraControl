@@ -222,6 +222,7 @@ jobs:
           ls -l output
           ls -l output/Render_Top_Angled
           ls -l output/Report
+          find output/Report
           mkdir export
           mkdir html
           mkdir images
@@ -252,6 +253,7 @@ jobs:
           rm -rf output
           ls -l
           ls -l export
+          find .
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
