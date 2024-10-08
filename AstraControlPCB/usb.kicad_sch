@@ -3731,7 +3731,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 91.44 168.402 0)
+			(at 91.44 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

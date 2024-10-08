@@ -1561,7 +1561,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "678d7869-1a09-4778-b3b3-3ac134327406")
 		(property "Reference" "#PWR091"
 			(at 63.5 121.92 0)
@@ -1573,7 +1572,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 63.373 120.65 0)
+			(at 63.5 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

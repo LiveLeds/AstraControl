@@ -2718,7 +2718,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7facb49-293e-4060-8883-6c8f60dc2bf0")
 		(property "Reference" "#PWR035"
 			(at 228.6 109.22 0)
@@ -2730,7 +2729,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 228.473 107.95 0)
+			(at 228.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,7 +2860,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 233.68 74.93 0)
+			(at 233.68 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
