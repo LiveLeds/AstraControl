@@ -266,8 +266,8 @@ jobs:
         run: |
           ls -l
           sudo chown -R $USER:$USER ./_site/
-          mv ./KiRiDark ./_site/
-          mv ./KiRiLight ./_site/
+          cp -r ./KiRiDark ./_site/
+          cp -r ./KiRiLight ./_site/
           find .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
