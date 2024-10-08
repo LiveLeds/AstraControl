@@ -238,7 +238,7 @@ outputs:
     type: 'kiri'
     dir: 'KiRiLight'
     options:
-      keep_generated: false
+      keep_generated: true
       max_commits: 3
       revision: 'HEAD'
       zones: 'global'
