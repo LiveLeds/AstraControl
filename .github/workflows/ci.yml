@@ -262,6 +262,11 @@ jobs:
           source: ./
           destination: ./_site
           future: true
+      - name: Move KiRi files directly to site
+        run: |
+          mv output/Report/KiRiDark ./_site
+          mv output/Report/KiRiLight ./_site
+          find .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
