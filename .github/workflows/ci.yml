@@ -264,6 +264,8 @@ jobs:
           future: true
       - name: Move KiRi files directly to site
         run: |
+          ls -l
+          sudo chown -R $USER:$USER ./_site/
           mv ./KiRiDark ./_site/
           mv ./KiRiLight ./_site/
           find .
