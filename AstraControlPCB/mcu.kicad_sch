@@ -186,7 +186,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:C_47u_X5R_0805"
+		(symbol "LiveAstra:C_22uF_X5R_0603"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -200,7 +200,7 @@
 					)
 				)
 			)
-			(property "Value" "47u"
+			(property "Value" "22u"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -209,7 +209,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(property "Footprint" "LiveAstra:C_0603_1608Metric"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -218,7 +218,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -227,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -236,7 +236,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C16780"
+			(property "LCSC Part" "C59461"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -245,7 +245,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "6.3V X5R 20% 0805"
+			(property "Extra Values" "6.3V X5R 20% 0603"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -254,7 +254,7 @@
 					)
 				)
 			)
-			(property "MPN" "CL21A476MQYNNNE"
+			(property "MPN" "CL10A226MQ8NRNC"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -272,10 +272,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_47u_X5R_0805_0_1"
+			(symbol "C_22uF_X5R_0603_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -0.51 0)
+						(xy -0.51 -2.03) (xy -0.51 2.03)
 					)
 					(stroke
 						(width 0)
@@ -287,19 +287,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 2.54 0)
+						(xy -0.51 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -321,8 +309,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "C_47u_X5R_0805_1_1"
+			(symbol "C_22uF_X5R_0603_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3926,6 +3926,114 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:C_22uF_X5R_0603")
+		(at 33.02 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9db45a85-48ed-4c17-81ca-3141a6671491")
+		(property "Reference" "C1"
+			(at 36.83 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22u"
+			(at 36.83 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:C_0603_1608Metric"
+			(at 41.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 38.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C59461"
+			(at 49.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "6.3V X5R 20% 0603"
+			(at 36.83 55.8799 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "MPN" "CL10A226MQ8NRNC"
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93009b22-0892-4f10-b694-65f8fa05b936")
+		)
+		(pin "1"
+			(uuid "40ed9b56-5951-4210-8a49-13b7513589b1")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 162.56 0)
 		(unit 1)
@@ -4157,114 +4265,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:C_47u_X5R_0805")
-		(at 33.02 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2a7a196-02b8-4913-bbc1-12d59c1a5e26")
-		(property "Reference" "C1"
-			(at 36.83 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47u"
-			(at 36.83 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 41.91 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
-			(at 45.72 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 38.1 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C16780"
-			(at 49.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "6.3V X5R 20% 0805"
-			(at 36.83 55.8799 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "MFN" "Samsung Electro-Mechanics"
-			(at 53.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A476MQYNNNE"
-			(at 53.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b846d2c0-0e55-493a-b2fa-64d1d27d6238")
-		)
-		(pin "2"
-			(uuid "a29b6e00-3de4-4234-9e4d-dc25f13e6b8f")
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
-					(reference "C1")
 					(unit 1)
 				)
 			)

@@ -11,356 +11,6 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
-		(symbol "LiveAstra:C_22uF_X5R_0603"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22u"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "LiveAstra:C_0603_1608Metric"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C59461"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "6.3V X5R 20% 0603"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "MPN" "CL10A226MQ8NRNC"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "Samsung Electro-Mechanics"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_22uF_X5R_0603_0_1"
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_22uF_X5R_0603_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LiveAstra:C_47u_X5R_0805"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "47u"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C16780"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "6.3V X5R 20% 0805"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "MPN" "CL21A476MQYNNNE"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "Samsung Electro-Mechanics"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_47u_X5R_0805_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_47u_X5R_0805_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LiveAstra:C_4u7_X5R_0603"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1081,181 +731,6 @@
 							(color 41 182 246 1)
 						)
 						(justify left)
-					)
-				)
-			)
-		)
-		(symbol "LiveAstra:L_22uH_1A_ SWPA4030S220MT"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22uH"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "LiveAstra:L_Sunlord_SWPA4030S"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_22uH-20_C83472.html"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Power Inductor"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C83472"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "1A 20% 1.3A 30mOhm"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "MPN" "SWPA4030S220MT"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "Sunlord"
-				(at 0 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_22uH_1A_ SWPA4030S220MT_0_1"
-				(arc
-					(start -4.29 -0.02)
-					(mid -2.52 -0.79)
-					(end -2.27 -0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.13 -0.02)
-					(mid -0.36 -0.79)
-					(end -0.11 -0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.02 -0.02)
-					(mid 1.79 -0.79)
-					(end 2.04 -0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.21 -0.02)
-					(mid 3.3 -1.12)
-					(end 4.23 -0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_22uH_1A_ SWPA4030S220MT_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 0.762)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.762)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2750,7 +2225,7 @@
 		)
 		(uuid "92104911-9a79-4b1e-894a-0ce1da12809b")
 	)
-	(text "PI Filter:\nCutoff frequency: 8.76kHz\nMostly for educational purposes."
+	(text "PI Filter:\nCutoff frequency: -3dB at 40KHz\nMostly for educational purposes."
 		(exclude_from_sim no)
 		(at 198.12 83.82 0)
 		(effects
@@ -2891,111 +2366,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:L_22uH_1A_ SWPA4030S220MT")
-		(at 219.71 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c996c08-84fb-4669-b279-ca137e8ee576")
-		(property "Reference" "L2"
-			(at 219.71 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uH"
-			(at 219.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:L_Sunlord_SWPA4030S"
-			(at 219.71 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_22uH-20_C83472.html"
-			(at 219.71 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Power Inductor"
-			(at 219.71 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C83472"
-			(at 219.71 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "1A 20% 1.3A 30mOhm"
-			(at 219.71 99.06 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MFN" "Sunlord"
-			(at 219.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SWPA4030S220MT"
-			(at 219.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcafaf29-811b-4ea2-8dae-463ad3c6197b")
-		)
-		(pin "2"
-			(uuid "066b7c8f-112e-4ef7-ba59-77562bdda898")
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3413,7 +2783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:C_22uF_X5R_0603")
+		(lib_id "LiveAstra:C_4u7_X5R_0603")
 		(at 204.47 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3421,7 +2791,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "34a71275-cc5f-43df-8170-bea108b6113e")
+		(uuid "341d6305-c4b3-4bba-ae5e-7d23de8e68e7")
 		(property "Reference" "C13"
 			(at 208.28 106.6799 90)
 			(effects
@@ -3431,7 +2801,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "4u7"
 			(at 208.28 109.22 90)
 			(effects
 				(font
@@ -3450,7 +2820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html"
 			(at 217.17 109.22 0)
 			(effects
 				(font
@@ -3459,7 +2829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6.3V 22uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 209.55 109.22 0)
 			(effects
 				(font
@@ -3468,8 +2838,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C59461"
-			(at 220.98 109.22 0)
+		(property "LCSC Part" "C19666"
+			(at 219.71 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +2847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "6.3V X5R 20% 0603"
+		(property "Extra Values" "16V X5R 10% 0603"
 			(at 208.28 111.7599 90)
 			(effects
 				(font
@@ -3496,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10A226MQ8NRNC"
+		(property "MPN" "CL10A475KO8NNNC"
 			(at 224.79 109.22 0)
 			(effects
 				(font
@@ -3505,11 +2875,11 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "570b9575-2c84-4bcc-862f-b7ab9220d52b")
-		)
 		(pin "2"
-			(uuid "daa1ef49-2321-4646-b14f-8fd215fa4250")
+			(uuid "03ded1cf-3ed0-4f04-b9fc-f08419d2c55b")
+		)
+		(pin "1"
+			(uuid "8d65e9be-e5fb-4c59-aa3b-06ccb0baeea9")
 		)
 		(instances
 			(project "AstraControl"
@@ -4021,114 +3391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:C_47u_X5R_0805")
-		(at 232.41 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59e1da7b-3955-4303-a730-a2101f312314")
-		(property "Reference" "C14"
-			(at 236.22 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47u"
-			(at 236.22 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LiveAstra:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 241.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A476MQYNNNE_47uF-476-20-6-3V_C16780.html"
-			(at 245.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.3V 47uF X5R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 237.49 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C16780"
-			(at 248.92 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "6.3V X5R 20% 0805"
-			(at 236.22 111.7599 90)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify right)
-			)
-		)
-		(property "MFN" "Samsung Electro-Mechanics"
-			(at 252.73 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A476MQYNNNE"
-			(at 252.73 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ba6f265-b56e-4812-a139-2ed17285b8b3")
-		)
-		(pin "2"
-			(uuid "0848e248-9b1f-4484-979a-26f92f17f070")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LiveAstra:R_45k3Ohm_0402_62mW")
 		(at 121.92 109.22 90)
 		(unit 1)
@@ -4231,6 +3493,111 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:L_2u2H_4A_MDA4020-2R2M")
+		(at 219.71 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83b14805-4603-473d-99da-e85a2bbca1fa")
+		(property "Reference" "L2"
+			(at 219.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2u2H"
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:L_MDA4020_4.1x4.5mm"
+			(at 219.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4A 2.2uH 20% 4A 41mΩ SMD,4.1x4.5mm Inductors (SMD) ROHS"
+			(at 219.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2847469"
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "4A 20% 41mOhm"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MFN" "KOHERelec"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MDA4020-2R2M"
+			(at 220.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77f8348f-b625-490e-b65c-3fca899da952")
+		)
+		(pin "2"
+			(uuid "e8dbf4a3-4947-4d06-a14f-9c7937ad9262")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -5021,6 +4388,114 @@
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:C_4u7_X5R_0603")
+		(at 232.41 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd5bf398-873f-4142-a40d-d7d8b982174d")
+		(property "Reference" "C14"
+			(at 236.22 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4u7"
+			(at 236.22 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LiveAstra:C_0603_1608Metric"
+			(at 241.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html"
+			(at 245.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 237.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19666"
+			(at 247.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "16V X5R 10% 0603"
+			(at 236.22 111.7599 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "MFN" "Samsung Electro-Mechanics"
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
+			(at 252.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0bd9a1b-f157-4ee5-bd4e-43fcdf1d7177")
+		)
+		(pin "1"
+			(uuid "6dd34c85-c6da-4233-a07d-eaf565b9a8b3")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
+					(reference "C14")
 					(unit 1)
 				)
 			)
