@@ -2,81 +2,283 @@ name: CI
 
 on:
   push:
-    paths:
-      - '**/*.sch'
-      - '**/*.kicad_pcb'
+    branches:
+      - main
+      - test-workflow
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
-  ERC:
+  Preflight:
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: preflight.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: "Setup jq"
+        uses: dcarbone/install-jq-action@v2
+      - name: Parse ERC
+        run: |
+          erc_warnings=$(cat output/AstraControl-erc.json | jq '[try .violations[] | select(.severity == "warning")] | length')
+          erc_errors=$(cat output/AstraControl-erc.json | jq '[try .violations[] | select(.severity == "error")] | length')
+          cat <<EOF > output/erc_validation.md
+          ### ERC Report
+          - **Errors**: $erc_errors
+          - **Warnings**: $erc_warnings
+          - **Link**: [HTML Report](output/AstraControl-erc.html)
+          EOF
+          cat output/erc_validation.md
+      - name: Parse DRC
+        run: |
+          drc_warnings=$(cat output/AstraControl-drc.json | jq '[try .violations[] | select(.severity == "warning")] | length')
+          drc_errors=$(cat output/AstraControl-drc.json | jq '[try .violations[] | select(.severity == "error")] | length')
+          cat <<EOF > output/drc_validation.md
+          ### DRC Report
+          - **Errors**: $drc_errors
+          - **Warnings**: $drc_warnings
+          - **Link**: [HTML Report](output/AstraControl-drc.html)
+          EOF
+          cat output/drc_validation.md
 
-    - name: Run ERC
-      run: |
-        [ -f *.sch ] && kiplot  -d Fabrication -s update_xml,run_drc -i
-
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: ERC_Output
-        path: Fabrication
-
-  DRC:
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: AstraControl
+          path: output
+  Render_3D_Top_Angled:
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: ERC
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Run DRC
-      run: |
-        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s update_xml,run_erc -i
-
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: DRC_Output
-        path: Fabrication
-
-  FabSch:
-    name: Schematic fabrication files
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_render_top_angled.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Render_Top_Angled
+          path: output
+  Report:
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: ERC
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Run schematic stuff
-      run: |
-        [ -f *.sch ] && kiplot  -d Fabrication -s run_drc,run_erc print_sch
-
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: FabSch_Output
-        path: Fabrication
-
-  FabPCB:
-    name: PCB fabrication files
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "5"
+          submodules: "true"
+      - name: Move template to root
+        run: |
+          ls -l
+          mkdir template
+          cp AstraControlPCB/template/* template/
+          ls -l template
+      - name: Run Kibot
+        run: |
+            mkdir -p /root/.ssh/ && touch /root/.ssh/known_hosts
+            ssh-keygen -R github.com
+            ssh-keyscan github.com >> /root/.ssh/known_hosts
+            echo "github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" >> /root/.ssh/known_hosts
+            eval $(ssh-agent)
+            echo "${{ secrets.SSH_PRIVATE_KEY }}" | tr -d '\r' | ssh-add - > /dev/null
+            kibot -vvv -d output -c config.kibot.yaml -e AstraControlPCB/AstraControl.kicad_sch -b AstraControlPCB/AstraControl.kicad_pcb
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Report
+          path: output
+  PCBPrint:
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: DRC
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Move template to root
+        run: |
+          ls -l
+          mkdir template
+          cp AstraControlPCB/template/* template/
+          ls -l template
+      - name: Run Kibot for Dark PCBPrint
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: pcb_print_dark.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Run Kibot for Light PCBPrint
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: pcb_print_light.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: PCBPrint
+          path: output
+  Render_3D_Top:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
-    - name: Run PCB stuff
-      run: |
-        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all print_front gerbers
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_render_top.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Render_Top
+          path: output
+  Render_3D_Bottom:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: FabPCB_Output
-        path: Fabrication
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: "1"
+          submodules: "true"
+      - name: Run Kibot
+        uses: INTI-CMNB/KiBot@v2_dk8
+        with:
+          config: 3d_render_bottom.kibot.yaml
+          dir: output
+          schema: "AstraControlPCB/AstraControl.kicad_sch"
+          board: "AstraControlPCB/AstraControl.kicad_pcb"
+          verbose: 3
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Render_Bottom
+          path: output
+  Build_Jekyll:
+    runs-on: ubuntu-latest
+    needs:
+      [Preflight, Render_3D_Top, Render_3D_Bottom, Render_3D_Top_Angled, Report, PCBPrint]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: AstraControl
+          path: output
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          path: output
+      - name: Move artifact files
+        run: |
+          ls -l
+          ls -l output
+          ls -l output/Render_Top_Angled
+          ls -l output/Report
+          find output/Report
+          mkdir export
+          mkdir html
+          mkdir images
+          mkdir documents
+          mkdir KiRiDark
+          mkdir KiRiLight
+          mv output/drc_validation.md ./
+          mv output/erc_validation.md ./
+          mv output/Report/report/AstraControl-report.txt ./AstraControl-report.md
+          mv output/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
+          mv output/Render_Bottom/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_bottom.png
+          mv output/Render_Top_Angled/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top_angled.png
+          mv output/Report/IBOM/AstraControl-ibom.html export/AstraControl-ibom.html
+          mv output/Report/BOM/AstraControl_bom.html export/AstraControl-bom.html
+          mv output/Report/Schematic/AstraControl-schematic-default.pdf documents/AstraControl-schematic-default.pdf
+          mv output/Report/Schematic/AstraControl-schematic-dark.pdf documents/AstraControl-schematic-dark.pdf
+          mv output/Report/Schematic/AstraControl-schematic-mono.pdf documents/AstraControl-schematic-mono.pdf
+          mv output/PCBPrint/PCBPrintDark/AstraControl-united-Dark.pdf documents/AstraControl-pcb-dark.pdf
+          mv output/PCBPrint/PCBPrintLight/AstraControl-united-Light.pdf documents/AstraControl-pcb-light.pdf
+          mv output/Report/KiRiDark ./
+          mv output/Report/KiRiLight ./
+          mv output/Report/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-JLCPCB.zip
+          mv output/Report/JLCPCB/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_jlc.csv
+          mv output/Report/JLCPCB/PickAndPlace/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv
+          cp export/AstraControl-JLCPCB.zip export/AstraControl-Eurocircuits.zip
+          mv output/Report/Eurocircuits/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_Eurocircuits.csv
+          cp export/AstraControl_cpl_jlc.csv export/AstraControl_cpl_Eurocircuits.csv
+          rm -rf output
+          ls -l
+          ls -l export
+          find .
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+          future: true
+      - name: Move KiRi files directly to site
+        run: |
+          ls -l
+          sudo chown -R $USER:$USER ./_site/
+          cp -r ./KiRiDark ./_site/
+          cp -r ./KiRiLight ./_site/
+          find .
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  Deploy_Jekyll:
+    needs: Build_Jekyll
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

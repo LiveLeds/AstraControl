@@ -1,0 +1,12 @@
+Default	False	2.0	3
+3V3	True	2.0	3
+5V	False	2.0	3
+5V_IN	False	2.0	3
+CHASSIS	False	2.0	3
+GND	False	2.0	3
+RS485	False	2.0	3
+SIGNAL	True	2.0	3
+USB	False	2.0	3
+VBUS	False	2.0	3
+VIN	False	2.0	3
+False	True	False

@@ -70,12 +70,10 @@
       ],
       "drc_exclusions": [
         "lib_footprint_mismatch|107500000|86750000|f6625928-98ee-4c43-a223-3d6eafd988c5|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|171750000|88500000|a8a37ee5-84fa-41c4-b527-c0e8dbb5b8c0|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|171760000|89500000|4b8287ff-3843-4ceb-9656-4ce790b572d3|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|172472500|110000000|2bda5d31-32a5-4191-bde9-3d996f002365|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|182750000|123347500|98102c5c-e288-45af-8268-204631ef95cb|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|109000000|108000000|1e1246a4-3256-4129-8772-ca8279875285|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|154000000|108000000|1c2c1af9-8219-4645-92e6-8cceecdb095d|00000000-0000-0000-0000-000000000000",
-        "pth_inside_courtyard|105000000|88423032|1919925b-c1ed-4f81-934a-da4569058920|f6625928-98ee-4c43-a223-3d6eafd988c5"
+        "pth_inside_courtyard|105000000|88423032|1073ae91-80c3-4845-a2ff-aede2517c4fa|f6625928-98ee-4c43-a223-3d6eafd988c5",
+        "silk_overlap|171740000|89120000|81e80747-ef0b-495b-a291-fabab65f1f77|1ca37b26-d609-418a-9db0-5426d428eaef"
       ],
       "meta": {
         "version": 2
@@ -548,7 +546,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "5V_IN",
-        "pcb_color": "rgb(255, 30, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -582,7 +580,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(142, 0, 199)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.8,
@@ -599,8 +597,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RS485",
-        "pcb_color": "rgb(0, 255, 208)",
-        "schematic_color": "rgb(255, 0, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.7,
         "via_drill": 0.3,
@@ -616,8 +614,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SIGNAL",
-        "pcb_color": "rgb(0, 242, 255)",
-        "schematic_color": "rgb(0, 255, 121)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3493,
         "via_diameter": 0.7,
         "via_drill": 0.3,
@@ -633,8 +631,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(0, 255, 125)",
-        "schematic_color": "rgb(0, 194, 194)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -916,7 +914,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1012,12 +1010,12 @@
       "UART to RS-485"
     ],
     [
-      "a08072bc-5c98-487a-a9a6-bb737e215888",
-      "5V GPIO Connectors"
-    ],
-    [
       "12d48f68-9e8c-4210-a297-afac62bc105d",
       "3V3 to 5V Logic Shifter"
+    ],
+    [
+      "a08072bc-5c98-487a-a9a6-bb737e215888",
+      "5V GPIO Connectors"
     ],
     [
       "a49e4569-9986-4871-8da4-7c394f2ae605",

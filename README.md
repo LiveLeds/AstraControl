@@ -1,8 +1,3 @@
-### AstraControl Readme
-- a
-- b
-- c
+# AstraControl
 
-* a
-* b
-* c
+[GitHub IO Page](https://liveleds.github.io/AstraControl)
