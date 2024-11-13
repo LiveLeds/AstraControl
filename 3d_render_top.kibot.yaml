@@ -32,6 +32,9 @@ outputs:
           pos_y: 0
           pos_z: size*12
           type: "AREA"
+      pcb3d:
+        download: false
+        download_lcsc: false
       render_options:
         auto_crop: true
         transparent_background: true
