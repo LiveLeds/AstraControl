@@ -242,8 +242,8 @@ jobs:
           mv output/Report/Schematic/AstraControl-schematic-mono.pdf documents/AstraControl-schematic-mono.pdf
           mv output/PCBPrint/PCBPrintDark/AstraControl-united-Dark.pdf documents/AstraControl-pcb-dark.pdf
           mv output/PCBPrint/PCBPrintLight/AstraControl-united-Light.pdf documents/AstraControl-pcb-light.pdf
-          mv output/Report/KiRiDark ./
-          mv output/Report/KiRiLight ./
+          mv output/Report/KiRiDark ./ || true
+          mv output/Report/KiRiLight ./ || true
           mv output/Report/JLCPCB/AstraControl-JLCPCB.zip export/AstraControl-JLCPCB.zip
           mv output/Report/JLCPCB/BOM/AstraControl_bom_jlc.csv export/AstraControl_bom_jlc.csv
           mv output/Report/JLCPCB/PickAndPlace/AstraControl_cpl_jlc.csv export/AstraControl_cpl_jlc.csv
@@ -266,8 +266,8 @@ jobs:
         run: |
           ls -l
           sudo chown -R $USER:$USER ./_site/
-          cp -r ./KiRiDark ./_site/
-          cp -r ./KiRiLight ./_site/
+          cp -r ./KiRiDark ./_site/ || true
+          cp -r ./KiRiLight ./_site/ || true
           find .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
