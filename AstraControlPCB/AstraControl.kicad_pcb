@@ -41729,7 +41729,7 @@
 	(footprint "kibuzzard-66F98D22"
 		(layer "F.Cu")
 		(uuid "8ec544f8-1f26-4466-a0a0-1c55fc96103f")
-		(at 124.516 56.1375)
+		(at 124.766 56.1375)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiXFwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiLyIsICJGb250Q29tYm9Cb3giOiAiSU5HIE1lIEhlYWRsaW5lIiwgIkhlaWdodEN0cmwiOiAxLjIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMC41LCAiTXVsdGlMaW5lVGV4dCI6ICJSU1JWRCIsICJQYWRkaW5nQm90dG9tQ3RybCI6IDIuMCwgIlBhZGRpbmdMZWZ0Q3RybCI6IDEuMCwgIlBhZGRpbmdSaWdodEN0cmwiOiAxLjAsICJQYWRkaW5nVG9wQ3RybCI6IDIuMCwgIldpZHRoQ3RybCI6IDEuNn0=")
 		(property "Reference" "kibuzzard-66F98D22"
