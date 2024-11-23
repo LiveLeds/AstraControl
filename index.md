@@ -6,31 +6,31 @@ layout: home
 ![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }}){: width="400" }
 
 ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
-for communication, supporting various sensors and HMI devices for high-power 
-LED fixtures or strips. One device can act as master or all fixtures will receive 
+for communication, supporting various sensors and HMI devices for high-power
+LED fixtures or strips. One device can act as master or all fixtures will receive
 data from a dedicated receiver.
 
-
 [![CI](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml/badge.svg)](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml)
+
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
   - [Render Top Angled](#render-top-angled)
   - [Render Top](#render-top)
   - [Render Bottom](#render-bottom)
+  - [Schematic](#schematic)
+    - [Dark](#dark)
+    - [Monochromatic](#monochromatic)
+    - [Light](#light)
+  - [Assembly](#assembly)
+    - [Dark](#dark-1)
+    - [Light](#light-1)
+  - [3D Step](#3d-step)
   - [Interactive BOM](#interactive-bom)
   - [BOM](#bom)
   - [KiCad Revision Inspector (KiRI)](#kicad-revision-inspector-kiri)
-    - [Dark](#dark)
-    - [Light](#light)
-  - [Schematic](#schematic)
-    - [Dark](#dark-1)
-    - [Monochromatic](#monochromatic)
-    - [Light](#light-1)
-  - [Assembly](#assembly)
     - [Dark](#dark-2)
     - [Light](#light-2)
-  - [3D Step](#3d-step)
   - [Downloads](#downloads)
     - [JLCPCB](#jlcpcb)
     - [Eurocircuits](#eurocircuits)
@@ -50,32 +50,6 @@ data from a dedicated receiver.
 ### Render Bottom
 
 ![Image]({{ "/images/AstraControl-3D_blender_bottom.png" | relative_url | append: cacheBust }})
-
-### Interactive BOM
-
-Easily check component locations by hovering over a specific component.
-
-[IBOM HTML]({{ "/export/AstraControl-ibom.html" | relative_url | append: cacheBust }})
-
-### BOM
-
-All components with Values, References, Sheetpath and Links to the datasheet.
-
-[BOM HTML]({{ "/export/AstraControl-bom.html" | relative_url | append: cacheBust }})
-
-### KiCad Revision Inspector (KiRI)
-
-KiCad Revision Inspector (KiRI) is a tool for comparing different versions of KiCad projects. It exports project revisions to SVG format for visual comparison using an onion skin view. This helps identify changes and errors in PCB designs. KiRI also includes a command line interface for generating viewable artifacts in any web browser.
-
-View the PCB / Schematic in an interactive way, pan and zoom to see the details.
-
-#### Dark
-
-- [KiRi Dark]({{ "/KiRiDark/index.html" | relative_url | append: cacheBust }})
-
-#### Light
-
-- [KiRi Light]({{ "/KiRiLight/index.html" | relative_url | append: cacheBust }})
 
 ### Schematic
 
@@ -105,6 +79,34 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 
 - [3D Step]({{ "/AstraControl-3D.step" | relative_url | append: cacheBust }})
 
+### Interactive BOM
+
+Check component locations by hovering over a specific component.
+The visual elements might not be precise enough for pcb review but can be very useful since it's possible to pan and zoom.
+Not all BOM items are available here, for datasheet links see BOM below.
+
+[IBOM HTML]({{ "/export/AstraControl-ibom.html" | relative_url | append: cacheBust }})
+
+### BOM
+
+All components with Values, References, Sheetpath and Links to the datasheet.
+
+[BOM HTML]({{ "/export/AstraControl-bom.html" | relative_url | append: cacheBust }})
+
+### KiCad Revision Inspector (KiRI)
+
+KiCad Revision Inspector (KiRI) is a tool for comparing different versions of KiCad projects. It exports project revisions to SVG format for visual comparison using an onion skin view. This helps identify changes and errors in PCB designs. KiRI also includes a command line interface for generating viewable artifacts in any web browser.
+
+View the PCB / Schematic in an interactive way, pan and zoom to see the details.
+
+#### Dark
+
+- [KiRi Dark]({{ "/KiRiDark/index.html" | relative_url | append: cacheBust }})
+
+#### Light
+
+- [KiRi Light]({{ "/KiRiLight/index.html" | relative_url | append: cacheBust }})
+
 ### Downloads
 
 #### JLCPCB
@@ -118,7 +120,7 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 - [Eurocircuits Zip]({{ "export/AstraControl-Eurocircuits.zip" | relative_url | append: cacheBust }})
 - [Eurocircuits BOM CSV]({{ "export/AstraControl_bom_Eurocircuits.csv" | relative_url | append: cacheBust }})
 - [Eurocircuits CPL CSV]({{ "export/AstraControl_cpl_Eurocircuits.csv" | relative_url | append: cacheBust }})
-  
+
 ## Report
 
 #### ERC
@@ -130,7 +132,6 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 {% include_relative drc_validation.md %}
 
 {% include_relative AstraControl-report.md %}
-
 
 ## Credits
 
