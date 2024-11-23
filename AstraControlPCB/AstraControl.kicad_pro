@@ -815,6 +815,10 @@
       {
         "netclass": "SIGNAL",
         "pattern": "*PWM*"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "/Block Diagram/Power Connectors/USB/VBUS"
       }
     ]
   },

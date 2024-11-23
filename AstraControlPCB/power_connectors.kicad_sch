@@ -1835,7 +1835,7 @@
 		)
 		(uuid "8c57c987-1d70-4ef3-bc63-d7d100b75380")
 	)
-	(text "Are the TVS diodes enough or should I add\nanything extra? MOV / TBU? \nAiming to cover ~90% of cases."
+	(text "Are the TVS diodes enough or should I add\nanything extra? MOV / TBU?"
 		(exclude_from_sim no)
 		(at 91.44 60.96 0)
 		(effects
