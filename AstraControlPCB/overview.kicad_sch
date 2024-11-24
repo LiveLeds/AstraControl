@@ -928,7 +928,7 @@
 		)
 		(uuid "09fa3387-7415-4425-afef-7259eae40e08")
 	)
-	(text "Some features are not necessary but used as a learning experience and experimentation."
+	(text "Some features are not necessary but used for learning and experimentation."
 		(exclude_from_sim no)
 		(at 25.4 129.54 0)
 		(effects

@@ -7,10 +7,11 @@ layout: home
 
 ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
 for communication, supporting various sensors and HMI devices for high-power
-LED fixtures or strips. One device can act as master or all fixtures will receive
-data from a dedicated receiver.
+LED fixtures or strips. Device can be configured to be a master or slave.
+The board connects to [AstraDriver](https://liveleds.github.io/AstraDriver) a high power LED driver board that uses 4x LED2001 drivers.
+Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github.io/AstraBeamLED).
 
-[![CI](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml/badge.svg)](https://github.com/alexanderp4580/astra-control-pcb/actions/workflows/ci.yml)
+[![CI](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml)
 
 ## Table of contents
 
@@ -140,5 +141,3 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 [Amulet - Inspiration for awesome schematic and PCB](https://github.com/EPFLXplore/XRE_LeggedRobot_HW)
-
-Sorry if I am forgetting someone, I used lots of references and tips from all over the place.
