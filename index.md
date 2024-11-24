@@ -79,7 +79,7 @@ Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github
 
 #### Gerber viewer on tracespace.io
 
-[https://tracespace.io/view/?boardUrl=]({{ "export/AstraControl-JLCPCB.zip" | absolute_url | append: cacheBust }})
+[https://tracespace.io/view/?boardUrl={{ "export/AstraControl-JLCPCB.zip" | absolute_url | append: cacheBust }}](https://tracespace.io/view/?boardUrl={{ "export/AstraControl-JLCPCB.zip" | absolute_url | append: cacheBust }})
 
 ### Interactive BOM
 
