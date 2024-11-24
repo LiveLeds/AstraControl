@@ -3,7 +3,7 @@ layout: home
 ---
 
 {% assign cacheBust = site.time | date:'?v=%s' %}
-![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }}){: width="400" }
+![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | absolute_url | append: cacheBust }}){: width="400" }
 
 ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
 for communication, supporting various sensors and HMI devices for high-power
@@ -26,7 +26,7 @@ Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github
   - [Assembly](#assembly)
     - [Dark](#dark-1)
     - [Light](#light-1)
-  - [3D Step](#3d-step)
+    - [Gerber viewer on tracespace.io](#gerber-viewer-on-tracespaceio)
   - [Interactive BOM](#interactive-bom)
   - [BOM](#bom)
   - [KiCad Revision Inspector (KiRI)](#kicad-revision-inspector-kiri)
@@ -35,6 +35,7 @@ Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github
   - [Downloads](#downloads)
     - [JLCPCB](#jlcpcb)
     - [Eurocircuits](#eurocircuits)
+    - [3D Step](#3d-step)
 - [Report](#report)
     - [ERC](#erc)
     - [DRC](#drc)
@@ -42,57 +43,57 @@ Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github
 
 ### Render Top Angled
 
-![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | relative_url | append: cacheBust }})
+![Image]({{ "/images/AstraControl-3D_blender_top_angled.png" | absolute_url | append: cacheBust }})
 
 ### Render Top
 
-![Image]({{ "/images/AstraControl-3D_blender_top.png" | relative_url | append: cacheBust }})
+![Image]({{ "/images/AstraControl-3D_blender_top.png" | absolute_url | append: cacheBust }})
 
 ### Render Bottom
 
-![Image]({{ "/images/AstraControl-3D_blender_bottom.png" | relative_url | append: cacheBust }})
+![Image]({{ "/images/AstraControl-3D_blender_bottom.png" | absolute_url | append: cacheBust }})
 
 ### Schematic
 
 #### Dark
 
-- [Schematic Dark PDF]({{ "/documents/AstraControl-schematic-dark.pdf" | relative_url | append: cacheBust }})
+- [Schematic Dark PDF]({{ "/documents/AstraControl-schematic-dark.pdf" | absolute_url | append: cacheBust }})
 
 #### Monochromatic
 
-- [Schematic Monochromatic PDF]({{ "/documents/AstraControl-schematic-mono.pdf" | relative_url | append: cacheBust }})
+- [Schematic Monochromatic PDF]({{ "/documents/AstraControl-schematic-mono.pdf" | absolute_url | append: cacheBust }})
 
 #### Light
 
-- [Schematic Light PDF]({{ "/documents/AstraControl-schematic-default.pdf" | relative_url | append: cacheBust }})
+- [Schematic Light PDF]({{ "/documents/AstraControl-schematic-default.pdf" | absolute_url | append: cacheBust }})
 
 ### Assembly
 
 #### Dark
 
-- [PCB Dark PDF]({{ "/documents/AstraControl-pcb-dark.pdf" | relative_url | append: cacheBust }})
+- [PCB Dark PDF]({{ "/documents/AstraControl-pcb-dark.pdf" | absolute_url | append: cacheBust }})
 
 #### Light
 
-- [PCB Light PDF]({{ "/documents/AstraControl-pcb-light.pdf" | relative_url | append: cacheBust }})
+- [PCB Light PDF]({{ "/documents/AstraControl-pcb-light.pdf" | absolute_url | append: cacheBust }})
 
-### 3D Step
+#### Gerber viewer on tracespace.io
 
-- [3D Step]({{ "/AstraControl-3D.step" | relative_url | append: cacheBust }})
+[https://tracespace.io/view/?boardUrl=]({{ "export/AstraControl-JLCPCB.zip" | absolute_url | append: cacheBust }})
 
 ### Interactive BOM
 
 Check component locations by hovering over a specific component.
 The visual elements might not be precise enough for pcb review but can be very useful since it's possible to pan and zoom.
-Not all BOM items are available here, for datasheet links see BOM below.
+Not all BOM columns are available here, for datasheet links see BOM below.
 
-[IBOM HTML]({{ "/export/AstraControl-ibom.html" | relative_url | append: cacheBust }})
+[IBOM HTML]({{ "/export/AstraControl-ibom.html" | absolute_url | append: cacheBust }})
 
 ### BOM
 
 All components with Values, References, Sheetpath and Links to the datasheet.
 
-[BOM HTML]({{ "/export/AstraControl-bom.html" | relative_url | append: cacheBust }})
+[BOM HTML]({{ "/export/AstraControl-bom.html" | absolute_url | append: cacheBust }})
 
 ### KiCad Revision Inspector (KiRI)
 
@@ -102,25 +103,29 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 
 #### Dark
 
-- [KiRi Dark]({{ "/KiRiDark/index.html" | relative_url | append: cacheBust }})
+- [KiRi Dark]({{ "/KiRiDark/index.html" | absolute_url | append: cacheBust }})
 
 #### Light
 
-- [KiRi Light]({{ "/KiRiLight/index.html" | relative_url | append: cacheBust }})
+- [KiRi Light]({{ "/KiRiLight/index.html" | absolute_url | append: cacheBust }})
 
 ### Downloads
 
 #### JLCPCB
 
-- [JLCPCB Zip]({{ "export/AstraControl-JLCPCB.zip" | relative_url | append: cacheBust }})
-- [JLCPCB BOM CSV]({{ "export/AstraControl_bom_jlc.csv" | relative_url | append: cacheBust }})
-- [JLCPCB CPL CSV]({{ "export/AstraControl_cpl_jlc.csv" | relative_url | append: cacheBust }})
+- [JLCPCB Zip]({{ "export/AstraControl-JLCPCB.zip" | absolute_url | append: cacheBust }})
+- [JLCPCB BOM CSV]({{ "export/AstraControl_bom_jlc.csv" | absolute_url | append: cacheBust }})
+- [JLCPCB CPL CSV]({{ "export/AstraControl_cpl_jlc.csv" | absolute_url | append: cacheBust }})
 
 #### Eurocircuits
 
-- [Eurocircuits Zip]({{ "export/AstraControl-Eurocircuits.zip" | relative_url | append: cacheBust }})
-- [Eurocircuits BOM CSV]({{ "export/AstraControl_bom_Eurocircuits.csv" | relative_url | append: cacheBust }})
-- [Eurocircuits CPL CSV]({{ "export/AstraControl_cpl_Eurocircuits.csv" | relative_url | append: cacheBust }})
+- [Eurocircuits Zip]({{ "export/AstraControl-Eurocircuits.zip" | absolute_url | append: cacheBust }})
+- [Eurocircuits BOM CSV]({{ "export/AstraControl_bom_Eurocircuits.csv" | absolute_url | append: cacheBust }})
+- [Eurocircuits CPL CSV]({{ "export/AstraControl_cpl_Eurocircuits.csv" | absolute_url | append: cacheBust }})
+
+#### 3D Step
+
+- [3D Step]({{ "/AstraControl-3D.step" | absolute_url | append: cacheBust }})
 
 ## Report
 
@@ -141,3 +146,5 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 [KiBot](https://github.com/INTI-CMNB/KiBot)
 
 [Amulet - Inspiration for awesome schematic and PCB](https://github.com/EPFLXplore/XRE_LeggedRobot_HW)
+
+[tracespace view - Online Gerber Viewer](https://tracespace.io)
