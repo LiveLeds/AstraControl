@@ -41,6 +41,7 @@ Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github
 - [Report](#report)
     - [ERC](#erc)
     - [DRC](#drc)
+- [Know Issues](#know-issues)
 - [Credits](#credits)
 
 ### Render Top Angled
@@ -140,6 +141,10 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 {% include_relative drc_validation.md %}
 
 {% include_relative AstraControl-report.md %}
+
+## Know Issues
+
+- TBD
 
 ## Credits
 
