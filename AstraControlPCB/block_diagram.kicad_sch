@@ -432,6 +432,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e3dba8-f220-4fea-aee5-02323319fa11")
+	)
+	(wire
+		(pts
+			(xy 86.36 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195ed3be-579c-4691-94ae-e071e4528c58")
+	)
+	(wire
+		(pts
 			(xy 38.1 154.94) (xy 114.3 154.94)
 		)
 		(stroke
@@ -439,6 +459,16 @@
 			(type default)
 		)
 		(uuid "1b4a2c9e-a564-4e3c-a2f6-085a6768d3c1")
+	)
+	(wire
+		(pts
+			(xy 86.36 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb8ed91-437c-4a22-9319-3ac14302bfba")
 	)
 	(polyline
 		(pts
@@ -462,13 +492,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 157.48) (xy 246.38 157.48)
+			(xy 38.1 73.66) (xy 53.34 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d617a09-8d89-4d23-8dbb-51f07863609e")
+		(uuid "2d8c0735-52c3-4a51-9833-b096834ad053")
 	)
 	(polyline
 		(pts
@@ -482,17 +512,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 116.84) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "326719be-e955-45b6-acdf-4aa7e4a9cdb0")
-	)
-	(polyline
-		(pts
-			(xy 127 106.68) (xy 127 116.84)
+			(xy 134.62 106.68) (xy 134.62 116.84)
 		)
 		(stroke
 			(width 0)
@@ -502,7 +522,7 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 66.04) (xy 134.62 66.04)
+			(xy 144.78 66.04) (xy 146.05 66.04)
 		)
 		(stroke
 			(width 0)
@@ -522,23 +542,13 @@
 	)
 	(polyline
 		(pts
-			(xy 132.08 86.36) (xy 134.62 86.36)
+			(xy 144.78 91.44) (xy 146.05 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b749d8f-dede-4739-a33f-f81348e62838")
-	)
-	(wire
-		(pts
-			(xy 78.74 83.82) (xy 114.3 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d6ce91c-ac05-4b9d-989a-76182ea7e3a2")
 	)
 	(polyline
 		(pts
@@ -562,6 +572,16 @@
 	)
 	(polyline
 		(pts
+			(xy 147.32 147.32) (xy 147.32 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e100d7-bc45-4988-b95e-3a74d6753378")
+	)
+	(polyline
+		(pts
 			(xy 149.86 45.72) (xy 152.4 45.72)
 		)
 		(stroke
@@ -580,19 +600,9 @@
 		)
 		(uuid "4884d7f3-8d73-4f0e-a863-572c12e814a1")
 	)
-	(wire
-		(pts
-			(xy 78.74 73.66) (xy 114.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff239c2-c313-49ae-961e-633fd63ed18d")
-	)
 	(polyline
 		(pts
-			(xy 134.62 66.04) (xy 134.62 86.36)
+			(xy 146.05 66.04) (xy 146.05 91.44)
 		)
 		(stroke
 			(width 0)
@@ -630,16 +640,6 @@
 		)
 		(uuid "52097554-cd1d-45e4-9d4c-f1662f924ff4")
 	)
-	(wire
-		(pts
-			(xy 78.74 68.58) (xy 114.3 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5371e867-1cfd-4a24-b995-8d84461eb52e")
-	)
 	(polyline
 		(pts
 			(xy 139.7 162.56) (xy 139.7 172.72)
@@ -652,17 +652,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 53.34) (xy 114.3 53.34)
+			(xy 86.36 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "556b1e1a-5ba0-4ab0-aba1-2a4dda7d8d58")
+		(uuid "54ef1ee5-a8a2-4a42-a748-b2ef206f8285")
 	)
 	(polyline
 		(pts
-			(xy 124.46 106.68) (xy 127 106.68)
+			(xy 132.08 106.68) (xy 134.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -679,6 +679,16 @@
 			(type default)
 		)
 		(uuid "5e3dfeb9-5002-40e1-b33a-c77a349b44a5")
+	)
+	(wire
+		(pts
+			(xy 170.18 154.94) (xy 187.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6067839a-3125-4447-88aa-d1e20e632460")
 	)
 	(polyline
 		(pts
@@ -712,7 +722,27 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 114.3) (xy 114.3 114.3)
+			(xy 170.18 149.86) (xy 187.96 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664c1b00-f0a2-4c3b-9f7c-e85461ac2e19")
+	)
+	(polyline
+		(pts
+			(xy 147.32 162.56) (xy 149.86 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a09f34f-33c9-4da2-8609-5ad7633731a1")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
@@ -729,46 +759,6 @@
 			(type default)
 		)
 		(uuid "6f9eee15-0fe7-4440-99be-745d0cfab110")
-	)
-	(wire
-		(pts
-			(xy 170.18 157.48) (xy 195.58 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71cb0a1f-6673-4e43-a230-5ad55c552a72")
-	)
-	(polyline
-		(pts
-			(xy 152.4 139.7) (xy 152.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a51564-2638-4815-862a-e64c8d921a55")
-	)
-	(wire
-		(pts
-			(xy 170.18 162.56) (xy 195.58 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752de904-4149-4e80-98b1-2f8a7a935e0e")
-	)
-	(wire
-		(pts
-			(xy 220.98 147.32) (xy 246.38 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb97c30-8d47-433d-83ab-4f76107fd756")
 	)
 	(polyline
 		(pts
@@ -812,13 +802,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 152.4) (xy 195.58 152.4)
+			(xy 86.36 78.74) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8da1f4cc-bea7-4a30-ad37-9bfe62e09b3f")
+		(uuid "8eb7b728-0848-44a2-96cd-8339c726d633")
 	)
 	(wire
 		(pts
@@ -829,6 +819,16 @@
 			(type default)
 		)
 		(uuid "95ead411-54c4-439a-8f57-b1c7168f65ba")
+	)
+	(wire
+		(pts
+			(xy 228.6 154.94) (xy 246.38 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd6c653-3920-41f8-a5d5-1f4c14c15f72")
 	)
 	(polyline
 		(pts
@@ -852,23 +852,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 162.56) (xy 246.38 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a33ddddd-db6d-4297-a72e-9e8c73a95f91")
-	)
-	(wire
-		(pts
-			(xy 33.02 109.22) (xy 114.3 109.22)
+			(xy 38.1 109.22) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a46c76c7-6cd3-4e6d-bea4-c0fd333bfd11")
+	)
+	(wire
+		(pts
+			(xy 38.1 53.34) (xy 114.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a58f1765-e609-46e3-8131-bad5ba47c468")
 	)
 	(wire
 		(pts
@@ -889,16 +889,6 @@
 			(type default)
 		)
 		(uuid "a8d427ae-def1-47cb-9913-478ebec4f211")
-	)
-	(wire
-		(pts
-			(xy 170.18 142.24) (xy 195.58 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a99ef56e-8f3b-4c40-9027-e1f809775f74")
 	)
 	(polyline
 		(pts
@@ -932,16 +922,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 73.66) (xy 53.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c2da52-5ba3-472b-b65e-4397e951c4c3")
-	)
-	(wire
-		(pts
 			(xy 38.1 48.26) (xy 114.3 48.26)
 		)
 		(stroke
@@ -959,26 +939,6 @@
 			(type default)
 		)
 		(uuid "bee00a3a-00a8-41ac-a67c-1556ef89b29a")
-	)
-	(wire
-		(pts
-			(xy 170.18 147.32) (xy 195.58 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf5c13ae-ab09-4b71-93ae-dd700eb058a1")
-	)
-	(wire
-		(pts
-			(xy 78.74 78.74) (xy 114.3 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c68d6240-056f-4079-a8a7-9c3581a0ca04")
 	)
 	(wire
 		(pts
@@ -1060,16 +1020,6 @@
 		)
 		(uuid "d403cced-8702-4b49-b336-c1955849657c")
 	)
-	(wire
-		(pts
-			(xy 220.98 152.4) (xy 246.38 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82c384e-7274-4201-9895-effaa2179ad5")
-	)
 	(polyline
 		(pts
 			(xy 134.62 132.08) (xy 137.16 132.08)
@@ -1079,6 +1029,16 @@
 			(type default)
 		)
 		(uuid "d956f526-3325-4266-82f9-b16fdae088d7")
+	)
+	(polyline
+		(pts
+			(xy 147.32 147.32) (xy 149.86 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7352fd-a1b9-4823-9227-c7c1d690e1ed")
 	)
 	(polyline
 		(pts
@@ -1099,6 +1059,16 @@
 			(type default)
 		)
 		(uuid "e04d5e42-0163-4913-93ee-638db830b5ac")
+	)
+	(wire
+		(pts
+			(xy 170.18 160.02) (xy 187.96 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a4d94b-b14f-4345-a4a8-b904a55964fc")
 	)
 	(wire
 		(pts
@@ -1132,16 +1102,6 @@
 	)
 	(polyline
 		(pts
-			(xy 152.4 139.7) (xy 154.94 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1bc199-52f2-48f4-8d62-51e6c1e64bb9")
-	)
-	(polyline
-		(pts
 			(xy 149.86 93.98) (xy 152.4 93.98)
 		)
 		(stroke
@@ -1149,6 +1109,16 @@
 			(type default)
 		)
 		(uuid "ec43c118-9cf0-4ee9-9d65-4c15fe57dba7")
+	)
+	(polyline
+		(pts
+			(xy 132.08 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec464301-7979-444e-a4cf-be23b8d6cbf3")
 	)
 	(polyline
 		(pts
@@ -1160,15 +1130,15 @@
 		)
 		(uuid "f0b5a87c-f457-40cf-87a4-a0b0334c5322")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 152.4 165.1) (xy 154.94 165.1)
+			(xy 228.6 149.86) (xy 246.38 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f30a2b79-5621-4a50-ae81-baca7beab21f")
+		(uuid "f15caa54-659d-4cdf-893c-d0968233e4cf")
 	)
 	(polyline
 		(pts
@@ -1225,7 +1195,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 125.73 105.41 0)
+		(at 133.35 105.41 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1233,6 +1203,17 @@
 			)
 		)
 		(uuid "224ba8b2-fb11-4cf3-a7c0-70f5be59f4f2")
+	)
+	(text "3.3V to 5V Level Shifter"
+		(exclude_from_sim no)
+		(at 156.21 146.05 0)
+		(effects
+			(font
+				(face "ING Me")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "23281b2b-bcd0-4c47-b60c-41c46390a887")
 	)
 	(text "I2S Microphone"
 		(exclude_from_sim no)
@@ -1245,20 +1226,9 @@
 		)
 		(uuid "4e755a4d-fcf0-45ad-bb3d-a7e7bc1ba748")
 	)
-	(text "5V GPIO"
-		(exclude_from_sim no)
-		(at 154.94 138.43 0)
-		(effects
-			(font
-				(face "ING Me")
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51293566-7fce-4f95-b483-927129963578")
-	)
 	(text "RS-485"
 		(exclude_from_sim no)
-		(at 134.62 64.77 0)
+		(at 143.51 64.77 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1510,152 +1480,6 @@
 		)
 	)
 	(sheet
-		(at 195.58 137.16)
-		(size 25.4 30.48)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "12d48f68-9e8c-4210-a297-afac62bc105d")
-		(property "Sheetname" "3V3 to 5V Logic Shifter"
-			(at 195.58 136.4484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "3v3_to_5v_logic_shifter.kicad_sch"
-			(at 195.58 168.2246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3V3_IO_1" bidirectional
-			(at 195.58 147.32 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "a862d8cd-cc77-4c13-95d2-e94efa3d3a44")
-		)
-		(pin "3V3_IO_2" bidirectional
-			(at 195.58 152.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "bfd8ccec-0a60-427c-9118-ec9dfe3e4ca3")
-		)
-		(pin "3V3_IO_3" bidirectional
-			(at 195.58 157.48 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "550e9e46-ccdf-4985-bc5c-8bfe076cc107")
-		)
-		(pin "3V3_IO_4" bidirectional
-			(at 195.58 162.56 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "6d4d3c12-aa77-4a04-affd-928d2fca86a7")
-		)
-		(pin "5V_IO_1" bidirectional
-			(at 220.98 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "0aaf6478-d366-49e1-81dd-c9fc86347651")
-		)
-		(pin "5V_IO_3" bidirectional
-			(at 220.98 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "d512ba47-f485-49f4-afdc-6d392dfaa85e")
-		)
-		(pin "5V_IO_2" bidirectional
-			(at 220.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "fa015ab0-9338-4a64-99fd-e429a619bde1")
-		)
-		(pin "5V_IO_4" bidirectional
-			(at 220.98 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "327333a3-8d20-47c5-ac32-da96ca7bbc9e")
-		)
-		(pin "LEVEL_SHIFTER_IO_OE" input
-			(at 195.58 142.24 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "cc1696f6-26a6-42ac-bdd2-0573adee1409")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 88.9 25.4)
 		(size 15.24 10.16)
 		(fields_autoplaced yes)
@@ -1771,7 +1595,7 @@
 			)
 			(uuid "31339f7d-bd31-44f2-8e42-b79866f9b2f6")
 		)
-		(pin "MCU_BOOT" input
+		(pin "GPIO_0_MCU_BOOT" input
 			(at 114.3 109.22 180)
 			(effects
 				(font
@@ -1830,114 +1654,6 @@
 				(justify right)
 			)
 			(uuid "99a30f54-cbd9-4b87-a137-39b611f4a631")
-		)
-		(pin "GPIO_7_RS485_RX" input
-			(at 114.3 68.58 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "193d9844-f994-4ce8-845a-150befc6da57")
-		)
-		(pin "GPIO_4_RS485_TX" output
-			(at 114.3 73.66 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "f4379a1b-39ff-4e67-839b-24eb3b2e9a11")
-		)
-		(pin "GPIO_5_RS485_DE" output
-			(at 114.3 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "aaea85dd-2504-4d98-b628-ca1eef648808")
-		)
-		(pin "GPIO_6_RS485_RE" output
-			(at 114.3 78.74 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "8d4f7235-7845-4e07-9932-57a3f119422a")
-		)
-		(pin "GPIO_1_5V_OE" output
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "261dc7e5-9eda-46d5-86d0-20d164c466b8")
-		)
-		(pin "GPIO_39_5V" bidirectional
-			(at 170.18 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "2b5a6eaa-dcda-44a6-9163-d8f70db9eba7")
-		)
-		(pin "GPIO_40_5V" bidirectional
-			(at 170.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "12799f8e-2bfe-4be1-a91a-556b293ad07b")
-		)
-		(pin "GPIO_41_5V" bidirectional
-			(at 170.18 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "fb0befa6-fc74-4d57-802d-d9aebdb14abe")
-		)
-		(pin "GPIO_42_5V" bidirectional
-			(at 170.18 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "f6fb36bf-3aaa-4b8d-98c0-4d1af1db0650")
 		)
 		(pin "GPIO_16_PWM_CH3" output
 			(at 170.18 58.42 0)
@@ -2131,6 +1847,94 @@
 			)
 			(uuid "ddcc1833-f2f0-4dd7-9d62-edd6226fff63")
 		)
+		(pin "GPIO_4_RS485_TX" output
+			(at 114.3 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "d30e8745-919d-4574-b1ba-700db5802c4a")
+		)
+		(pin "GPIO_6_RS485_SLR_SLOW_~{FAST}" output
+			(at 114.3 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "27daaaef-ec05-45f1-b2ed-56179e70c474")
+		)
+		(pin "GPIO_5_RS485_DE_~{RE}" output
+			(at 114.3 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "fd74659d-b62c-4f4b-abd4-3dc48160e2b3")
+		)
+		(pin "GPIO_7_RS485_RX" input
+			(at 114.3 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "180ddcd4-d1f0-4fab-b451-c54260319bdf")
+		)
+		(pin "GPIO_40_SHIFTER" bidirectional
+			(at 170.18 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6eaff046-0458-42ca-8ac9-d2deb1c4bbc5")
+		)
+		(pin "GPIO_41_SHIFTER" bidirectional
+			(at 170.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7c69f7a7-d779-4ff5-a633-a591d21ef73a")
+		)
+		(pin "GPIO_42_RS485_TERMINATE" output
+			(at 114.3 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5d379b88-96cf-478b-b70b-9a2d92f988ac")
+		)
+		(pin "GPIO_39_SHIFTER_OE" output
+			(at 170.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa80b5b3-ad08-40a9-8ee3-3f2b58d418f8")
+		)
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
@@ -2274,8 +2078,66 @@
 		)
 	)
 	(sheet
+		(at 246.38 142.24)
+		(size 25.4 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62b5576a-8261-4301-b741-3feb86a98cd0")
+		(property "Sheetname" "5V GPIO Connector"
+			(at 246.38 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_gpio_connector.kicad_sch"
+			(at 246.38 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_40_5V" bidirectional
+			(at 246.38 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57a0fbb4-6280-492a-bd48-b515a0cd17eb")
+		)
+		(pin "GPIO_41_5V" bidirectional
+			(at 246.38 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8742c5ce-ebf4-47e5-9fbb-20b5d88a4fd8")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 53.34 63.5)
-		(size 25.4 25.4)
+		(size 33.02 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2295,7 +2157,7 @@
 			)
 		)
 		(property "Sheetfile" "uart_to_rs_485.kicad_sch"
-			(at 53.34 89.4846 0)
+			(at 53.34 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,19 +2165,55 @@
 				(justify left top)
 			)
 		)
-		(pin "RS485_D-" bidirectional
-			(at 53.34 73.66 180)
+		(pin "RS485_TX" input
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "7cdb01a9-e810-4291-9aab-0a37b94c0ff2")
+			(uuid "29a38152-6b39-4a24-a9c6-1ba904e2193c")
 		)
-		(pin "RS485_D+" bidirectional
+		(pin "SLR_SLOW_~{FAST}" input
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "06f159be-0e8c-44c2-9ff5-cefa4440e2ff")
+		)
+		(pin "RS485_DE_~{RE}" input
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "45013963-7502-497a-951f-41a121da031c")
+		)
+		(pin "TERMINATE" input
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "5397854f-5c49-4bc6-bb78-891847823476")
+		)
+		(pin "RS485_D+" output
 			(at 53.34 78.74 180)
 			(effects
 				(font
@@ -2325,22 +2223,22 @@
 				)
 				(justify left)
 			)
-			(uuid "1af017e4-41d3-446f-b7c3-3b5c58971084")
+			(uuid "bbb025e6-05e5-4e6a-b16e-b4a346c2c69a")
 		)
-		(pin "RS485_DE" input
-			(at 78.74 83.82 0)
+		(pin "RS485_D-" output
+			(at 53.34 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
 					(bold yes)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "4654ebf0-5f49-4fc1-afab-411edef6521b")
+			(uuid "cd0bfcd5-5384-4a35-a4bc-c1a100e580a9")
 		)
 		(pin "RS485_RX" output
-			(at 78.74 68.58 0)
+			(at 86.36 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,122 +2247,12 @@
 				)
 				(justify right)
 			)
-			(uuid "dc58bb9b-d700-4c63-857c-6c6095185a9e")
-		)
-		(pin "RS485_~{RE}" input
-			(at 78.74 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "76e0c020-064b-4eb2-a7d0-c7e9da86ff34")
-		)
-		(pin "RS485_TX" input
-			(at 78.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify right)
-			)
-			(uuid "35994d2a-dc1f-416d-a127-238f36c4a838")
+			(uuid "cef3e176-1a09-4139-8a0e-aeaf6729e4e4")
 		)
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
 					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 246.38 142.24)
-		(size 22.86 25.4)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a08072bc-5c98-487a-a9a6-bb737e215888")
-		(property "Sheetname" "5V GPIO Connectors"
-			(at 246.38 141.5284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "5v_gpio_connectors.kicad_sch"
-			(at 246.38 168.2246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GPIO_40_5V" bidirectional
-			(at 246.38 157.48 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "81c209e8-4aec-4d49-bbf0-bf1f5a8a0961")
-		)
-		(pin "GPIO_39_5V" bidirectional
-			(at 246.38 162.56 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "236b2bd3-f6c7-49de-8e71-77b4031d9ec7")
-		)
-		(pin "GPIO_42_5V" bidirectional
-			(at 246.38 147.32 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "ee831bdb-4ab7-448e-8b9a-65f1fffdb537")
-		)
-		(pin "GPIO_41_5V" bidirectional
-			(at 246.38 152.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "97aa19e4-d1de-4e7a-bdd1-d4eb7c00e78a")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
-					(page "12")
 				)
 			)
 		)
@@ -2580,8 +2368,100 @@
 		)
 	)
 	(sheet
+		(at 187.96 144.78)
+		(size 40.64 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d42b2a5d-6ce6-4b16-bfed-4946742bc91a")
+		(property "Sheetname" "3.3V to 5V Logic Shifter"
+			(at 187.96 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3_to_5v_logic_shifter.kicad_sch"
+			(at 187.96 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_IO_1" bidirectional
+			(at 187.96 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "5ce76dda-2933-4927-9e50-5978e335106b")
+		)
+		(pin "3V3_IO_2" bidirectional
+			(at 187.96 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "23442c5e-f4bf-484d-b096-4af0684f424d")
+		)
+		(pin "5V_IO_2" bidirectional
+			(at 228.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c718bee0-9ec1-478d-b5f5-40462f529d5d")
+		)
+		(pin "5V_IO_1" bidirectional
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d604be7e-7e80-41a6-ba17-d389d48ee306")
+		)
+		(pin "LEVEL_SHIFTER_IO_OE" input
+			(at 187.96 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5ccb9d9-ed18-41a0-afe3-dfdd7176a0b8")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 104.14)
-		(size 15.24 15.24)
+		(size 20.32 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2610,7 +2490,7 @@
 			)
 		)
 		(pin "MCU_EN" output
-			(at 33.02 114.3 0)
+			(at 38.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,8 +2501,8 @@
 			)
 			(uuid "30915dea-d15a-4ea5-86aa-2a6268e1b397")
 		)
-		(pin "MCU_BOOT" output
-			(at 33.02 109.22 0)
+		(pin "GPIO_0_MCU_BOOT" output
+			(at 38.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

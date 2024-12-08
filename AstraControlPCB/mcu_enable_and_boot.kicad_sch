@@ -1745,7 +1745,7 @@
 		)
 		(uuid "29e52754-fc87-42ea-aa6b-a3c5024d8150")
 	)
-	(hierarchical_label "MCU_BOOT"
+	(hierarchical_label "GPIO_0_MCU_BOOT"
 		(shape output)
 		(at 180.34 132.08 0)
 		(fields_autoplaced yes)

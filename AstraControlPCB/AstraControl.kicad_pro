@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -137,10 +137,10 @@
         "min_silk_clearance": 0.16,
         "min_text_height": 1.0,
         "min_text_thickness": 0.2,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.3,
+        "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.14,
         "use_height_for_length_calcs": true
       },
@@ -189,6 +189,7 @@
       ],
       "track_widths": [
         0.0,
+        0.24,
         0.3,
         0.3493,
         0.5,
@@ -225,6 +226,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.35,
+          "drill": 0.2
         },
         {
           "diameter": 0.55,
@@ -1025,14 +1030,6 @@
       "UART to RS-485"
     ],
     [
-      "12d48f68-9e8c-4210-a297-afac62bc105d",
-      "3V3 to 5V Logic Shifter"
-    ],
-    [
-      "a08072bc-5c98-487a-a9a6-bb737e215888",
-      "5V GPIO Connectors"
-    ],
-    [
       "a49e4569-9986-4871-8da4-7c394f2ae605",
       "Fan, Temperature and Screen"
     ],
@@ -1041,12 +1038,20 @@
       "LED PWM Connector"
     ],
     [
+      "d42b2a5d-6ce6-4b16-bfed-4946742bc91a",
+      "3.3V to 5V Logic Shifter"
+    ],
+    [
       "457d2566-de00-4e8c-b469-a22ed41e6193",
       "Button, Status LED, UART and I2S"
     ],
     [
       "f4845962-3a2f-4778-bb13-eae0f2a437f4",
       "Misc"
+    ],
+    [
+      "62b5576a-8261-4301-b741-3feb86a98cd0",
+      "5V GPIO Connector"
     ]
   ],
   "text_variables": {

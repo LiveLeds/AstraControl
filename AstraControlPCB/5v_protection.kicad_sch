@@ -738,7 +738,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:R_220Ohm_0402_62mW"
+		(symbol "LiveAstra:R_470Ohm_0603_100mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -752,7 +752,7 @@
 					)
 				)
 			)
-			(property "Value" "220"
+			(property "Value" "470"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -761,25 +761,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:R_0402_1005Metric"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C25091.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Footprint" "LiveAstra:R_0603_1608Metric"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -788,8 +770,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C25091"
-				(at 0 -16.51 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470R-4700-1_C23179.html"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -797,7 +779,25 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "50V 1% 0402 62mW"
+			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 470Ω 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C23179"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "75V 1% 0603 100mW"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -806,17 +806,8 @@
 					)
 				)
 			)
-			(property "MPN" "0402WGF2200TCE"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-				(at 0 -24.13 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -824,7 +815,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_220Ohm_0402_62mW_0_1"
+			(property "MPN" "0603WAF4700T5E"
+				(at 1.27 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_470Ohm_0603_100mW_0_1"
 				(rectangle
 					(start -2.54 1.27)
 					(end 2.54 -1.27)
@@ -837,7 +837,7 @@
 					)
 				)
 			)
-			(symbol "R_220Ohm_0402_62mW_1_1"
+			(symbol "R_470Ohm_0603_100mW_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1028,7 +1028,7 @@
 				)
 			)
 			(property "Footprint" "LiveAstra:5V_PROTECTION_NCP361SNT1G_TSOP-5"
-				(at 0 -40.64 0)
+				(at 0 -43.18 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1037,7 +1037,7 @@
 				)
 			)
 			(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Supervisors_ON-Semicon_NCP361SNT1G_ON-Semicon-ON-NCP361SNT1G_C233714.html"
-				(at 0 -45.72 0)
+				(at 0 -48.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1046,7 +1046,7 @@
 				)
 			)
 			(property "Description" "USB Positive Overvoltage Protection Controller with Internal PMOS FET and Overcurrent Protection"
-				(at 0 -35.56 0)
+				(at 0 -38.1 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1055,7 +1055,7 @@
 				)
 			)
 			(property "LCSC Part" "C233714"
-				(at 0 -50.8 0)
+				(at 0 -53.34 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1073,7 +1073,7 @@
 				)
 			)
 			(property "MPN" "NCP361SNT1G"
-				(at 0 -55.88 0)
+				(at 0 -58.42 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1082,7 +1082,7 @@
 				)
 			)
 			(property "MFN" "onsemi"
-				(at 0 -59.69 0)
+				(at 0 -62.23 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1105,7 +1105,7 @@
 			)
 			(symbol "U_NCP361SNT1G_5V_Protection_IC_TSOP_1_1"
 				(pin power_in line
-					(at -7.62 17.78 0)
+					(at -10.16 17.78 0)
 					(length 2.54)
 					(name "IN"
 						(effects
@@ -1123,7 +1123,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -22.86 90)
+					(at 0 -25.4 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1141,7 +1141,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -15.24 0)
+					(at -10.16 -15.24 0)
 					(length 2.54)
 					(name "~{EN}"
 						(effects
@@ -1159,7 +1159,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -7.62 0)
+					(at -10.16 -7.62 0)
 					(length 2.54)
 					(name "~{FLAG}"
 						(effects
@@ -1177,7 +1177,7 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 17.78 180)
+					(at 10.16 17.78 180)
 					(length 2.54)
 					(name "OUT"
 						(effects
@@ -1294,6 +1294,18 @@
 		)
 	)
 	(junction
+		(at 127 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c4a29a7-7d1a-4912-800f-8015cf7ba4ba")
+	)
+	(junction
+		(at 152.4 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f29c55e-ce94-44c7-9c85-24286bd3b389")
+	)
+	(junction
 		(at 106.68 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1306,28 +1318,16 @@
 		(uuid "ab391384-9373-47f1-9539-444b728d84d8")
 	)
 	(junction
-		(at 127 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8a4920b-3b4a-4d27-ad20-a6fe9433ddb9")
-	)
-	(junction
-		(at 177.8 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bed67482-e62b-46a4-ab49-134dc957a971")
-	)
-	(junction
-		(at 152.4 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e889cd1c-4631-48ac-8873-3d348f346029")
-	)
-	(junction
 		(at 170.18 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0dccf02-42f5-413c-884c-fac0fb2e3077")
+		(uuid "bba3d423-c3d3-46f6-9a14-61d8697360be")
+	)
+	(junction
+		(at 170.18 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea3e017d-2df6-45f7-b32a-a7acea92ef22")
 	)
 	(junction
 		(at 114.3 83.82)
@@ -1347,23 +1347,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 127) (xy 177.8 132.08)
+			(xy 170.18 124.46) (xy 170.18 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f5dea63-1264-427e-a5db-3ba97040fd9c")
-	)
-	(wire
-		(pts
-			(xy 160.02 83.82) (xy 170.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e00b5f-ed42-4e4c-9609-e92d1f6d6613")
 	)
 	(wire
 		(pts
@@ -1387,16 +1377,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 124.46) (xy 177.8 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a7dd444-bc3a-45e5-b786-99bab8d0eeb1")
-	)
-	(wire
-		(pts
 			(xy 200.66 83.82) (xy 254 83.82)
 		)
 		(stroke
@@ -1404,6 +1384,16 @@
 			(type default)
 		)
 		(uuid "3b364dff-5a9a-4458-b01c-159b88141b4f")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 170.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9cd33a-2779-409c-822c-fcf7fae0c4fd")
 	)
 	(wire
 		(pts
@@ -1417,13 +1407,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 109.22) (xy 144.78 109.22)
+			(xy 162.56 83.82) (xy 170.18 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5063fb66-9fa8-494f-b0b5-49b4f83ba63c")
+		(uuid "527c31b7-bbfb-4aa3-9036-4117eaefff64")
 	)
 	(wire
 		(pts
@@ -1447,7 +1437,37 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 177.8 127)
+			(xy 121.92 109.22) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b15a5e8-ebc1-4db5-802d-29c2c6e08ed2")
+	)
+	(wire
+		(pts
+			(xy 152.4 129.54) (xy 152.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6273e132-d4cf-4589-b9e5-752be28cb456")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662be6fc-cb20-46b9-99b8-983c69e1ebec")
+	)
+	(wire
+		(pts
+			(xy 139.7 129.54) (xy 152.4 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1467,6 +1487,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fefbb52-b59c-4140-9afb-ec313fce9af7")
+	)
+	(wire
+		(pts
 			(xy 106.68 109.22) (xy 111.76 109.22)
 		)
 		(stroke
@@ -1474,6 +1504,16 @@
 			(type default)
 		)
 		(uuid "774b04e7-cd0a-4b97-b165-cf7d0a299328")
+	)
+	(wire
+		(pts
+			(xy 170.18 129.54) (xy 170.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a21e4a0-37b0-4d8f-a414-ad8549fe1960")
 	)
 	(wire
 		(pts
@@ -1487,33 +1527,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "815355d7-3844-4611-aa38-d72ea4ba8937")
-	)
-	(wire
-		(pts
-			(xy 142.24 116.84) (xy 142.24 127)
+			(xy 139.7 116.84) (xy 139.7 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8bc34591-b827-447d-8b91-f8915b4057c5")
-	)
-	(wire
-		(pts
-			(xy 142.24 127) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3dd997-12f4-461d-835e-f90fe0310ff4")
 	)
 	(wire
 		(pts
@@ -1524,16 +1544,6 @@
 			(type default)
 		)
 		(uuid "8e8be3ed-9ded-4b59-9aa1-ee4e2ca89ef1")
-	)
-	(wire
-		(pts
-			(xy 127 83.82) (xy 144.78 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e83c02-0ec1-431f-a6e7-d7c9a102e770")
 	)
 	(wire
 		(pts
@@ -1554,16 +1564,6 @@
 			(type default)
 		)
 		(uuid "ab10bc9d-8be1-4944-a685-7f4b2f3d7c60")
-	)
-	(wire
-		(pts
-			(xy 142.24 116.84) (xy 144.78 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab3e5cd0-26b5-435a-82e9-ff1cc3cfb8a0")
 	)
 	(wire
 		(pts
@@ -1888,8 +1888,113 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:R_470Ohm_0603_100mW")
+		(at 241.3 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25759e4f-d140-4765-871f-b1ea392d65a2")
+		(property "Reference" "R9"
+			(at 241.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 241.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:R_0603_1608Metric"
+			(at 241.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_470R-4700-1_C23179.html"
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 470Ω 0603 Chip Resistor - Surface Mount ROHS"
+			(at 241.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23179"
+			(at 241.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "75V 1% 0603 100mW"
+			(at 241.3 95.25 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 241.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF4700T5E"
+			(at 242.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05f4630f-7e85-41d4-b625-df76855635d6")
+		)
+		(pin "1"
+			(uuid "e96c2d9c-46d4-4178-b966-d50ce201ccc2")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 177.8 124.46 0)
+		(at 170.18 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1898,7 +2003,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d540e5c-18e9-45b7-a866-ec6f83c7262c")
 		(property "Reference" "TP6"
-			(at 180.34 118.6476 0)
+			(at 172.72 118.6476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +2012,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 177.8 134.62 0)
+			(at 170.18 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +2021,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 177.8 139.7 0)
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +2030,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 177.8 119.38 90)
+			(at 170.18 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +2039,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 177.8 119.38 90)
+			(at 170.18 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +2048,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 177.8 144.78 0)
+			(at 170.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +2057,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 180.34 121.1876 0)
+			(at 172.72 121.1876 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1962,7 +2067,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 177.8 153.67 0)
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +2076,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 177.8 153.67 0)
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2163,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 132.08 0)
+		(at 170.18 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2067,7 +2172,7 @@
 		(fields_autoplaced yes)
 		(uuid "61a8afad-d673-435f-a88e-836ce8752f45")
 		(property "Reference" "#PWR019"
-			(at 177.8 138.43 0)
+			(at 170.18 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2181,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 137.16 0)
+			(at 170.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 132.08 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 132.08 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2207,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 132.08 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,111 +2392,6 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:R_220Ohm_0402_62mW")
-		(at 241.3 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9092bc2-6fca-48b9-8674-3e040789f274")
-		(property "Reference" "R9"
-			(at 241.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:R_0402_1005Metric"
-			(at 241.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C25091.html"
-			(at 241.3 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 241.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25091"
-			(at 241.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "50V 1% 0402 62mW"
-			(at 241.3 95.25 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 241.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF2200TCE"
-			(at 241.3 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd5b7b4b-d57d-49d1-b3ed-b7288698f3e0")
-		)
-		(pin "1"
-			(uuid "52d3b89b-6cf0-4b3a-9ee4-1badb57b6c10")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e21714b4-6921-40f8-8882-480f43314016"
-					(reference "R9")
 					(unit 1)
 				)
 			)
