@@ -1042,16 +1042,16 @@
       "3.3V to 5V Logic Shifter"
     ],
     [
+      "62b5576a-8261-4301-b741-3feb86a98cd0",
+      "5V GPIO Connector"
+    ],
+    [
       "457d2566-de00-4e8c-b469-a22ed41e6193",
       "Button, Status LED, UART and I2S"
     ],
     [
       "f4845962-3a2f-4778-bb13-eae0f2a437f4",
       "Misc"
-    ],
-    [
-      "62b5576a-8261-4301-b741-3feb86a98cd0",
-      "5V GPIO Connector"
     ]
   ],
   "text_variables": {
