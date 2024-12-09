@@ -735,7 +735,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:L_2u2H_4A_MDA4020-2R2M"
+		(symbol "LiveAstra:L_2u2H_3A_SLO0420H2R2MTT"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -758,8 +758,8 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:L_MDA4020_4.1x4.5mm"
-				(at 0 -8.89 0)
+			(property "Footprint" "LiveAstra:L_SLO0420H2R2MTT_SMD_L4.4_W4.2"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -767,8 +767,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html"
-				(at 1.27 -16.51 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_Sunltech-Tech-SLO0420H2R2MTT_C207828.html"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -776,8 +776,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "4A 2.2uH 20% 4A 41mΩ SMD,4.1x4.5mm Inductors (SMD) ROHS"
-				(at 0 -5.08 0)
+			(property "Description" "3A 2.2uH ±20% SMD Power Inductors ROHS"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -785,8 +785,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C2847469"
-				(at 0 -12.7 0)
+			(property "LCSC Part" "C207828"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -794,7 +794,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "4A 20% 41mOhm"
+			(property "Extra Values" "3A 5A 20% 42mOhm"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -803,8 +803,8 @@
 					)
 				)
 			)
-			(property "MPN" "MDA4020-2R2M"
-				(at -1.27 -20.32 0)
+			(property "MFN" "Sunltech Tech"
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -812,8 +812,8 @@
 					(hide yes)
 				)
 			)
-			(property "MFN" "KOHERelec"
-				(at 0 -24.13 0)
+			(property "MPN" "SLO0420H2R2MTT"
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -821,11 +821,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_2u2H_4A_MDA4020-2R2M_0_1"
+			(symbol "L_2u2H_3A_SLO0420H2R2MTT_0_1"
 				(arc
-					(start -2.03 0.01)
-					(mid -3.055 1.013)
-					(end -4.06 -0.01)
+					(start -2.54 0)
+					(mid -3.81 1.27)
+					(end -5.08 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -835,9 +835,9 @@
 					)
 				)
 				(arc
-					(start 0 0.01)
-					(mid -1.025 1.013)
-					(end -2.03 -0.01)
+					(start 0 0)
+					(mid -1.27 1.27)
+					(end -2.54 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -847,9 +847,9 @@
 					)
 				)
 				(arc
-					(start 2.03 0.01)
-					(mid 1.005 1.013)
-					(end 0 -0.01)
+					(start 2.54 0)
+					(mid 1.27 1.27)
+					(end 0 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -859,9 +859,9 @@
 					)
 				)
 				(arc
-					(start 4.06 0.01)
-					(mid 3.035 1.013)
-					(end 2.03 -0.01)
+					(start 5.08 0)
+					(mid 3.81 1.27)
+					(end 2.54 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -871,10 +871,10 @@
 					)
 				)
 			)
-			(symbol "L_2u2H_4A_MDA4020-2R2M_1_1"
+			(symbol "L_2u2H_3A_SLO0420H2R2MTT_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 1.016)
+					(at -7.62 0 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -891,8 +891,8 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 1.016)
+					(at 7.62 0 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -1666,10 +1666,10 @@
 		(uuid "40642bf6-131c-453d-bb7b-3490819f4146")
 	)
 	(junction
-		(at 121.92 101.6)
+		(at 231.14 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "442595d6-062d-42ff-bf17-91e09ce12ebb")
+		(uuid "497a9712-db64-46cf-b2c1-c646729fa629")
 	)
 	(junction
 		(at 177.8 101.6)
@@ -1688,6 +1688,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a450a7a-2c53-4cd6-b488-86d5bd2b82e0")
+	)
+	(junction
+		(at 121.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b2f17bd-32d8-4592-8320-b4d6fa87abe9")
 	)
 	(junction
 		(at 40.64 101.6)
@@ -1714,12 +1720,6 @@
 		(uuid "d8669277-ca08-49cc-9afb-fe9b17e4f395")
 	)
 	(junction
-		(at 232.41 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da684e3d-80fd-4c44-b66c-38774d682445")
-	)
-	(junction
 		(at 147.32 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1740,6 +1740,16 @@
 			(type default)
 		)
 		(uuid "0296afa9-0c24-41d3-948d-dbc9909c508f")
+	)
+	(wire
+		(pts
+			(xy 231.14 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0416779b-e88e-4fd3-8718-18649b66d1cd")
 	)
 	(wire
 		(pts
@@ -1783,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 104.14) (xy 232.41 101.6)
+			(xy 231.14 104.14) (xy 231.14 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1800,16 +1810,6 @@
 			(type default)
 		)
 		(uuid "183a2b63-0197-4b68-be63-96e3de6fb470")
-	)
-	(wire
-		(pts
-			(xy 111.76 101.6) (xy 121.92 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2687e625-24ef-4e01-916c-978baef50f0a")
 	)
 	(wire
 		(pts
@@ -1843,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 101.6) (xy 214.63 101.6)
+			(xy 203.2 101.6) (xy 210.82 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1903,7 +1903,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 116.84) (xy 232.41 114.3)
+			(xy 231.14 116.84) (xy 231.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1943,6 +1943,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 101.6) (xy 231.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e6988e-edc9-4812-bdea-f09821561905")
+	)
+	(wire
+		(pts
 			(xy 40.64 116.84) (xy 40.64 114.3)
 		)
 		(stroke
@@ -1963,16 +1973,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 101.6) (xy 251.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f9ab77-f3f4-446f-96ce-8f8a74a42a7d")
-	)
-	(wire
-		(pts
 			(xy 269.24 99.06) (xy 269.24 101.6)
 		)
 		(stroke
@@ -1983,6 +1983,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 101.6) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9703827f-aa0d-40e4-9632-14bbf1190510")
+	)
+	(wire
+		(pts
+			(xy 86.36 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e4c2a2-45d8-48cd-b455-a7c7df9ca446")
+	)
+	(wire
+		(pts
 			(xy 254 101.6) (xy 269.24 101.6)
 		)
 		(stroke
@@ -1990,16 +2010,6 @@
 			(type default)
 		)
 		(uuid "9aab7f75-a235-43b8-b03c-75eeecb9452c")
-	)
-	(wire
-		(pts
-			(xy 224.79 101.6) (xy 232.41 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d2a204-01e9-49bc-b016-7dc29ff0eeaa")
 	)
 	(wire
 		(pts
@@ -2170,16 +2180,6 @@
 			(type default)
 		)
 		(uuid "f2279dfc-bf2a-4d17-a0c0-1e463d95ac87")
-	)
-	(wire
-		(pts
-			(xy 86.36 101.6) (xy 101.6 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5861b3f-ce75-4736-9066-2b4fb98b8609")
 	)
 	(wire
 		(pts
@@ -3414,7 +3414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dcb7f28-1c79-48a3-b682-fd68420d9a78")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 121.92 138.43 0)
 			(effects
 				(font
@@ -3464,7 +3464,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3480,7 +3480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fda02cd-1882-4102-b63b-71aa87b37a13")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 40.64 125.73 0)
 			(effects
 				(font
@@ -3569,7 +3569,7 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20a4a6f4-5f05-4e72-a176-8e7e5fb5581c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 203.2 123.19 0)
 			(effects
 				(font
@@ -3635,7 +3635,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a8eb16-c6dc-488c-b9f1-173d04de6c73")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 187.96 143.51 0)
 			(effects
 				(font
@@ -3701,7 +3701,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 116.84 0)
+		(at 231.14 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3717,8 +3717,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ec59999-bd5c-4e55-beaa-0beda93a5bdd")
-		(property "Reference" "#PWR028"
-			(at 232.41 123.19 0)
+		(property "Reference" "#PWR029"
+			(at 231.14 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +3727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 121.92 0)
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 116.84 0)
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 116.84 0)
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 116.84 0)
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3767,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4193,7 +4193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e8e609-2efb-4052-b236-cc6b7c912612")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55163a64-ed0e-4eb0-8f70-dfd80628f9f7")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 147.32 123.19 0)
 			(effects
 				(font
@@ -4309,7 +4309,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ca94b3-34d8-4c45-8470-b5b491a4e368")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 124.46 121.9199 90)
 			(effects
 				(font
@@ -4417,7 +4417,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4433,7 +4433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "587eacb3-4baf-454a-89a2-bab831b84ab1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 40.64 123.19 0)
 			(effects
 				(font
@@ -4483,7 +4483,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1b6d09-447f-465f-bd2a-e40f079ad4ec")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 124.46 106.6799 90)
 			(effects
 				(font
@@ -4591,112 +4591,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:L_2u2H_4A_MDA4020-2R2M")
-		(at 219.71 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83b14805-4603-473d-99da-e85a2bbca1fa")
-		(property "Reference" "L2"
-			(at 219.71 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2u2H"
-			(at 219.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:L_MDA4020_4.1x4.5mm"
-			(at 219.71 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html"
-			(at 218.44 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4A 2.2uH 20% 4A 41mΩ SMD,4.1x4.5mm Inductors (SMD) ROHS"
-			(at 219.71 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2847469"
-			(at 219.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "4A 20% 41mOhm"
-			(at 219.71 99.06 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MFN" "KOHERelec"
-			(at 220.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MDA4020-2R2M"
-			(at 220.98 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77f8348f-b625-490e-b65c-3fca899da952")
-		)
-		(pin "2"
-			(uuid "e8dbf4a3-4947-4d06-a14f-9c7937ad9262")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "L2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4995,7 +4890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a93869-426b-446b-b8ce-32cc6dfa9faa")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 251.46 142.24 0)
 			(effects
 				(font
@@ -5045,7 +4940,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5273,7 +5168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b34e9947-05c3-4c5e-8f18-c5e6f4f3d6bf")
-		(property "Reference" "INF4"
+		(property "Reference" "INF5"
 			(at 71.12 64.77 0)
 			(effects
 				(font
@@ -5319,7 +5214,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "INF4")
+					(reference "INF5")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c277ca36-19ec-4de6-bbc4-52daa91f1a8d")
-		(property "Reference" "INF5"
+		(property "Reference" "INF6"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -5381,112 +5276,7 @@
 		(instances
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "INF5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:L_2u2H_4A_MDA4020-2R2M")
-		(at 106.68 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0b7385f-976e-4c09-90da-3dcf8bd05dd5")
-		(property "Reference" "L1"
-			(at 106.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2u2H"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:L_MDA4020_4.1x4.5mm"
-			(at 106.68 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Inductors-SMD_KOHERelec-MDA4020-2R2M_C2847469.html"
-			(at 105.41 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4A 2.2uH 20% 4A 41mΩ SMD,4.1x4.5mm Inductors (SMD) ROHS"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2847469"
-			(at 106.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "4A 20% 41mOhm"
-			(at 106.68 99.06 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MFN" "KOHERelec"
-			(at 107.95 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MDA4020-2R2M"
-			(at 107.95 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "895f29ea-e7a4-4eb8-a189-d59ad33b1a28")
-		)
-		(pin "2"
-			(uuid "c03fd4e8-2eb5-4d54-a319-5d9ee6d85f97")
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "L1")
+					(reference "INF6")
 					(unit 1)
 				)
 			)
@@ -5494,7 +5284,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:C_4u7_X5R_0603")
-		(at 232.41 109.22 90)
+		(at 231.14 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5503,7 +5293,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd5bf398-873f-4142-a40d-d7d8b982174d")
 		(property "Reference" "C14"
-			(at 236.22 106.6799 90)
+			(at 234.95 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,7 +5302,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 236.22 109.22 90)
+			(at 234.95 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5312,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:C_0603_1608Metric"
-			(at 241.3 109.22 0)
+			(at 240.03 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5321,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KO8NNNC_4-7uF-475-10-16V_C19666.html"
-			(at 245.11 109.22 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5330,7 @@
 			)
 		)
 		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 237.49 109.22 0)
+			(at 236.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5339,7 @@
 			)
 		)
 		(property "LCSC Part" "C19666"
-			(at 247.65 109.22 0)
+			(at 246.38 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5348,7 @@
 			)
 		)
 		(property "Extra Values" "16V X5R 10% 0603"
-			(at 236.22 111.7599 90)
+			(at 234.95 111.7599 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5568,7 +5358,7 @@
 			)
 		)
 		(property "MFN" "Samsung Electro-Mechanics"
-			(at 252.73 109.22 0)
+			(at 251.46 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5367,7 @@
 			)
 		)
 		(property "MPN" "CL10A475KO8NNNC"
-			(at 252.73 109.22 0)
+			(at 251.46 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,6 +5385,111 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:L_2u2H_3A_SLO0420H2R2MTT")
+		(at 218.44 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecb43666-b878-4171-a6e7-bb60794c9d07")
+		(property "Reference" "L2"
+			(at 218.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2u2H"
+			(at 218.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:L_SLO0420H2R2MTT_SMD_L4.4_W4.2"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_Sunltech-Tech-SLO0420H2R2MTT_C207828.html"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 2.2uH ±20% SMD Power Inductors ROHS"
+			(at 218.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C207828"
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "3A 5A 20% 42mOhm"
+			(at 218.44 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MFN" "Sunltech Tech"
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SLO0420H2R2MTT"
+			(at 218.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc083ebd-287b-404e-9c78-62f8d698fec1")
+		)
+		(pin "2"
+			(uuid "94624aba-e8b4-4513-8b3d-d8891a55803c")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -5691,6 +5586,111 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:L_2u2H_3A_SLO0420H2R2MTT")
+		(at 104.14 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5315e9b-6f06-4173-b84c-48313b68c6f5")
+		(property "Reference" "L1"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2u2H"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:L_SLO0420H2R2MTT_SMD_L4.4_W4.2"
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_Sunltech-Tech-SLO0420H2R2MTT_C207828.html"
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 2.2uH ±20% SMD Power Inductors ROHS"
+			(at 104.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C207828"
+			(at 104.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "3A 5A 20% 42mOhm"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MFN" "Sunltech Tech"
+			(at 104.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SLO0420H2R2MTT"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55d9ec08-2730-4930-8faf-a7004106b473")
+		)
+		(pin "2"
+			(uuid "52ff18d4-52d1-4c23-a189-498d44aa9431")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 127 0)
 		(unit 1)
@@ -5700,7 +5700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc900755-6259-491c-8c5f-25b0b573147c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 71.12 133.35 0)
 			(effects
 				(font
@@ -5750,7 +5750,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/2f1fbce1-3ac7-4103-a887-0795f5671ada"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
