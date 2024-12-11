@@ -24,9 +24,7 @@ variants:
     comment: "Rotate for JLCPCB"
     type: kibom
     variant: rotated
-    pre_transform: 
-      - _rot_footprint_jlcpcb
-      - only_jlc_parts
+    pre_transform: _rot_footprint_jlcpcb
 
 outputs:
   # - name: "Step"
@@ -152,6 +150,7 @@ outputs:
     options:
       variant: rotated
       output: "%f_cpl_jlc.%x"
+      dnf_filter: _kibom_dnf_Config
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
