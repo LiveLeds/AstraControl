@@ -25,6 +25,9 @@ variants:
     type: kibom
     variant: rotated
     pre_transform: _rot_footprint_jlcpcb
+    include_only:
+      - column: "LCSC Part"
+        regex: '^C\d+'
 
 outputs:
   # - name: "Step"
