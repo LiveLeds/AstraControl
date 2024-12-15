@@ -582,7 +582,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 45.72) (xy 152.4 45.72)
+			(xy 149.86 40.64) (xy 152.4 40.64)
 		)
 		(stroke
 			(width 0)
@@ -749,6 +749,16 @@
 			(type default)
 		)
 		(uuid "6b5d6aba-9a2c-4afe-9eac-95a8456ce8e3")
+	)
+	(wire
+		(pts
+			(xy 170.18 43.18) (xy 246.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6fa56d-6e87-4baf-a4bc-942ce2820c2c")
 	)
 	(polyline
 		(pts
@@ -932,7 +942,7 @@
 	)
 	(polyline
 		(pts
-			(xy 149.86 45.72) (xy 149.86 66.04)
+			(xy 149.86 40.64) (xy 149.86 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1182,9 +1192,9 @@
 		)
 		(uuid "13fb9783-b86c-4085-b166-35424e83f8a5")
 	)
-	(text "LED PWM"
+	(text "GPIO OUT"
 		(exclude_from_sim no)
-		(at 153.67 44.45 0)
+		(at 153.67 39.37 0)
 		(effects
 			(font
 				(face "ING Me")
@@ -1943,6 +1953,18 @@
 			)
 			(uuid "fa80b5b3-ad08-40a9-8ee3-3f2b58d418f8")
 		)
+		(pin "GPIO_8" output
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+			(uuid "f5ae9257-04a5-49ce-adeb-a0c8940e57e2")
+		)
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848"
@@ -2700,8 +2722,8 @@
 		)
 	)
 	(sheet
-		(at 246.38 43.18)
-		(size 25.4 25.4)
+		(at 246.38 38.1)
+		(size 25.4 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2712,7 +2734,7 @@
 		)
 		(uuid "e7f4ae23-1ac9-4fa3-959c-a78f85f3f546")
 		(property "Sheetname" "LED PWM Connector"
-			(at 246.38 42.4684 0)
+			(at 246.38 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,6 +2798,18 @@
 				(justify left)
 			)
 			(uuid "d9cb33cb-44e9-426c-9fdf-cc48ddb16fef")
+		)
+		(pin "GPIO_8" input
+			(at 246.38 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "731039c8-b2e0-4a05-a961-173cc71d58be")
 		)
 		(instances
 			(project "AstraControl"

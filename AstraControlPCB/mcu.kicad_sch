@@ -2242,10 +2242,6 @@
 		(uuid "849233d8-3c96-4d95-a488-ee45f3a6cdd0")
 	)
 	(no_connect
-		(at 119.38 96.52)
-		(uuid "c410b30e-cb0c-43fa-bc69-d44ec303577c")
-	)
-	(no_connect
 		(at 119.38 137.16)
 		(uuid "ec82abcf-9640-429b-aa9f-2df3d62cdd1f")
 	)
@@ -2312,16 +2308,6 @@
 			(type default)
 		)
 		(uuid "1b694d01-4f87-4757-8b19-2f50170a55ca")
-	)
-	(wire
-		(pts
-			(xy 119.38 96.52) (xy 121.92 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd092db-3da5-4f1e-b9b9-42a4d941098c")
 	)
 	(wire
 		(pts
@@ -2815,6 +2801,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60f013b-6da3-4dd6-bfa3-a178be6face3")
+	)
+	(wire
+		(pts
 			(xy 119.38 66.04) (xy 121.92 66.04)
 		)
 		(stroke
@@ -2948,6 +2944,18 @@
 			(justify left)
 		)
 		(uuid "1181e712-9e64-498a-ad77-8daa2d05ead6")
+	)
+	(hierarchical_label "GPIO_8"
+		(shape output)
+		(at 119.38 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1553b8e9-5035-4ec3-bd5b-19e17c588ed5")
 	)
 	(hierarchical_label "GPIO_13_BUTTON"
 		(shape input)
