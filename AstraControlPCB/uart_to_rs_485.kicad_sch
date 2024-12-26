@@ -3594,7 +3594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e4e9c63-37e7-4100-be41-48b5a06c5e2b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 175.26 77.47 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3872,7 +3872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c9107c9-9134-4765-8064-836256bb7932")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 228.6 146.05 0)
 			(effects
 				(font
@@ -3922,7 +3922,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4196,7 +4196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39711d11-0775-4a99-be52-fc780756160c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 66.04 77.47 0)
 			(effects
 				(font
@@ -4246,7 +4246,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42f618a1-c845-4080-b450-16ea62d29e54")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 66.04 57.15 0)
 			(effects
 				(font
@@ -4420,7 +4420,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4858,7 +4858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f4b2460-a12b-4b69-a26d-56eed11be7fd")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 175.26 57.15 0)
 			(effects
 				(font
@@ -4908,7 +4908,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4924,7 +4924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d7131b0-fd54-4b82-81e3-7f920b6ce832")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 198.12 163.83 0)
 			(effects
 				(font
@@ -4974,7 +4974,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4990,7 +4990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f4b9f31-e7b3-49da-9d93-f9da7e2d604c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -5040,7 +5040,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5160,7 +5160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8353ed5a-df68-4141-b2ee-443c4e3630f4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 193.04 72.39 0)
 			(effects
 				(font
@@ -5210,7 +5210,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5331,7 +5331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c3bbaa-32a0-4206-852d-7d294654c82a")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 170.18 118.11 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5717,7 +5717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2eacd8b-d171-4933-9c7b-797056778aea")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -5767,7 +5767,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5783,7 +5783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ddc014-6eec-411a-9ef5-860279df5672")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 127 161.29 0)
 			(effects
 				(font
@@ -5833,7 +5833,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5849,7 +5849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef527092-8fc3-44b9-a443-000aaefb8355")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 187.96 163.83 0)
 			(effects
 				(font
@@ -5899,7 +5899,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5915,7 +5915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f44e24cd-3494-4288-a0b4-b73c896db6ce")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 121.92 161.29 0)
 			(effects
 				(font
@@ -5965,7 +5965,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5981,7 +5981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f85c9bea-0b17-4fb5-b18e-366320af421f")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 157.48 77.47 0)
 			(effects
 				(font
@@ -6031,7 +6031,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/670298c9-1a92-4257-b888-4f98b6d49dab"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

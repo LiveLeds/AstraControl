@@ -11,352 +11,6 @@
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
-		(symbol "JST_ZH_4PIN_1A_50V_1"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "4P JST ZH"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "LiveAstra:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x4P 4P ZH Tin 4 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C163034"
-				(at 0 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "4PIN 1A 1.5mm"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "MPN" "B4B-ZR-3.4(LF)(SN)"
-				(at 0 -31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "JST"
-				(at 0 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JST_ZH_4PIN_1A_50V_1_0_1"
-				(rectangle
-					(start -5.08 12.7)
-					(end 5.08 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "JST_ZH_4PIN_1A_50V_1_1_1"
-				(pin passive line
-					(at -7.62 7.62 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "JST_ZH_4PIN_1A_50V_2"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "4P JST ZH"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "LiveAstra:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x4P 4P ZH Tin 4 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C163034"
-				(at 0 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Extra Values" "4PIN 1A 1.5mm"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 0.762 0.762)
-						(bold yes)
-					)
-				)
-			)
-			(property "MPN" "B4B-ZR-3.4(LF)(SN)"
-				(at 0 -31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFN" "JST"
-				(at 0 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JST_ZH_4PIN_1A_50V_2_0_1"
-				(rectangle
-					(start -5.08 12.7)
-					(end 5.08 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "JST_ZH_4PIN_1A_50V_2_1_1"
-				(pin passive line
-					(at -7.62 7.62 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LiveAstra:+5V_IN"
 			(power)
 			(pin_numbers hide)
@@ -856,8 +510,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:JST_ZH_4PIN_1A_50V"
-			(pin_names hide)
+		(symbol "LiveAstra:JST_SH_4PIN_1A_50V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -869,7 +522,7 @@
 					)
 				)
 			)
-			(property "Value" "4P JST ZH"
+			(property "Value" "4 PIN JST SH"
 				(at 0 16.51 0)
 				(effects
 					(font
@@ -878,25 +531,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x4P 4P ZH Tin 4 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
+			(property "Footprint" "LiveAstra:JST_SH_1x04_P1.00mm_Vertical"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -905,7 +540,16 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C163034"
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-BM04B-SRSS-TB-LF-SN_C160390.html"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1x4P 4P SH Tin 4 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -914,7 +558,16 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "4PIN 1A 1.5mm"
+			(property "LCSC Part" "C160390"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "1A 50V 1mm"
 				(at 0 13.97 0)
 				(effects
 					(font
@@ -923,7 +576,7 @@
 					)
 				)
 			)
-			(property "MPN" "B4B-ZR-3.4(LF)(SN)"
+			(property "MFR" "JST"
 				(at 0 -31.75 0)
 				(effects
 					(font
@@ -932,7 +585,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFN" "JST"
+			(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
 				(at 0 -35.56 0)
 				(effects
 					(font
@@ -941,7 +594,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "JST_ZH_4PIN_1A_50V_0_1"
+			(symbol "JST_SH_4PIN_1A_50V_0_1"
 				(rectangle
 					(start -5.08 12.7)
 					(end 5.08 -12.7)
@@ -954,7 +607,7 @@
 					)
 				)
 			)
-			(symbol "JST_ZH_4PIN_1A_50V_1_1"
+			(symbol "JST_SH_4PIN_1A_50V_1_1"
 				(pin passive line
 					(at -7.62 7.62 0)
 					(length 2.54)
@@ -1020,6 +673,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2336,6 +2007,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 55.88) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537c5255-6521-45e5-88ec-866c53190a86")
+	)
+	(wire
+		(pts
+			(xy 63.5 104.14) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a58dd0-4cbc-49d1-abfa-d792dbf44799")
+	)
+	(wire
+		(pts
 			(xy 83.82 170.18) (xy 81.28 170.18)
 		)
 		(stroke
@@ -2616,6 +2307,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 53.34) (xy 66.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb264d5-442c-4cb5-bb10-9460eb38779d")
+	)
+	(wire
+		(pts
 			(xy 81.28 160.02) (xy 170.18 160.02)
 		)
 		(stroke
@@ -2796,6 +2497,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 157.48) (xy 63.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00107c9-a88a-4e4e-8154-064e8859d273")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68) (xy 63.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30cb32d-23ee-4145-ab0d-732d3c03e746")
+	)
+	(wire
+		(pts
 			(xy 99.06 50.8) (xy 99.06 53.34)
 		)
 		(stroke
@@ -2823,6 +2544,16 @@
 			(type default)
 		)
 		(uuid "fa9e85ee-7dec-4812-8e29-2207e6955127")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 66.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf6710e-0048-402f-8f89-4227849e894b")
 	)
 	(wire
 		(pts
@@ -3078,6 +2809,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 63.5 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d408bfd-7199-4922-8d74-12aab013d9e7")
+		(property "Reference" "#PWR059"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96ea464c-a4bd-4b35-9b9b-cc203c029bd0")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 129.54 88.9 0)
 		(unit 1)
@@ -3087,7 +2884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e7c3674-0d22-4389-b038-a1731bff1a2d")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR068"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -3137,7 +2934,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR064")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3257,7 +3054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12722cba-9189-4151-bc93-7fbdab06a0cf")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR070"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -3307,7 +3104,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR066")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "266436d5-81f4-4a56-80a5-a9068301f342")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR072"
 			(at 195.58 97.79 0)
 			(effects
 				(font
@@ -3568,118 +3365,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
-		(at 73.66 162.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b5bc37a-9d15-48c5-83dc-ef6eb02b90af")
-		(property "Reference" "CN4"
-			(at 73.66 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4P JST ZH"
-			(at 73.66 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
-			(at 73.66 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
-			(at 73.66 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x4P 4P ZH Tin 4 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
-			(at 73.66 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C163034"
-			(at 73.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "4PIN 1A 1.5mm"
-			(at 73.66 147.32 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MFN" "JST"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B4B-ZR-3.4(LF)(SN)"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ecff4952-eda6-4931-aec2-a58a117688c1")
-		)
-		(pin "2"
-			(uuid "e8b95b89-4603-4ff3-9567-b9f8b61f50e4")
-		)
-		(pin "4"
-			(uuid "10521e26-30b2-4578-b560-e08a61999956")
-		)
-		(pin "3"
-			(uuid "cf0bc68d-9102-447f-b676-ad0deea314b5")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "CN4")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3793,6 +3479,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 63.5 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33d7d951-22d3-4d8c-aa23-1c3e52abd77f")
+		(property "Reference" "#PWR058"
+			(at 63.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c68927-eb66-49b4-a854-1dbe3ef167e5")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:+5V_IN")
 		(at 99.06 71.12 0)
 		(unit 1)
@@ -3802,7 +3554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bba4d7a-975b-40bc-8552-ddf35804c64e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR063"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -3852,7 +3604,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR059")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3976,7 +3728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a162b51-479b-4fc6-8d58-939f09a02556")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR064"
 			(at 99.06 125.73 0)
 			(effects
 				(font
@@ -4026,7 +3778,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR060")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4212,7 +3964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6280cc4e-12fd-4a10-9eaf-9ab0fd024c64")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR062"
 			(at 83.82 181.61 0)
 			(effects
 				(font
@@ -4262,7 +4014,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR058")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71572ba0-bf2c-4dcb-aa7e-2ad0f6e709a3")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR075"
 			(at 220.98 148.59 0)
 			(effects
 				(font
@@ -4418,7 +4170,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR071")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4538,7 +4290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75752df8-4bf7-48a6-8cf8-cb800dffd700")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR074"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -4588,7 +4340,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR070")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4604,7 +4356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dfcb8e6-649c-449b-bd7b-b861e2952227")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR060"
 			(at 83.82 77.47 0)
 			(effects
 				(font
@@ -4654,7 +4406,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR056")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4670,7 +4422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8204d76f-8f3b-4bf5-98ce-460af2f1d2b0")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR066"
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -4720,7 +4472,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR062")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4736,7 +4488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83bacaed-5e12-4cb8-8c43-06b1f1537169")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR061"
 			(at 83.82 130.81 0)
 			(effects
 				(font
@@ -4786,7 +4538,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR057")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4802,7 +4554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92c6f2e0-f6e7-4e75-8b88-99f4f2dedbef")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR069"
 			(at 129.54 143.51 0)
 			(effects
 				(font
@@ -4852,7 +4604,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR065")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -5071,6 +4823,234 @@
 		)
 	)
 	(symbol
+		(lib_id "LiveAstra:JST_SH_4PIN_1A_50V")
+		(at 73.66 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e8599c9-7ace-41b9-a884-e40f7fd2bf2d")
+		(property "Reference" "CN3"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4 PIN JST SH"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:JST_SH_1x04_P1.00mm_Vertical"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-BM04B-SRSS-TB-LF-SN_C160390.html"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x4P 4P SH Tin 4 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C160390"
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "1A 50V 1mm"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MFR" "JST"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f435173c-f3d2-4e92-aa8d-1c803c7eeb78")
+		)
+		(pin "1"
+			(uuid "ba62a2da-2f88-4983-8888-e1919ca978a7")
+		)
+		(pin "MP"
+			(uuid "0232f660-8760-48a6-8a24-eebd58920e0e")
+		)
+		(pin "4"
+			(uuid "059f08f9-651e-4b45-8f76-4c1662747d0b")
+		)
+		(pin "2"
+			(uuid "a8ed98c9-4847-4324-8bcd-2cd56ab057df")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:JST_SH_4PIN_1A_50V")
+		(at 73.66 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d29ded-c12d-45b2-9826-8c07443b90bb")
+		(property "Reference" "CN4"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4 PIN JST SH"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:JST_SH_1x04_P1.00mm_Vertical"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-BM04B-SRSS-TB-LF-SN_C160390.html"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x4P 4P SH Tin 4 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C160390"
+			(at 73.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "1A 50V 1mm"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MFR" "JST"
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
+			(at 73.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8d02cdf9-a0ed-4006-9d7c-fd39506e3cf2")
+		)
+		(pin "1"
+			(uuid "84270732-2b1f-4244-bf3e-ad9391101258")
+		)
+		(pin "MP"
+			(uuid "8e41818b-4de1-4544-a3bb-4215a369568e")
+		)
+		(pin "4"
+			(uuid "c230512d-5fd0-4c2c-ad69-dd9dc507f9c0")
+		)
+		(pin "2"
+			(uuid "e78d40a7-627d-483d-b283-f09889b61784")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 86.36 101.6 0)
 		(unit 1)
@@ -5280,117 +5260,6 @@
 		)
 	)
 	(symbol
-		(lib_name "JST_ZH_4PIN_1A_50V_2")
-		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
-		(at 73.66 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b280a6b4-d24d-4847-a9a9-a957743c9bda")
-		(property "Reference" "CN3"
-			(at 73.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4P JST ZH"
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
-			(at 73.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x4P 4P ZH Tin 4 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
-			(at 73.66 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C163034"
-			(at 73.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "4PIN 1A 1.5mm"
-			(at 73.66 96.52 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MFN" "JST"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B4B-ZR-3.4(LF)(SN)"
-			(at 73.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6080b1b3-6e9e-4d46-9763-ac0d386801ef")
-		)
-		(pin "2"
-			(uuid "517ebebd-f971-4960-9c7a-b50b2c63b5d7")
-		)
-		(pin "4"
-			(uuid "b6455374-1f32-495f-8036-c0b4c29efaa9")
-		)
-		(pin "3"
-			(uuid "856701db-6f1b-4889-b500-17c4dc7c619b")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "CN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 104.14 139.7 0)
 		(unit 1)
@@ -5400,7 +5269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b31aeb67-3adc-43ef-a5df-fd42d3cf9d39")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR067"
 			(at 104.14 143.51 0)
 			(effects
 				(font
@@ -5450,7 +5319,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR063")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5571,7 +5440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b45c41ed-ee99-4367-9e66-a5e69c9ed721")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR065"
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -5621,7 +5490,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR061")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5637,7 +5506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6bd236c-ee33-461d-8eed-42adf69e3525")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR073"
 			(at 195.58 148.59 0)
 			(effects
 				(font
@@ -5687,7 +5556,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR069")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5802,26 +5671,25 @@
 		)
 	)
 	(symbol
-		(lib_name "JST_ZH_4PIN_1A_50V_1")
-		(lib_id "LiveAstra:JST_ZH_4PIN_1A_50V")
-		(at 73.66 60.96 180)
+		(lib_id "LiveAstra:JST_SH_4PIN_1A_50V")
+		(at 73.66 162.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d492e598-43e7-430e-8a81-a84d59b45581")
-		(property "Reference" "CN2"
-			(at 73.66 40.64 0)
+		(uuid "d085c737-72e8-4ba8-a10a-5b089d46321f")
+		(property "Reference" "CN5"
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4P JST ZH"
-			(at 73.66 43.18 0)
+		(property "Value" "4 PIN JST SH"
+			(at 73.66 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,8 +5697,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LiveAstra:JST_ZH_B4B-ZR_1x04_P1.50mm_Vertical"
-			(at 73.66 40.64 0)
+		(property "Footprint" "LiveAstra:JST_SH_1x04_P1.00mm_Vertical"
+			(at 73.66 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,8 +5706,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/ZH-Connectors-1-5mm_JST_B4B-ZR-3-4-LF-SN_ZHsocket-1-4P-pitch1-5mm_C163034.html"
-			(at 73.66 36.83 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-BM04B-SRSS-TB-LF-SN_C160390.html"
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,8 +5715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1x4P 4P ZH Tin 4 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
-			(at 73.66 44.45 0)
+		(property "Description" "1x4P 4P SH Tin 4 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
+			(at 73.66 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,8 +5724,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C163034"
-			(at 73.66 33.02 0)
+		(property "LCSC Part" "C160390"
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,8 +5733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Extra Values" "4PIN 1A 1.5mm"
-			(at 73.66 45.72 0)
+		(property "Extra Values" "1A 50V 1mm"
+			(at 73.66 147.32 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -5874,8 +5742,8 @@
 				)
 			)
 		)
-		(property "MFN" "JST"
-			(at 73.66 29.21 0)
+		(property "MFR" "JST"
+			(at 73.66 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,31 +5751,34 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B4B-ZR-3.4(LF)(SN)"
-			(at 73.66 29.21 0)
+		(property "MPN" "BM04B-SRSS-TB(LF)(SN)"
+			(at 73.66 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "11d32c3f-ac08-461d-9d89-faeb8b51bce3")
-		)
-		(pin "2"
-			(uuid "e150e23e-511d-4d3a-b9fe-13120540fdf5")
-		)
-		(pin "4"
-			(uuid "3870cc2b-d63c-4221-b93f-5dfc21a186a4")
 		)
 		(pin "3"
-			(uuid "8a071d25-004e-4e75-a43d-f065c8544469")
+			(uuid "43a49b42-a8d1-4e5b-8b7d-87ffab6fdd5a")
+		)
+		(pin "1"
+			(uuid "3841c129-68b4-4296-8062-f35e747d1c1f")
+		)
+		(pin "MP"
+			(uuid "d7aee803-1d42-4b7b-b3b5-4d734db3a1d1")
+		)
+		(pin "4"
+			(uuid "cc781412-aeda-4d3f-a937-80f91c954eea")
+		)
+		(pin "2"
+			(uuid "b8d095b6-f72c-4571-923f-bad131ca59db")
 		)
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "CN2")
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -6113,6 +5984,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 63.5 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0e40598-a6e2-445d-9aaa-f60db67be5ce")
+		(property "Reference" "#PWR057"
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ac03b7-6d06-4f15-9f6f-3abd006cf74d")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 190.5 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6121,7 +6058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f33054-5557-4db6-abb8-b1404842577c")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR071"
 			(at 190.5 80.01 0)
 			(effects
 				(font
@@ -6171,7 +6108,7 @@
 		(instances
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/a49e4569-9986-4871-8da4-7c394f2ae605"
-					(reference "#PWR067")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
