@@ -11,7 +11,7 @@ outputs:
     comment: "HQ 3D Render of the PCB"
     type: blender_export
     options:
-        light:
+      light:
         - name: "light1"
           energy: 2
           pos_x: -size*3.33
