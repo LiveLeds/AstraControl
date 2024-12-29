@@ -3029,6 +3029,30 @@
 		)
 		(uuid "3e481ea5-1b00-407d-9ee0-89fb0af2b1c8")
 	)
+	(hierarchical_label "GPIO_37_FAN_TACHO"
+		(shape input)
+		(at 185.42 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "461a1a7a-a658-4908-9787-b585572b7a53")
+	)
+	(hierarchical_label "GPIO_38_FAN_PWM"
+		(shape bidirectional)
+		(at 185.42 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4915ac6b-4ca1-4a69-a3c7-52178a669cb2")
+	)
 	(hierarchical_label "GPIO_41_SHIFTER"
 		(shape bidirectional)
 		(at 185.42 71.12 0)
@@ -3124,18 +3148,6 @@
 			(justify right)
 		)
 		(uuid "9b33e07b-bb54-4c76-a1ae-f98db06e97f2")
-	)
-	(hierarchical_label "GPIO_37_FAN_PWM"
-		(shape bidirectional)
-		(at 185.42 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9efee579-f20b-4f96-8cd7-b7f98a02f464")
 	)
 	(hierarchical_label "GPIO_4_RS485_TX"
 		(shape output)
@@ -3244,18 +3256,6 @@
 			(justify right)
 		)
 		(uuid "f06d0b87-1520-4023-8814-d7e68d44fec4")
-	)
-	(hierarchical_label "GPIO_38_FAN_TACHO"
-		(shape input)
-		(at 185.42 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f201bcc0-4f86-45dc-8599-89cae873fc50")
 	)
 	(hierarchical_label "GPIO_16_PWM_CH3"
 		(shape output)

@@ -1809,18 +1809,6 @@
 			)
 			(uuid "54f016b2-cb96-499e-94ae-fb3815679d7a")
 		)
-		(pin "GPIO_38_FAN_TACHO" input
-			(at 114.3 139.7 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "148f5f80-ffa1-4cee-84f1-125d85ad62a5")
-		)
 		(pin "GPIO_36_TEMP_I2C_SDA" bidirectional
 			(at 114.3 165.1 180)
 			(effects
@@ -1832,18 +1820,6 @@
 				(justify left)
 			)
 			(uuid "1c37dd30-8e31-44e2-acd8-ac0f1fa60d51")
-		)
-		(pin "GPIO_37_FAN_PWM" bidirectional
-			(at 114.3 134.62 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left)
-			)
-			(uuid "8468e82d-1f8d-4c6e-9765-959126058ef0")
 		)
 		(pin "GPIO_35_TEMP_I2C_SCL" output
 			(at 114.3 170.18 180)
@@ -1964,6 +1940,30 @@
 				(justify right)
 			)
 			(uuid "f5ae9257-04a5-49ce-adeb-a0c8940e57e2")
+		)
+		(pin "GPIO_37_FAN_TACHO" input
+			(at 114.3 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "344b771d-aa36-43a6-bbe6-5e0bbe53db46")
+		)
+		(pin "GPIO_38_FAN_PWM" bidirectional
+			(at 114.3 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "f792c7e4-aee0-41c6-97ac-e9c053da0f20")
 		)
 		(instances
 			(project "AstraControl"
