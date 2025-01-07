@@ -9,7 +9,7 @@ ESP32-based control PCB uses WiFi with an external antenna and 5Mbps RS-485
 for communication, supporting various sensors and HMI devices for high-power
 LED fixtures or strips. Device can be configured to be a master or slave.
 The board connects to [AstraDriver](https://liveleds.github.io/AstraDriver) a high power LED driver board that uses 4x LED2001 drivers.
-Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github.io/AstraBeamLED).
+Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github.io/AstraBeamLED). Power Distribution board [AstraControlPower](https://liveleds.github.io/AstraControlPower).
 
 [![CI](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml)
 
