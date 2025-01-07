@@ -952,7 +952,7 @@
 		)
 		(uuid "11ae7ac9-5dca-4975-93ad-233e31ff617e")
 	)
-	(text "PWM Connector"
+	(text "5V GPIO Connector"
 		(exclude_from_sim no)
 		(at 121.92 88.9 0)
 		(effects
@@ -1012,7 +1012,7 @@
 		)
 		(uuid "2856e32e-285f-4efd-8435-fda6d6644a6a")
 	)
-	(text "3.3V to 5V Logic Shifter"
+	(text "Fan, Temperature, Screen"
 		(exclude_from_sim no)
 		(at 121.92 73.66 0)
 		(effects
@@ -1048,7 +1048,7 @@
 		)
 		(uuid "30c3c56d-fc3c-4d12-b1a4-ebe180f5db48")
 	)
-	(text "Fan, Temperature, Screen I2C"
+	(text "3.3V To 5V Logic Shifter"
 		(exclude_from_sim no)
 		(at 121.92 83.82 0)
 		(effects
@@ -1183,7 +1183,7 @@
 		)
 		(uuid "5c06f5f1-608f-4fc8-b492-379b3d74020a")
 	)
-	(text "MCU Enable and Boot"
+	(text "Power Connectors"
 		(exclude_from_sim no)
 		(at 38.1 99.06 0)
 		(effects
@@ -1195,7 +1195,7 @@
 		)
 		(uuid "6731452a-0b67-4606-b162-4800a3ecf4c7")
 	)
-	(text "5V GPIO Connectors"
+	(text "PWM Connector"
 		(exclude_from_sim no)
 		(at 121.92 78.74 0)
 		(effects
@@ -1267,7 +1267,7 @@
 		)
 		(uuid "95de8026-a957-4832-a10c-74a437af8fd1")
 	)
-	(text "MCU"
+	(text "5V to 3.3V"
 		(exclude_from_sim no)
 		(at 38.1 93.98 0)
 		(effects

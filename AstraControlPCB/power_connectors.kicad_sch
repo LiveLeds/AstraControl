@@ -961,9 +961,15 @@
 			)
 		)
 	)
+	(junction
+		(at 137.16 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "588edb9e-ba54-4780-aeb2-cd7abdbd6d98")
+	)
 	(wire
 		(pts
-			(xy 81.28 116.84) (xy 81.28 119.38)
+			(xy 127 116.84) (xy 127 119.38)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +979,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 81.28) (xy 233.68 78.74)
+			(xy 137.16 111.76) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
@@ -983,17 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 132.08) (xy 101.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "389b4a16-b185-4ef6-b6b1-e15415396004")
-	)
-	(wire
-		(pts
-			(xy 76.2 137.16) (xy 101.6 137.16)
+			(xy 121.92 152.4) (xy 152.4 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 91.44) (xy 81.28 93.98)
+			(xy 127 83.82) (xy 127 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1013,17 +1009,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 81.28) (xy 233.68 81.28)
+			(xy 205.74 101.6) (xy 205.74 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5fcbadf6-7239-479d-a378-d8babb11bdd1")
+		(uuid "609896f6-3748-4efd-8ccd-477f6e93e9b5")
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 81.28 81.28)
+			(xy 121.92 73.66) (xy 152.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 78.74) (xy 218.44 81.28)
+			(xy 193.04 99.06) (xy 193.04 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1039,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 104.14) (xy 228.6 101.6)
+			(xy 137.16 111.76) (xy 152.4 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868d4de4-7ee7-4c74-9ca1-cbe9e548122a")
+	)
+	(wire
+		(pts
+			(xy 203.2 124.46) (xy 203.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1059,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 111.76) (xy 81.28 111.76)
+			(xy 205.74 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9518ad00-0ac8-4f41-a734-9696cf7f040e")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 137.16 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 132.08) (xy 83.82 132.08)
+			(xy 121.92 147.32) (xy 129.54 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 116.84) (xy 81.28 116.84)
+			(xy 121.92 116.84) (xy 127 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1083,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 78.74) (xy 203.2 81.28)
+			(xy 177.8 99.06) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1093,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 104.14) (xy 203.2 101.6)
+			(xy 177.8 124.46) (xy 177.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1103,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 81.28 76.2)
+			(xy 121.92 68.58) (xy 152.4 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1113,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 91.44) (xy 81.28 91.44)
+			(xy 121.92 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 86.36) (xy 81.28 86.36)
+			(xy 121.92 78.74) (xy 152.4 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1133,13 +1149,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 142.24) (xy 101.6 142.24)
+			(xy 121.92 157.48) (xy 152.4 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef4a5380-a347-4dde-88d2-876cc0e31816")
+	)
+	(wire
+		(pts
+			(xy 139.7 147.32) (xy 152.4 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc418126-963c-4f04-b44d-ac673c9994b1")
 	)
 	(text "Power connectors"
 		(exclude_from_sim no)
@@ -1155,7 +1181,7 @@
 	)
 	(hierarchical_label "RS485_D+"
 		(shape bidirectional)
-		(at 81.28 81.28 0)
+		(at 152.4 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1167,7 +1193,7 @@
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
-		(at 101.6 142.24 0)
+		(at 152.4 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1179,7 +1205,7 @@
 	)
 	(hierarchical_label "RS485_D-"
 		(shape bidirectional)
-		(at 81.28 86.36 0)
+		(at 152.4 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1191,7 +1217,7 @@
 	)
 	(hierarchical_label "5V_IN"
 		(shape output)
-		(at 81.28 76.2 0)
+		(at 152.4 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1203,7 +1229,7 @@
 	)
 	(hierarchical_label "5V_IN"
 		(shape output)
-		(at 81.28 111.76 0)
+		(at 152.4 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1215,7 +1241,7 @@
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
-		(at 101.6 137.16 0)
+		(at 152.4 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1227,7 +1253,19 @@
 	)
 	(hierarchical_label "5V_IN"
 		(shape output)
-		(at 101.6 132.08 0)
+		(at 208.28 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3b6e251-9de0-4f62-b6cc-a5b78f6df2ad")
+	)
+	(hierarchical_label "5V_IN"
+		(shape output)
+		(at 152.4 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1237,21 +1275,9 @@
 		)
 		(uuid "ec5cb8d1-d06c-40f5-905b-77c7a9840826")
 	)
-	(hierarchical_label "5V_IN"
-		(shape output)
-		(at 236.22 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f2c2115b-6a1d-42c1-91d8-373207a0f3c1")
-	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 218.44 78.74 0)
+		(at 193.04 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1260,7 +1286,7 @@
 		(fields_autoplaced yes)
 		(uuid "3793e685-74b5-4108-a3d5-23e51b6ce889")
 		(property "Reference" "#FLG03"
-			(at 218.44 76.835 0)
+			(at 193.04 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1295,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 218.44 73.66 0)
+			(at 193.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 78.74 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 78.74 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1321,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 218.44 78.74 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1343,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 104.14 0)
+		(at 177.8 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1326,7 +1352,7 @@
 		(fields_autoplaced yes)
 		(uuid "3941b2e1-3ec2-41b6-aa3c-f1c503bcb605")
 		(property "Reference" "#PWR034"
-			(at 203.2 110.49 0)
+			(at 177.8 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 109.22 0)
+			(at 177.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 104.14 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 104.14 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 104.14 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,8 +1408,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 205.74 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a15c8b2-b7f5-4ee2-a8ed-c363892cb85b")
+		(property "Reference" "#FLG06"
+			(at 205.74 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "701f8a1d-2bf7-4446-b430-0cc6a15c4307")
+		)
+		(instances
+			(project "AstraControl"
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/e0a60313-5e73-4a17-9374-b4b4ea2344cd"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 203.2 101.6 0)
+		(at 177.8 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1392,7 +1483,7 @@
 		(fields_autoplaced yes)
 		(uuid "70aa7376-ce89-4e25-9c64-97eafec11410")
 		(property "Reference" "TP10"
-			(at 205.74 95.7876 0)
+			(at 180.34 116.1076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1492,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 203.2 111.76 0)
+			(at 177.8 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1501,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 203.2 116.84 0)
+			(at 177.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1510,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 203.2 96.52 90)
+			(at 177.8 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1519,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 203.2 96.52 90)
+			(at 177.8 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1528,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 203.2 121.92 0)
+			(at 177.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1537,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 205.74 98.3276 0)
+			(at 180.34 118.6476 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1456,7 +1547,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 203.2 130.81 0)
+			(at 177.8 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1556,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 203.2 130.81 0)
+			(at 177.8 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1578,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:JST_VH_4PIN_10A_250V")
-		(at 71.12 83.82 180)
+		(at 116.84 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1496,7 +1587,7 @@
 		(fields_autoplaced yes)
 		(uuid "8807b1cf-b6f5-4463-98ce-e7d17e1742d9")
 		(property "Reference" "CN1"
-			(at 71.12 63.5 0)
+			(at 116.84 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1595,7 @@
 			)
 		)
 		(property "Value" "4P JST VH"
-			(at 71.12 66.04 0)
+			(at 116.84 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1604,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:JST_VH_B4P-VH-B_1x04_P3.96mm_Vertical"
-			(at 71.12 63.5 0)
+			(at 116.84 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1613,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/_JST_B4P-VH-LF-SN_B4P-VH-LF-SN_C160317.html"
-			(at 71.12 59.69 0)
+			(at 116.84 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1622,7 @@
 			)
 		)
 		(property "Description" "1x4P 4P VH Tin 4 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
-			(at 71.12 67.31 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1631,7 @@
 			)
 		)
 		(property "LCSC Part" "C160317"
-			(at 71.12 55.88 0)
+			(at 116.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1640,7 @@
 			)
 		)
 		(property "Extra Values" "10A 250V 3.96mm"
-			(at 71.12 68.58 0)
+			(at 116.84 60.96 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1558,7 +1649,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 71.12 52.07 0)
+			(at 116.84 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1658,7 @@
 			)
 		)
 		(property "MPN" "B4P-VH(LF)(SN)"
-			(at 71.12 52.07 0)
+			(at 116.84 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1689,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 81.28 0)
+		(at 193.04 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1607,7 +1698,7 @@
 		(fields_autoplaced yes)
 		(uuid "96f3434f-4e75-4c73-9e49-e59dd5c8ca2f")
 		(property "Reference" "#PWR035"
-			(at 218.44 87.63 0)
+			(at 193.04 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 86.36 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 81.28 0)
+			(at 193.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 81.28 0)
+			(at 193.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 81.28 0)
+			(at 193.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1755,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:CHASSIS")
-		(at 203.2 81.28 0)
+		(at 177.8 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1673,7 +1764,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6ccec6c-8a75-4ada-8170-79924d19df59")
 		(property "Reference" "#PWR033"
-			(at 203.2 86.36 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +1773,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 203.073 85.09 0)
+			(at 177.673 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 82.55 0)
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 82.55 0)
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 203.2 81.28 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1821,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:JST_VH_2PIN_10A_250V")
-		(at 71.12 114.3 180)
+		(at 116.84 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1739,7 +1830,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3082862-8760-4f83-baa3-7cf888a6ec2c")
 		(property "Reference" "CN2"
-			(at 71.12 99.06 0)
+			(at 116.84 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1838,7 @@
 			)
 		)
 		(property "Value" "JST VH 2 PIN"
-			(at 71.12 101.6 0)
+			(at 116.84 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1847,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
-			(at 71.12 95.25 0)
+			(at 116.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1856,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Connector_JST-B2P-VH-R-LF-SN_C265357.html"
-			(at 71.12 99.06 0)
+			(at 116.84 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1865,7 @@
 			)
 		)
 		(property "Description" "1x2P 2P VH Tin 2 -25℃~+85℃ 10A 1 3.96mm Brass Direct Insert Plugin,P=3.96mm Wire To Board Connector ROHS"
-			(at 71.12 102.87 0)
+			(at 116.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1874,7 @@
 			)
 		)
 		(property "LCSC Part" "C265357"
-			(at 71.12 91.44 0)
+			(at 116.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1883,7 @@
 			)
 		)
 		(property "Extra Values" "10A 250V 3.96mm"
-			(at 71.12 104.14 0)
+			(at 116.84 104.14 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -1801,7 +1892,7 @@
 			)
 		)
 		(property "MPN" "B2P-VH-R(LF)(SN)"
-			(at 71.12 87.63 0)
+			(at 116.84 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1901,7 @@
 			)
 		)
 		(property "MFN" "JST"
-			(at 71.12 83.82 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 93.98 0)
+		(at 127 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1844,7 +1935,7 @@
 		(fields_autoplaced yes)
 		(uuid "baaca279-03c5-4b62-88a4-1aa3bece7c93")
 		(property "Reference" "#PWR031"
-			(at 81.28 100.33 0)
+			(at 127 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 99.06 0)
+			(at 127 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 93.98 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 93.98 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 93.98 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1992,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 119.38 0)
+		(at 127 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1910,7 +2001,7 @@
 		(fields_autoplaced yes)
 		(uuid "c37ad05f-d546-4ce9-9b3b-5028a6328ecd")
 		(property "Reference" "#PWR032"
-			(at 81.28 125.73 0)
+			(at 127 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +2010,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 124.46 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +2018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 119.38 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +2027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 119.38 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,7 +2036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 119.38 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +2058,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:CHASSIS")
-		(at 228.6 104.14 0)
+		(at 203.2 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1975,7 +2066,7 @@
 		(dnp no)
 		(uuid "c7facb49-293e-4060-8883-6c8f60dc2bf0")
 		(property "Reference" "#PWR036"
-			(at 228.6 109.22 0)
+			(at 203.2 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +2075,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 228.6 109.22 0)
+			(at 203.2 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 105.41 0)
+			(at 203.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 105.41 0)
+			(at 203.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +2101,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"CHASSIS\" , global ground"
-			(at 228.6 104.14 0)
+			(at 203.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2123,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 203.2 78.74 0)
+		(at 177.8 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2041,7 +2132,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc115bfe-2335-4ccf-a457-e46eb60a7370")
 		(property "Reference" "#FLG02"
-			(at 203.2 76.835 0)
+			(at 177.8 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2141,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 203.2 73.66 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 78.74 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 78.74 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2167,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 203.2 78.74 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2189,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:D_Schottky_SS34_3A_40V")
-		(at 88.9 132.08 180)
+		(at 134.62 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2107,7 +2198,7 @@
 		(fields_autoplaced yes)
 		(uuid "d46139b7-68b7-49e0-a7f9-918df5df9dde")
 		(property "Reference" "D1"
-			(at 89.28 123.19 0)
+			(at 135 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2206,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 89.28 125.73 0)
+			(at 135 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2215,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:D_SMA_SS34"
-			(at 88.9 125.73 0)
+			(at 134.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2224,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS34_C8678.html"
-			(at 88.9 121.92 0)
+			(at 134.62 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2233,7 @@
 			)
 		)
 		(property "Description" "40V Independent Type 3A 550mV@3A SMA(DO-214AC) Schottky Diodes ROHS"
-			(at 88.9 114.3 0)
+			(at 134.62 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2242,7 @@
 			)
 		)
 		(property "LCSC Part" "C8678"
-			(at 88.9 118.11 0)
+			(at 134.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2251,7 @@
 			)
 		)
 		(property "Extra Values" "40V 3A 550mV@3A"
-			(at 89.28 128.27 0)
+			(at 135 143.51 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2169,7 +2260,7 @@
 			)
 		)
 		(property "MFR" "MDD(Microdiode Semiconductor)"
-			(at 88.9 106.68 0)
+			(at 134.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2269,7 @@
 			)
 		)
 		(property "MPN" "SS34"
-			(at 88.9 110.49 0)
+			(at 134.62 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2294,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 233.68 78.74 0)
+		(at 137.16 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2211,7 +2302,7 @@
 		(dnp no)
 		(uuid "d8ece38d-e121-4809-8102-3b4b3355f2c4")
 		(property "Reference" "#FLG04"
-			(at 233.68 76.835 0)
+			(at 137.16 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2311,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 233.68 73.66 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,7 +2319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 78.74 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 78.74 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2337,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 233.68 78.74 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2359,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
-		(at 228.6 101.6 0)
+		(at 203.2 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2277,7 +2368,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdbec830-2415-4a1c-94a0-b02106e20c2e")
 		(property "Reference" "TP11"
-			(at 231.14 95.7876 0)
+			(at 205.74 116.1076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2377,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Thimble"
-			(at 228.6 111.76 0)
+			(at 203.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2386,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded"
-			(at 228.6 116.84 0)
+			(at 203.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,7 +2395,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Thimble-Copper-Rod-Test-Ring_ronghe-RH-5000_C5277086.html"
-			(at 228.6 96.52 90)
+			(at 203.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2404,7 @@
 			)
 		)
 		(property "Description" "Test Points / Test Rings ROHS"
-			(at 228.6 96.52 90)
+			(at 203.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2413,7 @@
 			)
 		)
 		(property "LCSC Part" "C5277086"
-			(at 228.6 121.92 0)
+			(at 203.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2422,7 @@
 			)
 		)
 		(property "Extra Values" "Test Plug"
-			(at 231.14 98.3276 0)
+			(at 205.74 118.6476 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -2341,7 +2432,7 @@
 			)
 		)
 		(property "MFN" "ronghe"
-			(at 228.6 130.81 0)
+			(at 203.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2441,7 @@
 			)
 		)
 		(property "MPN" "RH-5000"
-			(at 228.6 130.81 0)
+			(at 203.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2462,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 127)
+		(at 109.22 142.24)
 		(size 12.7 20.32)
 		(stroke
 			(width 0.1524)
@@ -2382,7 +2473,7 @@
 		)
 		(uuid "ea44b509-6c8b-4806-9ef7-64f990484017")
 		(property "Sheetname" "USB"
-			(at 63.5 127 0)
+			(at 109.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2482,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 63.5 147.9046 0)
+			(at 109.22 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2491,7 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 76.2 132.08 0)
+			(at 121.92 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2501,7 @@
 			(uuid "8f13cea8-2559-482b-830e-fdd86f4474f5")
 		)
 		(pin "USB_D-" bidirectional
-			(at 76.2 142.24 0)
+			(at 121.92 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2511,7 @@
 			(uuid "343fb149-2fa1-4506-b491-ee96e211289c")
 		)
 		(pin "USB_D+" bidirectional
-			(at 76.2 137.16 0)
+			(at 121.92 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

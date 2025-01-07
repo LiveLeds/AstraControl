@@ -2829,7 +2829,7 @@
 		)
 		(uuid "5748845f-4a57-4647-9de8-d585e0c4532a")
 	)
-	(label "RS_485_R_TERM_TX_~{FAST}"
+	(label "RS_485_R_TERM_TX"
 		(at 142.24 127 0)
 		(fields_autoplaced yes)
 		(effects
