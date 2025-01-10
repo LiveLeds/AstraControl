@@ -8,7 +8,7 @@ kibot:
 globals:
   resources_dir: resources
   field_lcsc_part: "LCSC Part"
-  solder_mask_color: black
+  solder_mask_color: red
   pcb_finish: ENIG
 
 outputs:
