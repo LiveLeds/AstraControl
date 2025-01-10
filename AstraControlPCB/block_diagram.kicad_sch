@@ -432,7 +432,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 114.3 88.9)
+			(xy 91.44 88.9) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -442,7 +442,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 114.3 73.66)
+			(xy 91.44 73.66) (xy 114.3 73.66)
 		)
 		(stroke
 			(width 0)
@@ -462,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 68.58) (xy 114.3 68.58)
+			(xy 91.44 68.58) (xy 114.3 68.58)
 		)
 		(stroke
 			(width 0)
@@ -492,7 +492,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 73.66) (xy 53.34 73.66)
+			(xy 38.1 73.66) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -652,7 +652,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 83.82) (xy 114.3 83.82)
+			(xy 91.44 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +812,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 114.3 78.74)
+			(xy 91.44 78.74) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 78.74) (xy 53.34 78.74)
+			(xy 38.1 78.74) (xy 58.42 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +2170,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 63.5)
+		(at 58.42 63.5)
 		(size 33.02 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -2182,7 +2182,7 @@
 		)
 		(uuid "670298c9-1a92-4257-b888-4f98b6d49dab")
 		(property "Sheetname" "UART to RS-485"
-			(at 53.34 62.7884 0)
+			(at 58.42 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2191,7 @@
 			)
 		)
 		(property "Sheetfile" "uart_to_rs_485.kicad_sch"
-			(at 53.34 94.5646 0)
+			(at 58.42 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2200,7 @@
 			)
 		)
 		(pin "RS485_TX" input
-			(at 86.36 73.66 0)
+			(at 91.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2212,7 @@
 			(uuid "29a38152-6b39-4a24-a9c6-1ba904e2193c")
 		)
 		(pin "SLR_SLOW_~{FAST}" input
-			(at 86.36 78.74 0)
+			(at 91.44 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2224,7 @@
 			(uuid "06f159be-0e8c-44c2-9ff5-cefa4440e2ff")
 		)
 		(pin "RS485_DE_~{RE}" input
-			(at 86.36 83.82 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,7 +2236,7 @@
 			(uuid "45013963-7502-497a-951f-41a121da031c")
 		)
 		(pin "TERMINATE" input
-			(at 86.36 88.9 0)
+			(at 91.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2248,7 @@
 			(uuid "5397854f-5c49-4bc6-bb78-891847823476")
 		)
 		(pin "RS485_D+" output
-			(at 53.34 78.74 180)
+			(at 58.42 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2260,7 @@
 			(uuid "bbb025e6-05e5-4e6a-b16e-b4a346c2c69a")
 		)
 		(pin "RS485_D-" output
-			(at 53.34 73.66 180)
+			(at 58.42 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2272,7 @@
 			(uuid "cd0bfcd5-5384-4a35-a4bc-c1a100e580a9")
 		)
 		(pin "RS485_RX" output
-			(at 86.36 68.58 0)
+			(at 91.44 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
