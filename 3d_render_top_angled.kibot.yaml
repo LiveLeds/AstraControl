@@ -4,7 +4,7 @@ kibot:
 globals:
   resources_dir: resources
   solder_mask_color: blue
-  pcb_finish: "Hard gold"
+  pcb_finish: HT_OSP
 
 outputs:
   - name: _blender_3d_top_angled
