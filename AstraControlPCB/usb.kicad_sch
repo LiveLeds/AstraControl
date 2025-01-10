@@ -5,9 +5,9 @@
 	(uuid "75d465f6-c22c-492a-a120-01c708b9a69c")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - USB C")
+		(title "AstraControl - Root")
 		(date "2024-08-26")
-		(rev "A")
+		(rev "B")
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols

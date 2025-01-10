@@ -5,9 +5,9 @@
 	(uuid "951e69e6-5846-43e2-adcb-e443a4b7a4f1")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - HMI UART I2S")
+		(title "AstraControl - Root")
 		(date "2024-08-26")
-		(rev "A")
+		(rev "B")
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols

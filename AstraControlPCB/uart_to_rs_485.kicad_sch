@@ -5,9 +5,9 @@
 	(uuid "990733ec-7a9a-4e2c-ba98-b4add1388c8c")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - UART to RS-485")
+		(title "AstraControl - Root")
 		(date "2024-08-26")
-		(rev "A")
+		(rev "B")
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols

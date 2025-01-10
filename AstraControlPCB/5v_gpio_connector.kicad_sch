@@ -5,9 +5,9 @@
 	(uuid "01920b3d-db5a-41a5-a44d-b6625199c42c")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - 5V GPIO Connectors")
+		(title "AstraControl - Root")
 		(date "2024-08-26")
-		(rev "A")
+		(rev "B")
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols

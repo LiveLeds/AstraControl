@@ -5,9 +5,9 @@
 	(uuid "88605251-f890-4746-8b7a-400ce3afeec6")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - Power Connectors")
+		(title "AstraControl - Root")
 		(date "2024-08-26")
-		(rev "A")
+		(rev "B")
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols

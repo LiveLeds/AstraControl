@@ -5,9 +5,9 @@
 	(uuid "cef1f234-c735-43b7-ba45-429c79c78f85")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - Block Diagram")
+		(title "AstraControl - Root")
 		(date "2024-08-26")
-		(rev "A")
+		(rev "B")
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols

@@ -5,9 +5,9 @@
 	(uuid "bab67cff-e0e7-4c25-8d93-8436e5f6a527")
 	(paper "A4")
 	(title_block
-		(title "AstraControl - MCU Enable & Boot")
+		(title "AstraControl - Root")
 		(date "2024-08-26")
-		(rev "A")
+		(rev "B")
 		(company "LiveAstra Technologies")
 	)
 	(lib_symbols
