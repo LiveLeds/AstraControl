@@ -13,7 +13,7 @@ Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github
 
 [![CI](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml/badge.svg)](https://github.com/LiveLeds/AstraControl/actions/workflows/ci.yml)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/liveleds/AstraControl?link=https%3A%2F%2Fgithub.com%2FLiveLeds%2FAstraControl)](https://liveleds.github.io/AstraControl)
+[![GitHub last commit](https://img.shields.io/github/last-commit/liveleds/AstraControl?link=https%3A%2F%2Fgithub.com%2FLiveLeds%2FAstraControl)](https://github.com/LiveLeds/AstraControl)
 
 ## Table of contents
 
@@ -41,6 +41,7 @@ Direct copper heat-sink PCB for LED diode [AstraBeamLED](https://liveleds.github
 - [Report](#report)
     - [ERC](#erc)
     - [DRC](#drc)
+- [Repository](#repository)
 - [Know Issues](#know-issues)
 - [Credits](#credits)
 
@@ -139,6 +140,11 @@ View the PCB / Schematic in an interactive way, pan and zoom to see the details.
 #### DRC
 
 {% include_relative drc_validation.md %}
+
+
+## Repository
+
+[AstraControl](https://github.com/LiveLeds/AstraControl)
 
 {% include_relative AstraControl-report.md %}
 
