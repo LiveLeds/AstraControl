@@ -1972,16 +1972,16 @@
 		)
 	)
 	(junction
-		(at 170.18 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "269c4ea1-be27-4345-b451-aa39c8dd9e91")
-	)
-	(junction
 		(at 66.04 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f472d32-2c13-4062-b08a-79057b5557b9")
+	)
+	(junction
+		(at 165.1 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52bc5266-3658-4dbf-ac67-7ac9562e9c3e")
 	)
 	(junction
 		(at 157.48 55.88)
@@ -2112,6 +2112,16 @@
 			(type default)
 		)
 		(uuid "0f989b92-b44c-47e7-88f0-5d4bea88cde8")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.52) (xy 203.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a077ba-be15-4dc8-b3c1-070a3e6d74bd")
 	)
 	(wire
 		(pts
@@ -2325,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 170.18 96.52)
+			(xy 142.24 96.52) (xy 165.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 101.6) (xy 170.18 96.52)
+			(xy 165.1 101.6) (xy 165.1 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2562,16 +2572,6 @@
 			(type default)
 		)
 		(uuid "9bcebaaa-7e12-4c28-a8ea-8083b7964f57")
-	)
-	(wire
-		(pts
-			(xy 170.18 96.52) (xy 203.2 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e16ede0-5d08-413f-834a-8f4e0cc4b0d7")
 	)
 	(wire
 		(pts
@@ -6036,7 +6036,7 @@
 	)
 	(symbol
 		(lib_id "LiveAstra:R_10kOhm_0402_62mW")
-		(at 170.18 106.68 90)
+		(at 165.1 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6045,7 +6045,7 @@
 		(fields_autoplaced yes)
 		(uuid "18edc2ed-8868-4b35-8a04-7ed2000f14f9")
 		(property "Reference" "R19"
-			(at 172.72 104.1399 90)
+			(at 167.64 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6054,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 172.72 106.68 90)
+			(at 167.64 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6064,7 @@
 			)
 		)
 		(property "Footprint" "LiveAstra:R_0402_1005Metric"
-			(at 182.88 106.68 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6073,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.html"
-			(at 179.07 106.68 0)
+			(at 173.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6082,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 175.26 106.68 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6091,7 @@
 			)
 		)
 		(property "LCSC Part" "C25744"
-			(at 186.69 106.68 0)
+			(at 181.61 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6100,7 @@
 			)
 		)
 		(property "Extra Values" "50V 1% 0402 62mW"
-			(at 172.72 109.2199 90)
+			(at 167.64 109.2199 90)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -6110,7 +6110,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1002TCE"
-			(at 190.5 106.68 0)
+			(at 185.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +6119,7 @@
 			)
 		)
 		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 194.31 106.68 0)
+			(at 189.23 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,7 +8198,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 111.76 0)
+		(at 165.1 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8207,7 +8207,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2c3bbaa-32a0-4206-852d-7d294654c82a")
 		(property "Reference" "#PWR050"
-			(at 170.18 118.11 0)
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 116.84 0)
+			(at 165.1 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +8224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 111.76 0)
+			(at 165.1 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
