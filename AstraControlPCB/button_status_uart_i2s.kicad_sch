@@ -580,7 +580,8 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:JST_SH_6PIN_1A_50V"
+		(symbol "LiveAstra:JST_SH_6PIN_SMD_1A_50V"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -592,7 +593,7 @@
 					)
 				)
 			)
-			(property "Value" "JST SH 6 PIN"
+			(property "Value" "BM06B-SRSS-TBT(LF)(SN)"
 				(at 0 22.86 0)
 				(effects
 					(font
@@ -601,16 +602,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:JST_SH_1x06_P1.00mm_Vertical"
-				(at 0 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-BM06B-SRSS-TB-LF-SN_C160392.html"
+			(property "Footprint" "LiveAstra:JST_SH_1x06_P1.00mm_SMD_Vertical"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -619,8 +611,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1x6P 6P SH Tin 6 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
-				(at 0 -33.02 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_JST-Sales-America-BM06B-SRSS-TBT-LF-SN_C495540.html"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -628,8 +620,17 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C160392"
-				(at 0 -29.21 0)
+			(property "Description" "1x6P 6P SH Tin 6 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
+				(at 0 -40.64 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C495540"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -646,8 +647,8 @@
 					)
 				)
 			)
-			(property "MFR" "JST"
-				(at 0 -40.64 0)
+			(property "MFN" "JST"
+				(at 0 -45.72 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -655,8 +656,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
-				(at 0 -36.83 0)
+			(property "MPN" "BM06B-SRSS-TBT(LF)(SN)"
+				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -664,7 +665,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "JST_SH_6PIN_1A_50V_0_1"
+			(symbol "JST_SH_6PIN_SMD_1A_50V_0_1"
 				(rectangle
 					(start -5.08 17.78)
 					(end 5.08 -17.78)
@@ -677,7 +678,7 @@
 					)
 				)
 			)
-			(symbol "JST_SH_6PIN_1A_50V_1_1"
+			(symbol "JST_SH_6PIN_SMD_1A_50V_1_1"
 				(pin passive line
 					(at -7.62 12.7 0)
 					(length 2.54)
@@ -3328,43 +3329,33 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:JST_SH_6PIN_1A_50V")
+		(lib_id "LiveAstra:JST_SH_6PIN_SMD_1A_50V")
 		(at 182.88 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "63afecd4-886a-4687-98f7-1269bc4c7667")
+		(fields_autoplaced yes)
+		(uuid "583049af-0b4d-459c-af73-feb4ce3601ba")
 		(property "Reference" "CN10"
-			(at 190.5 132.08 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "JST SH 6 PIN"
-			(at 190.5 134.62 0)
+		(property "Value" "BM06B-SRSS-TBT(LF)(SN)"
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "LiveAstra:JST_SH_1x06_P1.00mm_Vertical"
-			(at 182.88 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-BM06B-SRSS-TB-LF-SN_C160392.html"
+		(property "Footprint" "LiveAstra:JST_SH_1x06_P1.00mm_SMD_Vertical"
 			(at 182.88 160.02 0)
 			(effects
 				(font
@@ -3373,35 +3364,16 @@
 				(hide yes)
 			)
 		)
+		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_JST-Sales-America-BM06B-SRSS-TBT-LF-SN_C495540.html"
+			(at 182.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" "1x6P 6P SH Tin 6 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
-			(at 182.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C160392"
-			(at 182.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "1A 50V 1mm"
-			(at 190.5 137.16 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "MFR" "JST"
 			(at 182.88 175.26 0)
 			(effects
 				(font
@@ -3410,8 +3382,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
-			(at 182.88 171.45 0)
+		(property "LCSC Part" "C495540"
+			(at 182.88 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,29 +3391,56 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d7b67761-079f-4e7c-9770-e734a99b885c")
+		(property "Extra Values" "1A 50V 1mm"
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "51f78821-92c8-4a7a-8736-712b58ba7ee1")
+		(property "MFN" "JST"
+			(at 182.88 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "MP"
-			(uuid "68092e54-bfed-4a7b-9990-14ac67a289d0")
-		)
-		(pin "3"
-			(uuid "8837db80-56f8-477d-a611-b1cc0f8fff7d")
+		(property "MPN" "BM06B-SRSS-TBT(LF)(SN)"
+			(at 182.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "561c9bf4-c7fa-43f2-b411-7cc6423d3085")
-		)
-		(pin "5"
-			(uuid "d08ad052-614b-49e8-a52e-6503aa222bd9")
+			(uuid "daba9f08-bdd3-451b-9f9a-69b93ba1c22f")
 		)
 		(pin "2"
-			(uuid "e0744c71-122c-4f6e-90d1-8e3a3128e927")
+			(uuid "a0101a4e-5e49-4fe7-9888-9efed101c2f9")
+		)
+		(pin "MP"
+			(uuid "5f452dab-3740-4ee6-9728-a3ab413c5a2c")
+		)
+		(pin "1"
+			(uuid "eb8d8edc-391e-41f6-8d7c-6e56a9bf1a52")
+		)
+		(pin "4"
+			(uuid "b261b1d9-a5d7-47fa-b56d-acb006bd098e")
+		)
+		(pin "5"
+			(uuid "6e4aa103-79c9-4161-8932-052731f4e453")
+		)
+		(pin "3"
+			(uuid "fed81175-b844-4d01-9423-60c9d668e2a0")
 		)
 		(instances
-			(project ""
+			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
 					(reference "CN10")
 					(unit 1)
