@@ -89,11 +89,12 @@
 				)
 			)
 			(property "MFN" "Samsung Electro-Mechanics"
-				(at 0 0 0)
+				(at 0 -24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "C_4u7_X5R_0603_0_1"

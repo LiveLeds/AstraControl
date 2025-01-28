@@ -352,7 +352,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "CN"
-				(at 0 26.67 0)
+				(at 0 29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -360,13 +360,13 @@
 					)
 				)
 			)
-			(property "Value" "JST_VH_8PIN_10A_250V"
-				(at 0 -27.94 0)
+			(property "Value" "JST VH 8 PIN"
+				(at 0 26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(bold yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "LiveAstra:JST_VH_B8P-VH-B_1x08_P3.96mm_Vertical"
@@ -1654,7 +1654,7 @@
 				)
 			)
 		)
-		(property "Value" "JST_VH_8PIN_10A_250V"
+		(property "Value" "JST VH 8 PIN"
 			(at 182.88 124.46 0)
 			(effects
 				(font

@@ -903,7 +903,7 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:R_220Ohm_0402_62mW"
+		(symbol "LiveAstra:R_470Ohm_0603_100mW"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -917,7 +917,7 @@
 					)
 				)
 			)
-			(property "Value" "220"
+			(property "Value" "470"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -926,7 +926,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:R_0402_1005Metric"
+			(property "Footprint" "LiveAstra:R_0603_1608Metric"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -935,7 +935,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C25091.html"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.html"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -944,7 +944,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 470Ω 0603 Chip Resistor - Surface Mount ROHS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -953,7 +953,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C25091"
+			(property "LCSC Part" "C23179"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -962,7 +962,7 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "50V 1% 0402 62mW"
+			(property "Extra Values" "75V 1% 0603 100mW "
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -971,7 +971,7 @@
 					)
 				)
 			)
-			(property "MPN" "0402WGF2200TCE"
+			(property "MPN" "0603WAF4700T5E"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -989,7 +989,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_220Ohm_0402_62mW_0_1"
+			(symbol "R_470Ohm_0603_100mW_0_1"
 				(rectangle
 					(start -2.54 1.27)
 					(end 2.54 -1.27)
@@ -1002,7 +1002,7 @@
 					)
 				)
 			)
-			(symbol "R_220Ohm_0402_62mW_1_1"
+			(symbol "R_470Ohm_0603_100mW_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3545,111 +3545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LiveAstra:R_220Ohm_0402_62mW")
-		(at 215.9 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4daac023-4012-4e03-8e55-1f7fd5f2036b")
-		(property "Reference" "R2"
-			(at 215.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 215.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:R_0402_1005Metric"
-			(at 215.9 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C25091.html"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 215.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25091"
-			(at 215.9 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "50V 1% 0402 62mW"
-			(at 215.9 41.91 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
-			(at 215.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0402WGF2200TCE"
-			(at 215.9 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f474747-7399-4445-ba91-04e587a1dc35")
-		)
-		(pin "2"
-			(uuid "ecccc1e4-7feb-41bb-adf2-57f09867ac2e")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 167.64 157.48 0)
 		(unit 1)
@@ -3814,6 +3709,111 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:R_470Ohm_0603_100mW")
+		(at 215.9 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65951d57-51b0-48fc-b3eb-0983948680cf")
+		(property "Reference" "R2"
+			(at 215.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 215.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "LiveAstra:R_0603_1608Metric"
+			(at 215.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.html"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 470Ω 0603 Chip Resistor - Surface Mount ROHS"
+			(at 215.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23179"
+			(at 215.9 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "75V 1% 0603 100mW "
+			(at 215.9 41.91 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+			)
+		)
+		(property "MPN" "0603WAF4700T5E"
+			(at 215.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "UNI-ROYAL(Uniroyal Elec)"
+			(at 215.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32432af7-0da2-4d4a-a841-1216245d2bb2")
+		)
+		(pin "1"
+			(uuid "7f0773d9-5b97-42ba-bd83-6894beb22443")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/3087dd4a-2a8a-4df4-b1d8-8d4a2b3256a2"
+					(reference "R2")
 					(unit 1)
 				)
 			)
