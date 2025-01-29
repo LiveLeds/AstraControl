@@ -44,7 +44,7 @@ jobs:
           ### ERC Report
           - **Errors**: $erc_errors
           - **Warnings**: $erc_warnings
-          - **Link**: [HTML Report](output/AstraControl-erc.html)
+          - **Link**: [HTML Report](AstraControl-erc.html)
           EOF
           cat output/erc_validation.md
       - name: Parse DRC
@@ -55,7 +55,7 @@ jobs:
           ### DRC Report
           - **Errors**: $drc_errors
           - **Warnings**: $drc_warnings
-          - **Link**: [HTML Report](output/AstraControl-drc.html)
+          - **Link**: [HTML Report](AstraControl-drc.html)
           EOF
           cat output/drc_validation.md
 
@@ -263,6 +263,8 @@ jobs:
           mkdir KiRiLight
           mv output/drc_validation.md ./
           mv output/erc_validation.md ./
+          mv output/AstraControl-drc.html ./
+          mv output/AstraControl-erc.html ./
           mv output/Step/Step/AstraControl-3D.step ./AstraControl-3D.step
           mv output/Report/report/AstraControl-report.txt ./AstraControl-report.md
           mv output/Render_Top/AstraControl-3D_blender_top.png images/AstraControl-3D_blender_top.png
