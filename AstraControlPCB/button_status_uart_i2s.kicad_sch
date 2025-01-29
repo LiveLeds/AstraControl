@@ -580,20 +580,13 @@
 				)
 			)
 		)
-		(symbol "LiveAstra:JST_SH_6PIN_1A_50V"
+		(symbol "LiveAstra:JST_ZH_6PIN_1A_250V"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "CN"
-				(at 0 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JST SH 6 PIN"
-				(at 0 22.86 0)
+				(at 0 24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -601,8 +594,17 @@
 					)
 				)
 			)
-			(property "Footprint" "LiveAstra:JST_SH_1x06_P1.00mm_Vertical"
-				(at 0 -21.59 0)
+			(property "Value" "6 PIN JST ZH"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "LiveAstra:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
+				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -610,16 +612,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-BM06B-SRSS-TB-LF-SN_C160392.html"
-				(at 0 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x6P 6P SH Tin 6 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America_B6B-ZR-LF-SN_JST-Sales-America-B6B-ZR-LF-SN_C157984.html"
 				(at 0 -33.02 0)
 				(effects
 					(font
@@ -628,8 +621,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C160392"
-				(at 0 -29.21 0)
+			(property "Description" "1x6P 6P ZH Tin 6 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
+				(at 0 -41.91 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -637,8 +630,17 @@
 					(hide yes)
 				)
 			)
-			(property "Extra Values" "1A 50V 1mm"
-				(at 0 20.32 0)
+			(property "LCSC Part" "C157984"
+				(at 0 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Extra Values" "6PIN 1A 1.5mm"
+				(at 0 19.05 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -646,8 +648,8 @@
 					)
 				)
 			)
-			(property "MFR" "JST"
-				(at 0 -40.64 0)
+			(property "MPN" "B6B-ZR(LF)(SN)"
+				(at 0 -46.99 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -655,8 +657,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
-				(at 0 -36.83 0)
+			(property "MFN" "JST"
+				(at 0 -50.8 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -664,7 +666,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "JST_SH_6PIN_1A_50V_0_1"
+			(symbol "JST_ZH_6PIN_1A_250V_0_1"
 				(rectangle
 					(start -5.08 17.78)
 					(end 5.08 -17.78)
@@ -677,7 +679,7 @@
 					)
 				)
 			)
-			(symbol "JST_SH_6PIN_1A_50V_1_1"
+			(symbol "JST_ZH_6PIN_1A_250V_1_1"
 				(pin passive line
 					(at -7.62 12.7 0)
 					(length 2.54)
@@ -779,24 +781,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -12.7 180)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1791,16 +1775,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 149.86) (xy 193.04 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d866fe-03ed-44c4-b269-08886cd0a917")
-	)
-	(wire
-		(pts
 			(xy 137.16 35.56) (xy 137.16 38.1)
 		)
 		(stroke
@@ -1838,16 +1812,6 @@
 			(type default)
 		)
 		(uuid "8241bd0b-88cc-4ae5-8826-7dd8786a3538")
-	)
-	(wire
-		(pts
-			(xy 193.04 147.32) (xy 190.5 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a44fb10-fd65-4f56-894e-25d1f80159df")
 	)
 	(wire
 		(pts
@@ -2293,72 +2257,6 @@
 		(uuid "895387f3-5c00-4489-8ff4-cfebeb2cea49")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 193.04 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07d60ef6-f438-402a-8ac5-a4746dec74bb")
-		(property "Reference" "#PWR097"
-			(at 193.04 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55880898-fb33-4c18-99d7-c9987f51c895")
-		)
-		(instances
-			(project "AstraControl"
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LiveAstra:TestPoint_Thimble")
 		(at 137.16 129.54 0)
 		(unit 1)
@@ -2457,6 +2355,127 @@
 			(project "AstraControl"
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
 					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LiveAstra:JST_ZH_6PIN_1A_250V")
+		(at 182.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "174cca24-076d-4441-9611-954fe8c3b416")
+		(property "Reference" "CN10"
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6 PIN JST ZH"
+			(at 189.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LiveAstra:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
+			(at 182.88 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America_B6B-ZR-LF-SN_JST-Sales-America-B6B-ZR-LF-SN_C157984.html"
+			(at 182.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x6P 6P ZH Tin 6 -25℃~+85℃ 1A 1 1.5mm Brass Direct Insert Plugin,P=1.5mm Wire To Board Connector ROHS"
+			(at 182.88 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C157984"
+			(at 182.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Extra Values" "6PIN 1A 1.5mm"
+			(at 189.23 137.1599 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN" "B6B-ZR(LF)(SN)"
+			(at 182.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "JST"
+			(at 182.88 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db12ef20-37f0-4a90-b5af-128a5e45227d")
+		)
+		(pin "4"
+			(uuid "7222e11e-93ca-4ed5-8dc6-2cd1c0966024")
+		)
+		(pin "2"
+			(uuid "41e72c73-17a9-487f-8e51-fdca5e043223")
+		)
+		(pin "3"
+			(uuid "052ee821-ef40-4e84-859a-f5d1b91573ea")
+		)
+		(pin "6"
+			(uuid "6b216b6c-cd63-453c-9c07-64ed3685ee16")
+		)
+		(pin "5"
+			(uuid "c1664da9-cec3-4cc4-bd9b-5154750a53c7")
+		)
+		(instances
+			(project ""
+				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
+					(reference "CN10")
 					(unit 1)
 				)
 			)
@@ -3489,126 +3508,6 @@
 			(project ""
 				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
 					(reference "INF9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LiveAstra:JST_SH_6PIN_1A_50V")
-		(at 182.88 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96827be5-b9f1-42de-8428-34e8209299f6")
-		(property "Reference" "CN10"
-			(at 182.88 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST SH 6 PIN"
-			(at 182.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "LiveAstra:JST_SH_1x06_P1.00mm_Vertical"
-			(at 182.88 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-BM06B-SRSS-TB-LF-SN_C160392.html"
-			(at 182.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x6P 6P SH Tin 6 -25℃~+85℃ 1A 1 1mm Brass Alloy Standing paste SMD,P=1mm Wire To Board Connector ROHS"
-			(at 182.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C160392"
-			(at 182.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Extra Values" "1A 50V 1mm"
-			(at 182.88 114.3 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-					(bold yes)
-				)
-			)
-		)
-		(property "MFR" "JST"
-			(at 182.88 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
-			(at 182.88 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "c63075c6-78f9-42c5-b8e8-cca9ae8097d9")
-		)
-		(pin "1"
-			(uuid "c653adcf-6207-4ce5-b7e9-58c0f5977cb2")
-		)
-		(pin "MP"
-			(uuid "6db0b3f8-acc2-4d10-b87e-2af87619215c")
-		)
-		(pin "3"
-			(uuid "645c88a0-0df1-4f57-af31-19e380d61067")
-		)
-		(pin "4"
-			(uuid "22a78e11-8927-4f3d-8b6a-5c601abc5970")
-		)
-		(pin "2"
-			(uuid "f92fe885-0363-47f8-8378-3faa9e0af271")
-		)
-		(pin "5"
-			(uuid "b50f2064-9458-416a-a567-ca72ab1ddbe5")
-		)
-		(instances
-			(project ""
-				(path "/9a751838-dce8-4d69-8a02-736625ac74e7/0db21d8e-3390-4d67-877f-0e5d98e37848/457d2566-de00-4e8c-b469-a22ed41e6193"
-					(reference "CN10")
 					(unit 1)
 				)
 			)
