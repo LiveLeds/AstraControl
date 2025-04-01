@@ -3,8 +3,8 @@ kibot:
 
 globals:
   resources_dir: resources
-  solder_mask_color: purple
-  pcb_finish: HT_OSP
+  solder_mask_color: black
+  pcb_finish: ENIG
 
 outputs:
   - name: _blender_3d_top
